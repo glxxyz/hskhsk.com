@@ -1,0 +1,150 @@
+﻿的	de	indicates possession, like adding 's to a noun			Bezittelijk voornaamwoord, geeft de relatie tot het zelfstandig naamwoord weer
+我	wǒ	I; me								ik
+你	nǐ	you (singular)							jij  (2e pers. enkelvoud)
+是	shì	be; is; are; am							zijn
+了	le	indicates a completed or finished action			duidt op een voltooide, afgewerkte actie (modale 了) 
+不	bù	no; not								nee, niet
+在	zài	at; on; in; indicates an action in progress			op, in, duidt de progressief aan
+他	tā	he; him								hij
+我们[我們]	wǒmen	we; us								wij
+好	hǎo	good								goed
+有	yǒu	have								hebben
+这[這]	zhè	this								dit, deze
+会[會]	huì	know how to							kunnen (aangeleerde vaardigheid)
+吗[嗎]	ma	indicates a yes/no question (added to a statement)		wijst op een ja/nee vraag (toegevoegd aan een verklaring)
+什么[什麼]	shénme	what? (replaces the noun to turn a statement into a question)	wat, welk (vervangt het zelfstandig naamwoord, om zo een verklaring om te zetten in een vraag)
+说[說]	shuō	speak								spreken
+她	tā	she								zij
+想	xiǎng	think; believe; suppose; would like to				denken, geloven, veronderstellen, willen		
+一	yī	one; once; a							één, een keer, een
+很	hěn	very; quite							zeer, heel
+人	rén	person; man; people						persoon, man, mens
+那	nà	that; then							dat, die
+来[來]	lái	come; arrive; ever since; next					(aan)komen, arriveren, sindsdien, volgende
+都	dōu	all; both							allemaal, beide
+个[個]	ge	general measure word						algemeen klaswoord + specifiek gebruikt bij personen
+能	néng	can; be able							kunnen (natuurlijke vaardigheid)
+去	qù	go; to leave							gaan, vertrekken
+和	hé	and; with							en, met
+做	zuò	do; make							doen, maken
+上	shàng	above; up							boven, op
+没有[沒有]	méiyǒu	not have; there is not						niet hebben, er is geen
+看	kàn	see; look at; to watch						zien, kijken
+怎么[怎麼]	zěnme	how?								hoe?
+现在[現在]	xiànzài	now								nu, tegenwoordig
+点[點]	diǎn	a dot; a little; o'clock					een punt, een beetje, uur
+呢	ne	indicates a question; how about...?;				wijst op een vraag: hoe zit het...?
+太	tài	too (much)							zeer, erg (veel)
+里[裡]	lǐ	inside; Chinese mile (~.5 km)					binnen, Chinese mijl (~0,5 km)
+听[聽]	tīng	listen; hear							luisteren, horen
+谁[誰]	shéi	who								wie
+多	duō	many								veel
+时候[時候]	shíhou	time								tijd
+下	xià	fall; below							vallen, onder
+谢谢[謝謝]	xièxie	thank you							bedankt
+先生	xiānsheng	Mr.; Sir						mijnheer(formeel), meneer 
+喜欢[喜歡]	xǐhuan	to like								houden van
+大	dà	big; large							groot
+东西[東西]	dōngxi	things; stuff							dingen
+小	xiǎo	small; young							klein, jong
+叫	jiào	to be called							heten
+爱[愛]	ài	love								liefde
+年	nián	year								jaar
+请[請]	qǐng	please; invite; to treat someone to something			uitnodigen, iemand op iets trakteren
+回	huí	to return; to reply; to go back					terugkomen, antwoorden, teruggaan
+工作	gōngzuò	work; a job							werk, baan
+钱[錢]	qián	money; coin							geld, munt
+吃	chī	eat								eten
+开[開]	kāi	to open; to start; to operate (a vehicle)			openen, beginnen, rijden (met een wagen) 
+家	jiā	family; home							familie, thuis
+哪	nǎa	which; how							welke
+朋友	péngyou	friend								vriend
+妈妈[媽媽]	māma	mom; mum							mama
+今天	jīntiān	today								vandaag
+几[幾]	jǐ	how many; several; a few					hoeveel, meerdere, een paar
+爸爸	bàba	Dad								papa
+些	xiē	some; few; several						enkele, weinig, verschillende
+怎么样[怎麼樣]	zěnmeyàng	how about?; how is/was it?			hoezo? hoe is/was het? 
+对不起[對不起]	duìbuqǐ	sorry							sorry, excuseer
+住	zhù	to live; reside; to stop					leven, wonen, stoppen
+三	sān	three								drie
+高兴[高興]	gāoxìng	happy; glad							gelukkig, blij
+买[買]	mǎi	to buy								kopen
+医生[醫生]	yīshēng	doctor								arts, dokter
+哪儿[哪兒]	nǎr	where? (Beijing accent)						waar? (Beijing accent)
+字	zì	letter; character						brief, karakter
+名字	míngzi	name								naam
+认识[認識]	rènshi	recognize; know (a person)					erkennen, kennen (een persoon)
+坐	zuò	sit								zitten, per
+喝	hē	to drink							drinken
+写[寫]	xiě	to write; to compose						schrijven, samenstellen
+月	yuè	moon; month							maan, maand
+号[號]	hào	number; day of a month						getal, nummer, dag van een maand
+狗	gǒu	dog								hond
+岁[歲]	suì	years old; age							... jaar oud, leeftijd
+看见[看見]	kànjiàn	see; catch sight of						zien
+打电话[打電話]	dǎ diànhuà	make a phone call				bellen (met een telefoon)
+喂	wèi	hello (on the phone)						hallo (aan de telefoon)
+儿子[兒子]	érzi	son								zoon
+漂亮	piàoliang	pretty; beautiful					mooi
+分钟[分鐘]	fēnzhōng	minute; (measure word for time)				minuut (klaswoord voor tijd)
+再见[再見]	zàijiàn	goodbye; see you later						tot ziens, tot later 
+本	běn	measure word for books						klaswoord voor boeken
+明天	míngtiān	tomorrow						morgen
+少	shǎo	few; little							weinig
+多少	duōshao	how much?; how many?						hoeveel?
+块[塊]	kuài	lump; piece; sum of money					stuk, som geld
+女儿[女兒]	nǚ'ér	daughter							dochter
+小姐	xiǎojie	young lady; miss; Ms.						jonge dame, juffrouw, mevrouw
+衣服	yīfu	clothes								kleren
+水	shuǐ	water								water
+学校[學校]	xuéxiào	school								school
+电影[電影]	diànyǐng	movie; film							film
+书[書]	shū	book; letter							boek, brief
+四	sì	four								vier
+五	wǔ	five								vijf
+医院[醫院]	yīyuàn	hospital							hospitaal, ziekenhuis
+没关系[沒關系]	méi guānxi	it doesn't matter; never mind			het maakt niet uit, het is niet erg
+飞机[飛機]	fēijī	airplane							vliegtuig
+二	èr	two								twee
+电视[電視]	diànshì	television; TV							televisie, TV
+读[讀]	dú	to read; to study						lezen, studeren
+后面	hòumian	back; behind							terug, achter
+昨天	zuótiān	yesterday							gisteren
+睡觉[睡覺]	shuì jiào	to sleep; go to bed					slapen, naar bed gaan
+六	liù	six								zes
+老师[老師]	lǎoshī	teacher								leraar
+星期	xīngqī	week								week
+十	shí	ten								tien
+猫[貓]	māo	cat								kat
+电脑[電腦]	diànnǎo	computer							computer
+热[熱]	rè	heat; hot							warmte, warm
+学生[學生]	xuésheng	student							student
+下午	xiàwǔ	afternoon							namiddag
+学习[學習]	xuéxí	learn; to study							leren, studeren
+冷	lěng	cold								koud
+不客气[不客氣]	bú kèqi	you're welcome; don't be polite				graag gedaan
+前面	qiánmiàn	in front						vooraan
+八	bā	eight								acht
+中国[中國]	Zhōngguó	China							China
+七	qī	seven								zeven
+菜	cài	dish (type of food); vegetables					gerecht (voedsel), groenten
+桌子	zhuōzi	table; desk							tafel, bureau
+出租车[出租車]	chūzūchē	taxi; cab					taxi
+天气[天氣]	tiānqì	weather								klimaat, weer
+茶	chá	tea								thee
+九	jiǔ	nine								negen
+商店	shāngdiàn	shop; store						winkel
+椅子	yǐzi	chair								stoel
+同学[同學]	tóngxué	fellow student; schoolmate					medestudent, klasgenoot
+一点儿[一點兒]	yìdiǎnr	a bit; a few						een beetje, een paar
+苹果[蘋果]	píngguǒ	apple								appel
+饭店[飯店]	fàndiàn	restaurant; hotel						restaurant
+中午	zhōngwǔ	noon; midday							middag
+上午	shàngwǔ	late morning (before noon)					voormiddag
+水果	shuǐguǒ	fruit								fruit
+杯子	bēizi	cup; glass							kopje, glas
+下雨	xiàyǔ	to rain								regenen
+米饭[米飯]	mǐfàn	(cooked) rice							(gekookte) rijst
+北京	Běijīng	Beijing								Beijing (Peking)
+汉语[漢語]	Hànyǔ	Chinese language						Chinese taal

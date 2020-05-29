@@ -1,0 +1,105 @@
+﻿//Chineasy					Dutch translation (Nederlandse vertaling)
+山	shān	mountain			berg
+出	chū	get out				uitgaan
+木	mù	tree				boom	
+口	kǒu	mouth				mond
+呆	dāi	idiot				idioot
+杏	xìng	apricot, almond			abrikoos, amandel
+林	lín	woods				bos
+森	sēn	forest				woud
+本	běn	origin				portel, origine
+人	rén	person				persoon, mens
+从	cóng	to follow			volgen
+众	zhòng	crowd				menigte, massa
+囚	qiú	prisoner			gevangene
+山人	shānrén	hermit				heremiet, kluizenaar
+大	dà	big				groot
+来[來]	lái	to come				komen
+天	tiān	sky				lucht, hemel
+夫	fū 	man				man
+焚	fén	burning				branden
+火	huǒ	fire				vuur
+火山	huǒshān	volcano				vulkaan
+大火	dàhuǒ	big fire			grote brand, vuurzee
+火大	huǒdà	angry				boos worden, boos zijn
+休	xiū	rest				rusten
+未	wèi	not yet				nog niet
+末	mò	the end				einde
+沐	mù	wash				zich wassen
+淋	lín	drip				druppelen, besprenkelen
+沫	mò	foam				schuim				
+日	rì	sun				zon
+月	yuè	moon, flesh (radical)		maan, vlees (radicaal)
+朋	péng	friend				vriend
+品	pǐn	variety of quality		verscheidenheid aan kwaliteit
+昌	chāng	prosperous			welvarend, voorspoedig
+唱	chàng	sing				zingen
+门[門]	mén	door				deur
+女	nǚ	woman				vrouwelijk, vrouw
+女人	nǚrén	woman				vrouw
+水	shuǐ	water				water
+牛	niú	cow				koe
+豕	shǐ	pig (radical)			varken (radicaal)
+猪[豬]	zhū	pig				varken
+宀	mián	roof (radical)			dak (radicaal)
+旦	dàn 	sunrise				zonsopgang 
+问[問]	wèn	ask				vragen
+明	míng	bright				helder, licht
+白	bái	white				wit
+白白	báibái	in vain				tevergeefs, voor niets
+闪[閃]	shǎn	dodge				ontwijken
+东[東]	dōng	East				Oosten, Oostelijk
+间[閒]	xián	leisure				vrije tijd
+们[們]	men	indicates plural		aanduider van het meervoud
+间[間]	jiān, jiàn	space			ruimte
+闩[閂]	shuān	bolt				bout
+查	chá	to check			controleren, nagaan, opzoeken
+泊	bó	anchor				anker
+淡	dàn	weak, tasteless			zwak (smaak), smaakloos
+渣	zhā	waste products			afvalproducten, afvalstoffen
+体[體]	tǐ	body				lichaam
+保	bǎo	to protect			beschermen, verdedigen
+太	tài	extreme				zeer, erg
+王	wáng	king				koning
+玉	yù	jade				jade 
+珏	jué	two pieces of jade		twee stukken jade (edelstenen aan elkaar gezet)	
+珀	pò	amber				barnsteen (amber)			
+主	zhǔ	master				heer, meester
+柱	zhù	pillar				pilaar 
+住	zhù	to reside			verblijven, wonen
+宝[寳]	bǎo	treasure			schat
+全	quán	whole				geheel, volledig
+国[國]	guó	country				land
+淼	miǎo	a wide expanse of water		een overstroming
+肤[膚]	fū	skin				huid
+胆[膽]	dǎn	courage, gallbladder		moed, galblaas
+囡	nān	daughter			dochter
+因	yīn	to cause			oorzaak, veroorzaken
+困	kùn	to surround			omgeven, rondom
+如	rú	to obey				te gehoorzamen
+姻	yīn	marriage			huwelijk
+安	ān	peaceful			vredig
+牢	láo	prison				gevangenis
+家	jiā 	home				huis
+板[闆]	bǎn	boss				baas
+岩	yán	rock				rots
+崩	bēng	rupture				breuk		
+啖	dàn	to eat				eten
+宋	sòng	dynasty, surname		dynastie, achternaam
+伞[傘]	sǎn	umbrella			paraplu
+早	zǎo	early, morning			vroeg, ochtend
+宣	xuān 	to proclaim			verkondigen
+伙[夥]	huǒ	group, dude			groep, kerel
+入	rù	to enter			binnengaan
+本人	běnrén	one's self			zichzelf
+大门[大門]	dàmén	front door			voordeur
+门口[門口]	ménkǒu	doorway, entrance		deuropening, ingang
+山东[山東]	Shāndōng	Shandong Province	provincie Shandong
+本月	běnyuè	this month			deze maand
+日本	Rìběn	Japan				Japan
+
+
+
+
+
+

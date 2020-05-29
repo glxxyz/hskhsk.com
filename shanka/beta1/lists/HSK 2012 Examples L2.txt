@@ -1,0 +1,54 @@
+﻿// HSK 2 Examples
+6{元}	6 {yuán}	{RMB}6
+{第}三	{dì} sān	3{rd}
+9{公斤}	9 {gōngjīn}	9{kg}
+等{一下}。	děng {yíxià}．	Wait {a moment}.
+{每}次	{měi} cì	{Every} time
+你{别}去|游泳|了|。	nǐ {bié} qù yóuyǒng le．	{Don't} go to swim
+那里|的|天气|非常|热|。	nàlǐ de tiānqì fēicháng rè．	The weather there is very hot.
+我|最|喜欢|喝|咖啡|。	wǒ zuì xǐhuan hē kāfēi．	Coffee is my favourite drink.
+他们{一起}去|机场|了|。	tāmen {yìqǐ} qù jīchǎng le．	They went to the airport {together}.
+我们|正在|看|电视|。	wǒmen zhèngzài kàn diànshì．	We are watching TV.
+他{已经}到|学校|了|。	tā {yǐjīng} dào xuéxiào le．	He {already} arrived at school.
+她{下}星期|就|回来|了|。	tā {xià} xīngqī jiù huílai le．	She is coming back {next} week.
+我|也|有|一块|这样|的|手表|。	wǒ yě yǒu yí kuài zhèyàng de shǒubiǎo．	I also have a watch like this.
+她|还|没|起床|。	tā hái méi qǐchuáng．	She hasn't got up yet.
+你|的|字|写得|真|漂亮！	nǐ de zì xiěde zhēn piàoliang!	Your handwriting is really good!
+欢迎|再|来！	huānyíng zài lái!	Come back soon!
+因为|下雨|，|所以|他|没|去|踢|足球|。	yīnwèi xiàyǔ, suǒyǐ tā méi qù tī zúqiú.	Because it's raining, he didn't play football.
+虽然|下雨|，|但是|他|去|踢|足球|。	suīrán xiàyǔ, dànshì tā qù tī zúqiú.	Although it's raining, he played football. ×××
+他|80|岁|了|，|但是|身体|很|好|。	tā 80 suì le, dànshì shēntǐ hěn hǎo.	He is 80 years old, but he is very healthy.
+她|从|中国|回来|了|。	tā cóng Zhōngguó huílai le．	She came back from China.
+他|对|我|很|好|。	tā duì wǒ hěn hǎo．	He is nice to me.
+我|比|她|高|。	wǒ bǐ tā gāo．	I am taller than her.
+向|左|走|。	xiàng zuǒ zǒu．	Go left.
+学校|离|我|家|很|近|。	xuéxiào lí wǒ jiā hěn jìn．	School is close to my home.
+现在|你|可以|走|了|。	xiànzài nǐ kěyǐ zǒu le．	Now you can go.
+我|要|学|游泳|。	wǒ yào xué yóuyǒng．	I want to learn to swim.
+明天|可能|下雨|。	míngtiān kěnéng xiàyǔ．	It might rain tomorrow.
+书|是|哥哥|的|。	shū shì gēge de．	The book is my older brother's.
+那个|杯子|是|我|的|。	nàge bēizi shì wǒ de．	That cup is mine.
+这|件|衣服|是|最|便宜|的|。	zhè jiàn yīfu shì zuì piányi de．	This item of clothing is the cheapest.
+我|买了|一些|吃的|。	wǒ mǎile yìxiē chīde．	I bought some food.
+那边|打|电话|的|是|我|丈夫|。	nàbiān dǎ diànhuà de shì wǒ zhàngfu．	My husband is making a phone call there.
+你|做|得|对|。	nǐ zuò de duì．	You did the right thing.
+现在|快|10|点|了|吧|？	xiànzài kuài 10 diǎn le ba?	It's almost 10 o'clock?
+她|笑着|说|：“|明天|见|。”	tā xiàozhe shuō: "míngtiān jiàn."	She smiled and said "see you tomorrow."
+我|买了|一|本|书|。	wǒ mǎile yì běn shū．	I bought a book.
+我|学过|汉语|。	wǒ xuéguo Hànyǔ．	I studied Chinese before.
+你|去|问问|他|。	nǐ qù wènwen tā．	You go and ask him.
+让|我|想一想|。	ràng wǒ xiǎngyixiǎng．	Let me have a think.
+你|是|中国人|吧|？	nǐ shì Zhōngguórén ba?	Are you Chinese?
+他|为什么|没|来|？	tā wèishénme méi lái?	Why isn't he here?
+从|这儿|到|那儿|多|远|？	cóng zhèr dào nàr duō yuǎn?	How far is it from here to there?
+你|喝不喝|茶|？	nǐ hēbuhē chá?	Do you want some tea? (lit. Do you drink tea?)
+我们|一起|去|，|好吗|？	wǒmen yìqǐ qù, hǎoma?	Can we go together?
+别|说话|。	bié shuōhuà．	Don't speak.
+不要|吃|太|多|。	búyào chī tài duō．	Don't eat too much.
+真|好吃！	zhēn hǎochī!	Really yummy!
+今天|比|昨天|冷|。	jīntiān bǐ zuótiān lěng．	Today is colder than yesterday.
+他们|正在|打|篮球|。	tāmen zhèngzài dǎ lánqiú．	They are playing basketball.
+他|买了|一|斤|苹果|。	tā mǎile yì jīn píngguǒ．	He bought 500g of apples.
+我|看{过}这个|电影|。	wǒ kàn {guò} zhè gè diàn yǐng.	I {saw} this movie.
+火车|要|开|了|。	huǒchē yào kāi le．	The train is about to leave.
+外面|下着|雨|。	wàimiàn xiàzhe yǔ.	It's raining outside.

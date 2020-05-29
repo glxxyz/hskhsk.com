@@ -1,0 +1,95 @@
+﻿//HSK 3 Examples
+5|点|1|刻	5 diǎn 1 kè	Kwart na 5
+10000{米}	10000 {mǐ}	10 000 {meter}
+四|五|千|个	sìwǔqiān gè	vier- of vijfduizend van
+800{多}人	800 {duō} rén	{Meer dan} 800 mensen.
+一|双|鞋	yīshuāng xié	Een paar schoenen.
+两|条|鱼	liǎng tiáo yú	Twee vissen.
+第|10|层	dì 10 céng	10e verdieping.
+3|角|5|分	3 jiǎo 5 fēn 	35 cent.
+{两}种	{liǎng} zhǒng	{Twee} soorten.
+他|坐了|一会儿|。	tā zuòle yīhuǐ'er.	Hij bleef een tijdje.
+快|一点|儿|。	kuài yīdiǎn er.	Haast u.
+我|明天|一定|来|。	wǒ míngtiān yīdìng lái.	Ik kom morgen zeker.
+我们|必须|想|个|好|办法|。	wǒmen bìxū xiǎng gè hǎo bànfǎ.	We moeten een goed plan uitdokteren.
+明天|会|更|好|。	míngtiān huì gèng hǎo.	Morgen zal het beter zijn.
+雨|越|下越|大|。	yǔ yuè xiàyuè dà.	De regen wordt alsmaar zwaarder.
+这儿|的|西瓜{特别}甜|。	zhè'er de xīguā {tèbié} tián.	De watermeloen hier is {heel} zoet.
+这些|孩子|多|可爱|呀|！	zhèxiē háizi duō kě'ài ya!	Deze kinderen zijn zo schattig!
+她|唱|得|好|极了|！	tā chàng de hǎo jíle!	Ze zong zeer goed.
+中国|的|大|城市|，|我|几乎|都|去过|。	Zhōngguó de dà chéngshì, wǒ jīhū dōu qùguò.	Grote Chinese steden, ik heb ze bijn allemaal bezocht. 
+这些|药|一共|300|元|。	zhèxiē yào yīgòng 300 yuán.	Deze medicijnen samen kosten 300 RMB.
+我|只|去过|北京|一次|。	wǒ zhǐ qùguò Běijīng yīcì.	Ik ben maar één maal naar Beijing geweest.
+我|先|说|几|句|。	wǒ xiān shuō jǐ jù.	Ik zal eerst enkele zinnen zeggen.
+他|晚上|11|点|才|下班|。	tā wǎnshàng 11 diǎn cái xiàbān.	Hij kwam pas om 11u 's avonds terug van het werk.
+他|的|成绩|一直|很|好|。	tā de chéngjī yīzhí hěn hǎo.	Zijn punten zijn altijd heel goed.
+她|总|是|很|忙|。	tā zǒng shì hěn máng.	Zij heeft het altijd zeer druk.
+请|安静|，|节目|马上|开始|。	qǐng ānjìng, jiémù mǎshàng kāishǐ.	Gelieve stil te zijn, de show gaat zo dadelijk beginnen.
+考试|终于|结束|了|。	kǎoshì zhōngyú jiéshùle.	Het examen is uiteindelijk gestopt.
+这|道|题|其实|很|容易|。	zhè dào tí qíshí hěn róngyì.	Dit probleem is eigenlijk zeer gemakkelijk.
+那样|做|当然|不|可以|。	nàyàng zuò dāngrán bù kěyǐ.	Dat doen is uiteraard niet toegelaten. 
+今天|他|又|迟到|了|。	jīntiān tā yòu chídàole.	Hij is weer laat vandaag.
+最近|他|经常|去|爬山|。	zuìjìn tā jīngcháng qù páshān.	Recentelijk heeft hij veel gaan klimmen.
+房子|虽然|旧|，|但是|很|干净|。	fángzi suīrán jiù, dànshì hěn gānjìng.	Hoewel het huis zeer oud is, is het heel schoon.
+虽然|X|，|但是|Y|。	suīrán X, dànshì Y.	Alhoewel X, (toch) Y
+她|会|说|汉语|，|而且|说得|很好|。	tā huì shuō hànyǔ, érqiě shuō de hěn hǎo.	Ze kan Chinees spreken, en bovendien zeer goed spreken.
+先|吃饭|，|然后|去|看|电影|。	xiān chīfàn, ránhòu qù kàn diànyǐng.	Eet eerst, kijk daarna naar een film.
+先|X|，|然后|Y|。	xiān X, ránhòu Y.	Eerst X, daarna Y.
+如果|大家|都|同意|，|就|这样|决定了|。	rúguǒ dàjiā dōu tóngyì, jiù zhèyàng juédìngle.	Indien iedereen akkoord gaat, aldus gaan we beslissen.
+他|一边|上网|，|一边|听|音乐|。	tā yībiān shàngwǎng, yībiān tīng yīnyuè.	Hij is aan het surfen op het net, en ook naar muziek aan het luisteren.
+一边|X|，|一边|Y|。	yībiān X, yībiān Y.	Actie X tegelijkertijd met actie Y.
+给|我|打|电话|或者|发|电子|邮件|都|可以|。	gěi wǒ dǎ diànhuà huòzhě fā diànzǐ yóujiàn dōu kěyǐ.	Bel me of zend me een e-mail, het kan allebei.
+我们|是|打车|还是|坐|地铁|？	wǒmen shì dǎchē háishì zuò dìtiě?	Nemen we een taxi of gaan we met de metro? 
+为了|解决|环境|问题|，|人们|想了|很多|办法|。	wèile jiějué huánjìng wèntí, rénmen xiǎngle hěnduō bànfǎ.	Om milieuproblemen op te lossen, denken de mensen over tal van oplossingen.
+除了|画|画儿|，|她|还|喜欢|跳舞|。	chúle huà huàer, tā hái xǐhuan tiàowǔ.	Buiten schilderen, houdt ze ook van dansen.
+请|把|空调|打开|。	qǐng bǎ kòngtiáo dǎkāi.	Leg alstublieft de airco aan.
+鱼|被|小|猫|吃了|。	yú bèi xiǎo māo chīle.	De vis werd door de kat opgegeten.
+关于|这|段|历史|，|我|知道得|很少|。	guānyú zhè duàn lìshǐ, wǒ zhīdào de hěn shǎo.	Over dit stuk geschiedenis weet ik weinig.
+我们|应该|在|周末|开个|会|。	wǒmen yīnggāi zài zhōumò kāi gè huì.	We zouden dit weekend moeten een samenkomst hebben.
+你|愿意|和|我|结婚|吗|？	nǐ yuànyì hé wǒ jiéhūn ma?	Wil je met me trouwen?
+你|敢|骑马|吗|？	nǐ gǎn qímǎ ma?	Durf je met een paard rijden?
+她|高兴|地|笑了|。	tā gāoxìng de xiàole.	Ze lachtte op gelukkige wijze.
+他|是|经理|吗|？	tā shì jīnglǐ ma?	Is hij de manager?
+真|漂亮|啊|！	zhēn piàoliang a!	Echt mooi!
+他|没|去|看|电影|。	tā méi qù kàn diànyǐng.	Hij ging niet naar de film.
+别|忘了|带|护照|。	bié wàngle dài hùzhào.	Vergeet je paspoort niet.
+你|决定了|没有|？	nǐ juédìngle méiyǒu?	Heb je reeds beslist?
+您|要|两|张|票|，|对吗|？	nín yào liǎng zhāng piào, duì ma?	U wilt twee tickets, is het niet?
+中午|吃|面条儿|，|可以|吗|？	zhōngwǔ chī miàntiáo er, kěyǐ ma?	Kunnen we noedels eten als lunch?
+你|喝|茶|还是|喝|咖啡|？	nǐ hē chá háishì hē kāfēi?	Wil je thee of koffie?
+真|干净|！	zhēn gānjìng!	Zo netjes! 
+他|跑得|多|快|啊|！	tā pǎo de duō kuài a!	Hij rende zeer vlug.
+好|极了|！	hǎo jíle!	Geweldig!
+他|和|我|一样|高|。	tā hé wǒ yīyàng gāo.	Hij en ik zijn even groot. 
+上海|没有|北京|那么|冷|。	Shànghǎi méiyǒu Běijīng nàme lěng.	In Shanghai is het niet zo koud als in Bejing.
+我|把|衣服|洗了|。	wǒ bǎ yīfú xǐle.	Ik heb de kleren gewassen.
+行李箱|被|司机|拿|走了|。	xínglǐxiāng bèi sījī ná zǒule.	De bagage werd door de chauffeur genomen.
+他|每天|骑|车|上班|。	tā měi tiān qí chē shàngbān.	Hij gaat elke dag met de fiets naar het work.
+桌|上|放着|一|本|书|。	zhuō shàng fàngzhe yī běn shū.	Er ligt een boek op tafel.
+小|王|叫|我|去|他|家|玩|儿|。	xiǎo wáng jiào wǒ qù tā jiā wán er.	Xiao Wang vroeg me om bij hem thuis te komen spelen.
+不但|X|而且|Y	bùdàn X érqiě Y	Niet alleen X, maar ook Y
+只有|X|才|Y	zhǐyǒu X cái Y	Only X kan Y	
+我|学|中文|很|有{热情}。	wǒ xué zhōngwén hěn yǒu {rèqíng}.	Ik ben {enthousiast} over het leren van Chinees.
+今天|我|有|很多{事情}要|做|。	jīntiān wǒ yǒu hěnduō {shìqíng} yào zuò.	Ik heb vandaag zeer veel {dingen} te doen.
+我{同意}你的|话|。	wǒ {tóngyì} nǐ de huà.	Ik {ben het eens} met wat jij zei. (Lett. van dezelfde mening zijn)
+我{愿意}和|你|一起|去|。	wǒ {yuànyì} hé nǐ yīqǐ qù.	Ik {wil} met jou meegaan.
+请|大家{注意}。	qǐng dàjiā {zhùyì}.	{Let} alstublief allemaal {op}.
+我|对|你|做的|菜|很{满意}。	wǒ duì nǐ zuò de cài hěn {mǎnyì}.	Ik ben {tevreden} met jouw gekook.
+这|是|什么{意思}？	zhè shì shénme {yìsi}?	Wat {betekent} dit? 
+我|很{习惯}吃|中国菜|。	wǒ hěn {xíguàn} chī zhōngguó cài.	Ik ben {het gewoon, gewend} om Chinees te eten.
+我|天天{练习}中文|。	wǒ tiāntiān {liànxí} zhōngwén.	Elke dag {oefen} ik Chinees.
+我{复习}汉语|水平|考试|。	wǒ {fùxí} hànyǔ shuǐpíng kǎoshì.	Ik ben aan het {herhalen} voor mijn HSK examen.
+我|喜欢|学{数学}。	wǒ xǐhuan xué {shùxué}.	Ik hou er van om {wiskunde} te leren.
+我|在|加拿大{留学}。	wǒ zài jiānádà {liúxué}.	Ik {studeer in het buitenland} in Canada.
+我们|的{校长}很|胖。	wǒmen de {xiàozhǎng} hěn pàng.	Ons {schoolhoofd} is dik.
+春节|是|中国|最|重要的{节日}。	chūnjié shì zhōngguó zuì zhòngyào de {jiérì}.	Het Lente festival is de belangrijkste {feestdag} van China.
+今天|的|电视{节目}很|好|看。	jīntiān de diànshì {jiémù} hěn hǎo kàn.	De TV {programma'} van vandaag zien er mooi uit.
+我|最|喜欢|的{季节}是|夏季。	wǒ zuì xǐhuan de {jìjié} shì xiàjì.	Mijn favoriete seizoen is {de zomer}.
+我{先}吃饭|，|再去|睡觉。	wǒ {xiān} chīfàn zàiqù shuìjiào.	Ik eet {eerst}, daarna ga ik slapen.
+你|为什么{生气}？	nǐ wèishéme {shēngqì}?	Waarom ben je {boos}?
+我|喜欢|和|妈妈{聊天}。	wǒ xǐhuan hé māmā {liáotiān}.	Ik hou er van om met mijn moeder {te babbelen}.
+我们|的|花{特别}香。	wǒmen de huā {tèbié} xiāng.	Onze bloemen ruiken {bijzonder} goed.
+我{不但}说|中文|，|还|说|英文。	wǒ {bùdàn} shuō zhōngwén, hái shuō yīngwén.	Ik spreek {niet alleen} Chinees, maar ook Engels.
+你|想|吃|包子{还是}饺子？	nǐ xiǎng chī bāozi {háishì} jiǎozi?	Wil je broodjes {of} dumplings eten?
+你的|三明治{总是}特别|好吃|！	nǐ de sānmíngzhì {zǒng shì} tèbié hào chī!	Jouw sandwiches zijn {steeds} bijzonder goed. 	
+我|今天{还}没有|吃|午饭|。	wǒ jīntiān {hái} méiyǒu chī wǔfàn.	Ik heb {nog} geen lunch gegeten vandaag.

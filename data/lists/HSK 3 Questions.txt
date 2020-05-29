@@ -1,0 +1,819 @@
+﻿<pool>
+<exam name="HSK3 2010 Syllabus">
+
+<question name="1-5 sample">
+<stem>男：喂，请问张经理在吗？
+女：他正在开会，您半个小时以后再打，好吗？</stem>
+<distractor>Photo: Man walking up stairs with a box</distractor>
+<distractor>Photo: Woman with a bicycle</distractor>
+<distractor>Photo: Girl in bed with a fever</distractor>
+<key>Photo: Woman on the telephone</key>
+<distractor>Photo: Man and a woman sharing dinner</distractor>
+<distractor>Photo: Man and a woman looking at a map</distractor>
+</question>
+
+<question name="1">
+<stem>女：我记得那个医院就在附近，怎么找不到了呢？
+男：别着急，我们再看看地图。</stem>
+<distractor>Photo: Man walking up stairs with a box</distractor>
+<distractor>Photo: Woman with a bicycle</distractor>
+<distractor>Photo: Girl in bed with a fever</distractor>
+<distractor>Photo: Woman on the telephone</distractor>
+<distractor>Photo: Man and a woman sharing dinner</distractor>
+<key>Photo: Man and a woman looking at a map</key>
+</question>
+
+<question name="2">
+<stem>男：你的筷子用得真好，是谁教你的？
+女：没人教我，我自己学的。</stem>
+<distractor>Photo: Man walking up stairs with a box</distractor>
+<distractor>Photo: Woman with a bicycle</distractor>
+<distractor>Photo: Girl in bed with a fever</distractor>
+<distractor>Photo: Woman on the telephone</distractor>
+<key>Photo: Man and a woman sharing dinner</key>
+<distractor>Photo: Man and a woman looking at a map</distractor>
+</question>
+
+<question name="3">
+<stem>女：我的天！七层，你一直爬上来？为什么不坐电梯？
+男：你真可爱，当然是因为电梯坏了。</stem>
+<key>Photo: Man walking up stairs with a box</key>
+<distractor>Photo: Woman with a bicycle</distractor>
+<distractor>Photo: Girl in bed with a fever</distractor>
+<distractor>Photo: Woman on the telephone</distractor>
+<distractor>Photo: Man and a woman sharing dinner</distractor>
+<distractor>Photo: Man and a woman looking at a map</distractor>
+</question>
+
+<question name="4">
+<stem>男：你每天都骑自行车上下班？
+女：是啊，很方便，还可以锻炼身体。</stem>
+<distractor>Photo: Man walking up stairs with a box</distractor>
+<key>Photo: Woman with a bicycle</key>
+<distractor>Photo: Girl in bed with a fever</distractor>
+<distractor>Photo: Woman on the telephone</distractor>
+<distractor>Photo: Man and a woman sharing dinner</distractor>
+<distractor>Photo: Man and a woman looking at a map</distractor>
+</question>
+
+<question name="5">
+<stem>女：怎么突然感冒了？我看看，发烧没？
+女：昨天晚上睡觉时忘了关空调了，我要吃药吗？</stem>
+<distractor>Photo: Man walking up stairs with a box</distractor>
+<distractor>Photo: Woman with a bicycle</distractor>
+<key>Photo: Girl in bed with a fever</key>
+<distractor>Photo: Woman on the telephone</distractor>
+<distractor>Photo: Man and a woman sharing dinner</distractor>
+<distractor>Photo: Man and a woman looking at a map</distractor>
+</question>
+
+<question name="6">
+<stem>男：在城市里时间长了，真应该出来走走。
+女：是啊，这儿的环境真好，有草地，有小鸟。</stem>
+<distractor>Photo: Man's shirt with a tie</distractor>
+<distractor>Photo: Man and woman hanging up a picture</distractor>
+<distractor>Photo: Plumber underneath the sink</distractor>
+<distractor>Photo: Man eating noodles while reading the newspaper</distractor>
+<key>Photo: Man and woman walking their bicycles</key>
+</question>
+
+<question name="7">
+<stem>女：不要一边吃饭一边看报纸，好不好？
+男：知道了，我就看看今天天气怎么样。</stem>
+<distractor>Photo: Man's shirt with a tie</distractor>
+<distractor>Photo: Man and woman hanging up a picture</distractor>
+<distractor>Photo: Plumber underneath the sink</distractor>
+<key>Photo: Man eating noodles while reading the newspaper</key>
+<distractor>Photo: Man and woman walking their bicycles</distractor>
+</question>
+
+<question name="8">
+<stem>男：明天是第一天去公司上班，我穿这件衬衫怎么样？
+女：这件颜色不太好，还是穿我去年给你买的那件吧。</stem>
+<key>Photo: Man's shirt with a tie</key>
+<distractor>Photo: Man and woman hanging up a picture</distractor>
+<distractor>Photo: Plumber underneath the sink</distractor>
+<distractor>Photo: Man eating noodles while reading the newspaper</distractor>
+<distractor>Photo: Man and woman walking their bicycles</distractor>
+</question>
+
+<question name="9">
+<stem>女：小心点儿，你一个人可以吗？
+男：你放心吧。我们的厨房又不是第一次出问题。</stem>
+<distractor>Photo: Man's shirt with a tie</distractor>
+<distractor>Photo: Man and woman hanging up a picture</distractor>
+<key>Photo: Plumber underneath the sink</key>
+<distractor>Photo: Man eating noodles while reading the newspaper</distractor>
+<distractor>Photo: Man and woman walking their bicycles</distractor>
+</question>
+
+<question name="10">
+<stem>男：这样可以吗？
+女：左边低了，再高一点儿。</stem>
+<distractor>Photo: Man's shirt with a tie</distractor>
+<key>Photo: Man and woman hanging up a picture</key>
+<distractor>Photo: Plumber underneath the sink</distractor>
+<distractor>Photo: Man eating noodles while reading the newspaper</distractor>
+<distractor>Photo: Man and woman walking their bicycles</distractor>
+</question>
+
+<question name="11-20 sample 1">
+<stem>为了让自己更健康，他每天都花一个小时去锻炼身体。
+★ 他希望自己很健康。</stem>
+<key>√</key>
+<distractor>×</distractor>
+</question>
+
+<question name="11-20 sample 2">
+<stem>今天我想早点儿回家。看了看手表，才五点。过了一会儿再看表，还是五点，我这才发现我的手表不走了。
+★ 那块儿手表不是他的。</stem>
+<distractor>√</distractor>
+<key>×</key>
+</question>
+
+<question name="11">
+<stem>我现在在去机场的路上，但我忘记带护照了。应该在家里的桌子上，你找一下，然后打个车给我送来，我在机场等你。
+★ 他把护照放在办公室了。</stem>
+<distractor>√</distractor>
+<key>×</key>
+</question>
+
+<question name="12">
+<stem>刚来北京的时候，我觉得什么都很新鲜，也有些不习惯的地方。六年过去了，我已经很习惯这儿了。
+★ 他来北京六年了。</stem>
+<key>√</key>
+<distractor>×</distractor>
+</question>
+
+<question name="13">
+<stem>下个月准备休息一星期，我打算去旅游，所以想请邻居帮我照顾我的小狗。
+★ 他打算带小狗去外地玩儿。</stem>
+<distractor>√</distractor>
+<key>×</key>
+</question>
+
+<question name="14">
+<stem>今天的雪下得真大，树上、地上都白了，真漂亮。你带相机了吗？
+★ 他不喜欢下雪。</stem>
+<distractor>√</distractor>
+<key>×</key>
+</question>
+
+<question name="15">
+<stem>女儿上学以后变化非常大，过去她总是要我或者她妈妈为她穿衣服，现在，穿衣服，洗脸，刷牙，她都能自己完成了。
+★ 现在老师帮女儿穿衣服。</stem>
+<distractor>√</distractor>
+<key>×</key>
+</question>
+
+<question name="16">
+<stem>手机的出现，使人们的工作、学习都变得越来越方便了。我们可以用它打电话，还可以用它照相，上网看新闻，写电子邮件。几乎人人都离不开它。
+★ 手机对人们影响很大。</stem>
+<key>√</key>
+<distractor>×</distractor>
+</question>
+
+<question name="17">
+<stem>中国人喜欢喝茶。不同地方的人，喝茶的习惯也不一样，北方人喜欢花茶，南方人喜欢绿茶，还有的人喜欢红茶。
+★ 中国人喜欢喝茶。</stem>
+<key>√</key>
+<distractor>×</distractor>
+</question>
+
+<question name="18">
+<stem>下班时李小姐告诉我们：明天上午可能有雨，别忘了带雨伞。
+★ 明天是晴天。</stem>
+<distractor>√</distractor>
+<key>×</key>
+</question>
+
+<question name="19">
+<stem>小时候，奶奶经常给我讲历史故事，直到现在，我还记得很多这样的故事。
+★ 他听过很多历史故事。</stem>
+<key>√</key>
+<distractor>×</distractor>
+</question>
+
+<question name="20">
+<stem>最近我眼睛不舒服，想去医院检查一下。明天你有时间吗？和我一起去吧。
+★ 他不想一个人去医院。</stem>
+<key>√</key>
+<distractor>×</distractor>
+</question>
+
+<question name="21-30 sample">
+<stem>男：小王，帮我开一下门，好吗？谢谢！
+女：没问题。您去超市了？买了这么多东西。
+问：男的想让小王做什么？</stem>
+<key>开门</key>
+<distractor>拿东西</distractor>
+<distractor>去超市买东西</distractor>
+</question>
+
+<question name="21">
+<stem>女：你的耳朵和鼻子都红了。
+男：是啊，太冷了。我要买个帽子。
+问：男的怎么了？</stem>
+<distractor>口渴</distractor>
+<distractor>生病了</distractor> 
+<key>觉得很冷</key> 
+</question>
+
+<question name="22">
+<stem>男：对不起，让你久等了，今天银行的人太多了。
+女：没关系，我刚才经过书店，去看了会儿书。
+问：男的刚从哪儿来？</stem>
+<distractor>书店</distractor>
+<key>银行</key>
+<distractor>宾馆</distractor>
+</question>
+
+<question name="23">
+<stem>女：现在几点了？
+男：我看一下，现在差十分十二点。
+问：现在几点了？</stem>
+<key>11：50</key>
+<distractor>12：00</distractor>
+<distractor>12：10</distractor>
+</question>
+
+<question name="24">
+<stem>男：马老师，照片上的人是您女儿吗？
+女：不，那是我年轻时候的照片。
+问：照片上的人是谁？</stem>
+<key>马老师</key>
+<distractor>她丈夫</distractor>
+<distractor>她女儿</distractor>
+</question>
+
+<question name="25">
+<stem>女：都快九点了，儿子怎么还不起床？
+男：他昨晚十一点才到家，累坏了，让他多睡一会儿吧。
+问：男的是什么意思？</stem>
+<distractor>儿子没回来</distractor>
+<distractor>起得太晚了</distractor>
+<key>让儿子多睡会儿</key> 
+</question>
+
+<question name="26">
+<stem>男：今天喝点儿什么？啤酒还是葡萄酒？
+女：不不，我不会喝酒，我要果汁。
+问：女的要喝什么？</stem>
+<key>果汁</key>
+<distractor>咖啡</distractor>
+<distractor>葡萄酒</distractor> 
+</question>
+
+<question name="27">
+<stem>女：再见，您慢走，欢迎下次再来！
+男：谢谢！你们这儿的鱼做得很不错。
+问：他们最可能在什么地方？</stem>
+<distractor>公园</distractor>
+<key>饭店</key>
+<distractor>火车站</distractor>
+</question>
+
+<question name="28">
+<stem>男：小刘，听说你搬家了？
+女：对，我以前住的地方离公司太远，所以找了个近点儿的房子。
+问：小刘为什么要搬家？</stem>
+<distractor>太贵</distractor>
+<key>太远</key>
+<distractor>太旧</distractor>
+</question>
+
+<question name="29">
+<stem>女：一共是三十块，您这是一百块，给您七十，您拿好。
+男：好的，谢谢。
+问：男的花了多少钱？</stem>
+<key>30 元</key>
+<distractor>70 元</distractor>
+<distractor>100 元</distractor>
+</question>
+
+<question name="30">
+<stem>男：您好，您去哪儿？
+女：我去动物园西门。向前开，前面那条大街再向右开。
+问：男的最可能是做什么的？</stem>
+<distractor>医生</distractor>
+<key>司机</key>
+<distractor>服务员</distractor>
+</question>
+
+<question name="31-40 sample">
+<stem>女：晚饭做好了，准备吃饭了。
+男：等一会儿，比赛还有三分钟就结束了。
+女：快点儿吧，一起吃，菜冷了就不好吃了。
+男：你先吃，我马上就看完了。
+问：男的在做什么？</stem>
+<distractor>洗澡</distractor>
+<distractor>吃饭</distractor>
+<key>看电视</key>
+</question>
+
+<question name="31">
+<stem>男：你好，我想借这本书。
+女：好的。
+男：我可以借多长时间？
+女：一个月。
+问：他们在哪儿？</stem>
+<distractor>教室</distractor>
+<distractor>书店</distractor>
+<key>图书馆</key>
+</question>
+
+<question name="32">
+<stem>女：我想要一个小一点儿的。
+男：您看这个可以吗？
+女：好。你们可以在上面写一句话，是吧？
+男：对，但不能太长。
+女：好，就写“祝你生日快乐”。
+问：女的在买什么？</stem>
+<key>蛋糕</key>
+<distractor>衣服</distractor>
+<distractor>水果</distractor>
+</question>
+
+<question name="33">
+<stem>男：周末你一般做什么呢？
+女：在家休息，看看书，上上网，有时候也去打篮球。
+男：是吗？你也喜欢打篮球？
+女：当然了。以前上学的时候我还经常参加学校的比赛呢。
+问：关于女的，可以知道什么？</stem>
+<distractor>最近很忙</distractor>
+<distractor>在学校工作</distractor>
+<key>喜欢打篮球</key>
+</question>
+
+<question name="34">
+<stem>女：你们结婚的日子选好了吗？
+男：选好了，十二月五号，是星期六。你一定要来啊。
+女：我一定去。
+男：让叔叔、阿姨也一起来，我很长时间没见他们了。
+女：好。
+问：男的什么时候结婚？</stem>
+<distractor>5月12号</distractor>
+<distractor>10月5号</distractor>
+<key>12月5号</key>
+</question>
+
+<question name="35">
+<stem>男：明天你去送女儿吧，我要早点儿去公司。
+女：我明天早上也有个会。
+男：那还是我送吧，我们早点儿出门。
+女：好，我明天可以早点儿下班，我去接她。
+问：他们是什么关系？</stem>
+<distractor>爸爸和女儿</distractor>
+<key>丈夫和妻子</key>
+<distractor>妈妈和儿子</distractor>
+</question>
+
+<question name="36">
+<stem>女：您好！您能帮我们照张相吗？
+男：当然可以。
+女：我们站在这儿，能把后面的银行照上吗？
+男：没问题。准备好了吗？笑一笑，一，二，三。
+问：他们在做什么？</stem>
+<key>照相</key>
+<distractor>跳舞</distractor>
+<distractor>做游戏</distractor>
+</question>
+
+<question name="37">
+<stem>男：你打扫房间的时候，有没有看到我的钱包？
+女：没有。你把它放哪儿了？
+男：我就放在电脑旁边了。
+女：那再找找。是那个黑的吧？
+问：男的在找什么？</stem>
+<distractor>电脑</distractor>
+<key>钱包</key>
+<distractor>杯子</distractor>
+</question>
+
+<question name="38">
+<stem>女：中间这个穿裙子的人是谁？
+男：你不认识？她就是我们学校的校长。
+女：我以为是您妻子呢。
+男：旁边这个是我妻子。
+问：中间的那个人是谁？</stem>
+<key>校长</key>
+<distractor>男的的妻子</distractor>
+<distractor>女的的丈夫</distractor>
+</question>
+
+<question name="39">
+<stem>男：奇怪，我的腿怎么这么疼。
+女：是吗？星期天跑步了？
+男：没有，我和同学们去踢足球了。
+女：那就不奇怪了，你太长时间没运动了。
+问：男的怎么了？</stem>
+<key>腿疼</key>
+<distractor>哭了</distractor>
+<distractor>长胖了</distractor>
+</question>
+
+<question name="40">
+<stem>女：昨天的电影看了吗？
+男：看了。
+女：怎么样？有意思吗？
+男：很不错，我觉得很有意思。
+问：男的觉得昨天的电影怎么样？</stem>
+<distractor>不好看</distractor>
+<distractor>很有名</distractor>
+<key>很有意思</key>
+</question>
+
+<question name="41-45 sample">
+<stem>你知道怎么去那儿吗？</stem>
+<distractor>爷爷教了我很多次。</distractor>
+<distractor>做作业遇到不会的词语时，你用铅笔在旁边记一下。</distractor>
+<distractor>我还以为你忘了呢，你真好！</distractor>
+<distractor>决定了没？去还是不去？</distractor>
+<key>当然。我们先坐公共汽车，然后换地铁。</key>
+<distractor>你先吃个苹果吧，我去给你做面条儿。</distractor>
+</question>
+
+<question name="41">
+<stem>生日快乐！这是我给你买的礼物，喜欢不喜欢？</stem>
+<distractor>爷爷教了我很多次。</distractor>
+<distractor>做作业遇到不会的词语时，你用铅笔在旁边记一下。</distractor>
+<key>我还以为你忘了呢，你真好！</key>
+<distractor>决定了没？去还是不去？</distractor>
+<distractor>当然。我们先坐公共汽车，然后换地铁。</distractor>
+<distractor>你先吃个苹果吧，我去给你做面条儿。</distractor>
+</question>
+
+<question name="42">
+<stem>天阴了，我怕一会儿要下雨，明天吧？</stem>
+<distractor>爷爷教了我很多次。</distractor>
+<distractor>做作业遇到不会的词语时，你用铅笔在旁边记一下。</distractor>
+<distractor>我还以为你忘了呢，你真好！</distractor>
+<key>决定了没？去还是不去？</key>
+<distractor>当然。我们先坐公共汽车，然后换地铁。</distractor>
+<distractor>你先吃个苹果吧，我去给你做面条儿。</distractor>
+</question>
+
+<question name="43">
+<stem>现在去看字典吧，字典里有。</stem>
+<distractor>爷爷教了我很多次。</distractor>
+<key>做作业遇到不会的词语时，你用铅笔在旁边记一下。</key>
+<distractor>我还以为你忘了呢，你真好！</distractor>
+<distractor>决定了没？去还是不去？</distractor>
+<distractor>当然。我们先坐公共汽车，然后换地铁。</distractor>
+<distractor>你先吃个苹果吧，我去给你做面条儿。</distractor>
+</question>
+
+<question name="44">
+<stem>你的游泳水平最近提高很快啊。</stem>
+<key>爷爷教了我很多次。</key>
+<distractor>做作业遇到不会的词语时，你用铅笔在旁边记一下。</distractor>
+<distractor>我还以为你忘了呢，你真好！</distractor>
+<distractor>决定了没？去还是不去？</distractor>
+<distractor>当然。我们先坐公共汽车，然后换地铁。</distractor>
+<distractor>你先吃个苹果吧，我去给你做面条儿。</distractor>
+</question>
+
+<question name="45">
+<stem>我饿了，冰箱里有什么吃的吗？</stem>
+<distractor>爷爷教了我很多次。</distractor>
+<distractor>做作业遇到不会的词语时，你用铅笔在旁边记一下。</distractor>
+<distractor>我还以为你忘了呢，你真好！</distractor>
+<distractor>决定了没？去还是不去？</distractor>
+<distractor>当然。我们先坐公共汽车，然后换地铁。</distractor>
+<key>你先吃个苹果吧，我去给你做面条儿。</key>
+</question>
+
+<question name="46">
+<stem>安静，你需要换一个眼镜了。</stem>
+<distractor>吃完饭以后，你来洗碗。</distractor>
+<key>他在黑板上写的字太小！我们都看不清楚！</key>
+<distractor>她已经结婚了，孩子都两岁了。</distractor>
+<distractor>他们很认真、很努力地练习了一个夏天。</distractor>
+<distractor>他对自己画的画儿总是不满意。</distractor>
+</question>
+
+<question name="47">
+<stem>其实，主要是他对自己的要求太高了。</stem>
+<distractor>吃完饭以后，你来洗碗。</distractor>
+<distractor>他在黑板上写的字太小！我们都看不清楚！</distractor>
+<distractor>她已经结婚了，孩子都两岁了。</distractor>
+<distractor>他们很认真、很努力地练习了一个夏天。</distractor>
+<key>他对自己画的画儿总是不满意。</key>
+</question>
+
+<question name="48">
+<stem>我准备给你妹妹介绍个男朋友。</stem>
+<distractor>吃完饭以后，你来洗碗。</distractor>
+<distractor>他在黑板上写的字太小！我们都看不清楚！</distractor>
+<key>她已经结婚了，孩子都两岁了。</key>
+<distractor>他们很认真、很努力地练习了一个夏天。</distractor>
+<distractor>他对自己画的画儿总是不满意。</distractor>
+</question>
+
+<question name="49">
+<stem>为什么总是我啊？</stem>
+<key>吃完饭以后，你来洗碗。</key>
+<distractor>他在黑板上写的字太小！我们都看不清楚！</distractor>
+<distractor>她已经结婚了，孩子都两岁了。</distractor>
+<distractor>他们很认真、很努力地练习了一个夏天。</distractor>
+<distractor>他对自己画的画儿总是不满意。</distractor>
+</question>
+
+<question name="50">
+<stem>今天的节目看了吗？那些学生的表演好极了。</stem>
+<distractor>吃完饭以后，你来洗碗。</distractor>
+<distractor>他在黑板上写的字太小！我们都看不清楚！</distractor>
+<distractor>她已经结婚了，孩子都两岁了。</distractor>
+<key>他们很认真、很努力地练习了一个夏天。</key>
+<distractor>他对自己画的画儿总是不满意。</distractor>
+</question>
+
+<question name="51-55 sample">
+<stem>她说话的（ ）多好听啊！</stem>
+<distractor>刻</distractor>
+<distractor>双</distractor>
+<distractor>音乐</distractor>
+<distractor>其他</distractor>
+<key>声音</key>
+<distractor>干净</distractor>
+</question>
+
+<question name="51">
+<stem>除了数学，弟弟的（ ）成绩都不错。</stem>
+<distractor>刻</distractor>
+<distractor>双</distractor>
+<distractor>音乐</distractor>
+<key>其他</key>
+<distractor>声音</distractor>
+<distractor>干净</distractor>
+</question>
+
+<question name="52">
+<stem>我特别想买这（ ）鞋，问题是我的脚太大。</stem>
+<distractor>刻</distractor>
+<key>双</key>
+<distractor>音乐</distractor>
+<distractor>其他</distractor>
+<distractor>声音</distractor>
+<distractor>干净</distractor>
+</question>
+
+<question name="53">
+<stem>这条裤子昨天洗过了，是（ ）的。</stem>
+<distractor>刻</distractor>
+<distractor>双</distractor>
+<distractor>音乐</distractor>
+<distractor>其他</distractor>
+<distractor>声音</distractor>
+<key>干净</key>
+</question>
+
+<question name="54">
+<stem>现在是三点一（ ），别担心，我们不会迟到。</stem>
+<key>刻</key>
+<distractor>双</distractor>
+<distractor>音乐</distractor>
+<distractor>其他</distractor>
+<distractor>声音</distractor>
+<distractor>干净</distractor>
+</question>
+
+<question name="55">
+<stem>姐姐从小就喜欢唱歌，现在她是一位（ ）老师。</stem>
+<distractor>刻</distractor>
+<distractor>双</distractor>
+<key>音乐</key>
+<distractor>其他</distractor>
+<distractor>声音</distractor>
+<distractor>干净</distractor>
+</question>
+
+<question name="56-60 sample">
+<stem>A：你有什么（ ）？
+B：我喜欢体育。</stem>
+<distractor>明白</distractor>
+<distractor>角</distractor>
+<distractor>被</distractor>
+<key>爱好</key>
+<distractor>办法</distractor>
+<distractor>甜</distractor>
+</question>
+
+<question name="56">
+<stem>A：这个问题你们准备什么时候解决？
+B：我们正在想（ ），今天应该可以解决。</stem>
+<distractor>明白</distractor>
+<distractor>角</distractor>
+<distractor>被</distractor>
+<distractor>爱好</distractor>
+<key>办法</key>
+<distractor>甜</distractor>
+</question>
+
+<question name="57">
+<stem>A：怎么样，听（ ）了吗？
+B：对不起，您读得太快，我没听懂。</stem>
+<key>明白</key>
+<distractor>角</distractor>
+<distractor>被</distractor>
+<distractor>爱好</distractor>
+<distractor>办法</distractor>
+<distractor>甜</distractor>
+</question>
+
+<question name="58">
+<stem>A：盘子里的肉（ ）那只黄猫吃了。
+B：那你该给它准备点儿水了。</stem>
+<distractor>明白</distractor>
+<distractor>角</distractor>
+<key>被</key>
+<distractor>爱好</distractor>
+<distractor>办法</distractor>
+<distractor>甜</distractor>
+</question>
+
+<question name="59">
+<stem>A：菜有点儿（ ），但很好吃。
+B：我妈妈是上海人，她做菜喜欢放糖。</stem>
+<distractor>明白</distractor>
+<distractor>角</distractor>
+<distractor>被</distractor>
+<distractor>爱好</distractor>
+<distractor>办法</distractor>
+<key>甜</key>
+</question>
+
+<question name="60">
+<stem>A：你好，香蕉怎么卖？
+B：这种三块五一斤，那种便宜两（ ）五分。</stem>
+<distractor>明白</distractor>
+<key>角</key>
+<distractor>被</distractor>
+<distractor>爱好</distractor>
+<distractor>办法</distractor>
+<distractor>甜</distractor>
+</question>
+
+<question name="61-70 sample">
+<stem>您是来参加今天会议的吗？您来早了一点儿，现在才八点半。您先进来
+坐吧。
+★ 会议最可能几点开始？</stem>
+<distractor>8点</distractor>
+<distractor>8点半</distractor>
+<key>9点</key>
+</question>
+
+<question name="61">
+<stem>中国人经常说：早饭要吃好，午饭要吃饱，晚饭要吃少。
+★ 根据这句话，可以知道：</stem>
+<distractor>早饭要少吃</distractor>
+<key>午饭要多吃</key>
+<distractor>不要吃晚饭</distractor>
+</question>
+
+<question name="62">
+<stem>公司来了一位新同事，长得跟我有点儿像，而且我们都姓王，很多人总是
+笑着问我：“新来的同事是不是你哥哥？”
+★ 新来的同事：</stem>
+<distractor>是我哥</distractor>
+<key>长得像我</key>
+<distractor>长得像我弟弟</distractor>
+</question>
+
+<question name="63">
+<stem>北京的秋天比较短，但这是北京最好的季节。秋天的北京不冷也不热，下
+雨的时候不多，这时候去北京旅游最好。北京的春天也很漂亮，只是有时
+候会刮大风。
+★ 北京的秋天：</stem>
+<key>很舒服</key>
+<distractor>非常热</distractor>
+<distractor>经常刮风</distractor>
+</question>
+
+<question name="64">
+<stem>张先生，您到饭店以后，先休息一下。中午我们一起吃午饭，下午4 点以
+前没有什么事，如果您愿意，我可以带您到附近看看。5 点，我们经理和您
+见面，晚上经理请您吃晚饭。
+★ 张先生 5 点做什么？</stem>
+<key>和经理见面</key>
+<distractor>到外面去看看</distractor>
+<distractor>和经理一起吃饭</distractor>
+</question>
+
+<question name="65">
+<stem>小李，洗手间在一楼东边，如果有客人要去，你带他们去。还有，注意洗
+手间的灯不要关。
+★ 根据这段话，可以知道：</stem>
+<distractor>小李是客人</distractor>
+<distractor>小李表示同意</distractor>
+<key>别关洗手间的灯</key>
+</question>
+
+<question name="66">
+<stem>一年级二班的考试已经结束了，我听大家说，虽然题很多，但不难，很简
+单。
+★ 这次考试：</stem>
+<distractor>很难</distractor>
+<key>题很多</key>
+<distractor>时间不长</distractor>
+</question>
+
+<question name="67">
+<stem>我对外面的世界很有兴趣，我希望有机会到别的国家看一看，了解它们不
+同的文化。
+★ 我希望：</stem>
+<distractor>学习普通话</distractor>
+<distractor>有很多节日</distractor>
+<key>去国外看看</key>
+</question>
+
+<question name="68">
+<stem>自行车？没问题，你别客气。就在楼下，就是那辆蓝色的。我这几天不骑，
+你不用急着还。
+★ 那辆自行车：</stem>
+<distractor>坏了</distractor>
+<key>是蓝色的</key>
+<distractor>是别人的</distractor>
+</question>
+
+<question name="69">
+<stem>两年不见，没想到他变化这么大，比以前瘦了很多，但和以前一样的是，
+他还是那么热情、快乐、关心别人。
+★ 他以前怎么样？</stem>
+<distractor>又矮又瘦</distractor>
+<distractor>容易生气</distractor>
+<key>热情、快乐</key>
+</question>
+
+<question name="70">
+<stem>下了飞机，坐出租车的时候，我把行李箱放在了车箱里。下车时，我忘了
+拿行李箱，里面有很多重要的东西。但是，我有出租车票，我相信能找到
+我的行李箱。
+★ 我的行李箱现在最可能在：</stem>
+<distractor>机场</distractor>
+<distractor>飞机上</distractor>
+<key>出租车上</key>
+</question>
+
+<question name="71-75 sample">
+<stem>小船，上，一，河，条，有</stem>
+<key>河上有一条小船。</key>
+</question>
+
+<question name="71">
+<stem>最，吃，我，西瓜，爱</stem>
+<key>我最爱吃西瓜。</key>
+</question>
+
+<question name="72">
+<stem>终于，同意，他，了</stem>
+<key>他终于同意了。 / 终于他同意了。</key>
+</question>
+
+<question name="73">
+<stem>哪，复习，一，课，在，他们</stem>
+<key>他们在复习哪一课？</key>
+</question>
+
+<question name="74">
+<stem>菜单，汉语，是，用，这个，写，的</stem>
+<key>这个菜单是用汉语写的</key>
+</question>
+
+<question name="75">
+<stem>举行，会议，在，这，次，冬天，2010年</stem>
+<key>这次会议在2010 年冬天举行。 / 在2010 年冬天举行这次会议。</key>
+</question>
+
+<question name="76-80 sample">
+<stem>没（guān）系，别难过，高兴点儿。</stem>
+<key>关</key>
+</question>
+
+<question name="76">
+<stem>今天的云很多，看不见（tài）阳。</stem>
+<key>太</key>
+</question>
+
+<question name="77">
+<stem>那只熊猫叫什么（míng）字？</stem>
+<key>名</key>
+</question>
+
+<question name="78">
+<stem>你敢跑一万五千（mǐ）吗？</stem>
+<key>米</key>
+</question>
+
+<question name="79">
+<stem>我认为他（huí）答得很好。</stem>
+<key>回</key>
+</question>
+
+<question name="80">
+<stem>早饭是（niú）奶、面包和鸡蛋。</stem>
+<key>牛</key>
+</question>
+
+</exam>
+</pool>

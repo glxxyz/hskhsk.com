@@ -1,0 +1,150 @@
+﻿的	de	indicates possession, like adding 's to a noun
+我	wǒ	I; me
+你	nǐ	you (singular)
+是	shì	be; is; are; am
+了	le	indicates a completed or finished action
+不	bù	no; not
+在	zài	at; on; in; indicates an action in progress
+他	tā	he; him
+我们[我們]	wǒmen	we; us
+好	hǎo	good
+有	yǒu	have
+这[這]	zhè	this
+会[會]	huì	know how to
+吗[嗎]	ma	indicates a yes/no question (added to a statement)
+什么[什麼]	shénme	what? (replaces the noun to turn a statement into a question)
+说[說]	shuō	speak
+她	tā	she
+想	xiǎng	think; believe; suppose; would like to
+一	yī	one; once; a
+很	hěn	very; quite
+人	rén	person; man; people
+那	nà	that; then
+来[來]	lái	come; arrive; ever since; next
+都	dōu	all; both
+个[個]	ge	general measure word
+能	néng	can; be able
+去	qù	go; to leave
+和	hé	and; with
+做	zuò	do; make
+上	shàng	above; up
+没有[沒有]	méiyǒu	not have; there is not
+看	kàn	see; look at; to watch
+怎么[怎麼]	zěnme	how?
+现在[現在]	xiànzài	now
+点[點]	diǎn	a dot; a little; o'clock
+呢	ne	indicates a question; how about...?;
+太	tài	too (much)
+里[裡]	lǐ	inside; Chinese mile (~.5 km)
+听[聽]	tīng	listen; hear
+谁[誰]	shéi	who
+多	duō	many
+时候[時候]	shíhou	time
+下	xià	fall; below
+谢谢[謝謝]	xièxie	thank you
+先生	xiānsheng	Mr.; Sir
+喜欢[喜歡]	xǐhuan	to like
+大	dà	big; large
+东西[東西]	dōngxi	things; stuff
+小	xiǎo	small; young
+叫	jiào	to be called
+爱[愛]	ài	love
+年	nián	year
+请[請]	qǐng	please; invite; to treat someone to something
+回	huí	to return; to reply; to go back
+工作	gōngzuò	work; a job
+钱[錢]	qián	money; coin
+吃	chī	eat
+开[開]	kāi	to open; to start; to operate (a vehicle)
+家	jiā	family; home
+哪	nǎa	which; how
+朋友	péngyou	friend
+妈妈[媽媽]	māma	mom; mum
+今天	jīntiān	today
+几[幾]	jǐ	how many; several; a few
+爸爸	bàba	Dad
+些	xiē	some; few; several
+怎么样[怎麼樣]	zěnmeyàng	how about?; how is/was it?
+对不起[對不起]	duìbuqǐ	sorry
+住	zhù	to live; reside; to stop
+三	sān	three
+高兴[高興]	gāoxìng	happy; glad
+买[買]	mǎi	to buy
+医生[醫生]	yīshēng	doctor
+哪儿[哪兒]	nǎr	where? (Beijing accent)
+字	zì	letter; character
+名字	míngzi	name
+认识[認識]	rènshi	recognize; know (a person)
+坐	zuò	sit
+喝	hē	to drink
+写[寫]	xiě	to write; to compose
+月	yuè	moon; month
+号[號]	hào	number; day of a month
+狗	gǒu	dog
+岁[歲]	suì	years old; age
+看见[看見]	kànjiàn	see; catch sight of
+打电话[打電話]	dǎ diànhuà	make a phone call
+喂	wèi	hello (on the phone)
+儿子[兒子]	érzi	son
+漂亮	piàoliang	pretty; beautiful
+分钟[分鐘]	fēnzhōng	minute; (measure word for time)
+再见[再見]	zàijiàn	goodbye; see you later
+本	běn	measure word for books
+明天	míngtiān	tomorrow
+少	shǎo	few; little
+多少	duōshao	how much?; how many?
+块[塊]	kuài	lump; piece; sum of money
+女儿[女兒]	nǚ'ér	daughter
+小姐	xiǎojie	young lady; miss; Ms.
+衣服	yīfu	clothes
+水	shuǐ	water
+学校[學校]	xuéxiào	school
+电影[電影]	diànyǐng	movie; film
+书[書]	shū	book; letter
+四	sì	four
+五	wǔ	five
+医院[醫院]	yīyuàn	hospital
+没关系[沒關系]	méi guānxi	it doesn't matter; never mind
+飞机[飛機]	fēijī	airplane
+二	èr	two
+电视[電視]	diànshì	television; TV
+读[讀]	dú	to read; to study
+后面	hòumian	back; behind
+昨天	zuótiān	yesterday
+睡觉[睡覺]	shuì jiào	to sleep; go to bed
+六	liù	six
+老师[老師]	lǎoshī	teacher
+星期	xīngqī	week
+十	shí	ten
+猫[貓]	māo	cat
+电脑[電腦]	diànnǎo	computer
+热[熱]	rè	heat; hot
+学生[學生]	xuésheng	student
+下午	xiàwǔ	afternoon
+学习[學習]	xuéxí	learn; to study
+冷	lěng	cold
+不客气[不客氣]	bú kèqi	you're welcome; don't be polite
+前面	qiánmiàn	in front
+八	bā	eight
+中国[中國]	Zhōngguó	China
+七	qī	seven
+菜	cài	dish (type of food); vegetables
+桌子	zhuōzi	table; desk
+出租车[出租車]	chūzūchē	taxi; cab
+天气[天氣]	tiānqì	weather
+茶	chá	tea
+九	jiǔ	nine
+商店	shāngdiàn	shop; store
+椅子	yǐzi	chair
+同学[同學]	tóngxué	fellow student; schoolmate
+一点儿[一點兒]	yìdiǎnr	a bit; a few
+苹果[蘋果]	píngguǒ	apple
+饭店[飯店]	fàndiàn	restaurant; hotel
+中午	zhōngwǔ	noon; midday
+上午	shàngwǔ	late morning (before noon)
+水果	shuǐguǒ	fruit
+杯子	bēizi	cup; glass
+下雨	xiàyǔ	to rain
+米饭[米飯]	mǐfàn	(cooked) rice
+北京	Běijīng	Beijing
+汉语[漢語]	Hànyǔ	Chinese language

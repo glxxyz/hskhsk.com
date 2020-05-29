@@ -1,0 +1,100 @@
+﻿//Chineasy		
+山	shān	n. montaña
+出	chū	v. salir
+木	mù	n. arbol
+口	kǒu	n. boca
+呆	dāi	adj. Idiota
+杏	xìng	n. almendra, albaricoque
+林	lín	n. arboleda
+森	sēn	n. bosque
+本	běn	n. origen
+人	rén	n. persona
+从	cóng	v. seguir / prep. Desde
+众	zhòng	n. multitud, muchedumbre
+囚	qiú	n. prisionero
+山人	shānrén	n. hermitaño
+大	dà	adj. grande
+来[來]	lái	v. venir
+天	tiān	n. cielo
+夫	fū 	n. marido, esposo
+焚	fén	v. arder, quemar
+火	huǒ	n. fuego
+火山	huǒshān	n. volcán
+大火	dàhuǒ	n. incendio
+火大	huǒdà	adj. enfadado
+休	xiū	v. descansar
+未	wèi	adv. aún no
+末	mò	n. final
+沐	mù	v. lavar, lavarse la cabeza, bañarse
+淋	lín	v. gotear
+沫	mò	n. espuma
+日	rì	n. sol
+月	yuè	n. luna; carne (radical)
+朋	péng	n. amigo
+品	pǐn	n. artículo, producto; variedad de calidad
+昌	chāng	adj. próspero
+唱	chàng	v. cantar
+门[門]	mén	n. puerta
+女	nǚ	n. mujer
+女人	nǚrén	n. mujer
+水	shuǐ	n. agua
+牛	niú	n. vaca
+豕	shǐ	(radical) cerdo
+猪[豬]	zhū	n. cerdo
+宀	mián	(radical) tejado
+旦	dàn 	n. amanecer
+问[問]	wèn	v. preguntar
+明	míng	adj. brillante
+白	bái	adj. blanco
+白白	báibái	adv. en vano
+闪[閃]	shǎn	v. esquivar, evitar
+东[東]	dōng	n. Este (punto cardinal)
+閑[閑]	xián	n. ocio, tiempo libre; adj. libre, desocupado
+间[閒] 	jiān	prep. entre los
+们[們]	men	prefijo indicativo de plural
+间[間]	jiān, jiàn	n. espacio, lugar
+闩[閂]	shuān	n. cerrojo; v. cerrar con pestillo
+查	chá	v. verificar, inspeccionar
+泊	bó	v. anclar; n. ancla
+淡	dàn	adj. débil, insulso, insípido
+渣	zhā	n. desecho, residuo
+体[體]	tǐ	n. cuerpo
+保	bǎo	v. proteger
+太	tài	adv. demasiado, extremadamente
+王	wáng	n. rey
+玉	yù	n. jade
+珏	jué	n. dos piezas de jade
+珀	pò	ámbar
+主	zhǔ	n. maestro
+柱	zhù	n. columna, pilar
+住	zhù	v. vivir, residir
+宝[寳]	bǎo	n. tesoro
+全	quán	adj. entero, completo
+国[國]	guó	n. país
+淼	miǎo	adj. vasto (dicho de una gran expansión de agua)
+肤[膚]	fū	n. piel
+胆[膽]	dǎn	n. valor, coraje
+囡	nān	n. hija
+因	yīn	n. causa; prep. porque
+困	kùn	v. rodear
+如	rú	v. obedecer
+姻	yīn	n. matrimonio
+安	ān	adj. tranquilo, calmado; v. calmar
+牢	láo	n. prisión
+家	jiā 	n. hogar, familia
+板[闆]	bǎn	n. jefe
+岩	yán	n. roca
+崩	bēng	n. rotura; v. quebrarse, derrumbarse
+啖	dàn	v. comer
+宋	sòng	n. dinastía, apellido
+伞[傘]	sǎn	n. paraguas
+早	zǎo	adj. temprano; n. mañana
+宣	xuān 	v. proclamar
+伙[夥]	huǒ	clasif. Grupos; n. compañero, colega
+入	rù	v. entrar
+本人	běnrén	n. uno mismo (tú mismo, yo mismo…)
+大门[大門]	dàmén	n. puerta delantera
+门口[門口]	ménkǒu	n. entrada, acceso
+山东[山東]	Shāndōng	Provincia de Shandong
+本月	běnyuè	adv. este mes
+日本	Rìběn	Japón

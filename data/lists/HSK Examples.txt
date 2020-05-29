@@ -1,0 +1,226 @@
+﻿//HSK 1 Examples
+8点40分	8 diǎn 40 fēn	8:40 (time of day)
+2009年7月6日	2009 nián 7 yuè 6 rì	6th July 2009
+星期四	xīngqīsì	Thursday
+他今年24岁。	Tā jīnnián 24 suì．	He is 24 this year.
+15块	15 kuài	RMB15
+我的电话是58590000。	Wǒ de diànhuà shì 58590000.	My phone number is 58590000.
+一个	yí ge	One item (m.w., general)
+3本	3 běn	Three items (m.w., e.g. books)
+这个	zhège	This
+那些	nàxiē	Those
+几本	jǐ běn	Several/How many items (e.g. books)
+我不是学生。	Wǒ bú shì xuésheng．	I am not a student.
+他没去医院。	Tā méi qù yīyuàn．	He didn't go to hospital.
+她很高兴。	Tā hěn gāoxìng．	She is very happy.
+太好了！	Tài hǎo le!	That's great!
+我们都看见那个人了。	Wǒmen dōu kànjiàn nàge rén le．	We all saw that man.
+我和你	wǒ hé nǐ	Me and you
+我住在北京。	Wǒ zhù zài Běijīng．	I live in Beijing.
+我会做饭。	Wǒ huì zuò fàn．	I can cook.
+你什么时候能来？	Nǐ shénme shíhou néng lái?	What time can you come?
+我的电脑	wǒ de diànnǎo	My computer
+她去医院了。	Tā qù yīyuàn le．	She went to hospital.
+他是医生吗？	Tā shì yīshēng ma?	Is he a doctor?
+你在哪儿呢？	Nǐ zài nǎr ne?	Where are you?
+喂，你好。	Wéi, nǐ hǎo.	Hello? (on the phone)
+明天星期六。	Míngtiān xīngqīliù．	Tomorrow is Saturday.
+我认识他。	Wǒ rènshi tā．	I know him.
+天气很好。	Tiānqì hěn hǎo．	The weather is good.
+她不在饭店。	Tā bú zài fàndiàn．	She is not at the hotel/restaurant.
+她没去看电影。	Tā méi qù kàn diànyǐng．	She didn't go to the movie.
+这是你的桌子吗？	Zhè shì nǐ de zhuōzi ma?	Is this your table?
+我是老师，你呢？	Wǒ shì lǎoshī, nǐ ne?	I am a teacher. What about you?
+那个人是谁？	Nàge rén shì shéi?	Who is that person?
+这些杯子，你喜欢哪一个？	Zhèxiē bēizi， nǐ xǐhuan nǎ yí ge?	Which one of these cups do you like?
+你想去哪儿？	Nǐ xiǎng qù nǎr?	Where do you want to go?
+你爱吃什么水果？	Nǐ ài chī shénme shuǐguǒ?	Which fruit do you like?
+你们学校有多少学生？	Nǐmen xuéxiào yǒu duōshao xuésheng?	Your school has how many students?
+你几岁了？	Nǐ jǐ suì le?	How old are you?
+你怎么了？	Nǐ zěnme le?	Are you okay/What happened to you?
+这本书怎么样？	Zhè běn shū zěnmeyàng?	How is this book?
+请坐。	Qǐng zuò．	Have a seat.
+太好了！	Tài hǎo le!	That's great!
+他是我的同学。	Tā shì wǒ de tóngxué．	He is my classmate.
+一年有12个月。	Yìnián yǒu 12 ge yuè．	A year has 12 months.
+我是昨天来的。	Wǒ shì zuótiān lái de．	I arrived yesterday.
+这是在火车站买的。	Zhè shì zài huǒchēzhàn mǎi de．	I bought this at the train station. 
+他是坐飞机来的。	Tā shì zuò fēijī lái de．	He came here by plane.
+他们在吃饭呢。	Tāmen zài chī fàn ne．	They are eating.
+
+// HSK 2 Examples
+6元	6 yuán	RMB6
+第三	dì-sān	3rd
+9公斤	9 gōngjīn	9kg
+等一下。	Děng yíxià．	Wait a moment.
+每次	měi cì	Every time
+你别去游泳了。	Nǐ bié qù yóuyǒng le．	Don't go to swim
+那里的天气非常热。	Nàlǐ de tiānqì fēicháng rè．	The weather there is very hot.
+我最喜欢喝咖啡。	Wǒ zuì xǐhuan hē kāfēi．	Coffee is my favourite drink.
+他们一起去机场了。	Tāmen yìqǐ qù jīchǎng le．	They went to the airport together.
+我们正在看电视。	Wǒmen zhèngzài kàn diànshì．	We are watching TV.
+他已经到学校了。	Tā yǐjīng dào xuéxiào le．	He already arrived at school.
+她下星期就回来了。	Tā xià xīngqī jiù huílai le．	She is coming back next week.
+我也有一块这样的手表。	Wǒ yě yǒu yí kuài zhèyàng de shǒubiǎo．	I also have a watch like this.
+她还没起床。	Tā hái méi qǐchuáng．	She hasn't got up yet.
+你的字写得真漂亮！	Nǐ de zì xiě de zhēn piàoliang!	Your handwriting is really good!
+欢迎再来！	Huānyíng zài lái!	Come back soon!
+因为下雨，所以他没去踢足球。	Yīnwèi xià yǔ, suǒyǐ tā méi qù tī zúqiú.	Because it's raining, he didn't play football.
+虽然下雨，但是他去踢足球。	Suīrán xià yǔ, dànshì tā qù tī zúqiú.	Although it's raining, he played football. ×××
+他80岁了，但是身体很好。	Tā 80 suì le, dànshì shēntǐ hěnhǎo.	He is 80 years old, but he is very healthy.
+她从中国回来了。	Tā cóng Zhōngguó huílai le．	She came back from China.
+他对我很好。	Tā duì wǒ hěn hǎo．	He is nice to me.
+我比她高。	Wǒ bǐ tā gāo．	I am taller than her.
+向左走。	Xiàng zuǒ zǒu．	Go left.
+学校离我家很近。	Xuéxiào lí wǒ jiā hěn jìn．	School is close to my home.
+现在你可以走了。	Xiànzài nǐ kěyǐ zǒu le．	Now you can go.
+我要学游泳。	Wǒ yào xué yóuyǒng．	I want to learn to swim.
+明天可能下雨。	Míngtiān kěnéng xià yǔ．	It might rain tomorrow.
+书是哥哥的。	Shū shì gēge de．	The book is my older brother's.
+那个杯子是我的。	Nàge bēizi shì wǒ de．	That cup is mine.
+这件衣服是最便宜的。	Zhè jiàn yīfu shì zuì piányi de．	This item of clothing is the cheapest.
+我买了一些吃的。	Wǒ mǎile yìxiē chī de．	I bought some food.
+那边打电话的是我丈夫。	Nàbiān dǎ diànhuà de shì wǒ zhàngfu．	My husband is making a phone call there.
+你做的对。	Nǐ zuò de duì．	You did the right thing.
+现在快10点了吧？	Xiànzài kuài 10 diǎn le ba?	It's almost 10 o'clock?
+她笑着说：“明天见。”	Tā xiàozhe shuō: "Míngtiān jiàn."	She smiled and said "see you tomorrow."
+我买了一本书。	Wǒ mǎile yì běn shū．	I bought a book.
+我学过汉语。	Wǒ xuéguo Hànyǔ．	I studied Chinese before.
+你去问问他。	Nǐ qù wènwen tā．	You go and ask him.
+让我想一想。	Ràng wǒ xiǎngyixiǎng．	Let me have a think.
+你是中国人吧？	Nǐ shì Zhōngguórén ba?	Are you Chinese?
+他为什么没来？	Tā wèi shénme méi lái?	Why isn't he here?
+从这儿到那儿多远？	Cóng zhèr dào nàr duō yuǎn?	How far is it from here to there?
+你喝不喝茶？	Nǐ hēbuhē chá?	Do you want some tea? (lit. Do you drink tea?)
+我们一起去，好吗？	Wǒmen yìqǐ qù, hǎo ma?	Can we go together?
+别说话。	Bié shuōhuà．	Don't speak.
+不要吃太多。	Bú yào chī tài duō．	Don't eat too much.
+真好吃！	Zhēn hǎochī!	Really yummy!
+今天比昨天冷。	Jīntiān bǐ zuótiān lěng．	Today is colder than yesterday.
+他们正在打篮球。	Tāmen zhèngzài dǎ lánqiú．	They are playing basketball.
+他买了一斤苹果。	Tā mǎile yì jīn píngguǒ．	He bought 500g of apples.
+我看过这个电影。	Wǒ kàn guò zhè gè diàn yǐng.	I saw this movie.
+火车要开了。	Huǒchē yào kāi le．	The train is about to leave.
+外面下着雨。	Wàimiàn xiàzhe yǔ.	It's raining outside.
+
+//HSK 3 Examples
+5点1刻	5 Diǎn 1 kè	Quarter past 5
+10000米	10000 Mǐ	10,000 meters
+四五千个	Sìwǔqiān gè	4 or 5 thousand of
+800多人	800 Duō rén	Over 800 people
+一双鞋	Yīshuāng xié	A pair of shoes
+两条鱼	Liǎng tiáo yú	Two fishies
+第10层	Dì 10 céng	10th floor
+3角5分	Jiǎo 5 fēn 	35 cents
+两种	Liǎng zhǒng	Two types
+他坐了一会儿。	Tā zuòle yīhuǐ'er.	He stayed for a while. 
+快一点儿。	Kuài yīdiǎn er.	Hurry up.
+我明天一定来。	Wǒ míngtiān yīdìng lái.	I'll come tomorrow for sure 
+我们必须想个好办法。	Wǒmen bìxū xiǎng gè hǎo bànfǎ.	We have to think of a good plan.
+明天会更好。	Míngtiān huì gèng hǎo.	Tomorrow will be better.
+雨越下越大。	Yǔ yuè xiàyuè dà.	Rain is getting heavier.
+这儿的西瓜特别甜。	Zhè'er de xīguā tèbié tián.	The watermelon here is very sweet.
+这些孩子多可爱呀！	Zhèxiē háizi duō kě'ài ya!	These children are so cute!
+她唱得好极了！	Tā chàng de hǎo jíle!	She sang really well!
+中国的大城市，我几乎都去过。	Zhōngguó de dà chéngshì, wǒ jīhū dōu qùguò.	Chinese big cities; I have been to almost all of them.
+这些药一共300元。	Zhèxiē yào yīgòng 300 yuán.	These medicines together are RMB300.
+我只去过一次北京。	Wǒ zhǐ qùguò yīcì běijīng.	I've only been to Beijing once.
+我先说几句。	Wǒ xiān shuō jǐ jù.	I will first say a few sentences.
+他晚上11点才下班。	Tā wǎnshàng 11 diǎn cái xiàbān.	He didn't get off work until 11 in the evening.
+他的成绩一直很好。	Tā de chéngjī yīzhí hěn hǎo.	His grades are always very good.
+她总是很忙。	Tā zǒng shì hěn máng.	She is always very busy.
+请安静，节目马上开始。	Qǐng ānjìng, jiémù mǎshàng kāishǐ.	Please be quiet, the show is about to begin. 
+考试终于结束了。	Kǎoshì zhōngyú jiéshùle.	The exam finally ended.
+这道题其实很容易。	Zhè dào tí qíshí hěn róngyì.	This problem is actually very easy.
+那样做当然不可以。	Nàyàng zuò dāngrán bù kěyǐ.	Doing that is of course not allowed.
+今天他又迟到了。	Jīntiān tā yòu chídàole.	He is late again today.
+最近他经常去爬山。	Zuìjìn tā jīngcháng qù páshān.	Recently he has often gone climbing.
+房子虽然旧了，但是很干净。	Fángzi suīrán jiùle, dànshì hěn gānjìng.	Although the house is old, it is very clean.
+虽然X，但是Y。	Suīrán X, dànshì Y.	Although X, Y.
+她会说汉语，而且说得很好。	Tā huì shuō hànyǔ, érqiě shuō de hěn hǎo.	She can speak Chinese, and can speak very well.
+先吃饭，然后去看电影。	Xiān chīfàn, ránhòu qù kàn diànyǐng.	First eat, then watch a movie.
+先X，然后Y。	Xiān X, ránhòu Y.	First X, then Y.
+如果大家都同意，就这样决定了。	Rúguǒ dàjiā dōu tóngyì, jiù zhèyàng juédìngle.	If everyone agrees, then we'll decide on this.
+他一边上网，一边听音乐。	Tā yībiān shàngwǎng, yībiān tīng yīnyuè.	He is web surfing, and also listening to music.
+一边X，一边Y。	Yībiān X, yībiān Y.	Doing X, and also Y at the same time.
+给我打电话或者发电子邮件都可以。	Gěi wǒ dǎ diànhuà huòzhě fā diànzǐ yóujiàn dōu kěyǐ.	Give me a call or send an email, both will do.
+我们是打车还是坐地铁？	Wǒmen shì dǎchē háishì zuò dìtiě?	Are we getting a taxi or taking the subway?
+为了解决环境问题，人们想了很多办法。	Wèile jiějué huánjìng wèntí, rénmen xiǎngle hěnduō bànfǎ.	To solve environmental problems, people think of a lot of solutions.
+除了画画儿，她还喜欢跳舞。	Chúle huà huà er, tā hái xǐhuan tiàowǔ.	Besides painting, she also likes to dance.
+请把空调打开。	Qǐng bǎ kòngtiáo dǎkāi.	Please switch on the air conditioning.
+鱼被小猫吃了。	Yú bèi xiǎo māo chīle.	The fish was eaten by the cat.
+关于这段历史，我知道得很少。	Guānyú zhè duàn lìshǐ, wǒ zhīdào de hěn shǎo.	About this piece of history, I know very little.
+我们应该在周末开个会。	Wǒmen yīnggāi zài zhōumò kāi gè huì.	We should have a meeting at the weekend.
+你愿意和我结婚吗？	Nǐ yuànyì hé wǒ jiéhūn ma?	Are you willing to marry me?
+你敢骑马吗？	Nǐ gǎn qímǎ ma?	Do you dare to ride a horse?
+她高兴地笑了。	Tā gāoxìng de xiàole.	She laughed happily.
+他是经理吗？	Tā shì jīnglǐ ma?	Is he the manager?
+真漂亮啊！	Zhēn piàoliang a!	Very pretty!
+他没去看电影。	Tā méi qù kàn diànyǐng.	He didn't go to the movie.
+你别忘了带护照。	Nǐ bié wàngle dài hùzhào.	Don't forget to bring your passport.
+你决定了没有？	Nǐ juédìngle méiyǒu?	have you decided yet?
+您要两张票，对吗？	Nín yào liǎng zhāng piào, duì ma?	You need two tickets, right?
+中午吃面条儿，可以吗？	Zhōngwǔ chī miàntiáo er, kěyǐ ma?	Noodles for lunch, can we?
+你喝茶还是喝咖啡？	Nǐ hē chá háishì hē kāfēi?	Do you want tea or coffee?
+真干净！	Zhēn gānjìng!	So clean!
+他跑得多快啊！	Tā pǎo de duō kuài a!	He ran very fast.
+好极了！	Hǎo jíle!	Great!
+他和我一样高。	Tā hé wǒ yīyàng gāo.	He and I are the same height.
+上海没有北京那么冷。	Shànghǎi méiyǒu běijīng nàme lěng.	Shanghai is not as cold as Beijing.
+我把衣服洗了。	Wǒ bǎ yīfú xǐle.	I had the clothes washed.
+行李箱被司机拿走了。	Xínglǐxiāng bèi sījī ná zǒule.	The luggage was taken by the driver.
+他每天骑车上班。	Tā měi tiān qí chē shàngbān.	He bikes to work every day.
+桌子上放着一本书。	Zhuōzi shàng fàngzhe yī běn shū.	There is a book on the table.
+小王叫我去他家玩儿。	Xiǎo wáng jiào wǒ qù tā jiā wán er.	Xiao Wang asked me to his house to play.
+不但…而且…	Bùdàn… érqiě	Not only... but also...
+只有…才…	Zhǐyǒu… cái…	Only... can...
+我学中文很有『热情』。	rèqíng	I am 『enthusiastic』 about studying Chinese.
+今天我有很多『事情』要做。	shìqing	Today I have lots of 『things』 to do.
+我『同意』你的话。	tóngyì	I 『agree』 with what you said. 『(lit. same opinion)』
+我『愿意』和你一起去。	yuànyì	I am 『willing』 to go with you. 
+请大家『注意』。	zhùyì	Please 『pay attention』 Everyone.
+我对你做的菜很『满意』。	mǎnyì	I am 『pleased』 with your cooking.
+这是什么『意思』？	yìsi	What does this 『mean』?
+我很『习惯』吃中国菜。	xíguàn	I am 『used to』 eating Chinese food.
+我天天『练习』中文。	liànxí	I 『practice』 Chinese every day.
+我『复习』汉语水平考试。	fùxí	I am 『revising』 for the HSK exam.
+我喜欢学『数学』。	shùxué	I like studying 『maths』.
+我在加拿大『留学』。	liúxué	I am 『studying abroad』 in Canada.
+我们的『校长』很胖。	xiàozhǎng	Our 『principal/head』 is fat.
+春节是中国最大的『节日』。	jiérì	Spring festival is China's biggest 『holiday』.
+今天的电视『视目』很好看。	jiémù	Today's TV 『programmes』 look very good.
+我最喜欢的『季节』是夏季。	jìjié	My favourite 『season』 is summer.
+我『先』吃饭，再去睡觉。	xiān	I eat 『first』, then sleep.
+你为什么『生气』	shēngqì	Why are you 『upset』?
+我喜欢和我妈妈『聊天』。	liáotiān	I like to 『chat』 with my mother.
+我们的花『特别』香。	tèbié	Our flowers smell 『especially』 good.
+我『不但』说中文，还说英文。	búdàn	I 『not only』 speak Chinese, also English.
+你想吃包子『还是』饺子？	háishi	Do you want to eat buns 『or』 dumplings?
+你的三明治『总是』特别好吃！	zǒngshì	Your sandwiches are 『always』 especiallys good!
+我惊天『还』没有吃午饭。	hái	I haven't eaten lunch today 『yet』.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

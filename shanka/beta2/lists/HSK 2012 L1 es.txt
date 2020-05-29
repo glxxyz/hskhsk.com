@@ -1,0 +1,150 @@
+﻿的	de	indica posesión 
+我	wǒ	Yo; me
+你	nǐ	tú,vos 
+是	shì	ser; soy; eres; sos; somos; sois; son
+了	le	indica una actión completa o terminada
+不	bù	no
+在	zài	en; indica una acción en progreso
+他	tā	él;lo (pronombre personal, como lo en: "yo lo quiero")
+我们[我們]	wǒmen	nosotros; nos
+好	hǎo	buen/bueno
+有	yǒu	tener
+这[這]	zhè	este (pronombre demostrativo)
+会[會]	huì	saber cómo hacer algo; habilidad
+吗[嗎]	ma	indica una pregunta con sí o no como respuesta (agregada a una afirmación)
+什么[什麼]	shénme	¿qué? (reemplaza al sustantivo para transformar a la afirmación en pregunta)
+说[說]	shuō	hablar
+她	tā	ella,la(pronombre personal, como la en: "yo la quiero")
+想	xiǎng	pensar; creer; suponer; querer
+一	yī	un/uno, una vez
+很	hěn	muy
+人	rén	persona(s); hombre
+那	nà	eso, entonces
+来[來]	lái	 venir; llegar, próximo 
+都	dōu	todos; ambos
+个[個]	ge	clasificador general
+能	néng	poder; ser capaz
+去	qù	ir; salir
+和	hé	y; con
+做	zuò	hacer
+上	shàng	arriba
+没有[沒有]	méiyǒu	no tener; no haber
+看	kàn	ver; mirar
+怎么[怎麼]	zěnme	¿cómo?
+现在[現在]	xiànzài 	ahora;en este momento
+点[點]	diǎn	punto; un poco; en punto(horario)
+呢	ne	indica pregunta; ¿y  tú/vos?; 
+太	tài	demasiado; mucho
+里[裡]	lǐ	dentro; milla china (~.5 km)
+听[聽]	tīng	escuchar; oír
+谁[誰]	shéi	¿quién?
+多	duō	muchos, tantos
+时候[時候]	shíhou	tiempo, hora
+下	xià	caer; abajo
+谢谢[謝謝]	xièxie	gracias
+先生	xiānsheng	Señor
+喜欢[喜歡]	xǐhuan	gustar
+大	dà	gran/grande
+东西[東西]	dōngxi	cosa(s)
+小	xiǎo	pequeño; menor; chico; joven
+叫	jiào	llamarse
+爱[愛]	ài	amor, amar
+年	nián	año
+请[請]	qǐng	por favor
+回	huí	volver; regresar
+工作	gōngzuò	trabajar; trabajo
+钱[錢]	qián	dinero; plata; moneda
+吃	chī	comer
+开[開]	kāi	abrir; comenzar; empezar; operar (un vehículo)
+家	jiā	familia; hogar
+哪	nǎ	cuál; cómo
+朋友	péngyou	amigo/os
+妈妈[媽媽]	māma	mamá; madre
+今天	jīntiān	hoy
+几[幾]	jǐ	cuántos; varios; algunos
+爸爸	bàba	papá, padre
+些	xiē	algunos, pocos, varios
+怎么样[怎麼樣]	zěnmeyàng ¿de qué modo?
+对不起[對不起]	duìbuqǐ	perdón
+住	zhù	vivir; residir; parar
+三	sān	tres
+高兴[高興]	gāoxìng	feliz, contento
+买[買]	mǎi	comprar
+医生[醫生]	yīshēng	doctor, médico
+哪儿[哪兒]	nǎr	¿dónde? (acento de Beijing)
+字	zì	letra, palabra, carácter 
+名字	míngzi	nombre
+认识[認識]	rènshi	reconocer; conocer (una persona)
+坐	zuò	sentarse
+喝	hē	beber; tomar
+写[寫]	xiě	escribir
+月	yuè	luna; mes
+号[號]	hào	número; día del mes
+狗	gǒu	perro;can
+岁[歲]	suì años; años de edad
+看见[看見]	kànjiàn	ver; avistar
+打电话[打電話]	dǎ diànhuà	hacer una llamada
+喂	wèi	aló;hola (en llamadas telefónicas)
+儿子[兒子]	érzi	hijo
+漂亮	piàoliang	linda; hermosa
+分钟[分鐘]	fēnzhōng	minuto (clasificdor de tiempo)
+再见[再見]	zàijiàn	adiós; chau; chao; nos vemos pronto
+本	běn	clasificador de libros
+明天	míngtiān	mañana
+少	shǎo	poco; poco de
+多少	duōshao	¿cuánto(s)?
+块[塊]	kuài  pedazo; suma de dinero
+女儿[女兒]	nǚ'ér	hija
+小姐	xiǎojie	señorita
+衣服	yīfu	ropa; vestimenta
+水	shuǐ	agua
+学校[學校]	xuéxiào	escuela
+电影[電影]	diànyǐng	película; filme
+书[書]	shū	libro; carta
+四	sì	cuatro
+五	wǔ	cinco
+医院[醫院]	yīyuàn	hospital
+没关系[沒關系]	méi guānxi	no importa; no se preocupe; no os preocupéis
+飞机[飛機]	fēijī	avión
+二	èr	dos
+电视[電視]	diànshì	television; TV
+读[讀]	dú	leer; estudiar
+后面	hòumian	detrás
+昨天	zuótiān	ayer
+睡觉[睡覺]	shuì jiào	dormir; ir a la cama
+六	liù	seis
+老师[老師]	lǎoshī	profesor/a; maestro/a
+星期	xīngqī	semana
+十	shí	diez
+猫[貓]	māo	gato
+电脑[電腦]	diànnǎo	computadora
+热[熱]	rè	calentar; caliente
+学生[學生]	xuésheng	alumno; estudiante
+下午	xiàwǔ	la tarde
+学习[學習]	xuéxí	aprender; estudiar
+冷	lěng	frío
+不客气[不客氣]	bú kèqi	 de nada; no hay por qué; literalmente "no seas tan formal"
+前面	qiánmiàn	en frente
+八	bā	ocho
+中国[中國]	Zhōngguó	China (país)
+七	qī	siete
+菜	cài	plato (tipo de comida); vegetales
+桌子	zhuōzi	mesa
+出租车[出租車]	chūzūchē	taxi; remís
+天气[天氣]	tiānqì	temperatura
+茶	chá	té
+九	jiǔ	nueve
+商店	shāngdiàn	tienda; negocio; kiosko
+椅子	yǐzi	silla
+同学[同學]	tóngxué	compañero de estudios; compañero de clase
+一点儿[一點兒]	yìdiǎnr	un poco
+苹果[蘋果]	píngguǒ	manzana
+饭店[飯店]	fàndiàn	restaurante; hotel
+中午	zhōngwǔ	medio día; a la tarde 
+上午	shàngwǔ	tarde por la mañana (antes del mediodía)
+水果	shuǐguǒ	fruta
+杯子	bēizi	vaso; taza
+下雨	xiàyǔ	llover
+米饭[米飯]	mǐfàn	(cocido) arroz
+北京	Běijīng	Beijin; Pekín
+汉语[漢語]	Hànyǔ	Idioma chino

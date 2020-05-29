@@ -1,0 +1,80 @@
+CACHE MANIFEST
+# 2014-02-09:v0.25x
+# For iOS7, http Content-type MUST be explicitly set to: text/cache-manifest when this file is served
+
+#    Shanka HSK Flashcards - shanka.appcache
+#
+#    You are free to copy, distribute, and modify this code, under a similar license
+#    to this one. You must give the original author (me) credit in any derived work.
+#    You may not use any part of this code for commercial purposes without obtaining
+#    my permission.
+#    
+#    Alan Davies 2014 alan@hskhsk.com
+#    
+#   See http://hskhsk.com/shanka for more information.
+
+CACHE:
+index.html
+shanka.min.js
+shanka.all.css
+
+# images
+res/shanka-icon-iphone-57x57.png
+res/shanka-icon-iphone-72x72.png
+res/shanka-icon-iphone-114x114.png
+res/search-icon.png
+res/arrow.gif
+res/cross.gif
+res/hs.png
+res/hv.png
+res/ajax-loader.gif
+
+# English Lists
+lists/HSK%202012%20L1.txt
+lists/HSK%202012%20L2.txt
+lists/HSK%202012%20L3.txt
+lists/HSK%202012%20L4.txt
+lists/HSK%202012%20L5.txt
+lists/HSK%202012%20L6.txt
+lists/HSK%202012%20Examples%20L1.txt
+lists/HSK%202012%20Examples%20L2.txt
+lists/HSK%202012%20Examples%20L3.txt
+lists/Chineasy.txt
+
+# Dutch Lists
+lists/HSK%202012%20L1%20nl.txt
+lists/HSK%202012%20Examples%20L1%20nl.txt
+lists/HSK%202012%20Examples%20L2%20nl.txt
+lists/HSK%202012%20Examples%20L3%20nl.txt
+lists/Chineasy%20nl.txt
+
+# Spanish Lists
+lists/HSK%202012%20L1%20es.txt
+lists/Chineasy%20es.txt
+
+# Fonts
+res/simplified-calligraphy.ttf
+res/simplified-cursive.ttf
+res/simplified-kai.ttf
+
+NETWORK:
+*
+# script/version.js
+# strokeorder/%E5%B1%B1-order.gif
+
+# OFFLINE:
+
+# leave this comment at the end for updates #
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#

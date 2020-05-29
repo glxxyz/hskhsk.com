@@ -1,0 +1,1988 @@
+﻿//Chinese With Mike/Vocabulary/Greetings
+你好	nǐ hǎo!	Hello; hi (You good?)
+你好吗?	nǐ hǎo ma?	You good? How are you?
+我很好	wǒ hěn hao.	I am fine/good/well.
+你呢?	nǐ ne?	And you?
+我也很好	wǒ yě hěn hǎo. 	I’m good/well/fine, too.
+谢谢	xièxie 	Thank you
+早上好	zǎoshàng hǎo	Good morning
+下午好	xiàwǔ hǎo	Good afternoon
+晚上好	wǎnshàng hǎo	Good evening
+晚安	wǎn ān	Goodnight
+再见	zàijiàn	Goodbye (formal)
+拜拜	bàibài	Goodbye (informal)
+喂	wéi	Hello (for phone only)
+大家好	dàjiā hǎo!	Hello, everyone.
+你们好	nǐmen hǎo	Hello, you guys.
+老师好	lǎoshī hǎo	Hello, Teacher.
+名字	míngzi	Name
+
+//Chinese With Mike/Vocabulary/Useful Basic Words
+在	zài 	In, at, on
+哪里	nǎ lǐ (nǎr)	Where?
+这里	zhè lǐ	Here
+那里	nà lǐ	There
+这个	zhège	This one
+那个	nàgè	That one
+但是	dànshì	But (more formal) 
+可是	kěshì	But (less formal)
+所以	suǒyǐ	So
+什么	shénme	What?
+为什么	wèishénme	Why?
+因为	yīnwèi	Because
+还是	háishi	Or
+大家	dàjiā	Everybody; everyone
+恭喜	Gōngxǐ	Congratulations!
+
+//Chinese With Mike/Vocabulary/Verbs
+是	shì	To be, is
+要	yào	To want something immediate/close (verb)
+会	huì	To be able to, can
+喜欢	xǐhuan	To like
+不喜欢	bù xǐhuan	To not like
+爱	ài	To love
+喝	hē	To drink
+吃	chī	To eat
+看	kàn 	To watch/read/look at
+说	shuō	To speak, to say 
+讲	jiǎng	To speak 
+开(车)	kāi (chē)	To drive
+跳舞	tiàowǔ	To dance 
+写(字)	xiě (zì)	To write 
+煮（饭）	zhǔ (fàn)	To cook 
+游泳	yóuyǒng	To swim 
+弹	dàn	To play (a stringed instrument) 
+唱歌	chànggē	To sing 
+用	yòng	To use
+骑	qí	To ride
+打	dǎ	To hit, to play (a hand sport)
+踢	tī	To kick, to play (a foot sport)
+有	yǒu	To have
+能	néng	To be physically able to do something
+教	jiào	To teach
+学(习)	xué (xí)	To study
+叫	jiào	To be called (a name)
+练习	liànxí	To practice
+给	gěi	To give
+等	děng	To wait (for)
+帮	bāng	To help
+找	zhǎo	To look for
+去	qù	To go.
+穿	chuān	To put on/to wear (clothes)
+戴	dài	To put on/to wear (accessories)
+买	mǎi	To buy
+卖	mài	To sell
+休息	xiūxí	To rest/relax
+看书	kàn shū	To read (a book)
+睡觉	shuìjiào	To sleep
+可以	kěyǐ	May, could (permission)
+
+//Chinese With Mike/Vocabulary/Adverbs
+很	hěn	Very
+还	hái	Still, yet
+太	tài	Too
+真的	zhēn de	Really
+超	chāo	Super
+蛮	mán	Pretty/quite
+
+//Chinese With Mike/Vocabulary/Measure Words
+个	gè	General measure word
+只	zhǐ	Measure word for animals
+本	běn	Measure word for books, booklike objects.
+张	zhāng	Measure word for flat objects
+杯	bēi	Measure word for cups, glasses, etc.
+瓶  	píng 	Measure word for bottles
+
+//Chinese With Mike/Vocabulary/Language
+中文	Zhōngwén	Chinese (language)
+英文	Yīngwén 	English (language)
+日文	Rìwén 	Japanese (language)
+字	zì	Word, character
+词	cí	Term, word
+声	shēng	Tone
+轻声	qīngshēng	Neutral tone
+一声	yīshēng	First tone
+二声	èrshēng	Second tone
+三声	sānshēng	Third tone
+四声	sìshēng	Fourth tone
+
+//Chinese With Mike/Vocabulary/Countries
+国家	Guójiā	A nation; a country
+中国	Zhōngguó	China
+台湾	Táiwān	Taiwan
+美国	Méiguó	America
+法国	Fàguó	France
+德国	Déguó	Germany
+英国	Yīngguó	Britain
+英格兰	Yīnggélán	England
+日本	Rìběn	Japan
+韩国	Hánguó	Korea
+新加坡	Xīnjiāpō	Singapore
+西班牙	Xībānyá	Spain
+荷兰	Hélán	The Netherlands
+俄国	Éguó	Russia
+加拿大	Jiānádà	Canada
+墨西哥	Mòxīgē	Mexico
+马来西亚	Mǎláixīyà	Malaysia
+越南	Yuènán	Vietnam
+爱尔兰	Àiěrlán	Ireland
+波兰	Bōlán	Poland
+巴西	Bāxī	Brazil
+葡萄牙	Pútáoyá	Portugal
+澳洲	Àozhōu	Australia
+新西兰	Xīnxīlán	New Zealand
+意大利	Yìdàlì	Italy
+印度	Yìndù	India
+阿拉伯	Ālābó	Arabic
+挪威	Nuówēi	Norway
+芬兰	Fēnlán	Finland
+冰岛	Bīngdǎo	Iceland
+泰国	Tàiguó	Thailand
+罗马尼亚	Luómǎníyà	Romania
+阿根廷	Āgēntíng	Argentina
+非洲	Fēizhōu	Africa
+南非	Nánfēi	South Africa
+希腊	Xīlà	Greece
+
+//Chinese With Mike/Vocabulary/Cities
+城市	chéngshì	A city
+北京	běijīng	Beijing
+上海	shànghǎi	Shanghai
+香港	xiānggǎng	Hong Kong
+东京	dōngjīng	Tokyo
+澳门	àomén	Macao
+台北	táiběi	Taipei
+纽约	niǔyuē	New York City
+芝加哥	zhījiāgē	Chicago
+洛杉矶	luòshānjī	Los Angeles
+墨西哥城	mòxīgēchéng	Mexico City
+里约热内卢	lǐyuērènèilú	Rio de Janeiro
+伦敦	lúndūn	London
+莫斯科	mòsīkē	Moscow
+巴黎	bālí	Paris
+柏林	bólín	Berlin
+罗马	luómǎ	Rome
+曼谷	màngǔ	Bangkok
+多伦多	duōlúnduō	Toronto
+
+//Chinese With Mike/Vocabulary/Adjectives
+好	hǎo	Good; well; fine
+棒	bàng	Great
+高	gāo	Tall; high
+美	měi	Beautiful
+矮	ǎi	Short
+漂亮	piàoliàng	Pretty; beautiful
+壮	zhuàng	Strong
+帅	shuài	Handsome
+弱	ruò	Weak
+醜	chǒu	Ugly
+高兴	gāoxìng	Happy
+醉	zuì	Drunk
+难过	nánguò	Sad
+香	xiāng	Fragrant
+开心	kāixīn	Happy
+老	lǎo	Old
+伤心	shāngxīn	Sad; heartbroken
+年轻	niánqīng	Young
+胖	pàng	Fat
+臭	chòu	Stinky
+瘦	shòu	Thin
+快	kuài	Fast
+聪明	cōngmíng	Intelligent; smart
+慢	màn	Slow
+笨	bèn	Stupid
+烫	tàng	Hot (for objects)
+饿	è	Hungry
+低	dī	Low
+渴	kě	Thirsty
+生气	shēngqì	Angry
+长	cháng	Long
+无聊	wúliáo	Bored
+短	duǎn	Short (length)
+兴奋	xìngfèn	Excited
+困惑	kūnhuò	Confused
+亮	liàng	Bright
+认真	rènzhēn	To have a good attitude
+暗	àn	Dark
+假	jiǎ	Fake
+忙	máng	Busy
+疯	fēng	Crazy
+辛苦	xìnkǔ	Hard-working
+有钱	yǒuqián	Rich
+懒惰	lǎnduò	Lazy
+穷	qióng	Poor
+好玩	hǎowán	Fun
+大方	dàfāng	Generous
+讨厌	tǎoyàn	Disagreeable
+贪心	tānxīn	Greedy
+大	dà	Big
+勤劳	qínláo	Hard-working
+小	xiǎo	Small; little
+累	lèi	Tired
+顽皮	wánpí	Naughty
+顽固	wángù	Stubborn
+早	zǎo	Early
+晚	wǎn	Late
+新	xīn	New
+简单	jiǎndān	Easy
+旧	jiù	Old (not new)
+难	nán	Difficult
+有趣	yǒuqù	Interesting
+可爱	kěài	Cute
+热	rè	Hot (weather; atmosphere)
+温暖	wēnnuǎn	Warm
+冷	lěng	Cold
+冰	bīng	Cold (for objects)
+湿	shī	Wet
+干	gān	Dry
+舒服	shūfú	Comfortable
+贵	guì	Expensive
+便宜	piányí	Cheap
+
+//Chinese With Mike/Vocabulary/Family
+儿子	érzi	Son
+女儿	nǚ ér	Daughter
+妈妈	māma	Mom
+爸爸	bàba	Dad
+母亲	mǔqīn	Mother
+父亲	fùqīn	Father
+爸爸妈妈	bàba māma	Mom and dad
+父母	fùmǔ	Parents (collectively)
+兄弟	xiōngdì	Brothers (collectively)
+姐妹	jiěmèi	Sisters (collectively)
+兄弟姐妹	xiōngdì jiěmèi	Brothers and sisters (collectively)
+哥哥	gēge	Older brother
+弟弟	dìdi	Younger brother
+姐姐	jiějie	Older sister
+妹妹	mèimei	Younger sister
+先生	xiānshēng	Husband (formal)
+老公	lǎogōng	Husband (informal)
+太太	tàitai	Wife (formal)
+老婆	lǎo pó	Wife (informal)
+男朋友	nánpéngyǒu	Boyfriend
+女朋友	nǚpéngyǒu	Girlfriend
+爷爷	yéye	Grandpa (father's father)
+奶奶	nǎinai	Grandma (father's mother)
+伯伯	bóbo	Uncle (father’s older brother)
+叔叔	shūshu	Uncle (father’s younger brother)
+姑姑	gūgu	Aunt (father’s sister)
+堂哥	tánggē	Older male cousin (father's side)
+堂弟	tángdì	Younger male cousin (father's side)
+堂姐	tángjiě	Older female cousin (father's side)
+堂妹	tángmèi	Younger female cousin (father's side)
+外公	wàigōng	Grandpa (mother's father)
+外婆	wàipó	Grandma (mother's mother)
+舅舅	jiùjiu	Uncle (mother’s brother)
+阿姨	ā yí	Aunt (mother’s sister)
+表哥	biǎogē	Older male cousin (mother's side)
+表弟	biǎodì	Younger male cousin (mother's side)
+表姐	biǎojiě	Older female cousin (mother's side)
+表妹	biǎomèi	Younger female cousin (mother's side)
+岳父	yuèfù	Father-in-law (wife’s father)
+岳母	yuèmǔ	Mother-in-law (wife’s mother)
+公公	gōnggong	Father-in-law (husband’s father)
+婆婆	pópo	Mother-in-law (husband’s mom)
+姐夫	jiěfu	Brother-in-law (older sister’s husband)
+妹夫	mèifu	Brother in-law (younger sister’s husband)
+嫂嫂	sǎosao	Sister-in-law (older brother’s wife)
+弟媳	dìxí	Sister-in-law (younger brother’s wife)
+侄子	zhízi	Nephew (brother’s son)
+侄女	zhínǚ	Niece (brother’s daughter)
+外甥	wàishēng	Nephew (sister’s son)
+外甥女	wàishēngnǚ	Niece (sister’s daughter)
+外孙	wàisūn	Grandson (daughter’s son)
+外孙女	wàisūnnǚ	Granddaughter (daughter’s daughter)
+孙子	sūnzi	Grandson (son’s son)
+孙女	sūnnǚ	Granddaughter (son’s daughter)
+未婚夫	wèihūnfū	Fiance (male)
+未婚妻	wèihūnqī	Fiancee (female)
+
+//Chinese With Mike/Vocabulary/Fruit & Vegetables
+水果	shuǐguǒ	Fruit
+苹果	píngguǒ	Apple
+桃子	táozi	Peach
+香蕉	xiāngjiāo	Banana
+樱桃	yīngtáo	Cherry
+橙	chéngzi	Orange
+芒果	mángguǒ	Mango
+葡萄	pútáo	Grape
+梨子	lízi	Pear
+草莓	cǎoméi	Strawberry
+荔枝	lìzhī	Lychee
+蓝莓	lánméi	Blueberry
+葡萄干	pútáogān	Raisin
+番茄	fānqié	Tomato
+茄子	qiézi	Eggplant
+柠檬	níngméng	Lemon
+留连	liúlián	Durian
+奇異果	míhóutáo	Kiwi
+黄瓜	huángguā	Cucumber
+凤梨	fènglí	Pineapple
+西瓜	xīguā	Watermelon
+蔬菜	shūcài	Vegetable(s)
+菠菜	bōcài	Spinach
+洋葱	yángcōng	Onion(s)
+青椒	qīngjiāo	Green pepper(s)
+玉米	yùmǐ	Corn
+生菜	shēngcài	Lettuce
+蘑菇 	mógū	Mushroom(s)
+土豆	tǔdòu	Potato(es) (alternate 1)
+马铃薯	mǎlíngshǔ	Potato(es) (alternate 2)
+豆子	dòuzi	Bean(s)
+
+//Chinese With Mike/Vocabulary/Animals
+动物	dòngwù	Animals
+狮子	shīzi	Lion
+老鼠	lǎoshǔ	Mouse
+老虎	lǎohǔ	Tiger
+兔子	tùzi	Rabbit
+大象	dàxiàng	Elephant
+河马	hémǎ	Hippopotamus
+猴子	hóuzi	Monkey
+鱼	yú	Fish
+马	mǎ	Horse
+鸟	niǎo	Bird
+斑马	bānmǎ	Zebra
+臭鼬	chòuyòu	Skunk
+熊	xióng	Bear
+乌龟	wūguī	Turtle
+恐龙	kǒnglóng	Dinosaur
+青蛙	qīngwā	Frog
+狗	gǒu	Dog
+鹿	lù	Deer
+猫	māo	Cat
+無尾熊	wúwéixióng	Koala bear
+牛	niú	Cow
+鸡	jī	Chicken
+猪	zhū 	Pig
+
+//Chinese With Mike/Vocabulary/Numbers
+零	líng	Zero
+一	yī	One
+二	èr	Two (for counting)
+两	liǎng	Two (for everything except counting)
+三	sān	Three
+四	sì	Four
+五	wǔ	Five
+六	liù	Six
+七	qī	Seven
+八	bā	Eight
+九	jiǔ	Nine
+十	shí	10 
+二十	èrshí	20 
+三十	qīshí	70 
+四十	sānshí	30 
+五十	sìshí	40 
+六十	wǔshí	50 
+七十	liùshí	60 
+八十	bāshí	80 
+九十	jiǔshí	90 
+一百	yìbǎi	100
+千	qiān	1,000
+万	wàn	10,000
+亿	yì	100,000,0000
+十六 	shíliù	16 
+六十四 	liùshísì	64 
+七十五 	qīshíwǔ	75 
+九十七 	jiǔshíqī	97 
+
+//Chinese With Mike/Vocabulary/Date & Time
+星期	xīngqī	A week
+礼拜	lǐbài	A week
+周	zhōu	A week
+星期一	xīngqīyī	Monday
+星期二	xīngqī èr	Tuesday
+星期三	xīngqīsān	Wednesday
+星期四	xīngqīsì	Thursday
+星期五	xīngqīwǔ	Friday
+星期六	xīngqīliù	Saturday
+星期日	xīngqírì	Sunday
+星期天	xīngqítiān	Sunday (alternate)
+月 	yuè	A month
+一月	yīyuè	January
+二月	èryuè	February
+三月	sānyuè	March
+四月	sìyuè	April
+五月	wǔyuè	May
+六月	liùyuè	June
+七月	qīyuè	July
+八月	bāyuè	August
+九月	jiǔyuè	September
+十月	shíyuè	October
+十一月	shíyīyuè	November
+十二月	shí èryuè	December
+今天	jīntiān	Today
+昨天	zuótiān	Yesterday
+明天	míngtiān	Tomorrow
+前天	qiántiān	The day before yesterday
+后天	hòutiān	The day after tomorrow
+现在	xiànzài	Now; at the present
+生日	shēngrì	Birthday
+几	jǐ	How much; how many
+多少	duōshǎo	How much; how many (e.g. money)
+点（钟）	diǎn(zhōng)	An hour of the day
+一点（钟）	yī diǎn(zhōng)	1:00; One o’clock
+两点（钟）	liǎng diǎn(zhōng)	2:00; Two o’clock
+三点（钟）	sān diǎn(zhōng)	3:00; Three o’clock
+四点（钟）	sì diǎn(zhōng)	4:00; Four o’clock
+五点（钟）	wǔ diǎn(zhōng)	5:00; Five o’clock
+六点（钟）	liù diǎn(zhōng)	6:00; Six o’clock
+七点（钟）	qī diǎn(zhōng)	7:00; Seven o’clock
+八点（钟）	bā diǎn(zhōng)	8:00; Eight o’clock
+九点（钟）	jiǔ diǎn(zhōng)	9:00; Nine o’clock
+十点（钟）	shí diǎn(zhōng)	10:00; Ten o’clock
+十一点（钟）	shíyī diǎn(zhōng)	11:00; Eleven o’clock
+十二点（钟）	shí èr diǎn(zhōng)	12:00; Twelve o’clock
+半	bàn	Half; (half-past an hour)
+时钟	shízhōng	A clock
+春天	chūntiān	Spring
+夏天	xiàtiān	Summer
+秋天	qiūtiān	Fall; autumn
+冬天	dōngtiān	Winter
+节日	jiérì	A holiday; festival
+情人节	qíngrénjié	Valentine’s Day
+父亲节	fùqīnjié	Father’s Day
+母亲节	mǔqīnjié	Mother’s Day
+圣诞节	shèngdànjié	Christmas
+斋月	zhāiyuè	Ramadan
+春节	chūnjié	Chinese New Year
+光明节	guāngmíngjié	Hanukkah
+感恩节	gǎnēnjié	Thanksgiving
+分	fēn	A minute (alternate 1)
+钟	zhōng	A minute (alternate 2)
+岁	suì	Year of age (years old)
+号	hào(mǎ)	A number
+年	nián	A year
+前年	qiánnián	Two years ago
+今年	jīnnián	This year
+后年	hòunián	The year after the next
+去年	qùnián	Last year
+2011年	2011 nián	2011 (the year 2011)
+明年	míngnián	Next year
+
+//Chinese With Mike/Vocabulary/Places
+电影院	diànyǐngyuàn	Movie theater
+图书馆	túshūguǎn	Library
+博物馆	bówùguǎn	Museum
+美术馆	měishùguǎn	Art gallery/museum
+公园	gōngyuán	Park
+动物园	dòngwùyuán	Zoo
+餐厅	cāntīng	Restaurant
+游乐场	yóulèchǎng	Amusement park
+赌场	dǔchǎng	Casino
+酒吧	jiǔbā	Bar
+海滩	hǎitān	Beach
+学校	xuéxiào	School
+咖啡厅	kāfēi tīng	Cafe
+
+//Chinese With Mike/Vocabulary/Home
+厨房	chúfáng	Kitchen
+饭厅	fàntīng	Dining room
+客厅	kètīng	Living room
+卧室	wòshì	Bedroom
+浴室	yùshì	Bathroom
+洗衣房	xǐyīfáng	Laundry room
+书房	shūfáng	Study
+车库	chēkù	Garage
+地下室	dìxiàshì	Basement
+沙发	shāfā	Sofa
+床	chuáng 	Bed
+桌子	zhuōzi	Table
+椅子	yǐzi	Chair
+点	diǎn	Electric 
+电脑	diànnǎo 	Computer
+电视	diànshì	Television
+电话	diànhuà 	Telephone
+电话号码	diànhuà hàomǎ	Telephone number
+影	yǐng	Shadow
+电影	diànyǐng	Movie
+书架	shūjià	Bookcase
+冰箱	bīngxiāng	Refrigerator
+烤箱	kǎoxiāng	Oven
+微波炉	wēibōlú	Microwave
+灯	dēng	Light
+洗碗机	xǐwǎnjī	Dishwasher
+洗衣机	xǐyījī	Washing machine
+干衣机	gānyījī	Dryer (clothes)
+镜子	jìngzi	Mirror
+书	shū	Book
+洋娃娃	yángwáwa 	Doll
+房子	fángzi 	House
+车子	chēzi 	Car
+脚踏车	jiǎotàchē	Bicycle
+摩托车	mótuō chē	Motorbike
+马	mǎ	Horse
+球	qiú 	Ball
+树	shù 	Tree
+玩具	wánjù 	Toy
+签语饼	qiānyǔbǐng 	Fortune cookie
+衣服	yīfú 	Clothes
+报纸	bàozhǐ	Newspaper
+杂志	zázhì	Magazine
+元	yuán	Yuan (RMB)
+块	kuài	Yuan (slang e.g. bucks)
+气球	qìqiú	Balloon
+洗完	xǐ wán	Washing up (washing the dishes)
+
+//Chinese With Mike/Vocabulary/Weather
+天气	tiānqì	The weather
+太阳	tàiyáng	The sun
+热	rè	Hot
+月亮	yuèliàng	The moon
+冷	lěng	Cold
+星星	xīngxīng	Star(s)
+风	fēng	Wind
+云	yún	Cloud(s)
+
+//Chinese With Mike/Vocabulary/Body
+头	tóu	Head
+头发	tóufǎ	Hair
+眼睛	yǎnjīng	Eye(s)
+耳朵	ěrduō	Ear(s)
+鼻子	bízi	Nose
+嘴巴	zuǐba	Mouth
+牙齿	yáchǐ	Tooth(teeth)
+手	shǒu	Hand
+手臂	shǒubì	Arm
+腿	tuǐ	Leg
+脚	jiǎo	Foot(feet)
+肚子	dùzi	Stomach
+脖子	bózi	Neck
+胡子	húzi	Beard
+痛	tòng	Hurts (painful)
+衣服	yīfú	clothes
+T恤	t xù	T-shirt
+衬衫	chènshān	buttoned shirt
+裤子	kùzi	trousers
+袜子	wàzi	socks
+帽子	màozi	hat
+钱	qián	Money
+
+//Chinese With Mike/Vocabulary/Colours
+颜色	yánsè	Colour(s)
+绿色	lǜsè	Green
+红色	hóngsè	Red
+橙色	chéngsè	Orange
+蓝色	lánsè	Blue
+黄色	huángsè	Yellow
+黑色	hēisè	Black
+咖啡色	kāfēisè	Brown
+白色	báisè	White
+灰色	huīsè	Grey
+紫色	zǐsè	Purple
+粉红色	fēnhóngsè	Pink
+
+//Chinese With Mike/Vocabulary/Occupations
+医生	yīshēng	Doctor
+消防员	xiāofángyuán	Firefighter
+护士	hùshì	Nurse
+警察	jǐngchá	Police officer
+律师	lǜshī	Lawyer
+厨师	chúshī	Chef
+教授	jiàoshòu	Professor
+工程师	gōngchéngshī	Engineer
+老师	lǎoshī	Teacher
+农民	nóngmín	Farmer
+学生	xuéshēng	Student
+军人	jūnrén	Soldier
+秘书	mìshū	Secretary
+商人	shāngrén	Businessman/woman
+
+//Chinese With Mike/Vocabulary/Food & Drink
+水	shuǐ	Water
+茶	chá	Tea
+牛奶	niúnǎi	Cow's milk
+啤酒	píjiǔ	Beer
+果汁	guǒzhī	Fruit juice
+咖啡	kāfēi	Coffee
+可乐	kělè	Cola
+饭	fàn	Cooked rice (or meal)
+面	miàn	Noodles
+炒饭	chǎofàn	Fried rice
+炒面	chǎomiàn	Fried Noodles (Chow Mein)
+豆腐	dòufu	Tofu
+汤	tāng	Soup
+肉	ròu	Meat
+牛肉	niúròu	Beef
+鸡肉	jīròu	Chicken
+猪肉	zhūròu	Pork
+羊肉	yángròu	Lamb
+筷子	kuàizi	Chopsticks
+叉子	chāzi	Fork
+刀子	dāozi	Knife
+汤匙	tāngchí	Spoon
+吸管	xīguǎn	Straw
+
+//Chinese With Mike/Vocabulary/Sports
+棒球	Bàngqiú	Baseball (lit. stick ball)
+网球	Wǎngqiú	Tennis (lit. net ball)
+排球	Páiqiú	Volleyball (lit. line ball)
+乒乓球	Pīngpāng qiú	Table tennis
+篮球	Lánqiú	Basketball (lit. basket ball)
+足球	Zúqiú	Football (lit. foot ball)
+
+//Chinese With Mike/Season 1/Ch 9: Nǐ hǎo!
+你好	nǐ hǎo!	Hello; hi (You good?)
+你好吗?	nǐ hǎo ma?	You good? How are you?
+我很好	wǒ hěn hao.	I am fine/good/well.
+你呢?	nǐ ne?	And you?
+我也很好	wǒ yě hěn hǎo. 	I’m good/well/fine, too.
+谢谢	xièxie 	Thank you
+
+//Chinese With Mike/Season 1/Ch 10: More Basic Greetings
+早上好	zǎoshàng hǎo	Good morning
+下午好	xiàwǔ hǎo	Good afternoon
+晚上好	wǎnshàng hǎo	Good evening
+晚安	wǎn ān	Goodnight
+是	shì	To be, is
+老师	lǎoshī	Teacher
+学生	xuéshēng	Student
+
+//Chinese With Mike/Season 1/Ch 11: Pronouns
+我是老师	wǒ shì lǎoshī	I am a teacher
+你是学生	nǐ shì xuéshēng	You are a student
+你是老师吗？	nǐ shì lǎoshī ma?	Are you a teacher?
+他是学生	tā shì xuéshēng	He is a student.
+我们是老师	wǒmen shì lǎoshī.	We are teachers.
+他们是学生	tāmen shì xuéshēng.	They are students.
+你们好	nǐmen hǎo!	Hello, you guys!
+你们好吗？	nǐmen hǎo ma?	How are you guys?
+我们很好	wǒmen hěn hǎo.	We are fine/well.
+
+//Chinese With Mike/Season 1/Ch 12: Nationalities
+我是中国人	wǒ shì Zhōngguórén.	I am Chinese.
+你是日本人	nǐ shì Ribenrén.	You are Japanese.
+她是意大利人	tā shì Yidalirén.	She is Italian.
+他们是墨西哥人吗？	tāmen shì Mòxīgērén ma?	Are they Mexican?
+你是阿根廷人吗？	nǐ shì Āgēntíngrén ma?	Are you Argentinian?
+我是印度人	wǒ shì Yìndùrén	I am Indian.
+你是罗马尼亚人	nǐ shì Luómǎníyàrén.	You are Romanian.
+他是巴西人吗？	tā shì Bāxīrén ma?	Is he Brazilian?
+老师是爱尔兰人	laoshi shì Àiěrlánrén.	The teacher is Irish.
+你们是希腊人吗？	nǐmen shì Xīlàrén ma?	Are you guys Greek?
+
+//Chinese With Mike/Season 1/Ch 13: Adjectives (xíngróngcí)
+我很生气	wǒ hěn shēngqì.	I am (very) angry.
+你很顽皮	nǐ hěn wánpí.	You are (very) naughty.
+他们很有钱	tāmen hěn yǒuqián. 	They are (very) rich.
+中国很大	Zhōngguó hěn dà.	China is (very) big.
+台湾很小	Táiwān hěn xiǎo.	Taiwan is (very) small.
+老师很辛苦	lǎoshī hěn xìnkǔ.	The teacher is (very) hardworking.
+学生很懒惰	xuéshēng hěn lǎnduò.	The student(s) are (very) lazy.
+美国人很聪明	Měiguórén hěn cōngmíng.	Americans are (very) intelligent.
+我很舒服	wǒ hěn shūfú.	I am (very) comfortable.
+你很伤心	nǐ hěn shāngxīn.	You are (very) sad.
+他很可爱	tā hěn kěài.	He is (very) cute.
+我们很贪心	wǒmen hěn tānxīn.	We are (very) greedy.
+你们很疯	nǐmen hěn fēng.	You guys are (very) crazy.
+他们很兴奋	tāmen hěn xìngfèn.	They are (very) excited.
+老师很渴	lǎoshī hěn kě.	The teacher is (very) thirsty.
+学生很年轻	xuéshēng hěn niánqīng.	The student(s) are (very) young.
+德国人很壮	Déguórén hěn zhuàng.	Germans are (very) strong.
+新加坡人很瘦	Xīnjiāpōrén hěn shòu.	Singaporeans are (very) thin.
+
+//Chinese With Mike/Season 1/Ch 14: Review of Shì and Hěn
+我很高兴	wǒ hěn gāoxìng.	I am happy.
+你很帅	nǐ hěn shuài.	You are (very) handsome.
+Sarah 很漂亮	Sarah hěn piàoliàng.	Sarah is (very) pretty/beautiful
+我们很高	wǒmen hěn gāo.	We are (very) tall.
+你们很累	nǐmen hěn lèi. 	You guys are (very) tired.
+他们很壮	tāmen hěn zhuàng. 	They are (very) strong.
+Taiwan 很漂亮	Táiwān hěn piàoliàng. 	Taiwan is (very) beautiful.
+我是意大利人	wǒ shì Yìdàlìrén. 	I am Italian.
+你是老师	nǐ shì lǎoshī. 	You are a teacher.
+老师是英国人	lǎoshī shì Yīngguórén. 	The teacher is British.
+学生是中国人	xuéshēng shì Zhōngguórén. 	The student(s) is/are Chinese.
+John 是学生	John shì xuéshēng. 	John is a student.
+他们是俄国人	tāmen shì éguórén. 	They are Russian.
+中国很大吗？	Zhōngguó hěn dà ma?	Is China (very) big?
+Mary 很聪明吗？	Mary hěn cōngmíng ma? 	Is Mary (very) intelligent?
+老师很年轻吗？	lǎoshī hěn niánqīng ma? 	Is the teacher (very) young?
+你很饿吗？	nǐ hěn è ma? 	Are you (very) hungry?
+他们很渴吗？	tāmen hěn kě ma? 	Are they (very) thirsty?
+你们是西班牙人吗？	nǐmen shì xībānyárén ma? 	Are you guys Spanish?
+老师是美国人吗？	lǎoshī shì měiguórén ma? 	Is the teacher American?
+Joseph 是学生吗？	Joseph shì xuéshēng ma? 	Is Joseph a student?
+你是老师吗？	nǐ shì lǎoshī ma?	Are you a/the teacher?
+他们是加拿大人吗？	tāmen shì jiānádàrén ma?	Are they Canadian?
+
+//Chinese With Mike/Season 1/Ch 15: Possessives
+我的老师	wǒde lǎoshī	My teacher
+你的书	nǐde shū	Your book
+他的猫	tāde māo	His/Her cat
+我们的狗	wǒmende gǒu	Our dog
+你们的爸爸	nǐmende bàba	Your (pl.) dad
+他们的妈妈	tāmende māma	Their mom
+老师的学生	lǎoshīde xuéshēng	The teacher’s student(s)
+水是我的	shuǐ shì wǒde.	The water is mine.
+车（子）是你的	chē(zi）shì nǐde.	The car is yours.
+书是他的	shū shì tāde.	The book is his/hers.
+老师是我们的	lǎoshī shì wǒmende.	The teacher is ours.
+猫是你们的	māo shì nǐmende.	The cat is yours (pl.).
+狗是他们的	gǒu shì tāmende.	The dog is theirs.
+猫是老师的	māo shì lǎoshīde.	The cat is the teacher’s.
+
+//Chinese With Mike/Season 1/Ch 16: More Possessives, Family Members
+我的妹妹是学生	wǒde mèimei shì xuéshēng.	My younger sister is a student.
+你的哥哥很勤劳	nǐde gēge hěn qínláo.	Your older brother is hardworking.
+他们的弟弟很懒惰，也很笨	tāmende dìdi hěn lǎnduò, yě hěn bèn.	Their younger brother is lazy and stupid.
+我们的母亲是英国人	wǒmende mǔqīn shì yīngguórén.	Our mother is British.
+老师的姐姐很漂亮	lǎoshīde jiějie hěn piàoliàng.	The teacher’s older sister is pretty.
+我的老婆是台湾人	wǒde lǎopó shì Táiwānrén.	My wife is Taiwanese.
+他的爷爷很老	tāde yéye hěn lǎo.	His/Her grandpa is old.
+学生的老师很矮	xuéshēngde lǎoshī hěn ǎi.	The students’ teacher is short.
+你们的狗很可爱吗？	nǐmende gǒu hěn kě ài ma?	Is your (pl.) dog cute?
+他们的书很难吗？	tāmende shū hěn nán ma?	Is their book difficult?
+你的女朋友是中国人吗？	nǐde nǚpéngyǒu shì Zhōngguórén ma?	Is your girlfriend Chinese?
+他们的表哥很聪明吗？	tāmende biǎogē hěn cōngmíng ma?	Is their cousin intelligent?
+他的爸爸妈妈很有钱吗？	tāde bàbamāma hěn yǒuqián ma?	Are his/her mom and dad rich?
+你的外公是老师吗？	nǐde wàigōng shì lǎoshī ma?	Is your grandpa a teacher?
+他们的父母是巴西人吗？	tāmende fùmǔ shì bāxīrén ma?	Are their parents Brazilian?
+
+//Chinese With Mike/Season 1/Ch 17: Yes and No, More Possessives Practice, Family
+你是中国人吗?	Nǐ shì zhōngguórén ma?	Are you a Chinese person?
+是,我是中国人	Shì. Wǒ shì zhōngguórén.	Yes, I am. I am Chinese.
+不是,我不是中国人	Bú shì. Wǒ bú shì zhōngguórén.	No, I am not. I am not Chinese
+他是老师吗?	Tā shì lǎoshī ma?	Is he a teacher?
+是, 他是老师	Shì. Tā shì lǎoshī.	Yes, he. He is a teacher.
+不是, 他不是老师	Bú shì. Tā bú shì lǎoshī.	No, he is not. He is not a teacher.
+他们是日本人吗?	Tāmen shì rìběnrén ma?	Are they Japanese people?
+是,他们是日本人	Shì. Tāmen shì rìběnrén.	Yes, they are. They are Japanese.
+不是,他们不是日本人	Bú shì. Tāmen bú shì rìběnrén.	No, they are not. They are not Japanese.
+你的外婆是学生吗?	Nǐde wàipó shì xúeshēng ma?	Is your grandmother a student?
+是,我的外婆是学生	Shì. Wǒde wàipó shì xuéshēng.	Yes, she is. My grandmother is a student.
+不是,我的外婆不是学生	Bú shì. Wǒde wàipó bú shì xuéshēng.	No, she is not. My grandmother is not a student.
+我的妈妈的老公是我的爸爸吗?	Nǐde māmade lǎogōng shì nǐde bàba ma?	Is your mom’s husband your dad?
+是,他是我的爸爸.	Shì. Tā shì wǒde bàba.	Yes, he is. He is my dad.
+不是,他不是我的爸爸	Bú shì. Tā bú shì wǒde bàba.	No, he is not. He is not my dad.
+你的狗是你的朋友吗?	Nǐde gǒu shì nǐde péngyǒu ma?	Is your dog your friend?
+是,他是我的朋友	Shì. Tā shì wǒde péngyǒu.	Yes, it is. It is my friend.
+不是,他不是我的朋友	Bú shì. Tā bú shì wǒde péngyǒu.	No, it is not. It is not my friend.
+
+//Chinese With Mike/Season 1/Ch 18: Yes or No Questions with Hěn
+Maria的男朋友很帅吗？	Mariade nánpéngyǒu hěn shuài ma? 	Is Maria’s boyfriend handsome?
+是，他很帅。	shì. tā hěn shuài.	Yes, he is. He is handsome.
+不是，他不帅。	bú shì. tā bú shuài.	No, he is not. He is not handsome.
+不是，他很丑。	bú shì. tā hěn chǒu.	No, he is not. He is ugly.
+加拿大很大吗？	Jiānádà hěn dà ma?	Is Canada big?
+是，加拿大很大。	shì. Jiānádà hěn dà.	Yes, it is. Canada is big.
+不是，加拿大不大。	bú shì. Jiānádà bú dà.	No, it is not. Canada is not big.
+不是，加拿大很小。	bú shì. Jiānádà hěn xiǎo.	No, it is not. Canada is small.
+
+//Chinese With Mike/Season 1/Ch 19: This and That
+这是书	zhè shì shū.	This is a book.
+这是苹果	zhè shì píngguǒ.	This is an apple.
+这是洋娃娃	zhè shì yángwáwa.	This is a doll.
+那是诸	nà shì zhū.	That is a pig.
+那是水	nà shì shuǐ.	That is water.
+那是狗	nà shì gǒu.	That is a dog.
+这是椅子吗?	zhè shì yǐzi ma?	Is this a chair?
+这是桌子吗?	zhè shì zhuōzi ma?	Is this a table?
+这是猫吗?	zhè shì māo ma?	Is this a cat?
+那是你的朋友吗?	nà shì nǐde péngyǒu ma?	Is that your friend?
+那是他们的老师吗?	nà shì tāmende lǎoshī ma?	Is that their teacher?
+那是你的车子吗?	nà shì nǐde chēzi ma?	Is that your car?
+
+//Chinese With Mike/Season 1/Ch 20: WHAT? and Review of This and That
+这是球吗?	zhè shì qiú ma?	Is this a ball?
+是,这是球	shì. Zhè shì qiú.	Yes. This is a ball.
+那是你的房子吗?	nà shì nǐde fángzi ma?	Is that your house?
+是,那是我的房子	shì. Nà shì wǒde fángzi.	Yes, that is my house.
+那是你的男朋友的狗吗?	nà shì nǐde nánpéngyǒude gǒu ma?	Is that your boyfriend’s dog?
+不是,那不是我的男朋友的狗	bú shì. Nà bú shì wǒde nánpéngyǒude gǒu.	No. That is not my boyfriend’s dog.
+那是狗吗?	nà shì gǒu ma?	Is that a dog?
+不是,那不是狗.那是猫。	bú shì. Nà bú shì gǒu. Nà shì māo.	No, it is not. That is not a dog. That is a cat.
+这是你的玩具吗?	zhè shì nǐde wánjù ma?	Is this your toy?
+是,这是我的玩具。	shì. Zhè shì wǒde wánjù.	Yes, it is. This is my toy.
+那是他们的房子吗?	nà shì tāmende fángzi ma?	Is that their house?
+是,那是他们的房子。	shì. Nà shì tāmende fángzi.	Yes, it is. That is their house.
+
+//Chinese With Mike/Season 1/Ch 21: These and Those
+这是什么?	zhè shì shénme?	What is this?
+那是什么?	nà shì shénme?	What is that?
+这是水吗？	zhè shì shuǐ ma?	Is this water?
+是，这是水。	shì. Zhè shì shuǐ.	Yes, it is. This is water.
+那是什么？	nà shì shénme?	What is that?
+那是苹果吗？	nà shì píngguǒ ma?	Is that an apple?
+不是，那不是苹果。	bú shì. Nà bú shì píngguǒ.	No, it is not. That is not an apple.
+这些是鞋子。	zhèxiē shì xiézi.	These are shoes.
+这些是香蕉。	zhèxiē shì xiāngjiāo.	These are bananas.
+这些是苹果吗？	zhèxiē shì píngguǒ ma?	Are these apples?
+是，这些是苹果。	shì. Zhèxiē shì píngguǒ.	Yes, they are. These are apples.
+这些是你的玩具吗？	zhèxiē shì nǐde wánjù ma?	Are these your toys?
+不是，这些不是我的玩具。	bú shì. Zhèxiē bú shì wǒde wánjù.	No, they are not. These are not my toys.
+那些是狮子。	nàxiē shì shīzi.	Those are lions.
+那些是床。	nàxiē shì chuáng.	Those are beds.
+那些是葡萄吗？	nàxiē shì pútáo ma?	Are those grapes?
+是，那些是葡萄。	shì. Nàxiē shì pútáo.	Yes, they are. Those are grapes.
+那些是老虎吗？	nàxiē shì lǎohú ma?	Are those tigers?
+不是，那些不是老虎。	bú shì. Nàxiē bú shì lǎohú.	No, they are not. Those are not tigers.
+这些是什么？	zhèxiē shì shénme?	What are these?
+这些是狗。	zhèxiē shì gǒu.	These are dogs.
+那些是什么？	nàxiē shì shénme?	What are those?
+那些是猫。	nàxiē shì māo.	Those are cats.
+
+//Chinese With Mike/Season 1/Ch 22: Who? And Review of These and Those
+这是西瓜吗？	zhè shì xīguā ma?	Is this (a) watermelon?
+是，这是西瓜。	shì. Zhè shì xīguā.	Yes, it is. This is (a) watermelon.
+那是熊吗？	nà shì xióng ma?	Is that a bear?
+不是，那是牛。	bú shì. Nà shì niú.	No, it is not. That is a cow.
+这些是鸡吗？	zhèxiē shì jī ma?	Are these chickens?
+不是，这些不是鸡。	bú shì. Zhèxiē bú shì jī.	No, they are not. These are not chickens.
+那些是草莓吗？	nàxiē shì cǎoméi ma?	Are those strawberries?
+是，那些是草莓。	shì. Nàxiē shì cǎoméi.	Yes, they are. Those are strawberries.
+这是我的爸爸的青蛙。	zhè shì wǒde bàbade qīngwā.	This is my dad’s frog.
+那是我的太太的狗。	nà shì wǒde tàitaide gǒu.	That is my wife’s dog.
+这些是我的老师的葡萄。	zhèxiē shì wǒde lǎoshīde pútáo.	These are my teacher’s grapes.
+那些是我的外婆的蓝莓。	nàxiē shì wǒde wàipóde lánméi.	Those are my grandma’s blueberries.
+这是你的妈妈的房子吗？	zhè shì nǐde māmade fángzi ma?	Is this your mom’s house?
+是，这是我的妈妈的房子。	shì. Zhè shì wǒde māmade fángzi.	Yes, it is. This is my mom’s house.
+那是他们的兔子吗？	nà shì tāmende tùzi ma?	Is that their rabbit?
+是，那是他们的兔子。	shì. Nà shì tāmende tùzi.	Yes, it is. That is their rabbit.
+那些是我们的猫。	nàxiē shì wǒmende māo.	Those are our cats.
+那些不是我们的老鼠。	nàxiē bú shì wǒmende lǎoshǔ.	Those are not our mice.
+这是谁？	zhè shì shéi?	Who is this?
+这是我的女朋友。	zhè shì wǒde nǚpéngyǒu.	This is my girlfriend.
+那是谁？	nà shì shéi?	Who is that?
+那是他们的姐姐。	nà shì tāmende jiějie.	That is their older sister.
+他是谁？	tā shì shéi?	Who is he?
+他是我们的老师。	tā shì wǒmende lǎoshī.	He is our teacher.
+他们是谁？	tāmen shì shéi?	Who are they?
+他们是我的父母。	tāmen shì wǒde fùmǔ.	They are my parents.
+你是谁？	nǐ shì shéi?	Who are you?
+我是Joe.你呢？	wǒ shì Joe. Nǐ ne?	I am Joe. And you?
+这是谁？	zhè shì shéi?	Who is this?
+这是谁的？	zhè shì shéide?	Whose is this?
+这些是谁的？	zhèxiē shì shéide?	Whose are these?
+那是谁？	nà shì shéi?	Who is that?
+那是谁的？	nà shì shéide?	Whose is that?
+那些是谁的？	nàxiē shì shéide?	Whose are those?
+这些是谁的？	zhèxiē shì shéide zhū?	Whose pigs are these?
+这些是我的哥哥的猪。	zhèxiē shì wǒde gēgede.	These are my older brother’s.
+那些是谁的？	nàxiē shì shéide níngméng?	Whose lemons are those?
+那些是你的朋友的 柠檬。	nàxiē shì nǐde péngyǒude.	Those are your friend’s.
+
+//Chinese With Mike/Season 1/Ch 23: Numbers and Days of the Week
+今天是星期几？	jīntiān shì xīngqíjǐ?	What day is today?
+今天是星期三。　	jīntiān shì xīngqísān.	Today is Wednesday.
+明天是星期四。	míngtiān shì xīngqìsì.	Tomorrow is Thursday.
+明天是星期几？	míngtiān shì xīngqíjǐ?	What day is tomorrow?
+明天是星期四。	míngtiān shì xīngqísì.	Tomorrow is Thursday.
+后天是星期五。	hòutiàn shì xīngqíwǔ.	The day after tomorrow is Friday.
+昨天是星期几？	zuótiān shì xīngqíjǐ?	What day was yesterday?
+昨天是星期二。	zuótiān shì xīngqí èr.	Yesterday was Tuesday.
+前天是星期一。	qiántiān shì xīngqíyī.	The day before yesterday was Monday.
+今天我很难过。	jīntiān wǒ hěn nánguò.	Today I am (very) sad.
+昨天我的姐姐很高兴。	zuótiān wǒde jiějie hěn gāoxìng.	Yesterday my older sister was (very) happy.
+昨天你很无聊吗？	zuótiān nǐ hěn wúliáo ma?	Were you bored yesterday?
+是，昨天我很无聊。	shì. Zuótiān wǒ hěn wúliáo.	Yes, I was. I was bored yesterday.
+
+//Chinese With Mike/Season 1/Ch 24: Months of the Year
+现在是几月？	xiànzài shì jǐyuè?	What month is it (now)?
+现在是四月。	xiànzài shì sìyuè.	It is April.
+我的生日是一月。	wǒde shēngrì shì yīyuè.	My birthday is in January.
+你的生日是几月？	nǐde shēngrì shì jǐyuè?	What month is your birthday?
+我的生日是七月。	wǒde shēngrì shì qīyuè.	My birthday is in July.
+你的哥哥的生日是几月？	nǐde gēgede shēngrì shì jǐyuè?	What month is your older brother’s birthday?
+我的哥哥的生日是二月。	wǒde gēgede shēngrì shì èryuè.	My older brother’s birthday is in February.
+你的弟弟的生日是五月吗？	nǐde dìdide shēngrì shì wǔyuè ma?	Is your younger brother’s birthday in May?
+是，我的弟弟的生日是五月。	shì. Wǒde dìdide shēngrì shì wǔyuè.	Yes, it is. My younger brother’s birthday is in May.
+我们的妈妈的生日是九月吗？	wǒmende māmade shēngrì shì jiǔyuè ma?	Is our mom’s birthday in September?
+不是，我们的妈妈的生日不是九月。	bú shì. wǒmende māmade shēngrì bú shì jiǔyuè.	No, our mom’s birthday is not in September. 
+我们的妈妈的生日是十一月。	wǒmende māmade shēngrì shì shíyīyuè.	Our mom’s birthday is in November.
+
+//Chinese With Mike/Season 1/Ch 25: What Time Is It?
+现在（是）几点？	xiànzài (shì) jǐ diǎn?	What time is it?
+现在（是）几点钟？	xiànzài (shì) jǐ diǎn zhōng?	What time is it now?
+现在（是）七点（钟）。	xiànzài (shì) qī diǎn(zhōng).	It is 7:00.
+现在（是）五点（钟）。	xiànzài (shì) wǔ diǎn(zhōng).	It is 5:00.
+现在（是）八点半。	xiànzài (shì) bā diǎn bàn.	It is half-past eight; it is 8:30
+现在（是）两点吗？	xiànzài shì liǎng diǎn ma?	Is it 2:00?
+是，现在 是 两点。	shì. Xiànzài shì liǎng diǎn.	Yes, it is 2:00.
+现在 是 十一点吗？	xiànzài shì shíyī diǎn ma?	Is it 11:00?
+不是，现在 是 九点。	bú shì. Xiànzài shì jiǔ diǎn.	No, it isn’t. It is 9:00
+现在是几月？	xiànzài shì jǐyuè?	What month is it?
+现在是一月。	xiànzai shì yīyuè.	It is January.
+现在（是）十二点（钟）。	xiànzài (shì) shí èr diǎn(zhōng).	It is 12:00.
+
+//Chinese With Mike/Season 1/Ch 26: More Review of Shi and Hen
+我不忙。	wǒ bù máng.	I am not busy.
+你不聪明。	nǐ bù cōngmíng.	You are not smart.
+他不饿。	tā bú è.	He is not hungry.
+他们不累。	tāmen bú lèi.	They are not tired.
+Mike老师不臭。	Mike lǎoshī bú chòu.	Teacher Mike is not stinky.
+今天Geoff不好。	jīntiān Geoff bù hǎo.	Today Jeff is not well.
+昨天Jennifer不高兴。	zuótiān Jennifer bù gāoxìng.	Yesterday Jennifer was not happy.
+我的爸爸妈妈不渴。	wǒde bàbamāma bù kě.	My mom and dad are not thirsty.
+你很忙吗？	nǐ hěn máng ma?	Are you busy?
+是我很忙。	shì. Wǒ hěn máng.	Yes, I am. I am busy.
+你很矮吗？	ni hěn ǎi ma?	Are you short?
+不是。我不矮。我很高。	bú shì. Wo bù ǎi. Wǒ hěn gāo.	No, I am not. I am not short. I am tall.
+你的妹妹很漂亮吗？	nǐde mèimei hěn piàoliàng ma?	Is your sister pretty?
+不是。她很丑。	bú shì. Tā hěn chǒu.	No, she is not. She is ugly.
+她的姐姐很懒惰吗？	tāde jiějie hěn lǎnduò ma?	Is her older sister lazy?
+不是。他是学生。他很忙。	bú shì. Tā shì xuéshēng. Tā hěn máng.	No, she is not. She is a student. She is very busy.
+加拿大很小吗？	Jiānádà hěn xiǎo ma?	Is Canada small?
+不是。加拿大很大。	bú shì. Jiānádà hěn dà.	No, it is not. Canada is big.
+台湾很大吗？	Táiwān hěn dà ma?	Is Taiwan big?
+不是。台湾不大。	bú shì. Táiwān bú dà.	No, it is not. Taiwan is not big.
+你的狗很可爱吗？	nǐde gǒu hěn kě'ài ma?	Is your dog cute?
+是。它很可爱。	shì. Tā hěn kě'ài.	Yes, it is. It is cute.
+
+//Chinese With Mike/Season 1/Ch 27: Big Numbers and Phone Numbers
+你的名字是什么？	nǐde míngzi shì shénme?	What is your name?
+我的名字是Mike。	wǒde míngzi shì Mike.	My name is Mike.
+他的名字是Geoff。	tāde míngzi shì Geoff.	His name is Geoff.
+她的名字是什么？	tāde míngzi shì shénme?	What is her name?
+她的名字是Jennifer。	tāde míngzi shì Jennifer.	Her name is Jennifer.
+这是电话。	zhè shì diànhuà.	This is a telephone.
+这是第的电话。	zhè shì nǐde diànhuà.	This is your telephone.
+这是你的电话吗？	zhè shì nǐde diànhuà ma?	Is this your telephone?
+是。这是我的电话。	shì. Zhè shì wǒde diànhuà.	Yes. This is my telephone.
+你的电话号码是什么？	nǐde diànhuà hàomǎ shì shénme?	What is your telephone number?
+我的电话号码是3976283。	wǒde diànhuà hàomǎ shì 3976283 .	My telephone number is 3976283)
+你的老师的电话号码是什么？	nǐde lǎoshīde diànhuà hàomǎ shì shénme?	What is your teacher’s telephone number?
+我的老师的电话号码是4029533。	wǒde lǎoshīde diànhuà hàomǎ shì 4029533.	My teacher’s telephone number is 4029533.
+喂。 你好。你是谁？	wéi. Nǐ hǎo. Nǐ shì shéi?	Hello #1 (to answer phone. Hello #2 (to greet). Who are you?
+我是Mike老师。	wǒ shì Mike lǎoshī.	I am Teacher Mike.
+你的名字是Mike吗？	nǐde míngzi shì Mike ma?	Your name is Mike?
+是。我的名字是Mike。你好。	shì. Wǒde míngzi shì Mike. Nǐ hǎo.	Yes, it is. My name is Mike. Hello.
+你是英国人吗？	nǐ shì yīngguórén ma?	Are you British?
+不是。我是美国人。你呢？	bú shì. Wǒ shì měiguórén. Nǐ ne?	No, I am not. I am American. And you?
+我是中国人。我的名字是艾米。我很累。	wǒ shì zhōngguórén. Wǒde míngzi shì Àimǐ. Wǒ hěn lèi.	I am Chinese. My name is Amy. I am very tired.
+我也很累。你很忙吗？	wǒ yě hěn lèi. Nǐ hěn máng ma?	I am tired, too. Are you busy?
+我不忙。你呢？	wǒ bù máng. Nǐ ne?	I’m not busy. Are you?
+我也不忙。	wǒ yě bù máng.	I’m not busy either.
+今天是星期几？	jīntiān shì xīngqíjǐ?	What day is today?
+今天是星期五。	jīntiān shì xīngqíwǔ.	Today is Friday.
+昨天是星期几？	zuótiān shì xīngqíjǐ?	What day was it yesterday?
+昨天是星期四。	zuótiān shì xīngqísì.	Yesterday was Thursday.
+明天是星期几？	míngtiān shì xīngqíjǐ?	What day is tomorrow?
+明天是星期六。	míngtiān shì xīngqíliù.	Tomorrow is Saturday.
+前天是星期几？	qiántiān shì xīngqíjǐ?	What day was the day before yesterday?
+前天是星期三。	qiántiān shì xīngqísān.	The day before yesterday was Wednesday.
+后天是星期几？	hòutiān shì xīngqíjǐ?	What day is the day after tomorrow?
+后天是星期日。	hòutiān shì xīngqírì.	The day after tomorrow is Sunday.
+现在是几月？	xiànzài shì jǐyuè?	What month is it?
+现在是八月。	xiànzài shì bāyuè.	It is August.
+今天是几月几号？	jīntiān shì jǐyuè jǐhào?	What is the date today?
+今天是八月十七号。	jīntiān shì bāyuè shìqīhào.	Today is August 17th.
+现在（是）几点（钟）？	xiànzài (shì) jǐdiǎn(zhōng)?	What time is it? Note: It is not necessary to say “shì”or “zhōng”
+现在（是）六点（钟）。	xiànzài (shì) liùdiǎn(zhōng).	Note: It is not necessary to say “shì” or “zhōng” (It’s more formal)
+现在（是）几点几分？	xiànzài (shì ) jǐdiǎn jǐfēn?	What time is it? (lit. How many hours, how many minutes)
+现在（是）六点四十三分。	xiànzài (shì ) liùdiǎn sìshísānfēn.	It is 6:43. (lit. There are 6 hours and 43 minutes)
+
+//Chinese With Mike/Season 1/Ch 28: How Old Are You?
+你几岁？	nǐ jǐ suì?	How old are you?
+我九岁	wǒ jiǔ suì.	I am 9 years old.
+她几岁？	tā jǐ suì?	How old is she?
+她四十八岁	tā sìshíbā suì.	She is 48 years old.
+你的妹妹几岁？	nǐde mèimei jǐ suì?	How old is your younger sister?
+我的妹妹十三岁	wǒde mèimei shísān suì.	My younger sister is 13 years old.
+他们的女儿几岁？	tāmende nüér jǐ suì?	How old is their daughter?
+他们的女儿两岁。	tāmende nüér liáng suì.	Their daughter is two years old.
+春节是几月几号？	chūnjié shì jǐyuè jǐhào?	Chinese New Year is what month and day?
+春节是二月四号。	chūnjié shì èryuè sìhào.	Chinese New Year is in February.
+圣诞节是几月几号？	shèngdànjié shì jǐyuè jǐhào?	Christmas is what month and day?
+圣诞节是十二月二十五号。	shèngdànjié shì shí'èryuè èrshíwǔhào.	Christmas is December 25th.
+情人节是几月几号？	qíngrénjié shì jǐyuè jǐhào?	Valentine's Day is what month and day?
+情人节十二月是四号。	qíngrénjié shì èryuè shísìhào.	Valentine's Day is on February 14th.
+
+//Chinese With Mike/Season 1/Ch 29: Here, There, and Where
+今年是2011年。	jīnnián shì 2011 nián.	This year is 2011.
+去年是2010年。	qùnián shì 2010 nián.	Last year was 2010.
+前年是2009年。	qiánnián shì 2009 nián.	The year before last was 2009.
+明年是2012年。	míngnián shì 2012 nián.	Next year is 2012.
+后年是2013年。	hòunián shì 2013 nián.	The year after next is 2013.
+我的生日是1980年。	wǒde shēngrì shì 1980 nián.	I was born in 1980.
+今年我30岁。	jínnián wǒ 30 suì.	This year I am 30 years old.
+明年我的太太55岁。	míngnián wǒde tàitai 55 suì.	Next year my wife will be 55 years old.
+去年我的儿子4岁。	qúnián wǒde érzi 4 suì.	Last year my son was 4 years old.
+你在哪里？	nǐ zài nǎ lǐ?	Where are you? (lit. You at where?)
+我在这里？	wǒ zài zhè lǐ.	I am here.
+她在哪里？	tā zài nǎ lǐ?	Where is she?
+她在那里。	tā zài nà lǐ.	She is (over) there.
+你的哥哥在哪里？	nǐde gēge zài nǎ lǐ?	Where is your older brother?
+他在台湾。	tā zài táiwān.	He is in Taiwan.
+他们的父母在哪里？	tāmende fùmǔ zài nǎ lǐ?	Where are their parents?
+他们在巴西。	tāmen zài bāxī.	They are in Brazil.
+我的苹果在哪里？	wǒde píngguǒ zài nǎ lǐ?	Where is my apple?
+你的苹果在这里。	nǐde píngguǒ zài zhè lǐ.	Your apple is here.
+你的草莓在哪里？	nǐde cǎoméi zài nǎ lǐ?	Where are your strawberries?
+我的草莓在那里。	wǒde cǎoméi zài nà lǐ.	My strawberries are (over) there.
+我的菠菜在哪里？	wǒde bōcài zài nǎ lǐ?	Where is my spinach?
+你的菠菜在这里。	nǐde bōcài zài zhè lǐ.	Your spinach is here.
+她的蘑菇在哪里？	tāde mógū zài nǎ lǐ?	Where are her mushrooms?
+她的蘑菇在那里。	tāde mógū zài nà lǐ.	Her mushrooms are (over) there.
+玉米很甜，也很便宜。	yùmǐ hěn tián, yě hěn piányí.	The corn is sweet and also cheap.
+土豆很大，也很硬。	tǔdòu hěn dà, yě hěn yìng.	The potato is big and also hard.
+豆子很小。	dòuzi hěn xiǎo.	The beans are very small.
+请教很大。	qīngjiāo hěn dà.	The green pepper is big.
+
+//Chinese With Mike/Season 1/Ch 30: Places
+你在哪里？	nǐ zài nǎ lǐ?	Where are you?
+我在海滩。	wǒ zài hǎitān.	I’m at the beach.
+他在哪里？	tā zài nǎ lǐ?	Where is he?
+他在公园。	tā zài gōngyuán.	He is at the park.
+他们在哪里？	tāmen zài nǎ lǐ?	Where are they?
+他们在赌场。	tāmen zài dǔchǎng.	They are at the casino.
+你的朋友在哪里？	nǐde péngyǒu zài nǎ lǐ?	Where is your friend?
+我的朋友在博物馆。	wǒde péngyǒu zài bówùguǎn.	My friend is at the museum.
+他们的哥哥在哪里？	tāmende gēge zài nǎ lǐ?	Where is our older brother?
+他在电影院。	tā zài diànyǐngyuàn.	He is at the movie theater.
+你在餐厅吗？	nǐ zài cāntīng ma?	Are you at the restaurant?
+是，我在餐厅。	shì. wǒ zài cāntīng.	Yes, I am. I am at the restaurant.
+他们的母亲在图书馆吗？	tāmende mǔqīn zài túshūguǎn ma?	Is their mother at the library?
+不是，他们的母亲在动物园。	bú shì. Tāmende mǔqīn zài dòngwùyuán.	No, she is not. Their mother is at the zoo.
+Mike老师的女朋友在美术馆吗？	Mike lǎoshīde nǚpéngyǒu zài měishùguǎn ma?	Is Teacher Mike’s girlfriend at the art museum?
+是，他在美术馆。	shì. tā zài měishùguǎn.	Yes, she is. She is at the art museum.
+北京在哪里？	Běijīng zài nǎ lǐ?	Where is Beijing?
+北京在中国	Běijīng zài zhōngguó.	Beijing is in China.
+台北在哪里？	Táiběi zài nǎ lǐ?	Where is Taipei?
+台北在台湾	Táiběi zài táiwān.	Taipei is in Taiwan.
+洛杉矶在哪里？	Luòshānjī zài nǎ lǐ?	Where is Los Angeles?
+洛杉矶在美国	Luòshānjī zài měiguó.	Los Angeles is in America.
+东京在英国吗？	Dōngjīng zài yīngguó ma?	Is Tokyo in Britain?
+不是。东京在日本	bú shì. Dōngjīng zài rìběn.	No, it is not. Tokyo is in Japan.
+柏林在德国吗？	Bólín zài Déguó ma?	Is Berlin in Germany?
+是。柏林在德国	shì. Bólín zài déguó.	Yes, it is. Berlin is in Germany.
+巴黎在法国吗？	Bālí zài Fǎguó (Fàguó) ma?	Is Paris in France?
+是。巴黎在法国	shì. Bālí zài Fǎguó (Fàguó).	Yes, it is. Paris is in France.
+莫斯科在什么国家？	Mòsīkē zài shénme guójiā?	What country is Moscow in? （lit. Moscow in what country?)
+莫斯科在俄国	Mòsīkē zài Éguó.	Moscow is in Russia.
+曼谷在什么国家？	Màngǔ zài shénme guójiā?	What country is Bangkok in?
+曼谷在泰国	Màngǔ zài tàiguó.	Bangkok is in Thailand.
+
+//Chinese With Mike/Season 1/Ch 31: Rooms and Objects of the House
+你在哪里？	nǐ zài nǎ lǐ?	Where are you?
+我在家	wǒ zài jiā.	I am at home.
+你们在哪里？	nǐ men zài nǎ lǐ?	Where are you guys?
+我们在厨房	wǒmen zài chúfáng.	We are in the kitchen.
+你的父亲在书房吗？	nǐde fùqīn zài shūfáng ma?	Is your father in the study?
+是。他在书房	shì. tā zài shūfáng.	Yes, he is. He is in the study.
+你的车子在哪里？	nǐde chēzi zài nǎ lǐ?	Where is your car?
+我的车子在车库。	wǒde chēzi zài chēkù.	My car is in the garage.
+老师的书在哪里？	lǎoshīde shū zài nǎ lǐ?	Where is the teacher’s book?
+老师的书在书房。	lǎoshīde shū zài shūfáng.	The teacher’s book is in the study.
+学生的妈妈在哪里？	xuéshēngde māma zài nǎ lǐ?	Where is the student’s mom?
+她在客厅。	tā zài kètīng.	She is in the living room.
+Geoff的太太在饭厅吗？	Geoff de tàitai zài fàntīng ma?	Is Geoff’s wife in the dining room?
+不是。Geoff的太太在浴室。	bú shì. Geoff de tàitài zài yùshì.	No, she isn’t. Geoff’s wife is in the bathroom.
+你的家在哪里？	nǐde jiā zài nǎ lǐ?	Where is your house?
+我的家在芝加哥。	wǒde jiā zài zhījiāgē.	My house is in Chicago.
+电脑在哪里？	diànnǎo zài nǎ lǐ?	Where is the computer?
+电脑在书房。	diànnǎo zài shūfáng.	The computer is in the study.
+冰箱在客厅吗？	bīngxiāng zài kètīng ma?	Is the refrigerator in the living room?
+不是。冰箱在厨房。	bú shì. bīngxiāng zài chúfáng.	No, it isn’t. The refrigerator is in the kitchen.
+沙发在哪里？	shāfā zài nǎ lǐ?	Where is the sofa?
+沙发在客厅。	shāfā zài kètīng.	The sofa is in the living room.
+电视在你的卧室吗？	diànshì zài nǐde wòshì ma?	Is the TV in your bedroom?
+不是。电视在客厅。	bú shì. diànshì zài kètīng.	No, it isn’t. The TV is in the living room.
+床在你的卧室吗？	chuáng zài nǐde wòshì ma?	Is the bed in your bedroom?
+是。床在我的卧室。	shì. chuáng zài wǒde wòshì.	Yes, it is. The bed is in my bedroom.
+你的床很软吗？	nǐde chuáng hěn ruǎn ma?	Is your bed soft?
+是。我的床很软。	shì. Wǒde chuáng hěn ruǎn.	Yes, it is. My bed is (very) soft.
+你的外婆的电话很贵吗？	nǐde wàipóde diànhuà hěn guì ma?	Is your grandmother’s telephone expensive?
+是。我的外婆的电话很贵。	shì. Wǒde wàipóde diànhuà hěn guì.	Yes, it is. My grandmother’s telephone is expensive.
+Mike老师的镜子很干净吗？	Mike lǎoshīde jìngzi hěn gānjìng ma?	Is Teacher Mike’s mirror clean?
+不是。Mike老师的镜子很脏，也很久。	bú shì. Mike lǎoshīde jìngzi hěn zāng, yě hěn jiù.	No, it isn’t. Teacher Mike’s mirror is dirty and old.
+
+//Chinese With Mike/Season 1/Ch 32: Nationalities, Weather, and Adjectives
+我是美国人。	wǒ shì Měiguórén.	I am American.
+你是埃及人。	nǐ shì Āijírén.	You are Egyptian.
+他是爱尔兰人。	tā shì Àiěrlánrén.	He is Irish.
+我们是越南人。	wǒmen shì yuènánrén.	We are Vietnamese.
+你是哪里人？	nǐ shì nǎ lǐ rén?	 Where are you from/What is your nationality? (lit. You are where person?)
+你的先生是哪里人？	nǐde xiānshēng shì nǎ lǐ rén?	Where is your husband’s nationality?/Where is he from?
+我的先生是中国人。	wǒde xiānshēng shì Zhōngguórén.	My husband is Chinese.
+Mike的朋友是哪里人？	Mikede péngyǒu shì nǎ lǐ rén?	What is Mike’s friend’s nationality? Where is Mike’s friend from?
+Mike的朋友是加拿大人。	Mikede péngyǒu shì jiānádàrén.	Mike’s friend is Canadian.
+他们的老师是哪里人？	tāmende lǎoshī shì nǎ lǐ rén?	What is their teacher’s nationality?/Where is their teacher from?
+他们的老师是印度人。	tāmende lǎoshī shì yìndùrén.	Their teacher is Indian.
+你的弟弟的太太是哪里人？	nǐde dìdi de tàitài shì nǎ lǐ rén?	Where is your younger brother’s wife from?
+他的太太是澳洲人。	tāde tàitai shì àozhōurén.	His wife is Australian.
+天气很好。	tiānqì hěn hǎo.	The weather is good/nice.
+天气不好。	tiānqì bù hǎo.	The weather is bad.
+天气很热。	tiānqì hěn rè.	The weather is hot.
+天气很冷。	tiānqì hěn lěng.	The weather is cold.
+今天天气好吗？	jīntiān tiānqì hǎo ma?	Is the weather good/nice today?
+是。今天天气很好。	shì. jīntiān tiānqì hěn hǎo.	Yes, it is. The weather is good.
+昨天天气很好。	zuótiān tiānqì hěn hǎo.	Yesterday the weather was good.
+今天风很大。	jīntiān fēng hěn dà.	Today it is very windy.
+今天太阳很大。	jīntiān tàiyáng hěn dà.	Today it is very sunny.
+月亮很亮。	yùeliàng hěn liàng.	The moon is bright.
+星星很漂亮。	xīngxīng hěn piàoliàng.	The stars are beautiful.
+我是很高的男人。	wǒ shì hěn gāode nánrén.	I am a tall man.
+你是很漂亮的女人。	nǐ shì hěn piàoliàngde nǚrén.	You’re a beautiful woman.
+他是很可爱的孩子。	tā shì hěn kě'àide háizi.	He is a cute child.
+他们是很聪明的学生。	tāmen shì hěn cōngmíngde xuéshēng.	They are intelligent students.
+我的姐姐是很瘦的女人。	wǒde jiějie shì hěn shòude nǚrén.	My older sister is a thin woman.
+Mike老师的妹妹是很懒惰的学生。	Mike lǎoshīde mèimei shì hěn lǎnduòde xuéshēng.	Teacher Mike’s younger sister is a lazy student.
+他们的爸爸是很有钱的人吗？	tāmende bàba shì hěn yǒuqiánde rén ma?	Is their dad a rich person?
+不是。他们的爸爸是很穷的人。	bú shì. tāmende bàba shì hěn qióngde rén.	No, he’s not. Their dad is a poor person.
+
+//Chinese With Mike/Season 1/Ch 33: More Adjective-Noun Combos
+我是男人。	wǒ shì nánrén.	I am a man.
+我很高。	wǒ hěn gāo.	I am tall.
+我是很高的男人。	wǒ shì hěn gāode nánrén.	I am a tall man.
+她是女人。	tā shì nǚrén.	She is a woman.
+她很笨。	tā hěn bèn.	She is stupid.
+她是很笨的女人。	tā shì hěn bènde nǚrén.	She is a stupid woman.
+Mike是老师。	Mike shì lǎoshī.	Mike is a teacher.
+Mike很棒。	Mike hěn bàng.	Mike is great.
+Mike是很棒的老师。	Mike shì hěn bàngde lǎoshī.	Mike is a great teacher.
+他是学生。	tā shì xuéshēng.	He is a student.
+他很懒惰。	tā hěn lǎnduò.	He is lazy.
+他是很懒惰的学生。	tā shì hěn lǎnduòde xuéshēng.	He is a lazy student.
+这是博物馆	zhè shì bówùguǎn.	This is a museum.
+博物馆很有趣。	bówùguǎn hěn yǒuqù.	The museum is very interesting.
+这是很有趣的博物馆。	zhè shì hěn yǒuqùde bówùguǎn.	This is a very interesting museum.
+那是公园。	nà shì gōngyuán.	That is a park.
+公园很大。	gōngyuán hěn dà.	The park is big.
+那是很大的公园。	nà shì hěn dàde gōngyuán.	That is a big park.
+北京市城市。	běijīng shì chéngshì.	Beijing is a city.
+北京很有名。	běijīng hěn yǒumíng.	Beijing is famous.
+北京市很有名的城市。	běijīng shì hěn yǒumíngde chéngshì.	Beijing is a famous city.
+他是咖啡。	nà shì kāfēi.	That is coffee.
+咖啡很烫。	kāfēi hěn tàng.	The coffee is very hot.
+那是很烫的咖啡。	nà shì hěn tàngde kāfēi.	That is hot coffee.
+她是很漂亮的女人吗？	tā shì hěn piàoliàngde nǚrén ma?	Is she a beautiful woman?
+是。她是很漂亮的女人。	shì. Tā shì hěn piàoliàngde nǚrén.	Yes, she is. She is a beautiful woman.
+你的哥哥是很聪明的人吗？	nǐde gēge shì hěn cōngmíngde rén ma?	Is your older brother a smart person?
+不是。我的哥哥是很笨的人。	bú shì. Wǒde gēge shì hěn bènde rén.	No, he isn’t. My older brother is a stupid person.
+这是很甜得橙子吗？	zhè shì hěn tiánde chéngzi ma?	Is this a sweet orange?
+是。这是很甜的橙子。	shì. Zhè shì hěn tiánde chéngzi.	Yes, it is. This is a sweet orange.
+那是很有趣的书吗？	nà shì hěn yǒuqùde shū ma?	Is that an interesting book?
+是。那是很有趣的书。	shì. Nà shì hěn yǒuqùde shū.	Yes, it is. That is an interesting book.
+她是谁？	tā shì shéi?	Who is she?
+她是很好的老师。	tā shì hěn hǎode lǎoshī.	She is a good teacher.
+你是谁？	nǐ shì shéi?	Who are you?
+我是很可爱的小孩。	wǒ shì hěn kě'àide xiǎohái.	I am a cute child.
+
+//Chinese With Mike/Season 1/Ch 34: Why and Because
+他很聪明。为什么？因为他是老师。	tā hěn cōngmíng. wèishénme? yīnwèi tā shì lǎoshī.	He is intelligent. Why? Because he is a teacher.
+我的阿姨在中国。为什么？因为她是中国人。	wǒde āyí zài zhōngguó. wèishénme? yīnwèi tā shì zhōngguórén.	My aunt is in China. Why? Because she is Chinese (a Chinese person.)
+我很生气。为什么？因为我的小孩很顽皮。	wǒ hěn shēngqì. wèishénme? yīnwèi wǒde xiǎohái hěn wánpí.	I am angry. Why? Because my child(ren) are naughty.
+今天你好吗？今天我不好。为什么？因为天气很冷。	jīntiān nǐ hǎo ma? jīntiān wǒ bù hǎo. Wèishénme? Yīnwèi tiānqì hěn lěng.	How are you today? I am not well today. Why? Because the weather is cold.
+你的狗在你的家吗？不是。为什么？因为它在我的朋友的家。	nǐde gǒu zài nǐde jiā ma? Bú shì. wèishénme? Yīnwèi tā zài wǒde péngyǒude jiā.	Is your dog at your house? No, it is not. Why? Because it is at my friend’s house.
+她在学校。为什么？因为她是学生。	tā zài xuéxiào. wèishénme? yīnwèi tā shì xuéshēng.	She is at school. Why? Because she is a student.
+他很有钱。为什么？因为他是律师。	tā hěn yǒuqián. wèishénme? yīnwèi tā shì lǜshī.	He is rich. Why? Because he is a lawyer.
+我的房子很小。为什么？因为我很穷。	wǒde fángzi hěn xiǎo. wèishénme? yīnwèi wǒ hěn qióng.	My house is small. Why? Because I am poor.
+我的房子很贵。为什么？因为我很有钱。	wǒde fángzi hěn guì. wèishénme? yīnwèi wǒ hěn yǒuqián.	My house is expensive. Why? Because I am rich.
+她在医院。为什么？因为她是护士。	tā zài yīyuàn. wèishénme? yīnwèi tā shì hùshì.	She is at the hospital. Why? Because she is a nurse.
+
+//Chinese With Mike/Season 1/Ch 35: The Return to Mike’s Garage and Body Parts
+我的头很大。	wǒde tóu hěn dà.	My head is big.
+你的手臂很长。	nǐde shǒubì hěn cháng.	Your arms are long.
+他的脚很小。	tāde jiǎo hěn xiǎo.	His feet are small.
+我们的妈妈很矮，也很老。	wǒmende māma hěn ǎi, yě hěn lǎo.	Our mom is short and old.
+你的爸爸手很脏。	nǐde bàbade shǒu hěn zāng.	Your dad’s hands are dirty.
+我的姐姐的头发很短。	wǒde jiějiede tóufǎ hěn duǎn.	My older sister’s hair is short.
+你的男朋友的头发很长吗？	nǐde nánpéngyǒude tóufǎ hěn cháng ma?	Is your boyfriend’s hair long?
+不是。他的头发很短。	bú shì. Tāde tóufǎ hěn duǎn.	No, it is not. His hair is short.
+Mike老师的腿很长吗？	Mike Lǎoshīde tuǐ hěn cháng ma?	Are Teacher Mike’s legs long?
+是。他的腿很长。	shì. Tāde tuǐ hěn cháng.	Yes, they are. His legs are long.
+为什么你的爸爸的腿很长？	wèishénme nǐde bàbade tuǐ hěn cháng?	Why are your dad’s legs long?
+因为他很高。	yīnwèi tā hěn gāo.	Because he is tall.
+我的牙齿很痛。	wǒde yáchǐ hěn tòng.	My tooth hurts.
+你的肚子很痛吗？	nǐde dùzi hěn tòng ma?	Does your stomach hurt?
+是。我的肚子很痛。	shì. Wǒde dùzi hěn tòng.	Yes, it does. My stomach hurts.
+你的眼睛在哪里？	nǐde yǎnjīng zài nǎ lǐ?	Where are your eyes?
+我的眼睛在这里。	wǒde yǎnjīng zài zhè lǐ.	My eyes are here.
+你的女儿的身体好吗？	nǐde nǚ'érde shēntǐ hǎo ma?	Is your daughter in good health/healthy?
+是。我的女儿的身体很好。谢谢。	shì. Wǒde nǚ'érde shēntǐ hěn hǎo. Xièxie.	Yes, she is. My daughter is in good health/healthy.
+你的手很干净吗？	nǐde shǒu hěn gānjìng ma?	Are your hands clean?
+不是。我的手很脏。	bú shì. Wǒde shǒu hěn zāng.	No, they are not. My hands are dirty.
+
+//Chinese With Mike/Season 1/Ch 36: Colors
+那是什么颜色？	nà shì shénmè yánsè?	What color is that?
+那是灰色。	nà shì huīsè.	That is grey.
+这是什么颜色？	zhè shì shénme yánsè?	What color is this?
+这是紫色。	zhè shì zǐsè.	This is purple.
+这是红色的车子。	zhè shì hóngsède chēzi.	This is a red car.
+这是蓝色的车子吗？	zhè shì lánsède chēzi ma?	Is this a blue car?
+不是。这不是蓝色的车子。	bú shì. Zhè bú shì lánsède chēzi.	No, it is not. This is not a blue car.
+那是黄色的房子。	nà shì huángsède fángzi.	That is a yellow house.
+那是黑色的鞋子吗？	nà shì hēisède xiézi ma?	Is that a black shoe?
+是。那是黑色的鞋子。	shì. Nà shì hēisède xiézi.	Yes, it is. That is a black shoe.
+那些是黑色的鞋子吗？	nàxiē shì hēisède xiézi ma?	Are those black shoes?
+不是。那些不是黑色的鞋子。	bú shì. Nàxiē bú shì hēisède xiézi.	No, they are not. Those are not black shoes.
+那是黑色的电视。	nà shì hēisède diànshì.	That is a black TV.
+这是粉红色的电话。	zhè shì fēnhóngsède diànhuà.	This is a pink telephone.
+那是黄色的铅笔。	nà shì huángsède qiānbǐ.	That is a yellow pencil.
+你的蓝色的车子在哪里？	nǐde lánsède chēzi zài nǎ lǐ?	Where is your blue car?
+我的蓝色的车子在这里。	wǒde lánsède chēzi zài zhè lǐ.	My blue car is here.
+我的爸爸的绿色的球在哪里？	wǒde bàbade lǜsède qiú zài nǎ lǐ?	Where is my dad’s green ball?
+他的绿色的球在厨房。	tāde lǜsède qiú zài chúfáng.	His green ball is in the kitchen.
+这是谁的绿色的苹果？	zhè shì shéide lǜsède píngguǒ?	Whose green apple is this?
+这是我的绿色的苹果。	zhè shì wǒde lǜsède píngguǒ.	This is my green apple.
+
+//Chinese With Mike/Season 1/Ch 37: So
+我不舒服。为什么？因为我的家很冷。	wǒ bù shūfú. Wèishénme? Yīnwèi wǒde jiā hěn lěng.	I am uncomfortable. Why? Because my house is cold.
+他很有钱。为什么？因为他是商人。	tā hěn yǒuqián. Wèishénme? Yīnwèi tā shì shāngrén.	He is rich. Why? Because he is a businessman.
+我很难过。为什么？因为我的太太不在这里。	wǒ hěn nánguò. Wèishénme? Yīnwèi wǒde tàitai bú zài zhè lǐ.	I am sad. Why? Because my wife is not here.
+他们的妈妈很生气。为什么？因为他们很顽皮。	tāmende māma hěn shēngqì. Wèishénme? Yīnwèi tāmen hěn wánpí.	Their mom is angry. Why? Because they are very naughty.
+因为你是医生，所以你很聪明。	yīnwèi nǐ shì yīshēng, suǒyǐ nǐ hěn cōngmíng.	Because you are a doctor, you are very intelligent.
+因为我很穷，所以我的房子很小。	yīnwèi wǒ hěn qióng, suǒyǐ wǒde fángzi hěn xiǎo.	Because I am poor, my house is small.
+因为天气很热，所以农民很辛苦。	yīnwèi tiānqì hěn rè, suǒyǐ nóngmín hěn xīnkǔ.	Because the weather is hot, the farmer is very hard-working/tired.
+因为你的老公很不好，所以你很伤心。	yīnwèi nǐde lǎogōng hěn bù hǎo, suǒyǐ nǐ hěn shāngxīn.	Because your husband is very bad, you are very sad.
+因为她是军人，所以她很壮。	yīnwèi tā shì jūnrén, suǒyǐ tā hěn zhuàng.	Because she is a soldier, she is strong.
+你的爸爸是警察吗？是。他是警察。	nǐde bàba shì jǐngchá ma? Shì. Tā shì jǐngchá.	Is your dad a police officer? Yes, he is. He is a police officer.
+你的老婆的妈妈是秘书吗？不是。他是老师。	nǐde lǎopóde māma shì mìshū ma? Bú shì. Tā shì lǎoshī.	Is your wife’s mom a secretary? No, she is not. She is a teacher.
+因为今天是我的生日，所以我很高兴。	yīnwèi jīntiān shì wǒde shēngrì, suǒyǐ wǒ hěn gāoxìng.	Because today is my birthday, I am very happy.
+因为明天是我的女儿的生日，所以她很兴奋。	yīnwèi míngtiān shì wǒde nǚ'érde shēngrì, suǒyǐ tā hěn xīngfèn.	Because tomorrow is my daughter’s birthday, she is very excited.
+
+//Chinese With Mike/Season 1/Ch 38: Review of So and But
+因为现在是夏天，所以天气很热。	yīnwèi xiànzài shì xiàtiān, suǒyǐ tiānqì hěn rè.	Because it is summer, the weather is hot.
+因为现在是冬天，所以天气很冷。	yīnwèi xiànzài shì dōngtiān, suǒyǐ tiānqì hěn lěng.	Because it is winter, the weather is cold.
+因为我的牙齿很痛，所以我不舒服。	yīnwèi wǒde yáchǐ hěn tòng, suǒyǐ wǒ bù shūfú.	Because my teeth hurt, I am uncomfortable.
+因为我的老婆很丑，所以我很难过。	yīnwèi wǒde lǎopó hěn chǒu, suǒyǐ wǒ hěn nánguò.	Because my wife is ugly, I am sad.
+因为我的老婆很漂亮，所以我很高兴。	yīnwèi wǒde lǎopó hěn piàoliàng, suǒyǐ wǒ hěn gāoxìng.	Because my wife is beautiful, I am happy.
+因为我的儿子很乖，所以我很高兴。	yīnwèi wǒde érzi hěn guāi, suǒyǐ wǒ hěn gāoxìng.	Because my son is well-behaved, I am happy.
+我很高但是我的父母不高。	wǒ hěn gāo dànshì wǒde fùmǔ bù gāo.	I am tall, but my parents are not tall.
+你很帅但是你的女朋友很丑。	nǐ hěn shuài dànshì nǐde nǚpéngyǒu hěn chǒu.	You are handsome, but your girlfriend is ugly.
+我的儿子很乖但是我的女儿很顽皮。	wǒde érzi hěn guāi dànshì wǒde nǚ'ér hěn wánpí.	My son is well-behaved, but my daughter is naughty.
+医生很有钱但是她很忙。	yīshēng hěn yǒuqián dànshì tā hěn máng.	The doctor is rich, but she is busy.
+我的狗很小但是他很壮。	wǒde gǒu hěn xiǎo dànshì tā hěn zhuàng.	My dog is very small, but it is strong.
+我的老师很好但是他很严格。	wǒde lǎoshī hěn hǎo dànshì tā hěn yángé.	My teacher is very good, but he is strict.
+现在是冬天吗？是。现在是冬天。	xiànzài shì dōngtiān ma? Shì. Xiànzài shì dōngtiān.	Is it winter now? Yes, it is. It is winter.
+现在是夏天吗？不是。现在是秋天。	xiànzài shì xiàtiān ma? Bú shì. Xiànzài shì qiūtiān.	Is it summer now? No, it is not. It is fall.
+你的儿子是消防员吗？是。他是消防员。	nǐde érzi shì xiāofángyuán ma? Shì. Tā shì xiāofángyuán.	Is your son a firefighter? Yes, he is. He is a firefighter.
+他三岁但是他很聪明。	tā sān suì dànshì tā hěn cōngmíng.	He is three years old, but he is very smart.
+
+//Chinese With Mike/Season 1/Ch 39: Another Way to Ask Questions
+你是Mike老师吗？	nǐ shì Mike Lǎoshī ma?	Are you Teacher Mike?
+你是不是Mike老师？	nǐ shì bú shì Mike Lǎoshī?	Are you or are you not Teacher Mike?
+他是你的爸爸吗？	tā shì nǐde bàba ma?	Is he your dad?
+他是不是你的爸爸？	tā shì bú shì nǐde bàba?	Is he or is he not your dad?
+他们是台湾人吗？	tāmen shì táiwānrén ma?	Are they Taiwanese?
+他们是不是台湾人？	tāmen shì bú shì táiwānrén?	Are they or are they not Taiwanese?
+你是不是中国人？	nǐ shì bú shì zhōngguórén?	Are you Chinese?
+是。我是中国人。你呢？你是不是中国人？	shì. wǒ shì zhōngguórén. nǐ ne? nǐ shì bú shì zhōngguórén?	Yes. I am Chinese. And you? Are you Chinese?
+不是。我不是中国人。我是法国人。	bú shì. Wǒ bú shì zhōngguórén. wǒ shì fǎguórén.	No, I am not. I am not Chinese. I am French.
+她是不是律师？	tā shì bú shì lǜshī?	Is she a lawyer?
+是。她是律师。因为她是律师所以她很有钱。	shì. tā shì lǜshī. yīnwèi tā shì lǜshī suǒyǐ tā hěn yǒuqián.	Yes, she is a lawyer. Because she is a lawyer, she is rich.
+你的男朋友是不是教书？	nǐde nánpéngyǒu shì bú shì jiàoshòu?	Is your boyfriend a professor?
+是。他是教授。	shì. tā shì jiàoshòu	Yes, he is. He is a professor.
+他的大学在哪里？	tāde dàxué zài nǎ lǐ?	Where is his university?
+他的大学在美国。	tāde dàxué zài měiguó.	His university is in America.
+他们是不是医生？	tāmen shì bú shì yīshēng?	Are they doctors?
+不是。他们是护士。现在他们在医院。	bú shì. tāmen shì hùshì. xiànzài tāmen zài yīyuàn.	No, they aren’t. They are nurses. They are at the hospital now.
+你们是不是学生？	nǐmen shì bú shì xuéshēng?	Are you students?
+是。我们是学生。	shì. wǒmen shì xuéshēng.	Yes, we are. We are students.
+今天是不是你的生日？	jīntiān shì bú shì nǐde shēngrì?	Is today your birthday?
+不是。明天是我的生日。我十三岁。	bú shì. míngtiān shì wǒde shēngrì. Wǒ shísān suì.	No, it isn’t. Tomorrow is my birthday. I’m 13 years old.
+你的名字是不是王建明？	nǐde míngzi shì bú shì Wáng Jiàn Míng?	Is your name Jian Ming Wang? *family names come first in Chinese
+不是。我的名字是Mike老师。	bú shì. wǒde míngzi shì Mike lǎoshī.	No, it is not. My name is Teacher Mike.
+他是不是你的朋友？	tā shì bú shì nǐde péngyǒu?	Is he your friend?
+是。他是我的朋友。他很聪明。	shì. tā shì wǒde péngyǒu. tā hěn cōngmíng.	Yes, he is. He is my friend. He is smart.
+
+//Chinese With Mike/Season 1/Ch 40: Goodbye... for now
+你高不高？	nǐ gāo bù gāo?	Are you tall?
+他壮不壮？	tā zhuàng bú zhuàng?	Is he strong?
+你好不好？	nǐ hǎo bù hǎo?	Are you well/good/fine/okay?
+你的先生胖不胖？	nǐde xiānshēng pàng bú pàng?	Is your husband fat?
+你的儿子乖不乖？	nǐde érzi guāi bù guāi?	Is your son well-behaved?
+他们的房子大不大？	tāmende fángzi dà bú dà?	Is their house big?
+你们的狗饿不饿？	nǐmende gǒu è bú è?	Is you guys' dog hungry?
+你的车子贵不贵？	nǐde chēzi guì bú guì?	Is your car expensive?
+老师的太太瘦不瘦？	lǎoshīde tàitai shòu bú shòu?	Is the teacher’s wife thin?
+你的朋友的猫丑不丑？	nǐde péngyǒude māo chǒu bù chǒu?	Is your friend’s cat ugly?
+你高不高兴？	nǐ gāo bù gāoxìng?	Are you happy?
+她漂不漂亮？	tā piào bú piàoliàng?	Is she pretty/beautiful?
+你的老师聪不聪明？	nǐde lǎoshī cōng bù cōngmíng?	Is your teacher smart/intelligent?
+他们的电视便不便宜？	tāmende diànshì pián bù piányí?	Is their television cheap/inexpensive?
+你难不难过？	nǐ nán bù nánguò?	Are you sad?
+Michael Jordan有不有名？	Michael Jordan yǒu bù yǒu míng?	Is Michael Jordan famous?
+
+//Chinese With Mike/Season 2/Ch 41: Yao
+你要什么？	nǐ yào shénme?	What do you want?
+我要茶	wǒ yào chá	I want tea
+他要什么？	tā yào shénme?	What does he want?
+他要可乐	tā yào kělè	He wants Cola
+你要不要咖啡？	nǐ yào bú yào kāfēi?	Do you want Coffee? (alternate 1)
+你要咖啡吗？	nǐ yào kāfēi ma?	Do you want Coffee? (alternate 2)
+要。我要咖啡。	yào. wǒ yào kāfēi.	Yes. I want coffee.
+不要。我不要咖啡。	búyào. wǒ búyào kāfēi.	No. I don't want coffee.
+你要咖啡还是啤酒？	nǐ yào kāfēi háishì píjiǔ?	Do you want coffee or beer?
+我的朋友要可乐还是果汁	wǒde péngyǒu yào kělè háishì guǒzhī?	Does our friend want cola or fruit juice?
+
+//Chinese With Mike/Season 2/Ch 42: Eat and Drink
+我要吃炒饭	wǒ yào chī chǎo fàn	I want to eat fried rice
+你要吃面	nǐ yào chī miàn	You want to eat fried noodles
+他要喝汤	tā yào hē tāng	He wants to drink soup
+我们要吃猪肉	wǒmen yào chī zhū ròu	We want to eat pork
+你们要喝茶	nǐmen yào hē chá	You guys want to drink tea
+他们要吃豆腐	tāmen yào chī dòufu	They want to eat tofu
+我的女朋友要吃鸡肉	wǒde nǚ péngyǒu yào chī jī ròu	My girlfriend wants to eat chicken
+我的妹妹要吃牛肉炒饭	wǒde mèimei yào chī niúròu chǎo fàn	My younger sister wants to eat been fried rice
+你要不要喝可乐？	nǐ yào búyào hē kělè?	Do you want to drink Cola?
+你的哥哥要吃鸡肉吗？	nǐ dí gēgē yào chī jī ròu ma?	Does your older brother want to eat chicken? 
+他们的老师要喝牛奶吗？	tāmen de lǎoshī yào hē niúnǎi ma?	Does their teacher want to drink milk? 
+我们的爸爸要吃饭	wǒmen de bà ba yào chīfàn	Our father wants to eat (a meal). 
+我的姐姐的男朋友要喝茶	wǒde jiejie de nán péngyǒu yào hē chá	My older sister's boyfriend wants to drink tea
+你们要不要吃面？	nǐmen yào búyào chī miàn? 	Do you guys want to eat noodles?
+我的妈妈要喝汤	wǒde māmā yào hē tāng	My mother wants to drink soup.
+
+//Chinese With Mike/Season 2/Ch 43: Kan
+你要看电视吗？	nǐ yào kàn diànshì ma?	Do you want to watch TV? (alternate 1)
+你要不要看电视？	nǐ yào búyào kàn diànshì?	Do you want to watch TV? (alternate 2)
+要。我要看电视。	yào. wǒ yào kàn diànshì.	Yes. I want to watch TV.
+不要。我不要看电视。	búyào. wǒ búyào kàn diànshì. 	No. I don't want to watch TV.
+你的弟弟要看电影吗？	nǐde dìdì yào kàn diànyǐng ma?	Does your younger brother want to watch a movie? (alternate 1)
+你的弟弟要不要看电影？	nǐde dìdì yào búyào kàn diànyǐng?	Does your younger brother want to watch a movie? (alternate 2)
+这是女人	zhè shì nǚrén	This is a woman.
+她要看书码？	tā yào kàn shū mǎ?	Does she want to read a book?
+不要。她不要看书。	búyào. tā búyào kàn shū.	No. She doesn't want to read a book.
+他要不要看杂志？	tā yào búyào kàn zázhì?	Does he want to read a magazine?
+要。他要看杂志。	yào. tā yào kàn zázhì.	Yes. He wants to read a magazine.
+你要看DVD吗？	nǐ yào kàn DVD ma?	Do you want to watch a DVD?
+不要。我不要看DVD.	búyào. wǒ búyào kàn DVD.	No. I don't want to watch a DVD.
+你的太太要不要看报纸？	nǐde tàitài yào búyào kàn bàozhǐ? 	Does your wife want to read a newspaper?
+要。我的太太要看报纸。	yào. wǒde tàitài yào kàn bàozhǐ.	Yes. My wife wants to read a newspaper.
+今天我很高兴	jīntiān wǒ hěn gāoxìng	Today I am very happy	
+
+//Chinese With Mike/Season 2/Ch 44: Shuo/Jiang
+你会说中文吗？	nǐ huì shuō Zhōngwén ma?	Do you speak Chinese? (alternate 1)
+你会不会说中文？	nǐ huì bú huì shuō Zhōngwén?	Do you speak Chinese? (alternate 2)
+会。我会说中文。	huì. wǒ huì shuō Zhōngwén. 	Yes. I speak Chinese.
+不会。我不会说中文。	bú huì. wǒ bú huì shuō Zhōngwén.	No. I don't speak Chinese.
+你的先生会讲英文吗？	nǐde xiānshēng huì jiǎng Yīngwén ma? 	Does your husband speak English? (alternate 1)
+你的先生会不会讲英文？	nǐde xiānshēng huì bú huì jiǎng Yīngwén?	Does your husband speak English? (alternate 2) 
+会。他会讲英文。	huì. tā huì jiǎng Yīngwén. 	Yes. He speaks English.
+不会。他不会讲英文。	bú huì. tā bú huì jiǎng Yīngwén.	No. He doesn't speak English.	
+我不会讲日文	wǒ bú huì jiǎng Rì wén	I don't speak Japanese.
+你会不会说英文？	nǐ huì bú huì shuō Yīngwén?	Do you speak English?
+他会讲中文吗？	tā huì jiǎng Zhōngwén ma?	Does he speak Chinese?
+我们不会说中文。	wǒmen bú huì shuō Zhōngwén.	We don't speak Chinese.
+你们会讲英文。	nǐmen huì jiǎng Yīngwén.	You guys speak English.
+他们会不会说中文？	tāmen huì bú huì shuō Zhōngwén? 	Do they speak Chinese?
+Mike老师会不会说英文？	Mike lǎoshī huì bú huì shuō Yīngwén? 	Does Teacher Mike speak English?
+Mike老师是美国人。	Mike lǎoshī shì Měiguórén.	Teacher Mike is American.
+中国人会说中文吗？	Zhōngguó rén huì shuō Zhōngwén ma? 	Do Chinese people speak Chinese?
+
+//Chinese With Mike/Season 2/Ch 45: What Can You Do?
+我会弹钢琴	wǒ huì dàn gāngqín	I can play the piano
+我会弹吉他	wǒ huì dàn jítā	I can play the guitar
+你会唱（歌）吗？	nǐ huì chàng (gē) ma?	Can you sing?
+他会不会跳舞？	tā huì bú huì tiàowǔ?	Can he dance?
+你的太太会煮饭吗？	nǐde tàitài huì zhǔ fàn ma?	Can your wife cook? 
+我的老师会写中文字	wǒde lǎoshī huì xiě Zhōngwén zì	My Teacher can write Chinese characters.
+他们会有游泳吗？	tāmen huì yǒu yóuyǒng ma?	Can they swim?
+我的女儿不会开车	wǒde nǚ'ér bú huì kāichē	My daughter cannot drive
+我的儿子也不会开车	wǒde érzi yě bú huì kāichē	My son cannot drive either. 
+你是不是律师？	nǐ shì búshì lǜshī?	Are you a lawyer? (alternate 1)
+你是律师吗？	nǐ shì lǜshī ma?	Are you a lawyer? (alternate 2)
+是/不是	shì/búshì	Yes/No (Am/Am not) 
+她要不要吃炒饭？	tā yào búyào chī chǎo fàn?	Does she want to eat fried rice? (alternate 1)
+她要吃炒饭吗？	tā yào chī chǎo fàn ma?	Does she want to eat fried rice? (alternate 2)
+要/不要	yào/búyào	Yes/No (Want/Don't Want) 
+他们会不会说中文？	tāmen huì bú huì shuō zhōngwén?	Can they speak Chinese? (alternate 1) 
+他们会说中文吗？	tāmen huì shuō zhōngwén ma?	Can they speak Chinese? (alternate 2)
+会/不会	huì/bú huì	Yes/No (Can/Can't)
+
+//Chinese With Mike/Season 2/Ch 46: More Yao, More Hui
+你要听音乐吗？	nǐ yào tīng yīnyuè ma?	Do you want to listen to music?
+要。我要听音乐	yào. wǒ yào tīng yīnyuè	Yes. I want to listen to music.
+她会用筷子吗？	tā huì yòng kuàizi ma?	Can she use chopsticks?
+不会。她不会用筷子	bú huì. tā bú huì yòng kuàizi	No. She can't use chopsticks.
+你的弟弟会不会骑摩托车？	nǐde dìdì huì bú huì qí mótuō chē?	Can your brother ride a motorcyle?
+会。他会骑摩托车	huì. tā huì qí mótuō chē	Yes. He can ride a motorcycle.
+你的刀子在哪里？	nǐde dāozi zài nàlǐ?	Where is your knife?
+我的刀子在厨房	wǒde dāozi zài chúfáng	My knife is in the kitchen.
+我要吃面	wǒ yào chī miàn	I want to eat noodles
+你要筷子吗？	nǐ yào kuàizi ma?	Do you want chopsticks?
+要。我要筷子	yào. wǒ yào kuàizi	Yes. I want chopsticks.
+入境随俗	rù jìng suí sú	When in Rome, do as the Romans do (lit. enter border follow custom)
+你的太太要不要骑马？	nǐde tàitài yào bùyào qímǎ?	Does your wife want to ride a horse?
+不要。她不要骑马	bùyào. tā bùyào qí mǎ	No. She doesn't want to ride a horse.
+为什么？因为他不会骑马	wèishénme? yīnwèi tā bú huì qí mǎ	Because she can't ride a horse.
+你的朋友要听中文歌吗？	nǐde péngyǒu yào tīng Zhōngwén gē ma?	Does your friend want to listen to Chinese music?
+不要。她要听英文歌	bùyào. Tā yào tīng Yīngwén gē	No. She want to listen to English music.
+
+//Chinese With Mike/Season 2/Ch 47: Haochi ma?
+好吃	hǎo chī	Tasty
+好看	hǎo kàn	Good read/watch/see
+好听	hǎo tīng	Good listen
+好喝	hǎo hē	Good drink
+很好吃	hěn hǎo chī	It is tasty
+不好吃	bù hǎo chī	It is not tasty
+你的书好看吗？	nǐde shū hǎokàn ma?	Is your book a good read?
+我的书很好看	wǒde shū hěn hǎokàn	My book is a good read
+你的报纸好看吗？	nǐde bàozhǐ hǎokàn ma?	Is your newspaper a good read?
+电影好看吗	diànyǐng hǎokàn ma?	How was the movie?
+好看/很好看/不好看	hǎokàn/hěn hǎokàn/bù hǎokàn	Good read/good read/not a good read
+你的茶好喝吗？	nǐde chá hǎo hē ma?	How is your tea?
+好喝/不好喝	hǎo hē/bù hǎo hē	Good drink/not a good drink
+你的啤酒好喝吗？	nǐde píjiǔ hǎo hē ma?	How is your beer?
+你的汤好喝吗？	nǐde tāng hǎo hē ma?	How is your soup?
+你的饭好不好吃？	nǐde fàn hǎobù hǎo chī?	How is your meal?
+我的饭很好吃	wǒde fàn hěn hǎo chī	My meal tastes good
+我的饭不好吃	wǒde fàn bú hǎo chī	My meal doesn't taste good
+你的鸡肉炒饭好不好吃？	nǐde jī ròu chǎo fàn hǎobù hǎo chī?	Is your chicken fried rice tasty?
+你的臭豆腐好不好吃？	nǐde chòu dòufu hǎobù hǎo chī?	How is your stinky tofu?
+音乐好不好听？	yīnyuè hǎobù hǎotīng?	How is the music?
+音乐不好听. 	yīnyuè bù hǎotīng.	The music is not good
+
+//Chinese With Mike/Season 2/Ch 48: To Like
+我喜欢你	wó xǐhuan nǐ	I like you
+你喜欢我吗	nó xǐhuan wǒ ma?	Do you like me?
+喜欢/不喜欢	xǐhuan/bù xǐhuan	I like you/ don't like you
+我爱你	wǒ ài nǐ	I love you
+你爱我吗?	nǐ ài wǒ ma?	Do you love me?
+我喜欢吃水果	wó xǐhuan chī shuǐguǒ	I like to eat fruits
+我喜欢看书	wó xǐhuan kàn shū	I like to read books
+我喜欢骑摩托车	wó xǐhuan qí mótuō chē	I like to ride motorcycles
+我喜欢跳舞	wó xǐhuan tiàowǔ	I like to dance
+Geoff喜欢听音乐	Geoff xǐhuan tīng yīnyuè	Geoff likes to listen to music
+Geoff喜欢看电视	Geoff xǐhuan kàn diànshì	Geoff likes to watch TV
+Geoff喜欢弹吉他	Geoff xǐhuan dàn jítā	Geoff likes to play guitar
+Geoff喜欢喝咖啡	Geoff xǐhuan hē kāfēi	Geoff likes to drink coffee
+Geoff喜欢听音乐吗？	Geoff xǐhuan tīng yīnyuè ma?	Does Geoff like to listen to music?
+Geoff喜不喜欢听音乐?	Geoff xǐ bù xǐhuan tīng yīnyuè?	Does Geoff like to listen to music?
+
+//Chinese With Mike/Season 2/Ch 49: Sports
+你喜欢打篮球吗？	nǐ xǐhuan dǎ lánqiú ma?	Do you like to play basketball?
+我喜欢打篮球	wǒ xǐhuan dǎ lánqiú	I like to play basketball
+他喜不喜欢踢足球？	tā xǐ bù xǐhuan tī zúqiú?	Does he like to play soccer?
+他喜欢踢足球	tā xǐhuan tī zúqiú	He likes to play football
+老师喜欢打棒球吗？	lǎoshī xǐhuan dǎ bàngqiú ma?	Does the teacher like to play baseball?
+老师不喜欢打棒球	lǎoshī bù xǐhuan dǎ bàngqiú 	The teacher doesn't like playing baseball.
+我的爸爸的朋友不喜欢我 	wǒde bà ba de péngyǒu bù xǐhuan wǒ	My dad's friend doesn't like me
+我也不喜欢他	wǒ yě bù xǐhuan tā	I don't like him either
+为什么？他很小气	wèishéme? Tā hěn xiǎoqì	Why? He is stingy.
+我爱我的妈妈	wǒ ài wǒde māmā	I love my mom.
+
+//Chinese With Mike/Season 2/Ch 50: Mǎi and Mài (Buy & sell)
+我要买可乐	wǒ yào kělè.	I want cola
+你要不要买气球	nǐ yào bú yào mǎi qìqiú?	Do you want to buy a balloon?
+他喜欢买玩具	tā xǐhuān mǎi wánjù.	He wants to buy a toy.
+我的姐姐要卖她的车子	wǒde jiějie yào mài tāde chēzi.	My sister wants to sell her car.
+老师的朋友不要不要买篮球。他要买排球	Lǎoshīde péngyǒu bú yào mǎi lánqiú. Tā yào mǎi páiqiú.	Teacher's friend don't want to buy a basketball. He is looking for a volleyball.
+你要卖什么？	nǐ yào mài shénme?	You want to sell something?
+我要卖我的椅子	wò yào mài wǒde yǐzi.	I want to sell my chair.
+为什么	wèishénme?	Why?
+因为我的椅子很旧	yīnwèi wǒde yǐzi hěn jiù.	Because my chair is old.
+王先生要买水果，可是王太太要买蔬菜	Wang Xiānshēng yào mǎi shuǐguǒ kěshì Wang Tàitai yào mǎi shūcài. Mr Wang wants to buy fruit but Mrs Wants to buy vegetables.
+谁要买冰淇淋？	shèi yào mǎi bīngqílín?	Who wants to buy ice cream?
+他们要买冰淇淋。冰淇淋很好吃。	tāmen yào mǎi bīngqílín. Bīngqílín hěn hǎochī.	They want to buy ice cream. Ice cream is good to eat.
+我要买中文书。	wǒ yào mǎi Zhōngwén shū.	I want to buy a Chinese book.
+你会讲中文吗？	nǐ huì jiǎng Zhōngwén ma?	Can you speak Chinese?
+会。我会讲中文。	huì. Wǒ huì jiǎng Zhōngwén.	Yes. I can speak Chinese.
+我的妹妹要卖她的法文书。	wǒde mèimei yào mài tāde Fǎwén shū.	My youger sister wants to sell her French books.
+因为她的法文书不好看。她要买新的法文书。	Yīnwèi tāde Fǎwén shū bù hǎokàn. Tā yào mǎi xīnde Fǎwén shū.	Because her French books are not good to read. She wants to buy new French books.
+我喜欢买东西。	wǒ xǐhuān mǎi dōngxī.	I like buying things.
+我的女儿要买糖果。	wǒde nü'ér yào mǎi tángguǒ.	My daughter wants to buy candy.
+我的儿子也要买。	wǒde érzi yě yào mǎi.	My son wants to buy some too.
+因为我很饿，所以我要买晚餐。	yīnwèi wǒ hěn è, suǒyǐ wǒ yào mǎi wǎncān.	Because I am hungry, I want to buy dinner.
+因为我们很渴，所以我们要买饮料。	yīnwèi wǒmen hěn kě, suǒyǐ wǒmen yào mǎi yǐnliào.	Because we are thirsty, we want to buy drinks.
+我要买电脑。但是电脑很贵。	wǒ yào mǎi diànnǎo. Dànshì diànnǎo hěn guì.	I want to buy a computer, but the computer is expensive.
+
+//Chinese With Mike/Season 2/Ch 51: How Much Is It?
+多少钱？	duōshǎo qián? 	How much money?
+棒球多少钱？	bàngqiú duōshǎo qián? 	How much is the baseball?
+我要买橙汁	wǒ yāomǎi chéngzhī	I want to buy orange juice
+你要大的还是小的	nǐ yào dà de háishì xiǎo de	Do you want a large or small?
+我要大的。多少钱？	wǒ yào dà de. Duōshǎo qián? 	I want a large. How much is it?
+我要卖我的手机	wǒ yào mài wǒ de shǒujī	I want to sell my cellphone
+100块。很便宜	100 Kuài. Hěn piányi	100 bucks. Very cheap.
+
+//Chinese With Mike/Season 2/Ch 52: Clothes
+你要穿什么衣服？	nǐ yào chuān shénme yīfú? 	What do you want to wear?
+我要穿绿色的衬衫	wǒ yào chuān lǜsè de chènshān	I want to wear a green shirt
+今天他要穿什么衣服？	jīntiān tā yào chuān shénme yīfú? 	What does he want to wear today?
+你要不要穿鞋子？	nǐ yào bùyào chuān xiézi?	Do you want to wear shoes?
+你要穿什么颜色？	nǐ yào chuān shénme yánsè? 	What colour shoes do you want to wear?
+我要穿黑色的鞋子	wǒ yào chuān hēisè de xiézi	I want to wear black shoes
+我的鞋则好不好看？	wǒ de xié zé hǎobù hǎokàn? 	Do my shoes look good?
+你的鞋子很好看	nǐ de xiézi hěn hǎokàn	Your shoes look good
+
+//Chinese With Mike/Season 2/Ch 53: More Verbs
+我要练习中文	wǒ yào liànxí zhōngwén	I want to practice Chinese
+睡觉	shuìjiào	to sleep
+谁教你中文？	shuí jiào nǐ zhōngwén?	Who teaches you Chinese?
+Mike老师教我。。。	mike lǎoshī jiào wǒ. . .	Mike Laoshi teaches me ...
+我在大学。我要学习日文	wǒ zài dàxué. Wǒ yào xuéxí rìwén	I am at University. I want to study Japanese
+他很累吗？	tā hěn lèi ma?	Is he tired?
+是。他很累。	shì. Tā hěn lèi.	Yes. He is tired
+她要睡觉	tā yào shuìjiào	She wants to sleep
+因为我的英文不好，所以我要练习	yīnwèi wǒ de yīngwén bù hǎo, suǒyǐ wǒ yào liànxí	Because my English is bad, I want to practice.
+你叫什么？	nǐ jiào shénme?	What are you called?
+我叫Mike	wǒ jiào Mike	I am called Mike
+你的名字叫什么？	nǐ de míngzì jiào shénme?	What is your name?
+我的名字叫Mike	wǒ de míngzì jiào Mike	My name is (called) Mike
+
+//Chinese With Mike/Season 2/Ch 54: To Go
+我喜欢去公园	wǒ xǐhuan qù gōngyuán	I like to go to the park.
+你喜欢去公园吗？	nǐ xǐhuan qù gōngyuán ma?	Do you like to go to the park?
+你喜欢去动物园吗？	nǐ xǐhuan qù dòngwùyuán ma?	Do you like to go to the zoo?
+喜欢。我喜欢去动物园	xǐhuan. Wǒ xǐhuan qù dòngwùyuán	Yes. I like to go to the zoo.
+他喜不喜欢去医院？	tā xǐ bù xǐhuan qù yīyuàn?	Does he like to go to the hospital?
+不喜欢。他不喜欢去医院	bù xǐhuan. Tā bù xǐhuan qù yīyuàn	No. He doesn't like to go to the hospital.
+我喜欢去电影院看新电影	wǒ xǐhuan qù diànyǐngyuàn kàn xīn diànyǐng	I like to go to the cinema to see new movies.
+你喜欢去图书馆看书吗？	nǐ xǐhuan qù túshū guǎn kàn shū ma?	Would you like to go to the library to read books?
+他们喜欢去游泳池游泳。	tāmen xǐhuan qù yóuyǒngchí yóuyǒng.	They like to go to the pool to swim.
+他们喜不喜欢去市场买菜	tāmen xǐ bù xǐhuan qù shìchǎng mǎi cài	Do they like to go to the market to buy food?
+
+//Chinese With Mike/Season 2/Ch 55: Yao (Definition 2)
+你要去哪里？	nǐ yào qù nǎlǐ?	Where are you going?
+我要去学校。	wǒ yào qù xuéxiào.	I'm going to school.
+他要去睡觉。	tā yào qù shuìjiào.	He is going to go to sleep.
+我要去图书馆。	wǒ yào qù túshū guǎn.	I am going to the library.
+因为我要学习中文。	yīnwèi wǒ yào xuéxí zhōngwén.	Because I want to learn Chinese.
+我的女朋友要回家。	wǒ de nǚ péngyǒu yào huí jiā.	My girlfriend wants to go return home.
+因为现在很晚。	yīnwèi xiànzài hěn wǎn.	Because it is late now.
+他要睡觉。	tā yào shuìjiào.	She is going to sleep.
+老师要看书。	lǎoshī yào kàn shū.	The teacher wants to/is going to read.
+谁要去中国？	shuí yào qù zhōngguó?	Who is going to China?
+我们要去中国。	wǒmen yào qù zhōngguó.	We are going to China.
+王先生要看球赛。	wáng xiānshēng yào kàn qiúsài.	Mr. Wang is going to go and watch a ball game.
+
+//Chinese With Mike/Season 2/Ch 56: Yao (Definition 3) and Review
+我要咖啡。	wǒ yào kāfēi.	I want coffee.
+我要去海滩。	wǒ yào qù hǎitān.	I am going to go to the beach.
+我要做作业。	wǒ yào zuò zuo yè.	I must do homework.
+我要工作。	wǒ yào gōngzuò.	I must work.
+我要吃药。	wǒ yào chī yào.	I must take medicine.
+我要吃饭。	wǒ yào chīfàn.	I want to/am going to/must eat.
+你要买东西。	nǐ yāomǎi dōngxi.	You want to/am going to/must buy something.
+他要洗衣服。	tā yào xǐ yīfú.	He must do laundry.
+我们要做运动。	wǒmen yào zuò yùndòng.	We want to/are going to/must exercise.
+你们要回中国。	nǐmen yào huí zhōngguó.	You are going back to China.
+他们要（去）工作。	tāmen yào (qù) gōngzuò.	They are going to go to work.
+你要去哪里？	nǐ yào qù nǎlǐ?	Where are you going?
+你要做什么？	nǐ yào zuò shénme?	What are you going to do?
+学习中文	xuéxí zhōngwén	Learn Chinese
+
+//Chinese With Mike/Season 2/Ch 57: Adverbs
+你好吗？	nǐ hǎo ma?	How are you?
+我很好。	wǒ hěn hǎo.	I'm good.
+我还好。	wǒ hái hǎo.	I'm all right.
+我不好。	wǒ bù hǎo.	I'm not OK.
+你喜欢X？还好。	nǐ xǐhuan X? Hái hǎo.	You like X? It's OK.
+因为我太累，所以我不要出去	yīnwèi wǒ tài lèi, suǒyǐ wǒ bùyào chūqù	Because I was too tired, I didn't go out
+因为天气超热所以他要吃冰淇淋	yīn wéi tiānqì chāo rè suǒyǐ tā yào chī bīngqílín	Because the weather was super hot, he wanted to eat ice cream.
+因为我的狗蛮臭， 所以大家不喜欢它	Yīnwèi wǒ de gǒu mán chòu, suǒyǐ dàjiā bù xǐhuan tā	Because my dog is quite smelly, everyone doesn't like it.
+你真漂亮。	nǐ zhēn piàoliang.	You are really beautiful
+他们真棒。	tāmen zhēn bàng.	They are truly great
+真的吗？	zhēn de ma?	Really?
+真的.	zhēn de.	Really.
+
+//Chinese With Mike/Season 2/Ch 58: Keyi
+我会开车	wǒ huì kāichē	I can drive.
+你会煮饭	nǐ huì zhǔ fàn	You can cook.
+他会骑摩托车	tā huì qí mótuō chē	He will ride a motorcycle.
+我可以去厕所吗？	wǒ kěyǐ qù cèsuǒ ma?	May I go to the bathroom?
+我可以亲昵吗？	wǒ kěyǐ qīnnì ma?	May I kiss you?
+我可以回家吗？	wǒ kěyǐ huí jiā ma?	May I return home?
+我可以看电视吗？	wǒ kěyǐ kàn diànshì ma?	May I watch television?
+你可以给我X吗？	nǐ kěyǐ gěi wǒ X ma?	Could you give me X?
+你可不可以帮我？	nǐ kěbù kěyǐ bāng wǒ?	Could you help me?
+可以/不可以	kěyǐ/bù kěyǐ	Yes/No (can/can't)
+
+//Chinese With Mike/Season 2/Ch 59: Neng
+我会打麻将	wǒ huì dǎ májiàng	I can play mahjong.
+你可以去厕所	nǐ kěyǐ qù cèsuǒ	You can go to the bathroom.
+我不能去	wǒ bùnéng qù	I cannot go.
+你能不能给我笔？	nǐ néng bùnéng gěi wǒ bǐ?	Are you able to give me the pen?
+他不能出去	tā bùnéng chūqù	He cannot go out.
+因为我不能去学校，所以我不高兴。	yīnwèi wǒ bùnéng qù xuéxiào, suǒyǐ wǒ bù gāoxìng.	Because I am not able to go to school, I am not happy.
+我不能去中国	wǒ bùnéng qù zhōngguó	I am not able to go to China.
+我的妈妈不能喝酒	wǒ de māmā bùnéng hējiǔ	My mother is not able to drink alcohol.
+我的女儿还不能工作	wǒ de nǚ'ér hái bùnéng gōngzuò	My daughter is not able to work.
+我的儿子还不能去夜店	wǒ de ér zǐ huán bùnéng qù yèdiàn	My son cannot go to nightclubs.
+我还不能出来.	wǒ hái bùnéng chūlái.	I am not able to go out.
+她还不能睡觉.	tā hái bùnéng shuìjiào.	She is unable to sleep.
+
+//Chinese With Mike/Season 2/Ch 60: Negative Commands
+我要三明治。	wǒ yào sānmíngzhì.	I want a sandwich.
+我们要去机场。	wǒmen yào qù jīchǎng.	We are going to the airport.
+你们要洗手。	nǐmen yào xǐshǒu.	You must wash your hands.
+不要	bùyào	Do not/don't
+不要偷我的东西。	bùyào tōu wǒ de dōngxi.	Don't steal my stuff.
+不要喝酒。	bùyào hējiǔ.	Don't drink alcohol.
+不要走。	bùyào zǒu.	Don't leave.
+不要开门。	bùyào kāimén.	Don't open the door.
+不要买太贵的车子。	bù yāo mǎi tài guì de jū zi.	Don't buy a too expensive car.
+不要等我。	bùyào děng wǒ.	Don't wait for me.
+
+//Chinese With Mike/Season 3/Ch 61: You
+这是咖啡。	zhè shì kāfēi. 	This is coffee. 
+我要喝咖啡。	wǒ yào hē kāfēi. 	I want to drink coffee. 
+我喜欢喝咖啡。	wǒ xǐhuan hē kāfēi. 	I like to drink coffee. 
+我有咖啡。	wǒ yǒu kāfēi. 	I have coffee. 
+我有花。	wǒ yǒu huā. 	I have flowers. 
+我有红色的花。	wǒ yǒu hóngsè de huā. 	I have red flowers. 
+你有帽子。 	nǐ yǒu màozi. 	You have a hat. 
+你有黑色的帽子。	nǐ yǒu hēisè de màozi. 	You have a black hat. 
+我有钱。	wǒ yǒu qián. 	I have money.
+你有房子。	nǐ yǒu fángzi. 	You have a house. 
+他有书。	tā yǒu shū. 	He has books. 
+我们有狗。	wǒmen yǒu gǒu. 	We have a dog. 
+你们有猫。	nǐmen yǒu māo. 	You have a cat. 
+他们有车子。	tāmen yǒu chēzi. 	They have a car.
+
+//Chinese With Mike/Season 3/Ch 62: Mei You
+我不是医生。	wǒ bùshì yīshēng. 	I am not a doctor.
+你不喜欢看书。	nǐ bù xǐhuan kàn shū. 	You do not like reading.
+她不要去图书馆。	tā bùyào qù túshū guǎn. 	She does not like to go to the library.
+我们不好。	wǒmen bù hǎo. 	We are not good.
+我有钱。	wǒ yǒu qián. 	I have money.
+我没有钱。	wǒ méiyǒu qián. 	I don't have money.
+我没有车子。	wǒ méiyǒu chēzi. 	I don't have a car.
+你没有房子。	nǐ méiyǒu fángzi. 	You don't have a house.
+他没有工作。	tā méiyǒu gōngzuò. 	He doesn't have a job.
+我们没有中文书。	wǒmen méiyǒu zhòng wén shū. 	We don't have Chinese books.
+你们没有英文书。	nǐmen méiyǒu yīngwén shū. 	You guys don't have English books.
+他们没有筷子。	tāmen méiyǒu kuàizi. 	They don't have chopsticks.
+你有什么？	nǐ yǒu shé me? 	What do you have?
+我有衣服。	wǒ yǒu yīfú. 	I have clothes.
+你有电脑吗？	nǐ yǒu diànnǎo ma? 	Do you have a computer?
+有。我有电脑。	yǒu. Wǒ yǒu diànnǎo.	Yes. I have a computer.
+你有相机吗？	nǐ yǒu xiàngjī ma? 	Do you have a camera?
+没有。我没有相机。	méiyǒu. Wǒ méiyǒu xiàngjī. 	No. I don't have a camera.
+
+//Chinese With Mike/Season 3/Ch 63: Review of You
+你有电话吗？	nǐ yǒu diànhuà ma? 	Do you have a phone?
+你有没有电话？	nǐ yǒu méiyǒu diànhuà? 	Do you have a phone?
+有。我有电话。	yǒu. Wǒ yǒu diànhuà. 	Yes. I have a phone.
+你的妈妈有没有茶？	nǐ de māmā yǒu méiyǒu chá? 	Does your mother have tea?
+我不喜欢你。	wǒ bù xǐhuan nǐ. 	I don't like you.
+你没有功课。	nǐ méiyǒu gōngkè. 	You don't have any homework.
+他没有牙刷。	tā méiyǒu yáshuā. 	He doesn't have a toothbrush.
+我们不是台湾人。	wǒmen bùshì táiwān rén. 	We are not taiwanese.
+你们没有玩具。	nǐmen méiyǒu wánjù. 	You do not have toys.
+他们不要去公园。	tāmen bùyào qù gōngyuán. 	They are not going to the park.
+
+//Chinese With Mike/Season 3/Ch 64: Hen Duo
+我有很多熊猫。	wǒ yǒu hěnduō xióngmāo. 	I have a lot of pandas.
+我有很多鞋子。	wǒ yǒu hěnduō xiézi. 	I have a lot of shoes.
+你有很多钱。	nǐ yǒu hěnduō qián. 	You have a lot of money.
+她有很多书。	tā yǒu hěnduō shū. 	She has a lot of books.
+我们有很多朋友。	wǒmen yǒu hěnduō péngyǒu. 	We have a lot of friends.
+你们有很多笔。	nǐmen yǒu hěnduō bǐ. 	You guys have a lot of pens.
+他们有很多花。	tāmen yǒu hěnduō huā. 	They have a lot of flowers.
+我的爸爸没有很多帽子。	wǒ de bàba méiyǒu hěnduō màozi. 	My father does not have many hats.
+你的妈妈没有很多椅子。	nǐ de māmā méiyǒu hěnduō yǐzi. 	Your mother does not have many chairs.
+我们的老师没有很多学生。	wǒmen de lǎoshī méiyǒu hěnduō xuéshēng.	Our teacher does not have many students.
+
+//Chinese With Mike/Season 3/Ch 65: Measure Words
+我有妹妹。	wǒ yǒu mèimei. 	I have younger sister(s).
+我有一个妹妹。	wǒ yǒu yīgè mèimei. 	I have one younger sister.
+我有两个弟弟。	wǒ yǒu liǎng gè dìdì. 	I have two younger brothers.
+我有三个哥哥。	wǒ yǒusān gè gēgē. 	I have three older brothers.
+我有一个女朋友。	wǒ yǒu yīgè nǚ péngyǒu. 	I have one girlfriend.
+你有两个老师。	nǐ yǒu liǎng gè lǎoshī. 	You have two teachers.
+他有三个妹妹。	tā yǒusān gè mèimei.	He has three younger sisters.
+我们有两个医生。	wǒmen yǒu liǎng gè yīshēng. 	We have two doctors.
+你们有四个孩子。	nǐmen yǒu sì gè háizi. 	You have four children.
+他们有五个律师。	tāmen yǒu wǔ gè lǜshī. 	They have five lawyers.
+
+//Chinese With Mike/Season 3/Ch 66: How Many and Measure Words
+你几岁？	nǐ jǐ suì? 	How old are you?
+现在（是）几点？	xiànzài (shì) jǐ diǎn? 	What time is it?
+现在是几月？	xiànzài shì jǐ yuè? 	What month is it?
+今天是星期几？	jīntiān shì xīngqí jǐ? 	What is the day of the week today?
+今天是几月几号？	jīntiān shì jǐ yuè jǐ hào? 	What is the month and date today?
+你有几个妹妹？	nǐ yǒu jǐ gè mèimei? 	How many younger sisters do you have?
+你有几个学生？	nǐ yǒu jǐ gè xuéshēng? 	How many students do you have?
+我有十个学生。	wǒ yǒu shí gè xuéshēng. 	I have ten students.
+你有几个姐妹？	nǐ yǒu jǐ gè jiěmèi? 	How many sisters do you have?
+我有三个姐妹。	wǒ yǒusān gè jiěmèi. 	I have three sisters.
+他有几个兄弟？	tā yǒu jǐ gè xiōngdì? 	How many brothers does he have?
+餐厅有几个服务员？	cāntīng yǒu jǐ gè fúwùyuán? 	The restaurant has how many servers?
+
+//Chinese With Mike/Season 3/Ch 67: More Measure Words
+你的家有几个人？	nǐ de jiā yǒu jǐ gèrén? 	How many people does your home have?
+我的家有五个人。	wǒ de jiā yǒu wǔ gèrén. 	Our home has five people.
+你的家有几只狗？	nǐ de jiā yǒu jǐ zhǐ gǒu? 	How many animals do you have at home?
+我的家有两只狗。	wǒ de jiā yǒu liǎng zhī gǒu. 	My house has two dogs.
+你有几本书？	nǐ yǒu jǐ běn shū?	How many books do you have?
+我有三本书。	wǒ yǒusān běn shū. 	I have three books.
+你有几个中国朋友？	nǐ yǒu jǐ gè zhōngguó péngyǒu? 	How many Chinese friends do you have?
+我有一个中国朋友。	wǒ yǒu yīgè zhōngguó péngyǒu. 	I have one Chinese friend.
+Mike老师有几本杂志？	Mike lǎoshī yǒu jǐ běn zázhì? 	How many magazines does teacher Mike have?
+Mike老师有一本杂志。	Mike lǎoshī yǒuyī běn zázhì.	Teacher Mike has one magazine.
+她有几只猫？	tā yǒu jǐ zhǐ māo? 	How many cats does she have?
+她有一只猫。	tā yǒuyī zhǐ māo. 	She has three cats.
+他们有几个孩子？	tāmen yǒu jǐ gè háizi? 	How many children do they have?
+他们有一个孩子。	tāmen yǒu yīgè háizi. 	They have one child.
+
+//Chinese With Mike/Season 3/Ch 68: Even More Measure Words
+我要买一张床。	wǒ yāomǎi yī zhāng chuáng. 	I want to buy a bed.
+给我一张纸。	gěi wǒ yī zhāng zhǐ. 	Give me a piece of paper.
+你的家有几张桌子。	nǐ de jiā yǒu jǐ zhāng zhuōzi. 	How many tables are in your home?
+你要一杯水吗？	nǐ yào yībēi shuǐ ma? 	Do you want a cup of water?
+给我四杯咖啡。	gěi wǒ sì bēi kāfēi. 	Give me four cups of coffee.
+你要一瓶水？	nǐ yào yī píng shuǐ? 	Do you want a bottle of water?
+我是一个美国人。	wǒ shì yīgè měiguó rén. 	I am an American.
+你是一个男人。	nǐ shì yīgè nánrén. 	You are a man.
+她是一个教授。	tā shì yīgè jiàoshòu. 	She is a professor.
+我没有一张纸。	wǒ méiyǒu yī zhāng zhǐ. 	I don't have a piece of paper.
+你有两杯茶。	nǐ yǒu liǎng bēi chá. 	You have two cups of tea.
+他有六瓶可乐。	tā yǒu liù píng kělè. 	He has six bottles of cola.
+我们有三本中文书。	wǒmen yǒusān běn zhōngwén shū. 	We have three Chinese books.
+你要几杯牛奶？	nǐ yào jǐ bēi niúnǎi? 	How many glasses of milk do you guys want?
+他们有几只马？	tāmen yǒu jǐ zhǐ mǎ? 	How many horses do they have?
+
+//Chinese With Mike/Season 3/Ch 69: Zhege and Nage
+这是老师。	zhè shì lǎoshī. 	This is a teacher.
+这是一个老师。	zhè shì yīgè lǎoshī. 	This is one teacher.
+这是我的老师。	zhè shì wǒ de lǎoshī. 	This is my teacher.
+那是我的朋友。	nà shì wǒ de péngyǒu. 	That is my friend.
+这个人是我（的）爸爸。	zhège rén shì wǒ (de) bàba. 	This person is my father.
+那个人是我（的）妈妈。	nàgè rén shì wǒ (de) māmā. 	That person is my mother.
+这个男人是我（的）哥哥。	zhège nánrén shì wǒ (de) gēgē. 	This man is my older brother.
+那个女人是我（的）姐姐。	nàgè nǚrén shì wǒ (de) jiejie. 	That woman is my older sister.
+这个女孩（子）是学生。	zhège nǚhái (zi) shì xuéshēng. 	This girl is a student.
+那个男孩（子）是我的弟弟。	nàgè nánhái (zi) shì wǒ de dìdì. 	That boy is my younger brother.
+这个孩子是谁？	zhège háizi shì shuí? 	Who is this child?
+这个孩子是老师的儿子。	zhège háizi shì lǎoshī de érzi. 	This child is the teachers son.
+那个男生是大学生。	nàgè nánshēng shì dàxuéshēng. 	That guyyoung man is a college student.
+那个女生石高中生。	nàgè nǚshēng shí gāozhōng shēng. 	That girlyoung woman is a high school student.
+这个女人是医生。	zhège nǚrén shì yīshēng. 	This woman is a doctor.
+那个女人是护士吗？	nàgè nǚrén shì hùshì ma? 	Is that woman a nurse?
+
+//Chinese With Mike/Season 3/Ch 70: Zhe and Na and Measure Words
+这杯咖啡很烫。	zhè bēi kāfēi hěn tàng. 	This cup of coffee is very hot.
+那杯水超冷。	nà bēi shuǐ chāo lěng. 	That water is super cold.
+这蜘蛛好大。	zhè zhīzhū hào dà. 	This pig is so big.
+那只猴子蛮顽皮。	nà zhǐ hóuzi mán wánpí. 	That monkey is pretty naughty.
+这张椅子太硬。	zhè zhāng yǐzi tài yìng. 	This chair is too hard.
+那张桌子很长。	nà zhāng zhuōzi hěn zhǎng. 	That table is very long.
+这个教授非常聪明。	zhège jiàoshòu fēicháng cōngmíng. 	This professor is very smart.
+那个律师真有钱。	nàgè lǜshī zhēnyǒu qián. 	That lawyer is really rich.
+这本书是谁的？	zhè běn shū shì shuí de. 	Whose book is this?
+这个女人是你的妈妈吗？	zhège nǚrén shì nǐ de māmā ma? 	Is this woman your mother?
+那个老师是谁？	nàgè lǎoshī shì shuí? 	Who is that teacher?
+这张纸是谁的？	zhè zhāng zhǐ shì shuí de? 	Whose piece of paper is this?
+那张床很舒服吗？	nà zhāng chuáng hěn shūfú ma? 	Is that bed comfortable?
+这杯果汁好喝吗？	zhè bēi guǒzhī hǎo hē ma? 	Is this cup of fruit juice good to drink?
+那杯茶是谁的？	nà bēi chá shì shuí de? 	Whose cup of tea is that?
+这本杂志很贵吗？	zhè běn zázhì hěn guì ma? 	Is this magazine expensive?
+那本书好不好看？	nà běn shū hǎobù hǎokàn? 	Is that book a good read?
+这只大象超重？	zhè zhǐ dà xiàng chāozhòng? 	Is this elephent super heavy?
+那只猪是你的女朋友的吗？	nà zhǐ zhū shì nǐ de nǚ péngyǒu de ma? 	Is that your girlfriend's pig?
+
+//Chinese With Mike/Season 3/Ch 71: Prepositions I
+在	zài	in, at, on
+你在哪里？	nǐ zài nǎlǐ?	Where are you?
+我在。。。	wǒ zài. . .	I am at...
+他在哪里？	tā zài nàlǐ?	Where is he?
+他在。。。	tā zài. . .	His is at...
+台北在哪里？	táiběi zài nàlǐ?	Where is Taipei?
+你的太太在哪里？	nǐ de tàitài zài nàlǐ?	Where is your wife?
+她在超级市场。	tā zài chāojí shìchǎng.	She is at the supermarket.
+你的先生在哪里？	nǐ de xiānshēng zài nàlǐ?	Where is your husband?
+他在图书馆。	tā zài túshū guǎn.	He is at the library.
+老师在哪里？	lǎoshī zài nàlǐ?	Where is the teacher?
+他在学校。	tā zài xuéxiào.	He is at school.
+楼上	lóu shàng	Upstairs
+楼下	lóu xià	Downstairs
+里面	lǐmiàn	Inside
+外面	wàimiàn	Outside
+里边	lǐbian	Inside (alternative).
+外边	wàibian	Outside (alternative).
+我是外国人。	wǒ shì wàiguó rén.	I am a foreigner (lit. outsider).
+我在楼上。	wǒ zài lóu shàng.	I am upstairs.
+我在楼下。	wǒ zài lóu xià.	I am downstairs.
+我在里面。	wǒ zài lǐmiàn.	I am inside.
+我在外面。	wǒ zài wàimiàn.	I am outside.
+你的卧室在哪里？	nǐ de wòshì zài nàlǐ?	Where is your bedroom?
+我的卧室在楼上。	wǒ de wòshì zài lóu shàng.	My bedroom is upstairs.
+车子在哪里？	chēzi zài nàlǐ?	Where is the car?
+车子在外面。	chēzi zài wàimiàn.	The car is outside
+Mike老师在哪里？	Mike lǎoshī zài nàlǐ?	Where is teacher Mike?
+Mike老师在里面。	Mike lǎoshī zài lǐmiàn.	Teacher Mike is inside.
+Mike老师在外面。	Mike lǎoshī zài wàimiàn.	Teacher Mike is outside.
+
+//Chinese With Mike/Season 3/Ch 72: Prepositions II
+在里面	zài lǐmiàn	inside
+在外面	zài wàimiàn	outside
+在上面	zài shàngmiàn	above, on top of
+在下面	zài xiàmiàn	below, underneath
+在前面	zài qiánmiàn	in front of
+在后面	zài hòumiàn	behind
+熊猫在哪里？	xióngmāo zài nàlǐ?	Where is the panda?
+它在里面。	tā zài lǐmiàn.	It is inside.
+它在外面。	tā zài wàimiàn.	It is outside.
+它在前面。	tā zài qiánmiàn.	It is in front.
+它在后面。	tā zài hòumiàn.	It is behind.
+它在上面。	tā zài shàngmiàn.	It is above.
+它在下面。	tā zài xiàmiàn.	It is below.
+白板在我的后面。	báibǎn zài wǒ de hòumiàn.	The whiteboard is behind me.
+白板笔在我的前面。	báibǎn bǐ zài wǒ de qiánmiàn.	The whiteboard marker is in front of me.
+天花板在我的上面。	tiānhuābǎn zài wǒ de shàngmiàn.	The celiing is above me.
+地板在我的下面。	dìbǎn zài wǒ de xiàmiàn.	The floor is beneath me.
+黑板在外面。	hēibǎn zài wàimiàn.	The blackboard is outside.
+牛奶在冰箱的里面。	niúnǎi zài bīngxiāng de lǐmiàn.	The milk is inside the refrigerator.
+咖啡在微波炉的里面。	kāfēi zài wéibōlú de lǐmiàn.	The coffee is inside the microwave.
+
+//Chinese With Mike/Season 3/Ch 73: Prepositions III
+在旁边	Zài pángbiān	Next to
+在左边	Zài zuǒbiān	On the left
+在右边	Zài yòubiān	On the right
+在中间	Zài zhōngjiān	Between, in the middle
+树在我的左边。	Shù zài wǒ de zuǒbiān.	The tree is on my left.
+树在我的右边。	Shù zài wǒ de yòubiān.	Thetree is on my right.
+我在树的中间。	Wǒ zài shù de zhōngjiān.	I am between the trees.
+楼梯在我的旁边。	Lóutī zài wǒ de pángbiān.	The stairs are next to me.
+楼梯在我的左边。	Lóutī zài wǒ de zuǒbiān.	The stairs are on my left.
+门在我的旁边。	Mén zài wǒ de pángbiān.	The door is next to me.
+门在我的右边。	Mén zài wǒ de yòubiān.	The door is on my right.
+灯在我的上面。	Dēng zài wǒ de shàngmiàn.	The light is above me.
+电脑在桌子的上面。	Diànnǎo zài zhuōzi de shàngmiàn.	The computer is on the table.
+Mike老师在电脑的前面。	Mike lǎoshī zài diànnǎo de qiánmiàn.	Mike is in front of the computer.
+花在椅子的上面。	Huā zài yǐzi de shàngmiàn.	The flowers are above the chair.
+球在椅子的下面。	Qiú zài yǐzi de xiàmiàn.	The ball is below the chair.
+香蕉在椅子的中间。	Xiāngjiāo zài yǐzi de zhōngjiān.	The bananas are between the chairs.
+蔬菜在肉的中间。	Shūcài zài ròu de zhōngjiān.	The vegetables are between the meat.
+我很饿。我要去外面烤肉。	Wǒ hěn è. Wǒ yào qù wàimiàn kǎoròu.	I'm hungry. I'm going outside to barbecue.
+
+//Chinese With Mike/Season 3/Ch 74: Yao vs Xiang I
+你要喝什么？	Nǐ yào hē shénme?	Do you want to drink something?
+我要喝水。	Wǒ yào hē shuǐ.	I want to drink water.
+你要去哪里？	Nǐ yào qù nǎlǐ?	Where are you going?
+我要去外面。	Wǒ yào qù wàimiàn.	I'm going outside.
+今天我很忙。	Jīntiān wǒ hěn máng.	Today I am busy.
+为什么？	Wèishénme?	Why?
+因为我要做很多事。	Yīnwèi wǒ yào zuò hěnduō shì.	Because I must do many things.
+我要洗澡。	Wǒ yào xǐzǎo.	I must shower.
+我要洗头发.	Wǒ yào xǐ tóu fǎ.	I must wash my hair.
+我要洗脸。	Wǒ yào xǐliǎn.	I must wash my face.
+我要洗手。	Wǒ yào xǐshǒu.	I must wash my hands.
+我要刷牙。	Wǒ yào shuāyá.	I must brush my teeth.
+我要胡子。	Wǒ yào húzi.	I must shave.
+我要梳头发。	Wǒ yào shū tóufǎ.	I must comb my hair.
+我要剪头发。	Wǒ yào jiǎn tóufǎ.	I must cut my hair.
+
+//Chinese With Mike/Season 3/Ch 75: Yao vs. Xiang II
+你要喝什么？	Nǐ yào hē shénme?	Do you want to drink something?
+我要喝水。	Wǒ yào hē shuǐ. 	I want to drink water.
+你要去哪里？	Nǐ yào qù nǎlǐ? 	Where are you going?
+我要去外面。	Wǒ yào qù wàimiàn. 	I'm going outside.
+今天我很忙。	Jīntiān wǒ hěn máng. 	Today I am busy.
+为什么？	Wèishénme? 	Why?
+因为我要做很多事。	Yīnwèi wǒ yào zuò hěnduō shì. 	Because I must do many things.
+我要洗澡。	Wǒ yào xǐzǎo. 	I must shower.
+我要洗头发。	Wǒ yào xǐ tóu fǎ. 	I must wash my hair.
+我要洗脸。	Wǒ yào xǐliǎn. 	I must wash my face.
+我要洗手。	Wǒ yào xǐshǒu. 	I must wash my hands.
+我要刷牙。	Wǒ yào shuāyá. 	I must brush my teeth.
+我要胡子。	Wǒ yào húzi. 	I must shave.
+我要梳头发。	Wǒ yào shū tóufǎ. 	I must comb my hair.
+我要剪头发。	Wǒ yào jiǎn tóufǎ. 	I must cut my hair.
+想	Xiǎng	To want, would like to, think about, to miss
+我想你。	Wǒ xiǎng nǐ. 	I miss you.
+明天你要去哪里？	Míngtiān nǐ yào qù nǎlǐ? 	Where are you going to go tomorrow?
+明天我要去学校。	Míngtiān wǒ yào qù xuéxiào. 	I am going to go to school.
+明天你想去哪里？	Míngtiān nǐ xiǎng qù nǎlǐ? 	Where would you like to go tomorrow?
+明天我想去动物园。	Míngtiān wǒ xiǎng qù dòngwùyuán.	Tomorrow I want to go to the zoo.
+
+//Chinese With Mike/Season 3/Ch 76: Yao vs. Xiang III
+我在想。	wǒ zài xiǎng.	I am thinking.
+我在想我的未来。	wǒ zài xiǎng wǒ de wèilái.	I am thinking about my future.
+不要想太多。	bùyào xiǎng tài duō.	Don't think about it too much.
+不要吃太多。	bùyào chī tài duō.	Don't eat too much.
+不要喝太多。	bùyào hē tài duō.	Don't drink too much.
+我很想我的妈妈。	wǒ hěn xiǎng wǒ de māmā.	I really miss my mother.
+你想我吗？	nǐ xiǎng wǒ ma?	Do you miss me?
+想。我想你。	xiǎng. Wǒ xiǎng nǐ.	Yes I do. I miss you.
+我想家。	wǒ xiǎng jiā.	I am homesick.
+我要吃牛肉。	wǒ yào chī niúròu.	I want to eat beef.
+我想吃牛肉。	wǒ xiǎng chī niúròu.	I would like to eat beef.
+我想点一碗汤。	wǒ xiǎng diǎn yī wǎn tāng.	I would like a bowl of soup.
+她想点一份春卷。	tā xiǎng diǎn yī fèn chūnjuǎn.	I would like to order a portion of spring rolls.
+你想去咖啡厅吗？	nǐ xiǎng qù kāfēi tīng ma?	Do you want to go to the cafe?
+想。我想去。	xiǎng. Wǒ xiǎng qù.	Yes. I would like to go.
+他们想不想来我们(的)家？	tāmen xiǎng bùxiǎng lái wǒmen (de) jiā?	Would they like to come to our home?
+明年我要去中国。	míngnián wǒ yào qù zhōngguó.	I am going to go to China next year.
+明年我想去英国。	míngnián wǒ xiǎng qù yīngguó.	I would like to go to the UK next year.
+明天我要工作。	míngtiān wǒ yào gōngzuò.	I must work tomorrow.
+明天我想去电影。	míngtiān wǒ xiǎng qù diànyǐng.	I would like to go to a movie tomorrow.
+
+//Chinese With Mike/Season 3/Ch 77: You: There is/There are
+有	yǒu	To have, there is, there are
+你家有几个人？	nǐ jiā yǒu jǐ gèrén?	How many people are in your home?
+我家有五个人。	wǒjiā yǒu wǔ gèrén.	There are 5 people in my family.
+你家有几台电视？	nǐ jiā yǒu jǐ tái diànshì?	How many TVs does your home have?
+我家有三台。	wǒjiā yǒusān tái.	My home has three of them.
+你的班有几个学生？	nǐ de bān yǒu jǐ gè xuéshēng?	How many students are there in your class.
+我的班有十个学生。	wǒ de bān yǒu shí gè xuéshēng.	My class has ten students.
+美国有几个州？	Měiguó yǒu jǐ gè zhōu?	The US has how many states?
+美国有50个州。	Měiguó yǒu 50 gè zhōu.	The US has 50 states.
+桌子的上面有基本书？	zhuōzi de shàngmiàn yǒu jīběn shū?	How many books are on the table?
+桌子的上面有四本书。	zhuōzi de shàngmiàn yǒu sì běn shū.	There are four books on the table.
+椅子下面有几只笔？	yǐzi xiàmiàn yǒu jǐ zhǐ bǐ?	How many pens are under the chair?
+椅子的下面有八只(笔)。	yǐzi de xiàmiàn yǒu bā zhǐ (bǐ).	There are 8 pens under the chair.
+冰箱的里面有几瓶水？	bīngxiāng de lǐmiàn yǒu jǐ píng shuǐ?	How many bottles of water are in the fridge?
+冰箱的里面有两瓶(水)	bīngxiāng de lǐmiàn yǒu liǎng píng (shuǐ)	There are two bottles in the fridge.
+Mike老师的旁边有几颗球？	Mike lǎoshī de pángbiān yǒu jǐ kē qiú?	How many balls are beside Teacher Mike?
+Mike老师的旁边有一颗(球)。	Mike lǎoshī de pángbiān yǒuyī kē (qiú).	There is one ball next to Teacher Mike.
+
+//Chinese With Mike/Season 3/Ch 78: Present Progressive
+我看电视。	wǒ kàn diànshì.	I watch TV.
+我在看电视。	wǒ zài kàn diànshì.	I am watching TV
+你打乒乓球。	nǐ dǎ pīngpāng qiú.	You play table tennis.
+你在打乒乓球。	nǐ zài dǎ pīngpāng qiú.	You are playing table tennis.
+她听音乐。	tā tīng yīnyuè.	She listens to music.
+她在听音乐。	tā zài tīng yīnyuè.	She is listening to music.
+我们学中文。	wǒmen xué zhōngwén.	We study Chinese.
+我们在学中文。	wǒmen zàixué zhōngwén.	We are studying Chinese.
+你在做什么？	nǐ zài zuò shénme?	What are you doing?
+我在煮饭。	wǒ zài zhǔ fàn.	I am cooking.
+他们在做什么？	tāmen zài zuò shénme?	What are they doing?
+他们在玩游戏。	tāmen zài wán yóuxì.	They are playing a game.
+你们在做什么？	nǐmen zài zuò shénme?	What are you guys doing?
+我们在看Chinese With Mike。	wǒmen zài kàn Chinese With Mike.	We are watching Chinese With Mike.
+你妹妹在做什么？	nǐ mèimei zài zuò shénme?	What is your younger sister doing?
+她在弹钢琴。	tā zài dàn gāngqín.	She is playing the piano.
+
+//Chinese With Mike/Season 3/Ch 79: More Present Progressive
+做	zuò	To make, to do
+你在做什么？	nǐ zài zuò shénme?	What are you doing?
+我在看报纸。	wǒ zài kàn bàozhǐ.	I am reading the newspaper.
+我在工作。	wǒ zài gōngzuò.	I am working.
+她在做什么？	tā zài zuò shénme?	What is she doing?
+她在写中文字。	tā zài xiě zhōngwén zì.	She is writing Chinese Characters.
+我们在跳舞。	wǒmen zài tiàowǔ.	We are dancing.
+你们在等谁？	nǐmen zài děng shuí?	Who are you waiting for?
+我们在等我们的朋友。	wǒmen zài děng wǒmen de péngyǒu.	We are waiting for our friends.
+他们在看什么？	tāmen zài kàn shénme?	What are they watching?
+他们在看新闻。	tāmen zài kàn xīnwén.	They are watching the news.
+Mike老师在喝什么？	mike lǎoshī zài hē shénme?	What is Teacher Mike drinking?
+他在喝水。	tā zài hē shuǐ.	He is drinking water.
+他们的妈妈再吃什么水果？	tāmen de māmā zài chī shénme shuǐguǒ?	What fruit is their mum eating?
+她在吃草莓。	tā zài chī cǎoméi.	She is eating strawberries.
+她喜欢吃很甜的草莓。	tā xǐhuan chī hěn tián de cǎoméi.	She likes to eat sweet strawberries.
+你在看什么电影？	nǐ zài kàn shénme diànyǐng?	What movie are you watching?
+
+//Chinese With Mike/Season 3/Ch 80: Yes-No Question Review and Farewell!
+你是房东吗？	nǐ shì fángdōng ma?	Are you a landlord?
+是。我是房东。	shì. Wǒ shì fángdōng.	Yes. I'm a landlord.
+不是。我不是房东。	bùshì. Wǒ bùshì fángdōng.	No. I'm not a landlord.
+你要租房子吗？	nǐ yào zū fángzi ma?	Do you want to rent a place?
+要。我要租房子。	yào. Wǒ yào zū fángzi.	Yes. I want to rent a place.
+不要。我不要租房子。	bùyào. Wǒ bùyào zū fángzi.	No. I don't want to rent a place.
+你的朋友会说中文吗？	nǐ de péngyǒu huì shuō zhōngwén ma?	Can your friend speak Chinese?
+你的朋友会不会中文？	nǐ de péngyǒu huì bù huì zhōngwén?	Can your friend speak Chinese?
+会。我的朋友会说中文。	huì. Wǒ de péngyǒu huì shuō zhōngwén.	Yes. My friend can speak Chinese.
+不会。我的朋友不会中文。	bù huì. Wǒ de péngyǒu bù huì zhōngwén.	No. My friend can't speak Chinese.
+你喜欢看书吗？	nǐ xǐhuan kàn shū ma?	Do you like reading?
+喜欢。我喜欢看书。	xǐhuan. Wǒ xǐhuan kàn shū.	Yes. I like reading.
+不喜欢。我不喜欢看书。	bù xǐhuan. Wǒ bù xǐhuan kàn shū.	No. I don't like reading.
+你有小孩(子)吗？	nǐ yǒu xiǎohái (zi) ma?	Do you have children?
+有。我有小孩(子)。	yǒu. Wǒ yǒu xiǎohái (zi).	Yes. I have children.
+没有。我没有小孩(子)。	méiyǒu. Wǒ méiyǒu xiǎohái (zi).	No. I don't have children.
+你想去伦敦吗？	nǐ xiǎng qù lúndūn ma?	Would you like to go to London?
+想。我想去伦敦。	xiǎng. Wǒ xiǎng qù lúndūn.	Yes. I would like to go to London.
+不想。我不想去伦敦。	bùxiǎng. Wǒ bùxiǎng qù lúndūn.	No. I would not like to go to London.
+他在餐厅吗？	tā zài cāntīng ma?	Is he at the restaurant?
+在他在餐厅。	zài tā zài cāntīng.	Yes. He is at the restaurant.
+不再。他不再餐厅。	bù zài. Tā bù zài cāntīng.	No. He is not at the restaurant.
+你很忙吗？	nǐ hěn máng ma?	Are you busy?
+是。我很忙。	shì. Wǒ hěn máng.	Yes. I'm busy.
+不。我不忙。	bù. Wǒ bù máng.	No. I'm not busy.
+你在吃面吗？	nǐ zài chī miàn ma?	Are you eating noodles?
+是。我在吃面。	shì. Wǒ zài chī miàn.	Yes. I am eating noodles.
+不。我在吃炒饭。	bù. Wǒ zài chī chǎofàn.	No. I am eating fried rice.

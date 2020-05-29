@@ -1,0 +1,95 @@
+﻿//HSK 3 Examples
+5|点|1|刻	5 diǎn 1 kè	Quarter past 5
+10000{米}	10000 {mǐ}	10,000 {meters}
+四|五|千|个	sìwǔqiān gè	4 or 5 thousand of
+800{多}人	800 {duō} rén	{Over} 800 people
+一|双|鞋	yīshuāng xié	A pair of shoes
+两|条|鱼	liǎng tiáo yú	Two fish
+第|10|层	dì 10 céng	10th floor
+3|角|5|分	3 jiǎo 5 fēn 	35 cents
+{两}种	{liǎng} zhǒng	{Two} types
+他|坐了|一会儿|。	tā zuòle yīhuǐ'er.	He stayed for a while. 
+快|一点|儿|。	kuài yīdiǎn er.	Hurry up.
+我|明天|一定|来|。	wǒ míngtiān yīdìng lái.	I'll come tomorrow for sure 
+我们|必须|想|个|好|办法|。	wǒmen bìxū xiǎng gè hǎo bànfǎ.	We have to think of a good plan.
+明天|会|更|好|。	míngtiān huì gèng hǎo.	Tomorrow will be better.
+雨|越|下越|大|。	yǔ yuè xiàyuè dà.	Rain is getting heavier.
+这儿|的|西瓜{特别}甜|。	zhè'er de xīguā {tèbié} tián.	The watermelon here is {very} sweet.
+这些|孩子|多|可爱|呀|！	zhèxiē háizi duō kě'ài ya!	These children are so cute!
+她|唱|得|好|极了|！	tā chàng de hǎo jíle!	She sang really well!
+中国|的|大|城市|，|我|几乎|都|去过|。	Zhōngguó de dà chéngshì, wǒ jīhū dōu qùguò.	Chinese big cities; I have been to almost all of them.
+这些|药|一共|300|元|。	zhèxiē yào yīgòng 300 yuán.	These medicines together are RMB300.
+我|只|去过|北京|一次|。	wǒ zhǐ qùguò Běijīng yīcì.	I've only been to Beijing once.
+我|先|说|几|句|。	wǒ xiān shuō jǐ jù.	I will first say a few sentences.
+他|晚上|11|点|才|下班|。	tā wǎnshàng 11 diǎn cái xiàbān.	He didn't get off work until 11 in the evening.
+他|的|成绩|一直|很|好|。	tā de chéngjī yīzhí hěn hǎo.	His grades are always very good.
+她|总|是|很|忙|。	tā zǒng shì hěn máng.	She is always very busy.
+请|安静|，|节目|马上|开始|。	qǐng ānjìng, jiémù mǎshàng kāishǐ.	Please be quiet, the show is about to begin. 
+考试|终于|结束|了|。	kǎoshì zhōngyú jiéshùle.	The exam finally ended.
+这|道|题|其实|很|容易|。	zhè dào tí qíshí hěn róngyì.	This problem is actually very easy.
+那样|做|当然|不|可以|。	nàyàng zuò dāngrán bù kěyǐ.	Doing that is of course not allowed.
+今天|他|又|迟到|了|。	jīntiān tā yòu chídàole.	He is late again today.
+最近|他|经常|去|爬山|。	zuìjìn tā jīngcháng qù páshān.	Recently he has often gone climbing.
+房子|虽然|旧|，|但是|很|干净|。	fángzi suīrán jiù, dànshì hěn gānjìng.	Although the house is old, it is very clean.
+虽然|X|，|但是|Y|。	suīrán X, dànshì Y.	Although X, Y.
+她|会|说|汉语|，|而且|说得|很好|。	tā huì shuō hànyǔ, érqiě shuō de hěn hǎo.	She can speak Chinese, and can speak very well.
+先|吃饭|，|然后|去|看|电影|。	xiān chīfàn, ránhòu qù kàn diànyǐng.	First eat, then watch a movie.
+先|X|，|然后|Y|。	xiān X, ránhòu Y.	First X, then Y.
+如果|大家|都|同意|，|就|这样|决定了|。	rúguǒ dàjiā dōu tóngyì, jiù zhèyàng juédìngle.	If everyone agrees, then we'll decide on this.
+他|一边|上网|，|一边|听|音乐|。	tā yībiān shàngwǎng, yībiān tīng yīnyuè.	He is web surfing, and also listening to music.
+一边|X|，|一边|Y|。	yībiān X, yībiān Y.	Doing X, and also Y at the same time.
+给|我|打|电话|或者|发|电子|邮件|都|可以|。	gěi wǒ dǎ diànhuà huòzhě fā diànzǐ yóujiàn dōu kěyǐ.	Give me a call or send an email, both will do.
+我们|是|打车|还是|坐|地铁|？	wǒmen shì dǎchē háishì zuò dìtiě?	Are we getting a taxi or taking the subway?
+为了|解决|环境|问题|，|人们|想了|很多|办法|。	wèile jiějué huánjìng wèntí, rénmen xiǎngle hěnduō bànfǎ.	To solve environmental problems, people think of a lot of solutions.
+除了|画|画儿|，|她|还|喜欢|跳舞|。	chúle huà huàer, tā hái xǐhuan tiàowǔ.	Besides painting, she also likes to dance.
+请|把|空调|打开|。	qǐng bǎ kòngtiáo dǎkāi.	Please switch on the air conditioning.
+鱼|被|小|猫|吃了|。	yú bèi xiǎo māo chīle.	The fish was eaten by the cat.
+关于|这|段|历史|，|我|知道得|很少|。	guānyú zhè duàn lìshǐ, wǒ zhīdào de hěn shǎo.	About this piece of history, I know very little.
+我们|应该|在|周末|开个|会|。	wǒmen yīnggāi zài zhōumò kāi gè huì.	We should have a meeting at the weekend.
+你|愿意|和|我|结婚|吗|？	nǐ yuànyì hé wǒ jiéhūn ma?	Are you willing to marry me?
+你|敢|骑马|吗|？	nǐ gǎn qímǎ ma?	Do you dare to ride a horse?
+她|高兴|地|笑了|。	tā gāoxìng de xiàole.	She laughed happily.
+他|是|经理|吗|？	tā shì jīnglǐ ma?	Is he the manager?
+真|漂亮|啊|！	zhēn piàoliang a!	Very pretty!
+他|没|去|看|电影|。	tā méi qù kàn diànyǐng.	He didn't go to the movie.
+别|忘了|带|护照|。	bié wàngle dài hùzhào.	Don't forget to bring your passport.
+你|决定了|没有|？	nǐ juédìngle méiyǒu?	have you decided yet?
+您|要|两|张|票|，|对吗|？	nín yào liǎng zhāng piào, duì ma?	You need two tickets, right?
+中午|吃|面条儿|，|可以|吗|？	zhōngwǔ chī miàntiáo er, kěyǐ ma?	Noodles for lunch, can we?
+你|喝|茶|还是|喝|咖啡|？	nǐ hē chá háishì hē kāfēi?	Do you want tea or coffee?
+真|干净|！	zhēn gānjìng!	So clean!
+他|跑得|多|快|啊|！	tā pǎo de duō kuài a!	He ran very fast.
+好|极了|！	hǎo jíle!	Great!
+他|和|我|一样|高|。	tā hé wǒ yīyàng gāo.	He and I are the same height.
+上海|没有|北京|那么|冷|。	Shànghǎi méiyǒu Běijīng nàme lěng.	Shanghai is not as cold as Beijing.
+我|把|衣服|洗了|。	wǒ bǎ yīfú xǐle.	I had the clothes washed.
+行李箱|被|司机|拿|走了|。	xínglǐxiāng bèi sījī ná zǒule.	The luggage was taken by the driver.
+他|每天|骑|车|上班|。	tā měi tiān qí chē shàngbān.	He bikes to work every day.
+桌|上|放着|一|本|书|。	zhuō shàng fàngzhe yī běn shū.	There is a book on the table.
+小|王|叫|我|去|他|家|玩|儿|。	xiǎo wáng jiào wǒ qù tā jiā wán er.	Xiao Wang asked me to his house to play.
+不但|X|而且|Y	bùdàn X érqiě Y	Not only X but also Y
+只有|X|才|Y	zhǐyǒu X cái Y	Only X can Y
+我|学|中文|很|有{热情}。	TODO {rèqíng} TODO	I am {enthusiastic} about studying Chinese.
+今天|我|有|很多{事情}要|做|。	TODO {shìqing} TODO	Today I have lots of {things} to do.
+我{同意}你的|话|。	TODO {tóngyì} TODO	I {agree} with what you said. {(lit. same opinion)}
+我{愿意}和|你|一起|去|。	TODO {yuànyì} TODO	I am {willing} to go with you. 
+请|大家{注意}。	TODO {zhùyì} TODO	Please {pay attention} Everyone.
+我|对|你|做的|菜|很{满意}。	TODO {mǎnyì} TODO	I am {pleased} with your cooking.
+这|是|什么{意思}？	TODO {yìsi} TODO	What does this {mean}?
+我|很{习惯}吃|中国菜|。	TODO {xíguàn} TODO	I am {accustomed to} eating Chinese food.
+我|天天{练习}中文|。	TODO {liànxí} TODO	I {practice} Chinese every day.
+我{复习}汉语|水平|考试|。	TODO {fùxí} TODO	I am {revising} for the HSK exam.
+我|喜欢|学{数学}。	TODO {shùxué} TODO	I like studying {maths}.
+我|在|加拿大{留学}。	TODO {liúxué} TODO	I am {studying abroad} in Canada.
+我们|的{校长}很|胖。	TODO {xiàozhǎng} TODO	Our {principal/head} is fat.
+春节|是|中国|最|重要的{节日}。	TODO {jiérì} TODO	Spring festival is China's most important {holiday}.
+今天|的|电视{节目}很|好|看。	TODO {jiémù} TODO	Today's TV {programmes} look very good.
+我|最|喜欢|的{季节}是|夏季。	TODO {jìjié} TODO	My favourite {season} is summer.
+我{先}吃饭|，|再去|睡觉。	TODO {xiān} TODO	I eat {first}, then sleep.
+你|为什么{生气}？	TODO {shēngqì} TODO	Why are you {upset}?
+我|喜欢|和|妈妈{聊天}。	TODO {liáotiān} TODO	I like to {chat} with my mother.
+我们|的|花{特别}香。	TODO {tèbié} TODO	Our flowers smell {especially} good.
+我{不但}说|中文|，|还|说|英文。	TODO {búdàn} TODO	I {not only} speak Chinese, also English.
+你|想|吃|包子{还是}饺子？	TODO {háishi} TODO	Do you want to eat buns {or} dumplings?
+你的|三明治{总是}特别|好吃|！	TODO {zǒngshì} TODO	Your sandwiches are {always} especiallys good!
+我|今天{还}没有|吃|午饭|。	TODO {hái} TODO	I haven't eaten lunch today {yet}.

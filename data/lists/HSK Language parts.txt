@@ -1,0 +1,9 @@
+﻿介词	Jiècí	Preposition (e.g. on, beneath, against)
+副词	Fùcí	Adverb (e.g. slowly, together, quite)
+动词	Dòngcí	Verb (e.g. read, walk, bring)
+助动词	Zhùdòngcí	Auxiliary verb (e.g. be, do, have, will)
+助词	Zhùcí	Particle (e.g. the, to X, ah)
+叹词	Tàn cí	Interjection (e.g. excuse me, sorry, oh dear)
+名词	Míngcí	Noun (e.g. London, apple, furniture)
+形容词	Xíngróngcí	Adjective (e.g. big, good, red)
+量词	Liàngcí	Measure Word
