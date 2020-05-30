@@ -1,0 +1,88 @@
+﻿CACHE MANIFEST
+# 2014-01-21:v0.23 xxx
+# For iOS7, http Content-type MUST be explicitly set to: text/cache-manifest when this file is served
+
+#    Shanka HSK Flashcards - shanka.appcache
+#
+#    You are free to copy, distribute, and modify this code, under a similar license
+#    to this one. You must give the original author (me) credit in any derived work.
+#    You may not use any part of this code for commercial purposes without obtaining
+#    my permission.
+#    
+#    Alan Davies 2014 alan@hskhsk.com
+#    
+#   See http://hskhsk.com/shanka for more information.
+
+CACHE:
+index.html
+script/algorithm.js
+script/card.js
+script/category.js
+script/export.js
+script/help.js
+script/historyqueue.js
+script/import.js
+script/lesson.js
+script/local.js
+script/maintenance.js
+script/progress.js
+script/question.js
+script/ratchet.js
+script/settings.js
+script/shanka.js
+script/snap.js
+script/study.js
+script/touchpaint.js
+script/util.js
+# script/version_offline.js
+script/wizard.js
+script/language.js
+script/lang_english.js
+script/lang_spanish.js
+script/lang_italian.js
+script/lang_french.js
+
+# 3rd party Javascript
+script/AppScroll.js
+script/fastclick.js
+script/lz-string-1.3.3.js
+script/touchpaint.js
+script/jscolor.js
+
+# stylesheets
+res/ratchet.css
+res/shanka.css
+res/snap.css
+
+# images
+res/shanka-icon-iphone-57x57.png
+res/shanka-icon-iphone-72x72.png
+res/shanka-icon-iphone-114x114.png
+res/search-icon.png
+res/arrow.gif
+res/cross.gif
+res/hs.png
+res/hv.png
+res/ajax-loader.gif
+
+# Fonts
+res/simplified-calligraphy.ttf
+res/simplified-cursive.ttf
+# res/simplified-kai.ttf
+
+# Lists
+lists/HSK%20Official%20With%20Definitions%202012%20L1%20freqorder.txt
+lists/HSK%20Official%20With%20Definitions%202012%20L2%20freqorder.txt
+lists/HSK%20Official%20With%20Definitions%202012%20L3%20freqorder.txt
+lists/HSK%20Official%20With%20Definitions%202012%20L4%20freqorder.txt
+lists/HSK%20Official%20With%20Definitions%202012%20L5%20freqorder.txt
+lists/HSK%20Official%20With%20Definitions%202012%20L6%20freqorder.txt
+lists/Chineasy%20Pleco%20Flashcards.txt
+
+NETWORK:
+*
+# script/version.js
+# strokeorder/%E5%B1%B1-order.gif
+
+OFFLINE:
+script/version.js script/version_offline.js

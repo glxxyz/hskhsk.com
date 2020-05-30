@@ -1,0 +1,922 @@
+﻿/*
+    Shanka HSK Flashcards - shanka.css
+
+    You are free to copy, distribute, and modify this code, under a similar license
+    to this one. You must give the original author (me) credit in any derived work.
+    You may not use any part of this code for commercial purposes without obtaining
+    my permission.
+    
+    Alan Davies 2013 alan@hskhsk.com
+    
+    See http://hskhsk.com/shanka for more information.
+
+*/
+
+/* Make it look better on PCs */
+.snap-content {
+    background: white    
+}
+
+.content {
+    max-width: 568px;
+    min-width: 320px;
+    margin: auto;
+}
+
+/* Fix the huge right padding */
+.listnorightpadding{
+    padding: 20px 20px 20px 10px;
+}
+
+/* Put the count before the checkbutton*/
+.beforecheck {
+  margin-right: 40px;
+}
+
+/* Fix buttons inside lists*/
+.list .button-block {
+    position: static;
+}
+
+.list li {
+    cursor:pointer;
+}
+
+.list .disabled{
+    cursor:auto;
+    color: #c0c0c0;    
+    background: #f0f0f0;    
+}
+
+.segmented-controller {
+  margin-bottom: 0px;
+}
+
+/* Make the hover  pointer look better on PC */
+.segmented-controller li {
+    cursor:pointer;
+}
+
+/* Set the snap drawer elements' background to something darker, like the snap.js demos */
+.snap-drawers {
+    background: #323949;
+}
+
+.snap-drawer {
+    background: #323949;
+}
+.snap-drawer-li {
+    background: #323949;
+    color: #eeeeee;
+    text-indent: 5px;
+}
+
+.snap-drawer-divider-li {
+    text-indent: 5px;
+    background: #323949;
+    color: #eeeeee;
+    font-weight: bold;
+}
+.snap-drawer-heading {
+    font-weight: bold;
+    background: #323949;
+    color: #eeeeee;
+    padding: 15px;
+    font-weight: normal;
+}
+
+/* Replace ugly colours with something less ugly */
+
+.toggle-handle {
+  background-image: -webkit-linear-gradient(top, #fff 0, #2C82CE 100%);
+  background-image: linear-gradient(to bottom, #fff 0, #2C82CE 100%);
+}
+
+.bar-standard {
+  background-color: #2C82CE;
+  background-image: -webkit-linear-gradient(top, #2C82CE 0, #C2C2C2 100%);
+  background-image: linear-gradient(to bottom, #2C82CE 0, #C2C2C2 100%);
+}
+
+.bar-title {
+  background-image: -webkit-linear-gradient(top, #2C82CE 0, #1680B1 100%);
+  background-image: linear-gradient(to bottom, #2C82CE 0, #1680B1 100%);
+  border-bottom: 1px solid #0e5895;
+}
+.bar-title [class*="button"] {
+  background-color: #228EC9;
+  background-image: -webkit-linear-gradient(top, #228EC9 0, #228EC9 100%);
+  background-image: linear-gradient(to bottom, #228EC9 0, #2F7DC2 100%);
+}
+.bar-title .button-prev:before {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#1572A4), to(#3488D1));
+  background-image: gradient(linear, left bottom, right top, from(#1572A4), to(#3488D1));
+}
+.bar-title .button-next:before {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#3488D1), to(#1572A4));
+  background-image: gradient(linear, left bottom, right top, from(#3488D1), to(#1572A4));
+}
+.bar-title .segmented-controller {
+  background-image: -webkit-linear-gradient(top, #3488D1 0, #1572A4 100%);
+  background-image: linear-gradient(to bottom, #3488D1 0, #1572A4 100%);
+}
+
+#title-button-prev , #help-button {
+   font-size: 120%;
+}
+
+#toggle-left {
+    padding-top: 0px;
+    font-size: 160%;
+}
+
+
+/* Study left right buttons */
+.study-toggle-button, .study-help-button , .study-back-button, .study-fwd-button, .info-back-button, .info-fwd-button {
+    color: #000;
+    background-color: #aaaaaa;    
+    text-shadow: none;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    z-index: 10;
+    height: 28px;
+    padding-top: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 30px;
+}
+
+.info-back-button {
+    position:absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.info-fwd-button {
+    position:absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.studyinfobutton, .studypracticebutton, .studycurrentbutton, .studyeditbutton, .studyplecobutton{
+    padding-left: 6px;
+    padding-right: 6px; 
+}
+
+.studyplecobutton {
+    padding-left: 2px;
+    padding-right: 2px; 
+}
+
+.study-toggle-button{
+    float:left;
+    font-size: 160%;
+}
+
+.study-help-button {
+    float:right;
+    font-size: 120%;
+}
+
+.study-back-button {
+    float:left;
+    font-size: 120%;
+}
+
+.study-fwd-button {
+    float:right;
+    font-size: 120%;
+}
+
+.studyeditbts {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.studyinfobutton, .studyplecobutton {
+font-size: 120%;
+}
+
+.practicesearchbutton {
+    margin-top: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-top: 4px;
+}
+
+button[disabled=disabled], button:disabled , a.disabled{
+    color: #888888;
+    background: #cccccc;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Add relative positioning so :before content is positioned properly */
+/* Prev/next button base styles */
+.study-button-prev {
+  background-color: #2C82CE;
+    background-image: -webkit-linear-gradient(top, #3488D1 0, #1572A4 100%);
+    background-image: linear-gradient(to bottom, #3488D1 0, #1572A4 100%);
+    color: #fff;
+  float: left;
+  margin-left: 7px; /* Push over to make room for :before content */
+  border-left: 0;
+  border-bottom-left-radius: 10px 15px;
+  border-top-left-radius: 10px 15px;
+    height: 33px;
+  margin-right: 3px;
+}
+
+/* Pointed part of directional button */
+.study-button-prev:before {
+    background-color: #2C82CE;
+  position: absolute;
+  top: 2px;
+  width: 27px;
+  height: 27px;
+  border-radius: 30px 100px 2px 40px / 2px 40px 30px 100px;
+  content: '';
+  box-shadow: inset 1px 0 #0e5895, inset 0 1px #0e5895;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(#000), color-stop(.33, #000), color-stop(.5, transparent), to(transparent));
+                  mask-image: gradient(linear, left top, right bottom, from(#000), color-stop(.33, #000), color-stop(.5, transparent), to(transparent));
+}
+.study-button-prev:before {
+    background-color: #2C82CE;
+  left: -5px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#1572A4 ), to(#3488D1));
+  background-image: gradient(linear, left bottom, right top, from(#1572A4 ), to(#3488D1));
+  border-left: 1.5px solid rgba(255, 255, 255, .25);
+  -webkit-transform: rotate(-45deg) skew(-10deg, -10deg);
+          transform: rotate(-45deg) skew(-10deg, -10deg);
+}
+
+/* Active states for the directional buttons */
+.study-button-prev:active,
+.study-button-prev:active:before {
+  color: #fff;
+  background-color: #0876b1;
+  background-image: none;
+}
+.study-button-prev:active:before {
+  content: '';
+}
+.study-button-prev:active:before {
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+.studyeditbts [class*="bigtxt"] {
+    font-size: 120%;
+/*    border-top: 1px;
+    border-bottom: 1px; */
+}
+
+/* Add some paragraph space */
+p {
+    margin-bottom: 8px;
+}
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* My own custom toggle buttons */
+
+.onezero:before {
+  content: "O";
+}
+
+.onezero.active:before {
+  left: 18px;
+  content: "I";
+}
+
+.yesno:before {
+  content: "No";
+}
+
+.yesno.active:before {
+  content: "Yes";
+}
+
+.radio {
+  width: 28px;
+  font-size: 140%;
+}
+
+.radio:before {
+  content: "";
+}
+
+.radio.active:before {
+  left: 5px;
+  content: "\2713"; /* checkmark */
+}
+
+.check {
+  width: 28px;
+  border-radius: 0px;
+  font-size: 140%;
+}
+
+.redcheck:active, .redcheck.active {
+    background-color: #e71e1e;  
+    background-image: -webkit-linear-gradient(top, #e71e1e 0,#c71a1a 100%);
+    background-image: linear-gradient(to bottom, #e71e1e 0, #c71a1a 100%);
+    border: 1px solid #b51a1a;  
+}
+
+.check:before {
+  content: "";
+}
+
+.check.active:before {
+  left: 5px;
+  content: "\2713"; /* checkmark */
+}
+
+.toggleleftchev {
+    /* move a bit for the chevron */
+    margin-right: 20px;
+}
+
+/* prevent the count and chevron from claiming clicks */
+.count, .list .chevron {
+    pointer-events: none;           
+    touch-action: none;            
+}
+
+.rightindenttext {
+  text-align: right;
+  margin-right: -55px;
+}
+
+.rightindent1heading {
+    font-weight: bold;
+    color: #c71a1a;  
+}
+
+.rightindent2heading {
+    font-weight: bold;
+    color: #006600;  
+}
+
+.rightindent3heading {
+    font-weight: bold;
+    color: #096c9d;  
+}
+
+.rightindent1 {
+  float: right;
+  margin-right: 111px;
+}
+
+.rightindent2 {
+  float: right;
+  margin-right: 59px;
+}
+
+.rightindent3 {
+  float: right;
+  margin-right: 7px;
+}
+
+.rightindent1:active, .rightindent1.active {
+    background-color: #e71e1e;  
+    background-image: -webkit-linear-gradient(top, #e71e1e 0,#c71a1a 100%);
+    background-image: linear-gradient(to bottom, #e71e1e 0, #c71a1a 100%);
+    border: 1px solid #b51a1a;  
+}
+
+.rightindent2:active, .rightindent2.active {
+    background-color: #009900;  
+    background-image: -webkit-linear-gradient(top, #009900 0,#006600 100%);
+    background-image: linear-gradient(to bottom, #009900 0, #006600 100%);
+    border: 1px solid #003300;  
+}
+
+
+
+/* Ensure the hidden stuff isn't displayed */
+#content-options {
+    display: none;
+}
+
+/* Some big cool counter */
+.bigcounter {
+    font-weight: bold;
+    font-size: 400%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: -0px;
+    margin-left: 0px;    
+}
+.medcounter {
+    font-weight: bold;
+    font-size: 200%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: -0px;
+    margin-left: 0px;    
+}
+.cntcont {
+    text-align: center;
+    vertical-align: bottom;
+}
+.undercnt {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* make li with rating edits in look better */
+.list .thin-li {
+    padding: 10px 60px 0px 10px;
+}
+
+/* display results */
+.result {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F2F5A9;
+}
+
+.answers {
+    width: 310px;
+    text-align: middle;
+}
+
+/* Floating answer buttons */
+.answertext {
+    z-index:2;
+/*    position: absolute; */
+    width: 100%;
+    pointer-events: none; 
+    touch-action: none;            
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 10px 2px 0px;
+    margin: 20px 10px 10px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 95%;
+}
+
+.answertable {
+    background-color:white;
+    width: 310px;
+    display: block;
+}
+.answers table:hover {
+    /* z-index:3; */
+    cursor:pointer;
+}
+.answerbtn {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#cc0000;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    z-index:1;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: none;
+    font-size: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+    /* width: 100%; */
+    font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+      box-shadow: 0 1px rgba(255, 255, 255, .25);    
+}
+
+.answerbtn :active {
+    color: white;
+}
+
+.answers .answerbtn1, .answers .answerbtntouch1 {
+    background-color:#f3abab;
+    /* background-color:#ffeeee; */
+}
+.answers .answerbtn2, .answers .answerbtntouch2 {
+    background-color:#f5c595;
+    /* background-color:#ffeedd; */
+}
+.answers .answerbtn3, .answers .answerbtntouch3 {
+    background-color:#ece599;
+    /* background-color:#ffffdd; */
+}
+.answers .answerbtn4, .answers .answerbtntouch4 {
+    background-color:#bbe3b6;
+    /*background-color:#eeffee; */
+}
+.answers .answerbtn5, .answers .answerbtntouch5 {
+    background-color:#a5d2eb;
+    /* background-color:#eeeeff; */
+}
+
+.answers .answerbtnsel1 {
+    background-color:#E12E2E;
+    color: black;
+}
+.answers .answerbtnsel2 {
+    background-color:#EB8B2B;
+    color: black;
+}
+.answers .answerbtnsel3 {
+    /* background-color:#CFBE00; */
+    background-color:#e6e600;
+    color: black;
+}
+.answers .answerbtnsel4 {
+    background-color:#1ca10d;
+    color: black;
+}
+.answers .answerbtnsel5 {
+    background-color:#1D8FCC;
+    color: black;
+}
+
+.answers .answerbtn1:hover {
+    color: #666666;
+}
+.answers .answerbtn2:hover {
+    color: #666666;
+}
+.answers .answerbtn3:hover {
+    color: #666666;
+}
+.answers .answerbtn4:hover {
+    color: #666666;
+}
+.answers .answerbtn5:hover {
+    color: #666666;
+}
+
+/* touchpaint toolbar */
+
+#minitouchpaints {
+    line-height: 0px;
+} 
+
+
+.touchpaintmini, .touchpaintminisel {
+    position:relative;
+    -webkit-user-select: none;
+    margin: 0px -1px -1px 0px;
+    width: 55px;
+    height: 55px;
+    z-index:40;
+}
+
+.touchpaintminisel {
+    border: 1px solid #c00000;
+    margin: -1px -2px -2px -1px;
+    z-index: 50;
+}
+
+.leftmoremini, .rightmoremini {
+    position: absolute;
+    top:50%;
+    height: 0px;
+    width: 0px; 
+    color:#c00000;
+    margin-top: -12px;
+}
+
+.leftmoremini {
+    left: 0%; 
+}
+
+.rightmoremini {
+    right: 0%;
+}
+
+.touchpaintdraw {
+}
+
+.canvastoolbar {
+    width:100%;
+    padding: 0 0 0 0;
+    margin: 7px 0px -6px 0px;
+    text-align:center;
+    z-index:99;
+}
+ 
+.canvastoolleft  {
+    float:left;
+}
+
+.canvastoolright {
+    float:right;
+}
+
+.canvastoolmid {
+    display: inline-block; 
+    margin:0 auto;
+}
+
+
+.smallbutton {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+     border-radius: 3px;
+     border: 0px;
+    padding: 7px 3px 1px 3px; /* top right bottom left */
+    margin: 0px 2px 8px 2px;
+    background: #eee;
+    color: #000;
+    text-shadow: #fff 1px 1px 1px;
+    text-align: center;
+    width: 29px;
+    height: 25px;
+    float: left;
+    font-size: 210%;
+}
+
+.hanzibutton {
+    font-size: 150%;
+    padding-top: 6px;
+}
+
+.clickedsmallb {
+    background: #ccc;
+}
+
+.penbutton {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, .1);
+}
+
+/* Study Answers */
+
+@font-face
+{
+	font-family: SimplifiedKai;
+	src: url('simplified-kai.ttf');
+    src: url('simplified-kai.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: SimplifiedCursive1;
+	src: url('simplified-cursive.ttf');
+    src: url('simplified-cursive.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: SimplifiedCalligraphy1;
+	src: url('simplified-calligraphy.ttf');
+    src: url('simplified-calligraphy.ttf') format('truetype');
+}
+
+.allstem {
+    border-style:solid;
+    border-width:1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hanzidisplay  {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+
+.hanzistem {
+    font-size: 300%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    
+/*    width: 100%;
+     text-align: center;    
+    display: inline-block; *//
+}
+
+.hanzianswer {
+    font-size: 300%;
+    /*display: block;*/
+    /*vertical-align: middle;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;*/
+}
+
+.simplified {
+    font-family: sans-serif,SimplifiedKai;
+    /* font-family: KaiTi,STKaiti,DFKai-SB,BiauKai,STHeitiTC-Medium,Arial; */
+}
+
+.biggerfont {
+    font-size: 140%;
+}
+
+.simplified-light {
+    font-family: SimplifiedKai;
+    /* font-family: KaiTi,STKaiti,DFKai-SB,BiauKai,STHeitiTC-Light,Arial; */
+}
+
+.simplifiedcalligraphy {
+    font-family: SimplifiedCalligraphy1;
+    font-size: 400%;
+}
+
+.simplifiedcursive {
+    font-family: SimplifiedCursive1;
+    font-size: 400%;
+}
+
+.traditional{
+    font-family: KaiTi,STKaiti,DFKai-SB,BiauKai,STHeitiTC-Medium,Arial;
+/*    font-family: SimpTradKaiTi; */ /* TODO: find a traditional font */
+}
+
+.englishstem {
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    display: block;
+    vertical-align: top;
+    clear: left;
+    font-size: 110%;
+}
+
+.textanswer {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.englishanswer {
+    font-size: 130%;
+}
+
+.definition {
+    display: block;
+    clear: left;
+}
+
+.pinyin {
+    display: block;
+    clear: left;
+    font-style: italic;
+}
+
+.questiontext {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+    clear: left;
+    font-size: 100%;
+}
+
+#studyreveal {
+    margin-top: 5px;
+}
+
+.answerdisplay {
+    margin-bottom: 20px;
+}
+
+.studydisplay {
+    margin-top: 20px;
+}
+
+/* Provide some wider labels */
+.input-row label.wide {
+  width: 65%;
+}
+
+.input-row label.wide + input {
+  width: 25%;
+}
+
+/* Reduce this, keep the margins on top */
+.list {
+    margin-bottom:0px;
+}
+
+
+/* reduce to bit more sensible */
+.list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* reduce to bit more sensible */
+/* If a list of links, make sure the child <a> takes up full list item tap area (want to avoid selecting child buttons though) */
+.list li > a:not([class*="button"]) {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+/* grey out disabled checkboxes */
+.disabled .check {
+    background-image: linear-gradient(to bottom, #808080 0, #a0a0a0 100%);
+    border: 1px solid #606060;    
+}
+
+.button-block {
+  display: block;
+  padding: 5px 0 6px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.button-block:active {
+  padding: 6px 0 5px;
+}
+
+/* One from over in pythonanywhere hanzi land, simple padded box */
+.paddedbox {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 0;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 0;
+}
+
+.waitcursor {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  z-index:20;
+  display:none;
+}
+
+.touchpaintlayers {
+    position: relative;
+    width:320;
+    height:320;
+    margin: auto;
+    /* margin-top: 32px; */
+    }
+
+/* character to trace over */
+.tracechar {
+    pointer-events: none;
+    touch-action: none;            
+    background-color:rgba(255,255,255,0);
+   /* will be overwritten in code color:rgba(0,0,0,0.3); */
+    z-index:30;
+    display: table-row;
+    position: absolute;
+  top: -5px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-size:1700%;
+}
+
+.snapicon {
+    display: inline-block;
+    width: 45px;
+    font-size: 180%;
+    text-align: center;
+}
+
+li.snap-drawer-li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.snapdrawerlabel {
+    position: relative;
+    top: -3px;
+}

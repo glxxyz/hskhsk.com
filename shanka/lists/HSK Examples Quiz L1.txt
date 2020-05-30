@@ -1,0 +1,48 @@
+﻿//HSK 1 Examples
+8|点|40|分	8 diǎn 40 fēn	8:40 (time of day)
+2009|年|7|月|6|日	2009 nián 7 yuè 6 rì	6th July 2009
+星期四	xīngqīsì	Thursday
+他{今年}24|岁|。	tā {jīnnián} 24 suì．	He is 24 {this year}.
+15{块}	15 {kuài}	{RMB}15
+我|的{电话}是|58590000|。	wǒ de {diànhuà} shì 58590000.	My {phone number} is 58590000.
+一个	yí ge	One item (m.w., general)
+3本	3 běn	Three items (m.w., e.g. books)
+这个	zhège	This
+那些	nàxiē	Those
+几|本	jǐ běn	Several/How many items (e.g. books)
+我{不是}学生|。	wǒ {búshì} xuésheng．	I {am not} a student.
+他{没去}医院|。	tā {méiqù} yīyuàn．	He {didn't go} to hospital.
+她{很}高兴|。	tā {hěn} gāoxìng．	She is {very} happy.
+太|好|了|！	tài hǎo le!	That's great!
+我们|都{看见}那个|人|了|。	wǒmen dōu {kànjiàn} nàge rén le．	We all {saw} that man.
+我{和}你	wǒ {hé} nǐ	Me {and} you
+我|住|在|北京|。	wǒ zhù zài Běijīng．	I live in Beijing.
+我|会|做饭|。	wǒ huì zuòfàn．	I can cook.
+你|什么|时候|能|来|？	nǐ shénme shíhou néng lái?	What time can you come?
+我|的|电脑	wǒde diànnǎo	My computer
+她|去|医院|了|。	tā qù yīyuàn le．	She went to hospital.
+他|是|医生|吗|？	tā shì yīshēng ma?	Is he a doctor?
+你|在|哪儿|呢|？	nǐ zài nǎr ne?	Where are you?
+明天|星期六|。	míngtiān xīngqīliù．	Tomorrow is Saturday.
+我|认识|他|。	wǒ rènshi tā．	I know him.
+天气|很|好|。	tiānqì hěn hǎo．	The weather is good.
+她|不|在|饭店|。	tā bú zài fàndiàn．	She is not at the hotel/restaurant.
+她|没|去|看|电影|。	tā méi qù kàn diànyǐng．	She didn't go to the movie.
+这|是|你|的|桌子|吗|？	zhè shì nǐde zhuōzi ma?	Is this your table?
+我|是|老师|，|你呢||？	wǒ shì lǎoshī, nǐ ne?	I am a teacher. What about you?
+那个|人|是|谁|？	nàge rén shì shéi?	Who is that person?
+这些|杯子|，|你|喜欢|哪|一个|？	zhèxiē bēizi， nǐ xǐhuan nǎ yíge?	Which one of these cups do you like?
+你|想|去|哪儿|？	nǐ xiǎng qù nǎr?	Where do you want to go?
+你|爱|吃|什么|水果|？	nǐ ài chī shénme shuǐguǒ?	Which fruit do you like?
+你们|学校|有|多少|学生|？	nǐmen xuéxiào yǒu duōshao xuésheng?	Your school has how many students?
+你|几|岁|了|？	nǐ jǐ suì le?	How old are you?
+你|怎么|了|？	nǐ zěnme le?	Are you okay/What happened to you?
+这|本|书|怎么样|？	zhè běn shū zěnmeyàng?	How is this book?
+请|坐|。	qǐng zuò．	Have a seat.
+太|好|了！	tài hǎo le!	That's great!
+他|是|我|的|同学|。	tā shì wǒde tóngxué．	He is my classmate.
+一年|有|12|个|月|。	yìnián yǒu 12 ge yuè．	A year has 12 months.
+我|是|昨天|来|的|。	wǒ shì zuótiān lái de．	I arrived yesterday.
+这|是|在|火车站|买|的|。	zhè shì zài huǒchēzhàn mǎi de．	I bought this at the train station. 
+他|是|坐|飞机|来|的|。	tā shì zuò fēijī lái de．	He came here by plane.
+他们|在|吃饭|呢|。	tāmen zài chīfàn ne．	They are eating.
