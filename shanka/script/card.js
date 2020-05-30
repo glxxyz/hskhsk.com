@@ -38,9 +38,7 @@ function Card () {
 // ---------------------------
 // Card methods
 
-Card.prototype._getdefault
-
-Card.prototype._getdefault = function(section, keystem, keyans) {
+Card.prototype._getdefault = function(section) {
     switch (section) {
         // no need to switch on keystem or keyans
         case "kn_rate":    return 0.5; break;
@@ -49,7 +47,7 @@ Card.prototype._getdefault = function(section, keystem, keyans) {
         case "last_score": return 0; break;
         case "question_count": return 0; break;
         case "correct_count": return 0; break;
-        default: Error("Card._getdefault unknown section: " + section);
+        default: ReportError("Card._getdefault unknown section: " + section);
     }
     return "";
 }
@@ -64,7 +62,7 @@ Card.prototype._getseckey = function(section, keystem, keyans) {
         case "last_score": seckey = "s"; break;
         case "question_count": seckey = "q"; break;
         case "correct_count": seckey = "c"; break;
-        default: Error("Card._getseckey unknown section: " + section);
+        default: ReportError("Card._getseckey unknown section: " + section);
     }
 
     switch (keystem) {
@@ -77,7 +75,7 @@ Card.prototype._getseckey = function(section, keystem, keyans) {
         case "pinyin":      seckey += "p"; break;
         case "definition":  seckey += "d"; break;
         case "notes":       seckey += "n"; break;
-        default: Error("Card._getseckey unknown keystem: " + keystem);
+        default: ReportError("Card._getseckey unknown keystem: " + keystem);
     }
     
     switch (keyans) {
@@ -90,7 +88,7 @@ Card.prototype._getseckey = function(section, keystem, keyans) {
         case "pinyin":      seckey += "p"; break;
         case "definition":  seckey += "d"; break;
         case "notes":       seckey += "n"; break;
-        default: Error("Card._getseckey unknown keyans: " + keyans);
+        default: ReportError("Card._getseckey unknown keyans: " + keyans);
     }
     
     return seckey;
@@ -130,7 +128,7 @@ Card.prototype.getdata = function(section, keystem, keyans) {
     if (seckey in this._data) {
         return this._data[seckey];
     }
-    return this._getdefault(section, keystem, keyans);
+    return this._getdefault(section);
 }
 
 Card.prototype.getdatastring = function() {
@@ -147,7 +145,12 @@ Card.prototype.write = function() {
     localStorage[key] = data;
 
     if (this._definition !== null) {
-        var defkey = "d" + this.cardid.toString(36)
+        var language = STR.getCurrentLanguage();
+        if (language == "en") {
+            language = ""; // English is an empty string for legacy support
+        }
+    
+        var defkey = "d" + language + this.cardid.toString(36);
         if (this._definition.length) {
             localStorage[defkey] = shanka.compress(this._definition);
         } else {
@@ -197,8 +200,14 @@ Card.prototype.del = function() {
     
     console.log("Removing card" + this.cardid.toString() + " from local storage");
     localStorage.removeItem("f" + this.cardid.toString(36));
-    console.log("Removing card definition" + this.cardid.toString() + " from local storage");
+    console.log("Removing English card definition" + this.cardid.toString() + " from local storage");
     localStorage.removeItem("d" + this.cardid.toString(36));
+    
+    for (var languageId in supportedLanguages) {
+        console.log("Removing " + languageId + " language card definition" + this.cardid.toString() + " from local storage");
+        localStorage.removeItem("d" + languageId + this.cardid.toString(36));
+    }
+    
     console.log("Removing card notes" + this.cardid.toString() + " from local storage");
     localStorage.removeItem("n" + this.cardid.toString(36));
     console.log("Removing card data" + this.cardid.toString() + " from local storage");
@@ -237,6 +246,16 @@ Card.prototype.getdefinition = function() {
         if (this.cardid == 0) {
             return "";
         } else {
+            var language = STR.getCurrentLanguage();
+            if (language != "en") {
+                var otherkey = "d" + language + this.cardid.toString(36);
+                var othertext = shanka.decompress(localStorage.getItem(otherkey));
+                if (othertext !== null) {
+                    return othertext;
+                }
+            }
+            
+            // fall back on English
             var key = "d" + this.cardid.toString(36);
             var text = shanka.decompress(localStorage.getItem(key));
             if (text === null) {
@@ -332,7 +351,9 @@ Card.prototype.liststring = function() {
         eng = eng.substring(0, 27) + "...";
     }
     
-    return this.simptradtogether() + " " + this.pinyin + " " + eng;
+    var hanzi = this.simptradtogether();
+    var all =  hanzi + " " + this.pinyin + " " + eng;
+    return all.replace(/[\{\}\|]/g, "");
 }
 
 Card.prototype.simptradtogether = function() {
@@ -356,7 +377,7 @@ Card.prototype.simptradtogether = function() {
         }
     }
 
-    return hanzi;
+    return hanzi.replace(/[\{\}\|]/g, "");
 }
 
 Card.prototype.getindexedchars = function() {
@@ -378,17 +399,28 @@ Card.prototype.getfield = function(field) {
         case "simplified":
         case "cursive":
         case "callig":
-            return this.simplified;
+            return this.simplified.replace(/[\{\}\|]/g, "");
         case "traditional":
-            return this.traditional;
+            return this.traditional.replace(/[\{\}\|]/g, "");
         case "pinyin":
-            return this.pinyin; // TODO tones to numbers and vice versa
+            return this.pinyin.replace(/[\{\}]/g, ""); // TODO tones to numbers and vice versa
         case "definition":
-            return this.getdefinition();
+            return this.getdefinition().replace(/[\{\}]/g, "");
         case "notes":
             return this.getnotes();
     }
     return "";
+}
+
+Card.prototype.issentence = function() {
+    return    this.simplified.indexOf("|") != -1
+           || this.traditional.indexOf("|") != -1;
+}
+
+Card.prototype.getsentencewords = function() {
+    var hanzi = this.simplified.replace(/[\{\}]/g, "|");
+    var words = hanzi.split("|");
+    return words;
 }
 
 shanka.getuniquecardname = function(prefix) {
@@ -557,6 +589,18 @@ shanka.dodeleteflashcards = function() {
 }
 
 shanka.initshowcard = function(cardid, categoryid) {
+
+    document.getElementById("card_enabled_label").innerHTML = STR.card_enabled_label;    
+    document.getElementById("card_queued_label").innerHTML = STR.card_queued_label;      
+    document.getElementById("question_simplified_label").innerHTML = STR.question_simplified_label;    
+    document.getElementById("question_traditional_label").innerHTML = STR.question_traditional_label;    
+    document.getElementById("question_pinyin_label").innerHTML = STR.question_pinyin_label;    
+    document.getElementById("question_definition_label").innerHTML = STR.question_definition_label;    
+    document.getElementById("question_notes_label").innerHTML = STR.question_notes_label;    
+    document.getElementById("page_categories_title").innerHTML = STR.page_categories_title;    
+    document.getElementById("savecard").innerHTML = STR.gen_save_text;    
+    document.getElementById("cancelcard").innerHTML = STR.gen_cancel_text; 
+    
     var card = null;
     if (cardid) {
         card = shanka.cards[cardid];
@@ -735,15 +779,17 @@ shanka.savecard = function() {
 shanka.addtocharmap = function(word, cardid) {
     for (var i=0, len=word.length; i<len; i++) {
         var ch = word[i];
-        if (!(ch in shanka.relatedcharmap)) {
-            shanka.relatedcharmap[ch] = {};
-        }
-        var wordmap = shanka.relatedcharmap[ch];
-        if (!(word in wordmap)) {
-            wordmap[word] = [];
-        }
-        if (!contains(wordmap[word], cardid)) {
-            wordmap[word].push(cardid);
+        if (ch.search(/[A-Za-z0-9]/) == -1) {
+            if (!(ch in shanka.relatedcharmap)) {
+                shanka.relatedcharmap[ch] = {};
+            }
+            var wordmap = shanka.relatedcharmap[ch];
+            if (!(word in wordmap)) {
+                wordmap[word] = [];
+            }
+            if (!contains(wordmap[word], cardid)) {
+                wordmap[word].push(cardid);
+            }
         }
     }
 }
@@ -774,7 +820,10 @@ shanka.getrelatedcardids = function(cardid) {
                 var cardids = wordmap[word];
                 for (var j=0, jlen=cardids.length; j<jlen; j++) {
                     var itercardid = cardids[j];
-                    if (!contains(relatedcardids, itercardid) && cardid != itercardid) {
+                    var itercard = shanka.cards[itercardid];
+                    if (   !contains(relatedcardids, itercardid)
+                        && cardid != itercardid
+                        && !(card.issentence() && itercard.issentence())) {
                         relatedcardids.push(itercardid);
                     }
                 }
@@ -799,7 +848,7 @@ shanka.mergeimportedcardwithexisting = function(card) {
                     var cardid = cardids[i];
                     var cardmatch = shanka.cards[cardid];
                     if (!cardmatch) {
-                        var x = 0;
+                        // TODO 
                     }
                     if (   cardmatch.simplified == card.simplified
                         && cardmatch.traditional == card.traditional) {
@@ -823,7 +872,7 @@ shanka.mergeimportedcardwithexisting = function(card) {
                     var cardid = cardids[i];
                     var cardmatch = shanka.cards[cardid];
                     if (!cardmatch) {
-                        var x = 0;
+                        // TODO
                     }
                     if (   cardmatch.simplified == card.simplified
                         && cardmatch.traditional == card.traditional) {
@@ -839,8 +888,9 @@ shanka.mergeimportedcardwithexisting = function(card) {
     }
     
     if (exactmatch) {
-        var matchdef = exactmatch.getdefinition();
-        var importdef = card.getdefinition();
+        // TODO decide whether to update the definition or not
+        // var matchdef = exactmatch.getdefinition();
+        // var importdef = card.getdefinition();
         var matchpinyin = pinyin_numbers_to_tone_marks(exactmatch.pinyin);
         var importpinyin = pinyin_numbers_to_tone_marks(card.pinyin);
         

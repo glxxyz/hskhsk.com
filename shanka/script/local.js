@@ -71,6 +71,11 @@ shanka.readall = function() {
         var decompressed = null;
         try
         {
+            if (key == "language") {
+                // used by language object
+                continue;
+            } 
+        
             localStorageItem = localStorage.getItem(key);
             decompressed = shanka.decompress(localStorageItem);
             var obj = JSON.parse(decompressed);
@@ -155,16 +160,6 @@ shanka.readall = function() {
         shanka.categories[category1.categoryid] = category1;
         category1.write();
     }      
-    
-    var question1 = null;
-    var question2 = null;
-    var question3 = null;
-    var question4 = null;
-    var question5 = null;
-    var question7 = null;
-    var question8 = null;
-    var question9 = null;
-    
     
     // add default algorithms if there are none
     if (isEmpty(shanka.algorithms)) {    
@@ -287,18 +282,7 @@ shanka.readall = function() {
     
     shanka.rebuildqueue();
     shanka.rebuildhistory();
-    
-    // add at least one progress
-    if (shanka.progress.length == 0) {
-        var yesterdayprogress = new Progress();
-        var now = new Date();
-        var yesterday = new Date(now.getTime() - 86400000);        
-        yesterdayprogress.date =  yesterday.getFullYear() * 10000 + (yesterday.getMonth()+1) * 100 + yesterday.getDate();
-        yesterdayprogress.write();
-        shanka.progress.push(yesterdayprogress);
-    }
-    
-    shanka.progress.sort(function(a, b) {return shanka.algorithm.progresscompare(a, b);});    
+    shanka.progress.sort(function(a, b) {return shanka.progresscompare(a, b);});
     
     if (errorsDetected) {
         alert(STR.local_storage_errors_detected_resolved_error);
@@ -330,22 +314,6 @@ shanka.initlocal = function() {
 }
 
 shanka.setlocalversioninfo = function() {
-
-    try {    
-        document.getElementById("latestversionnum").innerHTML = shanka.getOnlineAppVersion();
-    }
-    catch (err) {
-        console.log("Couldn't get online app version: " + err.message);
-        document.getElementById("latestversionnum").innerHTML = "N/A";
-    }
-
-    try {    
-        document.getElementById("latestversiondate").innerHTML = shanka.getOnlineAppBuildDate();
-    }
-    catch (err) {
-        console.log("Couldn't get online app date: " + err.message);
-        document.getElementById("latestversiondate").innerHTML = "N/A";
-    }
 
     document.getElementById("currentversionnum").innerHTML = shanka.getsetting("currentversionnum");
     document.getElementById("currentversiondate").innerHTML = shanka.getsetting("currentversiondate");

@@ -115,7 +115,7 @@ Algorithm.prototype.getnextcardquestion = function() {
             
             if (random1 < prob_of_any_random) {
                 // choose a random element from the queue
-                index = Math.floor(random2 * shanka.queue.length);
+                index = Math.floor(random2 * trimmedqueue.length);
             } else {
                 var a = this.getdata("first_element_prob");
                 /* Element 0 is chosen with probability a           => random2 < a  = p_0
@@ -583,12 +583,25 @@ shanka.dosaveshankaalgorithm = function() {
 }
 
 shanka.initalgorithms = function() {
+    document.getElementById("algorithm_current_label").innerHTML = STR.algorithm_current_label; 
+    document.getElementById("gen_add_text").innerHTML = STR.gen_add_text; 
+    document.getElementById("gen_edit_all_text").innerHTML = STR.gen_edit_all_text; 
+    // document.getElementById("gen_add_text2").innerHTML = STR.gen_add_text; 
+    // document.getElementById("gen_edit_all_text2").innerHTML = STR.gen_edit_all_text; 
+
     shanka.initalgorithmlist(false);
     var selected = document.getElementById("algorithmenabled"+shanka.algorithm.algorithmid.toString());
     selected.classList.add("active");
 }
 
 shanka.initeditalgorithms = function() {
+    document.getElementById("gen_duplicate_text").innerHTML = STR.gen_duplicate_text; 
+    document.getElementById("gen_delete_text").innerHTML = STR.gen_delete_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+    // document.getElementById("gen_duplicate_text2").innerHTML = STR.gen_duplicate_text; 
+    // document.getElementById("gen_delete_text2").innerHTML = STR.gen_delete_text; 
+    // document.getElementById("gen_cancel_text2").innerHTML = STR.gen_cancel_text; 
+
     shanka.initalgorithmlist(true);
 }
 
@@ -622,10 +635,28 @@ shanka.initalgorithmlist = function(addonclick) {
 }
 
 shanka.initaddalgorithms = function() {
-    // nothing to do here...
+    document.getElementById("algorithm_choose_label").innerHTML = STR.algorithm_choose_label; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
 }
 
 shanka.initshankaalgorithm = function(algorithmid) {
+    document.getElementById("page_algo_shanka_title").innerHTML = STR.page_algo_shanka_title; 
+    document.getElementById("algorithm_name_label").innerHTML = STR.algorithm_name_label; 
+    document.getElementById("algorithm_study_settings").innerHTML = STR.algorithm_study_settings; 
+    document.getElementById("algorithm_minimum_unknown_cards").innerHTML = STR.algorithm_minimum_unknown_cards; 
+    document.getElementById("algorithm_daily_correct_target").innerHTML = STR.algorithm_daily_correct_target; 
+    document.getElementById("algorithm_daily_new_target").innerHTML = STR.algorithm_daily_new_target; 
+    document.getElementById("algorithm_daily_minutes_target").innerHTML = STR.algorithm_daily_minutes_target; 
+    document.getElementById("algorithm_parameters").innerHTML = STR.algorithm_parameters; 
+    document.getElementById("algorithm_default_knowledge_rate").innerHTML = STR.algorithm_default_knowledge_rate; 
+    document.getElementById("algorithm_threshold_kn_rate").innerHTML = STR.algorithm_threshold_kn_rate; 
+    document.getElementById("algorithm_adjustment_speed").innerHTML = STR.algorithm_adjustment_speed; 
+    document.getElementById("algorithm_any_element_probability").innerHTML = STR.algorithm_any_element_probability; 
+    document.getElementById("algorithm_first_element_prob").innerHTML = STR.algorithm_first_element_prob; 
+    document.getElementById("algorithm_minimum_interval").innerHTML = STR.algorithm_minimum_interval; 
+    document.getElementById("gen_save_text").innerHTML = STR.gen_save_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+
     var algorithm = null;
     if (algorithmid) {
         algorithm = shanka.algorithms[algorithmid];

@@ -1,5 +1,5 @@
 ﻿/*
-    Shanka HSK Flashcards - touchpaint.js
+    Shanka HSK Flashcards - hanzicanvas.js
 
     You are free to copy, distribute, and modify this code, under a similar license
     to this one. You must give the original author (me) credit in any derived work.
@@ -48,20 +48,20 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 var canvascache = [];
 
-TouchPaint = function(uuid) {
+HanziCanvas = function(uuid) {
 
-   var _widget = this;
+   var _this = this;
    var _enabled = true;
-   _widget.parent = null;
-   _widget.activeChild = null;
-   _widget.draw = true;
+   _this.parent = null;
+   _this.activeChild = null;
+   _this.draw = true;
       
    var hotmin = 1;
    var hotmax = 279;
    var points = [];
    var maxundolength = 10;
-   _widget.undohistory = [];
-   _widget.redohistory = [];
+   _this.undohistory = [];
+   _this.redohistory = [];
    var lastcontrolx = null;
    var lastcontroly = null;
    var lastbrushwidth = 0;
@@ -297,7 +297,7 @@ TouchPaint = function(uuid) {
   function startDrawing( e ) {
   
         if (_enabled) {
-              var rect = _widget.canvas.getBoundingClientRect();
+              var rect = _this.canvas.getBoundingClientRect();
               var _current;
               if ( e.targetTouches && e.targetTouches.item(0) !== null ) {
                       var te =  e.targetTouches.item(0);
@@ -307,13 +307,13 @@ TouchPaint = function(uuid) {
               }
               
               // console.log("start drawing")
-               _widget.addUndoHistoryItem();               
+               _this.addUndoHistoryItem();               
                points = [_current];
-              _widget.brushLine();
+              _this.brushLine();
               e.preventDefault();
-        } else if (_widget.parent) {
+        } else if (_this.parent) {
             var page = document.getElementById("pagecontentouter");     
-            _widget.scrollTop = page.scrollTop;
+            _this.scrollTop = page.scrollTop;
         }
   }
 
@@ -386,31 +386,31 @@ TouchPaint = function(uuid) {
     function stopDrawing( e ) {
         if (_enabled) {        
             if (points.length) {
-                var remapcurx = points[points.length-1].x * _widget.canvas.width  / _widget.canvas.clientWidth + _widget.canvas.clientLeft;
-                var remapcury = points[points.length-1].y * _widget.canvas.height / _widget.canvas.clientHeight + _widget.canvas.clientTop;
+                var remapcurx = points[points.length-1].x * _this.canvas.width  / _this.canvas.clientWidth + _this.canvas.clientLeft;
+                var remapcury = points[points.length-1].y * _this.canvas.height / _this.canvas.clientHeight + _this.canvas.clientTop;
                 if (points.length == 1) {
                     var remapprvx = remapcurx + (Math.random() - 0.5) * 20;
                     var remapprvy = remapcury + (Math.random() - 0.5) * 20;
-                    _widget.createsplodges(lastbrushwidth, remapprvx, remapprvy, remapcurx, remapcury, false);
+                    _this.createsplodges(lastbrushwidth, remapprvx, remapprvy, remapcurx, remapcury, false);
                     remapprvx = remapcurx + (Math.random() - 0.5) * 20;
                     remapprvy = remapcury + (Math.random() - 0.5) * 20;
-                    _widget.createsplodges(lastbrushwidth, remapprvx, remapprvy, remapcurx, remapcury, false);
+                    _this.createsplodges(lastbrushwidth, remapprvx, remapprvy, remapcurx, remapcury, false);
                 } else {
-                    var remapprvx = points[points.length-2].x * _widget.canvas.width  / _widget.canvas.clientWidth + _widget.canvas.clientLeft;
-                    var remapprvy = points[points.length-2].y * _widget.canvas.height / _widget.canvas.clientHeight + _widget.canvas.clientTop;
-                    _widget.createsplodges(lastbrushwidth, remapprvx, remapprvy, remapcurx, remapcury, true);
+                    var remapprvx = points[points.length-2].x * _this.canvas.width  / _this.canvas.clientWidth + _this.canvas.clientLeft;
+                    var remapprvy = points[points.length-2].y * _this.canvas.height / _this.canvas.clientHeight + _this.canvas.clientTop;
+                    _this.createsplodges(lastbrushwidth, remapprvx, remapprvy, remapcurx, remapcury, true);
                 }
             } 
 
             points = [];
             e.preventDefault();
           
-            _widget.copyToChild();
-        } else if (_widget.parent) {
+            _this.copyToChild();
+        } else if (_this.parent) {
             // ensure that they didn't scroll
             var page = document.getElementById("pagecontentouter");     
-            if (_widget.scrollTop == page.scrollTop) {
-                _widget.parent.setActive(_widget);
+            if (_this.scrollTop == page.scrollTop) {
+                _this.parent.setActive(_this);
             }
         }
     }
@@ -418,7 +418,7 @@ TouchPaint = function(uuid) {
   function move( e ) {
       if ( points.length ) {
           var te =  e.targetTouches.item(0);
-          var rect = _widget.canvas.getBoundingClientRect();
+          var rect = _this.canvas.getBoundingClientRect();
           var _current = { x : te.pageX - rect.left -1, y : te.pageY - rect.top }; 
           pushPoint(_current);
       }
@@ -427,7 +427,7 @@ TouchPaint = function(uuid) {
 
   function moveMouse( e ) {
       if ( points.length ) {
-          var rect = _widget.canvas.getBoundingClientRect();
+          var rect = _this.canvas.getBoundingClientRect();
           var _current = { x : e.pageX - rect.left, y : e.pageY - rect.top };
           pushPoint(_current);
       }
@@ -449,7 +449,7 @@ TouchPaint = function(uuid) {
         
         if (pushpoint) {        
             points.push(current);
-            _widget.brushLine();
+            _this.brushLine();
         }
     }
 

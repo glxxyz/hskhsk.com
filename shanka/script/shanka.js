@@ -3,14 +3,32 @@
 
     You are free to copy, distribute, and modify this code, under a similar license
     to this one. You must give the original author (me) credit in any derived work.
+    
+    You muse also respect the licenses of any components written by others which are
+    distributed along with this web app.
+    
     You may not use any part of this code for commercial purposes without obtaining
     my permission.
     
-    Alan Davies 2014 alan@hskhsk.com
+    Alan Davies 2014 (alan@hskhsk.com)
     
+    Dutch Translation by Axel Dessein (axel_dessein@hotmail.com)
+    Spanish Translation by Nicolás Godoy (nicolasgastongodoy@gmail.com)
+        
     See http://hskhsk.com/shanka for more information.
 
 */
+
+// Google Analytics stuff goes here
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39955029-5', 'hskhsk.com');
+  ga('send', 'pageview');
+
 
 // ---------------------------
 // create shanka as a singleton
@@ -20,6 +38,45 @@ shanka.init = function() {
     WaitCursorOn();
     try
     {
+        var appsupport = document.getElementById("default_app_support_see_message");
+        var appinit = document.getElementById("default_app_support_see_message");
+        if (appinit) {
+            // 'cut' the 'mustard', apparently
+            if ('querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+                appinit.innerHTML = STR.app_initialising_message;
+            } else {
+                appinit.innerHTML = STR.app_no_html5_message;
+            }
+        }
+        if (appsupport) {
+            appsupport.innerHTML = STR.app_support_see_message;
+        }
+        
+        document.getElementById("snap_page_main_title"       ).innerHTML = STR.page_main_title       ;
+        document.getElementById("snap_page_practice_title"   ).innerHTML = STR.page_practice_title   ;
+        document.getElementById("snap_study_study_text"      ).innerHTML = STR.study_study_text      ;
+        document.getElementById("snap_gen_add_text"          ).innerHTML = STR.gen_add_text          ;
+        document.getElementById("snap_page_history_title"    ).innerHTML = STR.page_history_title    ;
+        document.getElementById("snap_page_queue_title"      ).innerHTML = STR.page_queue_title      ;
+        document.getElementById("snap_page_progress_title"   ).innerHTML = STR.page_progress_title   ;
+        document.getElementById("snap_page_categories_title" ).innerHTML = STR.page_categories_title ;
+        document.getElementById("snap_page_questions_title"  ).innerHTML = STR.page_questions_title  ;
+        document.getElementById("snap_page_lessons_title"    ).innerHTML = STR.page_lessons_title    ;
+        document.getElementById("snap_page_algorithms_title" ).innerHTML = STR.page_algorithms_title ;
+        document.getElementById("snap_page_wizard_title"     ).innerHTML = STR.page_wizard_title     ;
+        document.getElementById("snap_page_import_title"     ).innerHTML = STR.page_import_title     ;
+        document.getElementById("snap_page_export_title"     ).innerHTML = STR.page_export_title     ;
+        document.getElementById("snap_page_settings_title"   ).innerHTML = STR.page_settings_title   ;
+        document.getElementById("snap_page_maintenance_title").innerHTML = STR.page_maintenance_title;
+
+        // study
+        document.getElementById("studycurrent"                ).innerHTML = STR.study_study_text         ;
+        document.getElementById("studypractice"               ).innerHTML = STR.study_practice_text      ;
+        document.getElementById("studyedit"                   ).innerHTML = STR.study_edit_text          ;
+        document.getElementById("studyreveal"                 ).innerHTML = STR.study_show_answer_label  ;
+        document.getElementById("study_search_result_label"   ).innerHTML = STR.study_search_result_label;
+
+    
         shanka.nextguid = 1; // increment so all ids unique
 
         shanka.cards = {};  // id : card
@@ -43,28 +100,15 @@ shanka.init = function() {
         shanka.relatedcharmap = {}; // {"X" : {"X" : [1, 4], "XX" : [2, 6], "XY" : 3}, "Y" : {"XY" : 3} }
         
         shanka.algorithm = null;
+        shanka.currentlang = "";
+        
+        var currentState = parseWindowLocation();
         
         shanka.readall();
 
         window.onpopstate = shanka.onpopstate; 
 
         shanka.initlocal();
-        
-        var currentState = null;
-        if (window.location.hash && window.location.hash.length > 1) {
-            console.log("constructing state from hash: " + window.location.hash);
-            var hashbits = window.location.hash.slice(1).split(",");
-            if (hashbits.length > 0) {
-                currentState = { "section" : hashbits[0] };
-            }
-            for (var i=1; i < hashbits.length; i++) {
-                parms = hashbits[i].split("=");
-                if (parms.length == 2) {
-                    currentState[parms[0]] = parms[1];
-                }
-            }
-            console.log("constructed state: " + JSON.stringify(currentState) );
-        }
         
         if (   shanka.state
             && "section" in shanka.state
@@ -155,7 +199,6 @@ shanka.doexporttextfile = function() {
 shanka.dorebuild = function() {
     if (confirm(STR.local_storage_rebuild_confirm)) {
         shanka.init();
-        shanka.readall();
         
         shanka.addtoresult(STR.local_storage_rebuilt_ok_message);
         shanka._updatemlocalstorageused();        
@@ -167,7 +210,14 @@ shanka.donuke = function() {
     try
     {
         if (confirm(STR.local_storage_erase_confirm)) {
+            var language = localStorage["language"];
+            if (!language || !(language in supportedLanguages)) {
+                language = "en";
+            }
+            
             localStorage.clear();
+            localStorage["language"] = language;
+            
             shanka.init();
             
             shanka.addtoresult(STR.local_storage_erased_message);
@@ -314,7 +364,8 @@ shanka.navigate = function(state, stateAction) {
         if (   !state
             || (   ((state["section"] == "study") || (state["section"] == "main"))
                 && isEmpty(shanka.cards))
-            || (state["section"] == "welcome")) {
+            || (state["section"] == "welcome")
+            || (state["section"].substr(0, 4) == "lang")) {
             
             if (isEmpty(shanka.cards)) {
                 state = {"section" : "welcome" };
@@ -356,6 +407,9 @@ shanka.navigate = function(state, stateAction) {
 
         switch(state["section"])
         {
+            case "initialising":
+                shanka.initinitialising();
+                break;
             case "main":
                 shanka.showmenubuttonhideback();
                 shanka.initmain();
@@ -397,6 +451,11 @@ shanka.navigate = function(state, stateAction) {
                 shanka.showmenubuttonhideback();
                 shanka.initcategories();
                 shanka.setpagetitle(STR.page_categories_title);
+                break;
+            case "addcategory":
+                shanka.hidemenubuttonsetback(shanka.showcategories);
+                shanka.initaddcategory();
+                shanka.setpagetitle(STR.page_add_category_title);
                 break;
             case "editcategory":
                 shanka.hidemenubuttonsetback(shanka.showcurrentcategory);
@@ -471,6 +530,11 @@ shanka.navigate = function(state, stateAction) {
             case "export":
                 shanka.showmenubuttonhideback();
                 shanka.initexport();
+                shanka.setpagetitle(STR.page_export_title);
+                break;
+            case "exported":
+                shanka.hidemenubuttonsetback(shanka.showexport);
+                shanka.initexported();
                 shanka.setpagetitle(STR.page_export_title);
                 break;
             case "maintenance":
@@ -662,31 +726,107 @@ shanka.onpopstate = function(event) {
     }
 }
 
+shanka.initinitialising = function() {
+    document.getElementById("init_app_support_see_message").innerHTML = STR.app_support_see_message;
+    document.getElementById("app_please_wait_a_moment"    ).innerHTML = STR.app_please_wait_a_moment;
+
+    // 'cut' the 'mustard', apparently
+    if ('querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+        document.getElementById("app_initialising_message").innerHTML = STR.app_initialising_message;
+    } else {
+        document.getElementById("app_initialising_message").innerHTML = STR.app_no_html5_message;
+    }    
+}
+
 // Main Section
 
 shanka.initmain = function() {
-    document.getElementById("maincardsinvocab").innerHTML = Object.keys(shanka.cards).length.toString();
-    document.getElementById("maincardslearned").innerHTML = shanka.queue.length - shanka.countqueueunknown();
-    document.getElementById("maincardsqueued").innerHTML = shanka.queue.length;
-    // don't really need to know this?
-    // document.getElementById("maincategories").innerHTML = (Object.keys(shanka.categories).length-1).toString();
+
+    shanka.ensuretodayhasprogress();
+    
+    document.getElementById("progress_total_label"          ).innerHTML = STR.progress_total_label;
+    document.getElementById("progress_today_label"          ).innerHTML = STR.progress_today_label;
+    document.getElementById("all_main_cards_learned_label"  ).innerHTML = STR.main_cards_learned_label;
+    document.getElementById("all_progress_studied_label"    ).innerHTML = STR.progress_studied_label;
+    document.getElementById("today_main_cards_learned_label").innerHTML = STR.main_cards_learned_label;
+    document.getElementById("today_progress_studied_label"  ).innerHTML = STR.progress_studied_label;
+    document.getElementById("study_study_text"              ).innerHTML = STR.study_study_text;
+    document.getElementById("study_practice_text"           ).innerHTML = STR.study_practice_text;
+    document.getElementById("card_add_text"                 ).innerHTML = STR.card_add_text;
+    
+    
+    if (shanka.progress.length) {
+        var progress = shanka.progress[0];
+        var timestudied  = progress.totaltimestudied;
+        var itemsstudied = progress.totalitemsstudied;
+        var cardsknown   = progress.totalcardsknown;
+        var valunit      = shanka.getprogressvalunit(timestudied);
+        
+        document.getElementById("maintimestudiedalltime") .innerHTML = valunit[0];
+        document.getElementById("maintimeunitalltime")    .innerHTML = valunit[1];
+        document.getElementById("maincardslearnedalltime").innerHTML = cardsknown.toString();
+        document.getElementById("maincardsstudiedalltime").innerHTML = itemsstudied.toString();
+
+        if (shanka.progress.length > 1) {
+            var prevprogress = shanka.progress[1];            
+            timestudied  = progress.totaltimestudied  - prevprogress.totaltimestudied;
+            itemsstudied = progress.totalitemsstudied - prevprogress.totalitemsstudied;
+            cardsknown   = progress.totalcardsknown   - prevprogress.totalcardsknown;
+        }
+        
+        document.getElementById("maintimestudiedtoday") .innerHTML = valunit[0];
+        document.getElementById("maintimeunittoday")    .innerHTML = valunit[1];
+        document.getElementById("maincardslearnedtoday").innerHTML = cardsknown.toString();
+        document.getElementById("maincardsstudiedtoday").innerHTML = itemsstudied.toString();
+    }
 }
 
 shanka.initwelcome = function() {
+    // 'cut' the 'mustard', apparently
+    if (!('querySelector' in document) || !('addEventListener' in window) || !(Array.prototype.forEach)) {
+        shanka.addtoresult(STR.main_browser_no_html5_error);
+    }
+    
+    document.getElementById("main_menu_help_label"           ).innerHTML = STR.main_menu_help_label             ; 
+    document.getElementById("main_choose_option_begin_label" ).innerHTML = STR.main_choose_option_begin_label   ;
+    document.getElementById("main_beginners_quickstart_label").innerHTML = STR.main_beginners_quickstart_label  ;
+    document.getElementById("main_setup_wizard_label"        ).innerHTML = STR.main_setup_wizard_label          ;
+    document.getElementById("lang_interface_language"        ).innerHTML = STR.lang_interface_language          ;
+    document.getElementById("welcome_app_support_see_message").innerHTML = STR.app_support_see_message          ;
+    
+    var supportedlanglist = document.getElementById("supportedlanglist");
+    for (var languageId in supportedLanguages) {
+        if (languageId != STR.getCurrentLanguage()) {
+            var language = supportedLanguages[languageId];
+            var ul=document.createElement("ul");    
+            ul.classList.add("inset");
+            ul.classList.add("list");
+            ul.innerHTML =  "<li>" +
+                                "<a href='javascript:STR.setLanguage(\"" + languageId + "\")'>" + 
+                                    language.this_switch_language +
+                                    " (" + STR.get_language_name(languageId) + ")" +
+                                    "<span class='chevron'></span>" + 
+                                "</a>" + 
+                            "</li>";
+            supportedlanglist.appendChild(ul);
+            var br=document.createElement("br");    
+            supportedlanglist.appendChild(br);
+        }
+    }
 }
 
 // ================
 // Pinyin numbers to tone marks
 
-pinyintones = ["A\u0100\u00C1\u0102\u00C0A", "a\u0101\u00E1\u0103\u00E0a",
-               "E\u0112\u00C9\u0114\u00C8E", "e\u0113\u00E9\u0115\u00E8e",
-               "O\u014C\u00D3\u014E\u00D2O", "o\u014D\u00F3\u014F\u00F2o",
-               "I\u012A\u00CD\u012C\u00CCI", "i\u012B\u00ED\u012D\u00ECi",
-               "U\u016A\u00DA\u016C\u00D9U", "u\u016B\u00FA\u016D\u00F9u",
-               "\u00DC\u01D5\u01D7\u01D9\u01DB\u00DC", "\u00FC\u01D6\u01D8\u01DA\u01DC\u00FC"];
-pyreplacements = [["u:", "\u00FC"], ["v", "\u00FC"], ["U:", "\u00DC"], ["V", "\u00DC"]];
+var pinyintones = [ "A\u0100\u00C1\u0102\u00C0A", "a\u0101\u00E1\u0103\u00E0a",
+                    "E\u0112\u00C9\u0114\u00C8E", "e\u0113\u00E9\u0115\u00E8e",
+                    "O\u014C\u00D3\u014E\u00D2O", "o\u014D\u00F3\u014F\u00F2o",
+                    "I\u012A\u00CD\u012C\u00CCI", "i\u012B\u00ED\u012D\u00ECi",
+                    "U\u016A\u00DA\u016C\u00D9U", "u\u016B\u00FA\u016D\u00F9u",
+                    "\u00DC\u01D5\u01D7\u01D9\u01DB\u00DC", "\u00FC\u01D6\u01D8\u01DA\u01DC\u00FC"];
+var pyreplacements = [["u:", "\u00FC"], ["v", "\u00FC"], ["U:", "\u00DC"], ["V", "\u00DC"]];
 
-pinyin_numbers_to_tone_marks = function(inputstr) {
+var pinyin_numbers_to_tone_marks = function(inputstr) {
     var result = "";
     var nexthanzi = 0;
     var reg = new RegExp(/[A-Za-z\u00FC\u00DC:]+[1-5]/g);
@@ -722,3 +862,65 @@ pinyin_numbers_to_tone_marks = function(inputstr) {
     }
 }
 
+shanka.filterlistpages = function(population) {
+    var pageselect = document.getElementById("pageselect");
+    var listmax = parseInt(shanka.getsetting("listmax"));
+    var sample = [];
+    
+    if (population.length <= listmax) {
+        pageselect.style.display = "none";
+        sample = population;
+    } else {
+        pageselect.style.display = "inline";
+        var page = 0;
+        if ("page" in shanka.state) {
+            page = parseInt(shanka.state["page"]);
+        }
+        if (page == -1) {
+            sample = population;
+        } else {
+            for (var i=page; (i<(page+listmax)) && (i<population.length); i++) {
+                sample.push(population[i]);
+            }
+        }
+        
+        var option=document.createElement("option");
+        option.text  = STR.gen_all_text + " (" + population.length.toString() + "）";
+        option.value = "-1";
+        pageselect.add(option, null);
+        
+        for (var j=0; j<population.length; j+=listmax) {
+            var upperbound = Math.min(j+listmax, population.length);
+
+            var option=document.createElement("option");
+            option.text  = (j+1).toString() + " ... " + upperbound.toString();
+            option.value = j.toString();
+            pageselect.add(option, null);
+        }
+        
+        if (page == -1) {
+            pageselect.selectedIndex = 0;
+        } else {
+            pageselect.selectedIndex = Math.floor(page / listmax) + 1;
+        }
+    }
+    
+    return sample;
+}
+
+shanka.onpageselectchange = function() {
+    var pageselect = document.getElementById("pageselect");
+    var page = parseInt(pageselect.options[pageselect.selectedIndex].value);
+    var state = JSON.parse(JSON.stringify(shanka.state)); // copy
+    state["page"] = page.toString();
+    shanka.navigate(state);
+}
+
+
+shanka.snapperclose = function() {
+    snapper.close();
+}
+
+shanka.snapperopen = function(which) {
+    snapper.open(which);
+}

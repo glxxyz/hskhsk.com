@@ -15,9 +15,9 @@
 /* chrome://appcache-internals/ */
 
 shanka.getOnlineAppVersion = function() {
-    return "0.23";
+    return "0.25";
 }
 
 shanka.getOnlineAppBuildDate = function() {
-    return "2014-01-21";
+    return "2014-02-09";
 }

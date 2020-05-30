@@ -191,8 +191,8 @@ shanka.continueimport = function(response, format, categoryid, callbackafterimpo
                 }
             }
         } else if (format == "plecoxml") {
-            var parser = new DOMParser();
-            var xmlDoc = parser.parseFromString(response,"text/xml");
+            // var parser = new DOMParser();
+            // var xmlDoc = parser.parseFromString(response,"text/xml");
             // xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
             // TODO
         } else if (format == "skrittersimp") {
@@ -223,6 +223,34 @@ shanka.initimport = function() {
         option.value = category.name;
         categorylist.add(option, null);
     }
+    
+    document.getElementById("import_section_quick"        ).innerHTML = STR.import_section_quick;    
+    document.getElementById("import_section_shanka"       ).innerHTML = STR.import_section_shanka;      
+    document.getElementById("import_section_other"        ).innerHTML = STR.import_section_other;      
+    document.getElementById("import_hsk1_label"           ).innerHTML = STR.import_hsk1_label;
+    document.getElementById("import_hsk2_label"           ).innerHTML = STR.import_hsk2_label; 
+    document.getElementById("import_hsk3_label"           ).innerHTML = STR.import_hsk3_label;          
+    document.getElementById("import_hsk4_label"           ).innerHTML = STR.import_hsk4_label;          
+    document.getElementById("import_hsk5_label"           ).innerHTML = STR.import_hsk5_label;          
+    document.getElementById("import_hsk6_label"           ).innerHTML = STR.import_hsk6_label;          
+    document.getElementById("import_hsk1_sentences_label" ).innerHTML = STR.import_hsk1_sentences_label;
+    document.getElementById("import_hsk2_sentences_label" ).innerHTML = STR.import_hsk2_sentences_label;
+    document.getElementById("import_hsk3_sentences_label" ).innerHTML = STR.import_hsk3_sentences_label;
+    document.getElementById("import_chineasy_label"       ).innerHTML = STR.import_chineasy_label;      
+    document.getElementById("import_flashcards_label"      ).innerHTML = STR.import_flashcards_label;
+    document.getElementById("import_lessons_label"         ).innerHTML = STR.import_lessons_label;
+    document.getElementById("import_algorithms_label"      ).innerHTML = STR.import_algorithms_label;
+    document.getElementById("import_settings_label"        ).innerHTML = STR.import_settings_label;
+    document.getElementById("import_progress_label"        ).innerHTML = STR.import_progress_label;
+    document.getElementById("import_paste_text_label"      ).innerHTML = STR.import_paste_text_label;
+    document.getElementById("import_pleco_text_file_label" ).innerHTML = STR.import_pleco_text_file_label;
+    document.getElementById("import_pleco_xml_file_label"  ).innerHTML = STR.import_pleco_xml_file_label;
+    document.getElementById("import_stickystudy_label"     ).innerHTML = STR.import_stickystudy_label;
+    document.getElementById("import_skritter_simp_label"   ).innerHTML = STR.import_skritter_simp_label;
+    document.getElementById("import_skritter_trad_label"   ).innerHTML = STR.import_skritter_trad_label;
+    document.getElementById("import_default_category_label").innerHTML = STR.import_default_category_label;
+    document.getElementById("import_paste_text_label2"     ).innerHTML = STR.import_paste_text_label;
+    document.getElementById("import_button_title"          ).innerHTML = STR.page_import_title;
 }
 
 shanka.doimport = function() {
@@ -252,7 +280,7 @@ shanka.doimport = function() {
         categoryname = categorylist.options[categorylist.selectedIndex].value;
     }
     
-    shanka.import(data, format, categoryname, function(category, created, merged) {
+    shanka.import(data, format, categoryname, false, function(category, created, merged) {
         shanka.showmain();        
         shanka.addtoresult(STR.wizard_created_flashcards_format.replace("{0}", created.toString()));
         if (merged) {
@@ -303,6 +331,15 @@ shanka.importHSK5Wrapper = function() {
 }
 shanka.importHSK6Wrapper = function() {
     shanka.importHSK6(shanka.importdefaultcallback);
+}
+shanka.importHSK1SentencesWrapper = function() {
+    shanka.importHSK1Sentences(shanka.importdefaultcallback);
+}
+shanka.importHSK2SentencesWrapper = function() {
+    shanka.importHSK2Sentences(shanka.importdefaultcallback);
+}
+shanka.importHSK3SentencesWrapper = function() {
+    shanka.importHSK3Sentences(shanka.importdefaultcallback);
 }
 shanka.importChineasyWrapper = function() {
     shanka.importChineasy(shanka.importdefaultcallback);

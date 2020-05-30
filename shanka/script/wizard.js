@@ -69,6 +69,15 @@ shanka.importmultiplecategories = function(categories, callback, categoryids) {
             case "hsk6":
                 shanka.importHSK6(callbackwrapper);
             break;
+            case "hsk1sent":
+                shanka.importHSK1Sentences(callbackwrapper);
+            break;
+            case "hsk2sent":
+                shanka.importHSK2Sentences(callbackwrapper);
+            break;
+            case "hsk3sent":
+                shanka.importHSK3Sentences(callbackwrapper);
+            break;
         }
     
     }
@@ -156,6 +165,15 @@ shanka.wizard2result = function() {
     if (document.getElementById("vocabhsk6").classList.contains("active")) {
         vocab.push("hsk6")
     }
+    if (document.getElementById("vocabhsk1sent").classList.contains("active")) {
+        vocab.push("hsk1sent")
+    }
+    if (document.getElementById("vocabhsk2sent").classList.contains("active")) {
+        vocab.push("hsk2sent")
+    }
+    if (document.getElementById("vocabhsk3sent").classList.contains("active")) {
+        vocab.push("hsk3sent")
+    }
     
     if (vocab.length == 0) {
         alert(STR.wizard_select_one_vocab_error );
@@ -223,7 +241,7 @@ shanka.wizard4continue = function(categoryids) {
         algorithm.current = true;
         shanka.algorithm = algorithm;                
         algorithm.write();
-        for (algorithmidstr in shanka.algorithms) {
+        for (var algorithmidstr in shanka.algorithms) {
             var algorithmiter = shanka.algorithms[algorithmidstr];
             if (   algorithmiter.algorithmid != algorithm.algorithmid
                 && algorithmiter.current) {
@@ -314,7 +332,7 @@ shanka.wizard4continue = function(categoryids) {
     WaitCursorOff();
 }
 
-copyandremove = function(array, item) {
+var copyandremove = function(array, item) {
     var copy = array.concat();
     var index = copy.indexOf(item);
     while (index != -1) {
@@ -327,44 +345,83 @@ copyandremove = function(array, item) {
 
 
 shanka.wizard1init = function() {
+    document.getElementById("wizard_which_characters_label"        ).innerHTML = STR.wizard_which_characters_label;
+    document.getElementById("wizard_simplified_characters_label"   ).innerHTML = STR.wizard_simplified_characters_label;
+    document.getElementById("wizard_traditional_characters_label"  ).innerHTML = STR.wizard_traditional_characters_label;
+    document.getElementById("wizard_both_characters_label"         ).innerHTML = STR.wizard_both_characters_label;
 }
 
 shanka.wizard2init = function() {
+    document.getElementById("wizard_which_vocab_label"     ).innerHTML = STR.wizard_which_vocab_label;
+    document.getElementById("import_hsk1_label"            ).innerHTML = STR.import_hsk1_label;
+    document.getElementById("import_hsk2_label"            ).innerHTML = STR.import_hsk2_label;
+    document.getElementById("import_hsk3_label"            ).innerHTML = STR.import_hsk3_label;
+    document.getElementById("import_hsk4_label"            ).innerHTML = STR.import_hsk4_label;
+    document.getElementById("import_hsk5_label"            ).innerHTML = STR.import_hsk5_label;
+    document.getElementById("import_hsk6_label"            ).innerHTML = STR.import_hsk6_label;
+    document.getElementById("import_hsk1_sentences_label"  ).innerHTML = STR.import_hsk1_sentences_label;
+    document.getElementById("import_hsk2_sentences_label"  ).innerHTML = STR.import_hsk2_sentences_label;
+    document.getElementById("import_hsk3_sentences_label"  ).innerHTML = STR.import_hsk3_sentences_label;
+    document.getElementById("import_chineasy_label"        ).innerHTML = STR.import_chineasy_label;
+    document.getElementById("wizard_next_label"            ).innerHTML = STR.wizard_next_label;
 }
 
 shanka.wizard3init = function() {
+    document.getElementById("wizard_what_is_level_label"          ).innerHTML = STR.wizard_what_is_level_label;
+    document.getElementById("wizard_algorithm_name_beginner"      ).innerHTML = STR.wizard_algorithm_name_beginner;
+    document.getElementById("wizard_algorithm_name_intermediate"  ).innerHTML = STR.wizard_algorithm_name_intermediate;
+    document.getElementById("wizard_algorithm_name_advanced"      ).innerHTML = STR.wizard_algorithm_name_advanced;
 }
 
 shanka.wizard4init = function() {
+    document.getElementById("wizard_what_want_learn_label" ).innerHTML = STR.wizard_what_want_learn_label;
+    document.getElementById("wizard_definition_label"      ).innerHTML = STR.wizard_definition_label;
+    document.getElementById("wizard_pinyin_label"          ).innerHTML = STR.wizard_pinyin_label;
+    document.getElementById("wizard_reading_label"         ).innerHTML = STR.wizard_reading_label;
+    document.getElementById("wizard_writing_label"         ).innerHTML = STR.wizard_writing_label;
+    document.getElementById("wizard_cursive_label"         ).innerHTML = STR.wizard_cursive_label;
+    document.getElementById("wizard_calligraphy_label"     ).innerHTML = STR.wizard_calligraphy_label;
+    document.getElementById("wizard_done_label"            ).innerHTML = STR.wizard_done_label;
 }
 
-
 shanka.importHSK1 = function(callbackafterimport) {
-    shanka.import('lists/HSK%20Official%20With%20Definitions%202012%20L1%20freqorder.txt', 'sticky', 'HSK 1 Words', true, callbackafterimport);
+    shanka.import(STR.import_hsk1_location, 'plecotext', STR.import_hsk1_category, true, callbackafterimport);
 }
 
 shanka.importHSK2 = function(callbackafterimport) {
-    shanka.import('lists/HSK%20Official%20With%20Definitions%202012%20L2%20freqorder.txt', 'sticky', 'HSK 2 Words', true, callbackafterimport);
+    shanka.import(STR.import_hsk2_location, 'plecotext', STR.import_hsk2_category, true, callbackafterimport);
 }
 
 shanka.importHSK3 = function(callbackafterimport) {
-    shanka.import('lists/HSK%20Official%20With%20Definitions%202012%20L3%20freqorder.txt', 'sticky', 'HSK 3 Words', true, callbackafterimport);
+    shanka.import(STR.import_hsk3_location, 'plecotext', STR.import_hsk3_category, true, callbackafterimport);
 }
 
 shanka.importHSK4 = function(callbackafterimport) {
-    shanka.import('lists/HSK%20Official%20With%20Definitions%202012%20L4%20freqorder.txt', 'sticky', 'HSK 4 Words', true, callbackafterimport);
+    shanka.import(STR.import_hsk4_location, 'plecotext', STR.import_hsk4_category, true, callbackafterimport);
 }
 
 shanka.importHSK5 = function(callbackafterimport) {
-    shanka.import('lists/HSK%20Official%20With%20Definitions%202012%20L5%20freqorder.txt', 'sticky', 'HSK 5 Words', true, callbackafterimport);
+    shanka.import(STR.import_hsk5_location, 'plecotext', STR.import_hsk5_category, true, callbackafterimport);
 }
 
 shanka.importHSK6 = function(callbackafterimport) {
-    shanka.import('lists/HSK%20Official%20With%20Definitions%202012%20L6%20freqorder.txt', 'sticky', 'HSK 6 Words', true, callbackafterimport);
+    shanka.import(STR.import_hsk6_location, 'plecotext', STR.import_hsk6_category, true, callbackafterimport);
+}
+
+shanka.importHSK1Sentences = function(callbackafterimport) {
+    shanka.import(STR.import_hsk1_sentences_location, 'plecotext', STR.import_hsk1_sentences_category, true, callbackafterimport);
+}
+
+shanka.importHSK2Sentences = function(callbackafterimport) {
+    shanka.import(STR.import_hsk2_sentences_location, 'plecotext', STR.import_hsk2_sentences_category, true, callbackafterimport);
+}
+
+shanka.importHSK3Sentences = function(callbackafterimport) {
+    shanka.import(STR.import_hsk3_sentences_location, 'plecotext', STR.import_hsk3_sentences_category, true, callbackafterimport);
 }
 
 shanka.importChineasy = function(callbackafterimport) {
-    shanka.import('lists/Chineasy%20Pleco%20Flashcards.txt', 'plecotext', 'Chineasy', true, callbackafterimport);
+    shanka.import(STR.import_chineasy_location, 'plecotext', STR.import_chineasy_category, true, callbackafterimport);
 }
 
 shanka.EnsureAlgorithmBeginnerExists = function() {

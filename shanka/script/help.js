@@ -32,6 +32,10 @@ shanka.showhelp = function(page) {
 }
 
 shanka.inithelp = function(page) {
+
+    document.getElementById("help_contents_label").innerHTML = STR.help_contents_label;
+    document.getElementById("help_app_support_see_message").innerHTML = STR.app_support_see_message;
+
     if (!page) page="";
 
     switch (page)

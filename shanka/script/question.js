@@ -131,6 +131,11 @@ shanka.getuniquequestionname = function(prefix) {
 }
 
 shanka.initquestions = function() {
+    document.getElementById("gen_add_text"      ).innerHTML = STR.gen_add_text;
+    document.getElementById("gen_edit_all_text" ).innerHTML = STR.gen_edit_all_text;
+    // document.getElementById("gen_add_text2"     ).innerHTML = STR.gen_add_text2;
+    // document.getElementById("gen_edit_all_text2").innerHTML = STR.gen_edit_all_text2;
+
     shanka.initquestionlist(false);
 }
 
@@ -140,6 +145,13 @@ shanka.editquestions = function() {
 }
 
 shanka.initeditquestions = function() {
+    document.getElementById("gen_duplicate_text").innerHTML = STR.gen_duplicate_text; 
+    document.getElementById("gen_delete_text").innerHTML = STR.gen_delete_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+    // document.getElementById("gen_duplicate_text2").innerHTML = STR.gen_duplicate_text; 
+    // document.getElementById("gen_delete_text2").innerHTML = STR.gen_delete_text; 
+    // document.getElementById("gen_cancel_text2").innerHTML = STR.gen_cancel_text; 
+
     shanka.initquestionlist(true);
 }
 
@@ -164,6 +176,27 @@ shanka.initquestionlist = function(addonclick) {
 }
 
 shanka.initshowquestion = function(questionid) {
+    document.getElementById("question_auto_generate_label"   ).innerHTML = STR.question_auto_generate_label;
+    document.getElementById("question_name_label"            ).innerHTML = STR.question_name_label;
+    document.getElementById("question_auto_generate_label2"  ).innerHTML = STR.question_auto_generate_label2;
+    document.getElementById("question_text_label"            ).innerHTML = STR.question_text_label;
+    document.getElementById("question_components_label"      ).innerHTML = STR.question_components_label;
+    document.getElementById("question_stem_label"            ).innerHTML = STR.question_stem_label;
+    document.getElementById("question_answer_label"          ).innerHTML = STR.question_answer_label;
+    document.getElementById("question_display_label"         ).innerHTML = STR.question_display_label;
+    document.getElementById("question_simplified_label"      ).innerHTML = STR.question_simplified_label;
+    document.getElementById("question_traditional_label"     ).innerHTML = STR.question_traditional_label;
+    document.getElementById("question_pinyin_label"          ).innerHTML = STR.question_pinyin_label;
+    document.getElementById("question_definition_label"      ).innerHTML = STR.question_definition_label;
+    document.getElementById("question_notes_label"           ).innerHTML = STR.question_notes_label;
+    document.getElementById("question_cursive_label"         ).innerHTML = STR.question_cursive_label;
+    document.getElementById("question_calligraphy_label"     ).innerHTML = STR.question_calligraphy_label;
+    document.getElementById("question_inputs_label"          ).innerHTML = STR.question_inputs_label;
+    document.getElementById("question_hanzi_touch_label"     ).innerHTML = STR.question_hanzi_touch_label;
+    document.getElementById("question_text_edit_label"       ).innerHTML = STR.question_text_edit_label;
+    document.getElementById("gen_save_text"                  ).innerHTML = STR.gen_save_text;
+    document.getElementById("gen_cancel_text"                ).innerHTML = STR.gen_cancel_text;
+
     var question = null;
     if (questionid && questionid in shanka.questions) {
         question = shanka.questions[questionid];

@@ -14,6 +14,17 @@
 
 // Maintenance Section
 shanka.initmaintenance = function() {
+    document.getElementById("maintenance_reload_local_label"   ).innerHTML = STR.maintenance_reload_local_label;   
+    document.getElementById("maintenance_reload_label"         ).innerHTML = STR.maintenance_reload_label;         
+    document.getElementById("maintenance_stand_alone_label"    ).innerHTML = STR.maintenance_stand_alone_label;    
+    document.getElementById("maintenance_system_language_label").innerHTML = STR.maintenance_system_language_label;
+    document.getElementById("maintenance_app_cache_label"      ).innerHTML = STR.maintenance_app_cache_label;      
+    document.getElementById("maintenance_refresh_label"        ).innerHTML = STR.maintenance_refresh_label;        
+    document.getElementById("maintenance_installed_label"      ).innerHTML = STR.maintenance_installed_label;      
+    document.getElementById("maintenance_update_label"         ).innerHTML = STR.maintenance_update_label;         
+    document.getElementById("maintenance_erase_local_label"    ).innerHTML = STR.maintenance_erase_local_label;    
+    document.getElementById("maintenance_erase_label"          ).innerHTML = STR.maintenance_erase_label;      
+
     shanka._updatemlocalstorageused();
     
     shanka.updateappcachestatus();

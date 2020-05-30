@@ -63,10 +63,23 @@ shanka.getuniquelessonname = function(prefix) {
 }
 
 shanka.initlessons = function() {
+    document.getElementById("study_study_text").innerHTML = STR.study_study_text; 
+    document.getElementById("gen_add_text").innerHTML = STR.gen_add_text; 
+    document.getElementById("gen_edit_all_text").innerHTML = STR.gen_edit_all_text; 
+    // document.getElementById("gen_add_text2").innerHTML = STR.gen_add_text; 
+    // document.getElementById("gen_edit_all_text2").innerHTML = STR.gen_edit_all_text; 
+
     shanka.initlessonslist(false);
 }
 
 shanka.initeditlessons = function() {
+    document.getElementById("gen_duplicate_text").innerHTML = STR.gen_duplicate_text; 
+    document.getElementById("gen_delete_text").innerHTML = STR.gen_delete_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+    // document.getElementById("gen_duplicate_text2").innerHTML = STR.gen_duplicate_text; 
+    // document.getElementById("gen_delete_text2").innerHTML = STR.gen_delete_text; 
+    // document.getElementById("gen_cancel_text2").innerHTML = STR.gen_cancel_text; 
+
     shanka.initlessonslist(true);
 }
 
@@ -102,7 +115,14 @@ shanka.showlesson = function(lessonid) {
 }
 
 shanka.initlesson = function(lessonid) {
-    
+    document.getElementById("lesson_name_label").innerHTML = STR.lesson_name_label; 
+    document.getElementById("lesson_reviewing_label").innerHTML = STR.lesson_reviewing_label; 
+    document.getElementById("page_questions_title").innerHTML = STR.page_questions_title; 
+    document.getElementById("questions_gen_all_text").innerHTML = STR.gen_all_text; 
+    document.getElementById("categories_gen_all_text").innerHTML = STR.gen_all_text; 
+    document.getElementById("page_categories_title").innerHTML = STR.page_categories_title; 
+    document.getElementById("gen_save_text").innerHTML = STR.gen_save_text; 
+
     var lesson = null;
     if (lessonid in shanka.lessons) {
         lesson = shanka.lessons[lessonid];

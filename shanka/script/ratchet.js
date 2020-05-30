@@ -11,6 +11,53 @@
     See http://hskhsk.com/shanka for more information.
 
 */
+
+// Initialisation code from the HTML file
+
+// Helper
+var $ = function(id){
+    return document.getElementById(id);
+}
+
+// Instance
+var snapper = new Snap({
+    element: document.getElementById('content'),
+    disable: 'right'
+})
+
+// 
+var UpdateDrawers = function(){
+    var state = snapper.state(),
+        towards = state.info.towards,
+        opening = state.info.opening;
+    if(opening=='right' && towards=='left'){
+        $('left-drawer').classList.remove('active-drawer');
+    } else if(opening=='left' && towards=='right') {
+        $('left-drawer').classList.add('active-drawer');
+    }
+}
+
+snapper.on('drag', UpdateDrawers);
+snapper.on('animating', UpdateDrawers);
+snapper.on('animated', UpdateDrawers);
+
+$('toggle-left').addEventListener('click', function(){
+    shanka.showsidebarmenu();
+});
+
+$('help-button').addEventListener('click', function(){
+    shanka.showhelp();
+});
+
+// appscroll 
+var scroller = new AppScroll({
+    toolbar: document.getElementsByClassName('bar-title')[0],
+    scroller: document.getElementsByClassName('content')[0]
+});
+scroller.on();
+
+
+
 shanka.switchtab = function(tabbutton, targetid) {
 
     var ul = tabbutton.parentElement;
@@ -18,7 +65,7 @@ shanka.switchtab = function(tabbutton, targetid) {
         var li = ul.children[i];
         if (li.id == tabbutton.id ) {
             li.classList.add('active');
-        } else if (li.nodeType == 1 && li.tagName.toLowerCase() == "li"){
+        } else /* if (li.nodeType == 1 && li.tagName.toLowerCase() == "li") */ {
             li.classList.remove('active');
         }
     }
@@ -29,7 +76,7 @@ shanka.switchtab = function(tabbutton, targetid) {
         var li = ul.children[i];
         if (li.id == target.id ) {
             li.classList.add('active');
-        } else if (li.nodeType == 1 && li.tagName.toLowerCase() == "li"){
+        } else /* if (li.nodeType == 1 && li.tagName.toLowerCase() == "li") */ {
             li.classList.remove('active');
         }
     }

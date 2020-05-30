@@ -18,7 +18,7 @@
 */
 
 /* Start of language definition */
-lang_english = function() { 
+var lang_english = function() { 
 
 /* These strings describe the language of this file */
 this. this_language                     = "English";
@@ -27,7 +27,9 @@ this. this_switch_language              = "Switch Language to English";
 /* These strings describe all currently supported languages */
 this. lang_interface_language           = "Switch Language";
 this. lang_english_language             = "English";
+this. lang_dutch_language               = "Dutch";
 this. lang_spanish_language             = "Spanish";
+this. lang_german_language              = "German";
 this. lang_french_language              = "French";
 this. lang_italian_language             = "Italian";
 
@@ -57,9 +59,6 @@ this. gen_save_text                     = "Save";
 /* Main page strings */
 this. main_beginners_quickstart_label   = "Beginners' Quick Start";
 this. main_browser_no_html5_error       = "Your web browser doesn't support HTML5. Please use a modern web browser (Safari or Chrome) to run this app."
-this. main_cards_learned_label          = "learned";
-// this. main_cards_queued_label           = "queued";
-this. main_cards_total_label            = "total";
 this. main_choose_option_begin_label    = "Choose an option below to begin studying Chinese!";
 this. main_menu_help_label              = "Menu <b>&#8801;</b> and Help <b>?</b> are in the top corners.";
 this. main_setup_wizard_label           = "Setup Wizard";
@@ -94,11 +93,10 @@ this. page_import_title                     = "Import";
 this. page_initialising_title               = "Initialising";
 this. page_lessons_title                    = "Lessons";
 this. page_main_app_title                   = "Shanka 闪卡";
-this. page_main_title                       = "Main Page";
+this. page_main_title                       = "Main";
 this. page_maintenance_title                = "Maintenance";
 this. page_pleco_import_title               = "Pleco Import";
 this. page_practice_title                   = "Practice";
-this. page_progress_title                   = "Progress";
 this. page_progress_title                   = "Progress";
 this. page_question_title                   = "Question";
 this. page_questions_title                  = "Questions";
@@ -257,7 +255,7 @@ this. maintenance_app_cache_label       = "App Cache";
 this. maintenance_erase_label           = "Erase";
 this. maintenance_erase_local_label     = "Erase local data";
 this. maintenance_installed_label       = "Installed";
-this. maintenance_latest_label          = "Latest";
+// this. maintenance_latest_label          = "Latest";
 this. maintenance_rebuild_label         = "Rebuild";
 this. maintenance_rebuild_local_label   = "Rebuild local storage";
 this. maintenance_refresh_label         = "Refresh";
@@ -270,17 +268,10 @@ this. maintenance_update_label          = "Update";
 
 /* Import page */
 this. import_algorithms_label               = "Algorithms";
-this. import_chineasy_label                 = "Chineasy";
 this. import_default_category_label         = "Default Category";
 this. import_downloading_file_message       = "Downloading import file, please wait...";
 this. import_flashcards_label               = "Flashcards";
 this. import_generic_error                  = "Import error";
-this. import_hsk1_label                     = "HSK 1 Words";
-this. import_hsk2_label                     = "HSK 2 Words";
-this. import_hsk3_label                     = "HSK 3 Words";
-this. import_hsk4_label                     = "HSK 4 Words";
-this. import_hsk5_label                     = "HSK 5 Words";
-this. import_hsk6_label                     = "HSK 6 Words";
 this. import_lessons_label                  = "Lessons";
 this. import_parsing_data_message           = "Parsing import data...";
 this. import_paste_text_label               = "Paste text or a link (http://...) here";
@@ -333,6 +324,7 @@ this. question_text_edit_label          = "Text Edit Field";
 this. question_text_label               = "Question Text";
 this. question_traditional_label        = "Traditional Hanzi";
 this. question_whats_the_format         = "What's the {0}?";
+this. question_and_separator            = "and";
 
 /* Lesson list and page */
 this. lesson_delete_selected_confirm    = "Delete selected lessons?";
@@ -576,30 +568,70 @@ this. help_about =
         "<li>Sidebar code is <a href='https://github.com/jakiestfu/Snap.js/'>Snap.js</a> by jakiestfu<br />" +        
         "<li>Initial app structure inspired by <a href='http://html5db.desalasworks.com/'>sqldb example</a> by Steven de Salas <br />" +
         "<li><a href='http://pieroxy.net/blog/pages/lz-string/index.html'>lz-string</a> compression routines by Pieroxy<br />" +
-        "<li>Touchpaint control is a heavily modified version of the <a href='http://gregmurray.org/ipad/touchpaint/'>original by Greg Murray</a> <br />" +            
+        "<li>JavaScript code compression is  Mihai Bazon's <a href='http://lisperator.net/uglifyjs/'>UglifyJS2</a> <br />" +
+        "<li>The way to write a Hanzi Canvas was inspired by Greg Murray's <a href='http://gregmurray.org/ipad/touchpaint/'>TouchPaint</a> <br />" +            
         "<li>Colour Picker is Jan Odvárko's <a href='http://jscolor.com/'>jscolor</a> <br />" +  
         "<li>Shanka algorithm inspired by Adam Nagy of Cybertron BT's now-defunct <a href='https://web.archive.org/web/20100424220218/http://memodrops.com/algorithm.html'>Memodrops</a>.<br />" +
-        "<li>Code was edited using <a href='http://notepad-plus-plus.org/'>Notepad++</a><br />" + 
         "<li>iPhone taps are more responsive thanks to <a href='https://github.com/ftlabs/fastclick'>FastClick</a><br />" +
         "<li>Standalone web app scrolling problems are fixed by <a href='https://github.com/jakiestfu/AppScroll.js/'>AppScroll</a><br />" +
         "<li><a href='http://commons.wikimedia.org/wiki/Commons:Stroke_Order_Project'>Stroke order animations</a> and " + 
             "<a href='http://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project'>Ancient Chinese Characters</a> " +
             "are provided by the <a href='http://commons.wikimedia.org/'>Wikimedia Foundation</a><br />" +
+        "<li>Code was edited using <a href='http://notepad-plus-plus.org/'>Notepad++</a><br />" + 
+        "<li>Website hosted using <a href='http://aws.amazon.com/'>Amazon Web Services</a><br />" + 
+        "<li>Uploading and manipulating files on Amazon S3 is made a lot easier with NetSDK Software's <a href='http://s3browser.com/'>S3 Browser</a><br />" +
         "<li>Many problems were solved with the help of the comments and solutions on <a href='http://stackoverflow.com/'>Stack Overflow</a><br />"+
     "<h3>Thanks</h3>" +
         "<li>Many thanks to the Chinese Forums, Pleco, and Skritter user communities, and the many beta testers who have found bugs and suggested improvements.<br />" +
         "<li>Thank you also to the translators who are working on internationalising this app!";
         
-// Added 21st Jan 2014
-this. progress_studied_label = "studied";
-this. progress_today_label   = "Today";
-this. progress_alltime_label = "All Time";
-this. progress_seconds       = "seconds";
-this. progress_minutes       = "minutes";
-this. progress_hours         = "hours";
-this. progress_days          = "days";
-this. progress_weeks         = "weeks";
-this. progress_years         = "years";
-this. progress_list_format   = "Studied {0}, learned {1} cards in {2} (total: {3}, {4} in {5})";
-        
+// Progress page and progress displayed on main page
+this. main_cards_learned_label  = "learned";
+// this. main_cards_queued_label  = "queued";
+this. main_cards_total_label    = "total";
+this. progress_studied_label    = "studied";
+this. progress_total_label      = "Total";
+this. progress_daily_label      = "Daily";
+this. progress_today_label      = "Today";
+this. progress_seconds          = "seconds";
+this. progress_minutes          = "minutes";
+this. progress_hours            = "hours";
+this. progress_days             = "days";
+this. progress_weeks            = "weeks";
+this. progress_years            = "years";
+this. progress_list_format      = "Studied {0} and learned {1} cards in {2}";
+
+/* Translated version of this section should be modified to show
+ * which files have and haven't been translated */
+this. language_unknown_error = "Unknown language code:";        
+this. import_hsk1_label                     = "HSK 1 Words";
+this. import_hsk2_label                     = "HSK 2 Words";
+this. import_hsk3_label                     = "HSK 3 Words";
+this. import_hsk4_label                     = "HSK 4 Words";
+this. import_hsk5_label                     = "HSK 5 Words";
+this. import_hsk6_label                     = "HSK 6 Words";
+this. import_hsk1_sentences_label           = "HSK 1 Sentences";
+this. import_hsk2_sentences_label           = "HSK 2 Sentences";
+this. import_hsk3_sentences_label           = "HSK 3 Sentences";
+this. import_chineasy_label                 = "Chineasy";
+this. import_hsk1_category                  = "HSK 1";
+this. import_hsk2_category                  = "HSK 2";
+this. import_hsk3_category                  = "HSK 3";
+this. import_hsk4_category                  = "HSK 4";
+this. import_hsk5_category                  = "HSK 5";
+this. import_hsk6_category                  = "HSK 6";
+this. import_hsk1_sentences_category        = "HSK 1 Sentences";
+this. import_hsk2_sentences_category        = "HSK 2 Sentences";
+this. import_hsk3_sentences_category        = "HSK 3 Sentences";
+this. import_chineasy_category              = "Chineasy";
+this. import_hsk1_location                  = "lists/HSK 2012 L1.txt";
+this. import_hsk2_location                  = "lists/HSK 2012 L2.txt";
+this. import_hsk3_location                  = "lists/HSK 2012 L3.txt";
+this. import_hsk4_location                  = "lists/HSK 2012 L4.txt";
+this. import_hsk5_location                  = "lists/HSK 2012 L5.txt";
+this. import_hsk6_location                  = "lists/HSK 2012 L6.txt";
+this. import_hsk1_sentences_location        = "lists/HSK 2012 Examples L1.txt";
+this. import_hsk2_sentences_location        = "lists/HSK 2012 Examples L2.txt";
+this. import_hsk3_sentences_location        = "lists/HSK 2012 Examples L3.txt";
+this. import_chineasy_location              = "lists/Chineasy.txt";
 } /* End of language definition */

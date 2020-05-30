@@ -128,9 +128,11 @@ shanka.inithistory = function() {
         historylist.removeChild(historylist.firstChild);
     }
     
+    var filteredhistory = shanka.filterlistpages(shanka.history);
+
     var lastdividertext = "";
-    for (var i=0, len=shanka.history.length; i<len; i++) {
-        var card = shanka.history[i];
+    for (var i=0, len=filteredhistory.length; i<len; i++) {
+        var card = filteredhistory[i];
         var dividertext = shanka.algorithm.gethistorydisplaytext(card);
         if (dividertext != lastdividertext) {
             var lidivider=document.createElement("li");
@@ -157,14 +159,16 @@ shanka.initqueue = function() {
         queuelist.removeChild(queuelist.firstChild);
     }
     
+    var filteredqueue = shanka.filterlistpages(shanka.queue);
+
     // nasty to use globals, but quick...
     trouble_shown = false;
     learned_shown = false;
     learning_shown = false;
     
     var lastdividerkn = -1;
-    for (var i=0, len=shanka.queue.length; i<len; i++) {
-        var card = shanka.queue[i];
+    for (var i=0, len=filteredqueue.length; i<len; i++) {
+        var card = filteredqueue[i];
         var dividerinfo = shanka.algorithm.getqueuedisplaytext(card);
         var dividerkn = dividerinfo[0]; 
         var dividertext = dividerinfo[1];

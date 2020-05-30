@@ -57,11 +57,8 @@ shanka.getdefault = function(key) {
         case "pinyintones": return "marks";
         case "autoadvance": return "true";
         case "script": return "simplified";
+        case "listmax": return "100";
         
-        // stats
-        case "cardslearned": return "0";
-        case "cardsstudied": return "0";   
-
         // version
         case "currentversionnum": return "0";
         case "currentversiondate": return "2013-12-01";   
@@ -82,10 +79,62 @@ shanka.writesettings = function() {
     localStorage["settings"] = shanka.compress(JSON.stringify(shanka.settings));
 }
 
-var penColorPicker = null;
-var bgColorPicker = null;
-
 shanka.initsettings = function() {
+
+    document.getElementById("lang_interface_language"               ).innerHTML = STR.lang_interface_language          ;
+    document.getElementById("settings_general_label"                ).innerHTML = STR.settings_general_label           ;
+    document.getElementById("settings_auto_queue_label"             ).innerHTML = STR.settings_auto_queue_label        ;
+    document.getElementById("settings_tone_marks_label"             ).innerHTML = STR.settings_tone_marks_label        ;
+    document.getElementById("settings_auto_advance_label"           ).innerHTML = STR.settings_auto_advance_label      ;
+    document.getElementById("settings_hanzi_input_label"            ).innerHTML = STR.settings_hanzi_input_label       ;
+    document.getElementById("settings_brush_colour_label"           ).innerHTML = STR.settings_brush_colour_label      ;
+    document.getElementById("settings_background_colour_label"      ).innerHTML = STR.settings_background_colour_label ;
+    document.getElementById("settings_grid_colour_label"            ).innerHTML = STR.settings_grid_colour_label       ;
+    document.getElementById("settings_border_colour_label"          ).innerHTML = STR.settings_border_colour_label     ;
+    document.getElementById("settings_brush_width_label"            ).innerHTML = STR.settings_brush_width_label       ;
+    document.getElementById("settings_background_guides_label"      ).innerHTML = STR.settings_background_guides_label ;
+    document.getElementById("settings_guide_star_label"             ).innerHTML = STR.settings_guide_star_label        ;
+    document.getElementById("settings_guide_grid_label"             ).innerHTML = STR.settings_guide_grid_label        ;
+    document.getElementById("settings_guide_cross_label"            ).innerHTML = STR.settings_guide_cross_label       ;
+    document.getElementById("settings_guide_bar_label"              ).innerHTML = STR.settings_guide_bar_label         ;
+    document.getElementById("settings_guide_none_label"             ).innerHTML = STR.settings_guide_none_label        ;
+    document.getElementById("settings_tone_colours_label"           ).innerHTML = STR.settings_tone_colours_label      ;
+    document.getElementById("settings_enable_tone_colours_label"    ).innerHTML = STR.settings_enable_tone_colours_label;
+    document.getElementById("settings_tone_1_label"                 ).innerHTML = STR.settings_tone_1_label            ;
+    document.getElementById("settings_tone_2_label"                 ).innerHTML = STR.settings_tone_2_label            ;
+    document.getElementById("settings_tone_3_label"                 ).innerHTML = STR.settings_tone_3_label            ;
+    document.getElementById("settings_tone_4_label"                 ).innerHTML = STR.settings_tone_4_label            ;
+    document.getElementById("settings_tone_5_label"                 ).innerHTML = STR.settings_tone_5_label            ;
+    document.getElementById("settings_preferred_script_label"       ).innerHTML = STR.settings_preferred_script_label  ;
+    document.getElementById("settings_simp_trad_label"              ).innerHTML = STR.settings_simp_trad_label         ;
+    document.getElementById("settings_trad_simp_label"              ).innerHTML = STR.settings_trad_simp_label         ;
+    document.getElementById("settings_simplified_label"             ).innerHTML = STR.settings_simplified_label        ;
+    document.getElementById("settings_traditional_label"            ).innerHTML = STR.settings_traditional_label       ;
+    document.getElementById("settings_rating_enabled_label"         ).innerHTML = STR.settings_rating_enabled_label    ;
+    document.getElementById("settings_ratings_label"                ).innerHTML = STR.settings_ratings_label           ;
+    document.getElementById("gen_save_text"                         ).innerHTML = STR.gen_save_text                    ;
+    document.getElementById("gen_cancel_text"                       ).innerHTML = STR.gen_cancel_text                  ;
+
+    var supportedlanglist = document.getElementById("settingslanguages");
+    for (var languageId in supportedLanguages) {
+        if (languageId != STR.getCurrentLanguage()) {
+            var language = supportedLanguages[languageId];
+            var ul=document.createElement("ul");    
+            ul.classList.add("inset");
+            ul.classList.add("list");
+            ul.innerHTML =  "<li>" +
+                                "<a href='javascript:STR.setLanguage(\"" + languageId + "\")'>" + 
+                                    language.this_switch_language +
+                                    " (" + STR.get_language_name(languageId) + ")" +
+                                    "<span class='chevron'></span>" + 
+                                "</a>" + 
+                            "</li>";
+            supportedlanglist.appendChild(ul);
+            var br=document.createElement("br");    
+            supportedlanglist.appendChild(br);
+        }
+    }
+
     if (shanka.getsetting("addcardsmethod") == "auto") {document.getElementById("studyaddauto").classList.add("active");}
     if (shanka.getsetting("pinyintones") == "marks") {document.getElementById("pinyinmarks").classList.add("active");}
     if (shanka.getsetting("autoadvance") == "true") {document.getElementById("autoadvance").classList.add("active");}

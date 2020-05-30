@@ -119,10 +119,23 @@ shanka.categorysort = function(left, right) {
 }
 
 shanka.initcategories = function() {
+
+    document.getElementById("gen_add_text").innerHTML = STR.gen_add_text; 
+    document.getElementById("gen_edit_all_text").innerHTML = STR.gen_edit_all_text; 
+    // document.getElementById("gen_add_text2").innerHTML = STR.gen_add_text; 
+    // document.getElementById("gen_edit_all_text2").innerHTML = STR.gen_edit_all_text; 
+
     shanka.initcategorylist(false, true);
 }
 
 shanka.initeditcategories = function() {
+    document.getElementById("gen_duplicate_text").innerHTML = STR.gen_duplicate_text; 
+    document.getElementById("gen_delete_text").innerHTML = STR.gen_delete_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+    // document.getElementById("gen_duplicate_text2").innerHTML = STR.gen_duplicate_text; 
+    // document.getElementById("gen_delete_text2").innerHTML = STR.gen_delete_text; 
+    // document.getElementById("gen_cancel_text2").innerHTML = STR.gen_cancel_text; 
+
     shanka.initcategorylist(true, false);
 }
 
@@ -160,13 +173,37 @@ shanka.initcategorylist = function(addonclick, displayuncat) {
     }
 }
 
+shanka.initaddcategory = function() {
+    document.getElementById("category_name_label").innerHTML = STR.category_name_label; 
+    document.getElementById("gen_save_text").innerHTML = STR.gen_save_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+}
+
 shanka.initeditcategory = function(categoryid) {
+    document.getElementById("category_name_label").innerHTML = STR.category_name_label; 
+    document.getElementById("gen_save_text").innerHTML = STR.gen_save_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+
     var category = shanka.categories[categoryid];
     document.getElementById("editcategoryname").value = category.name;
 }
 
 shanka.initshowcategory = function(categoryid, addonclick, showall) {
-
+    document.getElementById("category_edit_name").innerHTML = STR.category_edit_name; 
+    document.getElementById("gen_add_text").innerHTML = STR.gen_add_text; 
+    document.getElementById("gen_edit_all_text").innerHTML = STR.gen_edit_all_text; 
+    // document.getElementById("category_edit_name2").innerHTML = STR.category_edit_name; 
+    // document.getElementById("gen_add_text2").innerHTML = STR.gen_add_text; 
+    // document.getElementById("gen_edit_all_text2").innerHTML = STR.gen_edit_all_text; 
+    document.getElementById("gen_duplicate_text").innerHTML = STR.gen_duplicate_text; 
+    document.getElementById("gen_remove_text").innerHTML = STR.gen_remove_text; 
+    document.getElementById("gen_delete_text").innerHTML = STR.gen_delete_text; 
+    document.getElementById("gen_cancel_text").innerHTML = STR.gen_cancel_text; 
+    // document.getElementById("gen_duplicate_text2").innerHTML = STR.gen_duplicate_text; 
+    // document.getElementById("gen_remove_text2").innerHTML = STR.gen_remove_text; 
+    // document.getElementById("gen_delete_text2").innerHTML = STR.gen_delete_text; 
+    // document.getElementById("gen_cancel_text2").innerHTML = STR.gen_cancel_text; 
+    
     var cards = document.getElementById("cards")
     var lis = cards.getElementsByTagName("li");
     var template = lis[0].innerHTML;
@@ -208,9 +245,11 @@ shanka.initshowcategory = function(categoryid, addonclick, showall) {
             }
         }
 
-        for (var i=0, len=cardids.length; i<len; i++)
+        var filteredcardids = shanka.filterlistpages(cardids);
+    
+        for (var i=0, len=filteredcardids.length; i<len; i++)
         {
-            var cardid = cardids[i];
+            var cardid = filteredcardids[i];
             var card = shanka.cards[cardid];
             var li=document.createElement("li");    
             li.innerHTML = template.replace(/#ID#/g, cardid)
@@ -247,7 +286,7 @@ shanka.dosavecategory = function(categoryid) {
     {
         var categoryid = parseInt(shanka.state["categoryid"]);
         var category = shanka.categories[categoryid];
-        var newname = categorynameedit = document.getElementById("editcategoryname").value;
+        var newname  = document.getElementById("editcategoryname").value;
 
         if (!newname) {
             alert(STR.category_must_enter_name_error);

@@ -13,6 +13,19 @@
 */
 
 shanka.initcardinfo = function (cardid) {
+
+    document.getElementById("infostudycurrent").innerHTML = STR.study_study_text; 
+    document.getElementById("study_practice_short_text").innerHTML = STR.study_practice_short_text; 
+    document.getElementById("study_edit_text").innerHTML = STR.study_edit_text; 
+    document.getElementById("page_categories_title").innerHTML = STR.page_categories_title; 
+    document.getElementById("card_related_flashcards_label").innerHTML = STR.card_related_flashcards_label; 
+    document.getElementById("card_stroke_order_label").innerHTML = STR.card_stroke_order_label; 
+    document.getElementById("card_historical_oracle_label").innerHTML = STR.card_historical_oracle_label; 
+    document.getElementById("card_historical_bronze_label").innerHTML = STR.card_historical_bronze_label; 
+    document.getElementById("card_historical_greatseal_label").innerHTML = STR.card_historical_greatseal_label; 
+    document.getElementById("card_historical_smallseal_label").innerHTML = STR.card_historical_smallseal_label; 
+    document.getElementById("card_historical_bronze_label").innerHTML = STR.card_historical_bronze_label; 
+
     var cardid = parseInt(shanka.state["cardid"]);
     var card = shanka.cards[cardid];
 
@@ -67,9 +80,17 @@ shanka.initstudy = function() {
     }
 
     if (contains(question.input, "draw")) {
-        document.getElementById("touchpaintouter").style.display = "inline";
-        shanka.inittouchpaint(5);
+        if (card.issentence()) {
+            document.getElementById("sentencehanziouter").style.display = "block";
+            document.getElementById("touchpaintouter").style.display = "none";
+            shanka.initstudysentencehanzi(card);
+        } else {
+            document.getElementById("sentencehanziouter").style.display = "none";
+            document.getElementById("touchpaintouter").style.display = "inline";
+            shanka.inittouchpaint(5);
+        }
     } else {
+        document.getElementById("sentencehanziouter").style.display = "none";
         document.getElementById("touchpaintouter").style.display = "none";
     }
     
@@ -285,9 +306,52 @@ shanka.initpractice = function() {
     document.getElementById("studypractice").style.display = "none";
     document.getElementById("studysubmit").style.display = "none";
     document.getElementById("searchresults").style.display = "none";
+    document.getElementById("sentencehanziouter").style.display = "none";
     
     // show the study div
     document.getElementById("study").style.display = 'inline';
+}
+
+shanka.initstudysentencehanzi = function(card) {
+    var buttons = document.getElementById("sentencehanzibuttons");
+    while (buttons.firstChild) {
+        buttons.removeChild(buttons.firstChild);
+    }
+
+    var words = card.getsentencewords();
+    
+    while (words.length) {
+        var i = Math.floor(Math.random() * words.length);
+        var word = words[i];
+        words.splice(i, 1);
+        
+        var button=document.createElement("button");
+        button.innerHTML = word;
+        button.classList.add("sentencebutton");
+        button.onclick = shanka.sentencebuttonclicked;
+        buttons.appendChild(button);        
+        var text = document.createTextNode(" ");
+        buttons.appendChild(text);        
+    }
+    
+    document.getElementById("sentencehanziinput").value = "";
+}
+
+shanka.sentencebuttonclicked = function(e)　 {
+    var button = e.target;
+    var hanzi = button.innerHTML;
+    var input = document.getElementById("sentencehanziinput");
+    var text = input.value;
+    var hanzi = button.innerHTML;
+    
+    if (button.classList.contains("sentenceselected")) {
+        button.classList.remove("sentenceselected");
+        text = text.replace(hanzi, "");
+    } else {
+        button.classList.add("sentenceselected");
+        text += hanzi;
+    }
+    input.value = text;
 }
 
 shanka.initstudyinforelatedcards = function(card) {
@@ -381,7 +445,6 @@ shanka.initstudyinfoetymology = function(card) {
         outer.removeChild(outer.firstChild);
     }
     
-    var script = shanka.getsetting("script");
     var allchars = allchars = card.simplified + card.traditional;
     var charstouse = "";
     
@@ -435,11 +498,8 @@ shanka.studycorrectanswerheight = function() {
         var f = studyfields[i];       
         var answertable = document.getElementById('answertable' + f);
         var answertext = document.getElementById('answertext' + f);
-        var rect = answertext.getBoundingClientRect();
         
-//        answertable.style.height = rect.height;            
         answertable.style.height = answertext.offsetHeight.toString() + "px";            
-//        answertable.offsetHeight  = answertext.offsetHeight.toString() + "px";
     }
 }
 
@@ -472,7 +532,7 @@ shanka.canvasright = function() {
                 shanka.addminitouchpaint();
                 window.tp.setActive(shanka.minitps[shanka.minitpdisplayed-1]);
             } /* else {
-                window.tp.pushleftstack(shanka.minitps[0]);
+                window.tp.pushleftstack();
                 for (var j=0, jlen=shanka.minitpdisplayed - 1; j<jlen; j++) {
                     window.tp.copychildtochild(shanka.minitps[j+1], shanka.minitps[j]);
                 }
@@ -493,7 +553,7 @@ shanka.canvasleft = function() {
             if (i > 0) {
                 window.tp.setActive(shanka.minitps[i-1]);
             } /* else if (shanka.leftminitpindex > 0) {
-                window.tp.pushrightstack(shanka.minitps[shanka.minitpdisplayed-1]);
+                window.tp.pushrightstack();
                 for (var j=shanka.minitpdisplayed-1; j>=1; j--) {
                     window.tp.copychildtochild(shanka.minitps[j-1], shanka.minitps[j]);   
                 }
@@ -667,7 +727,7 @@ shanka.canvasupdateundoredo = function() {
 
 shanka.inittouchpaint = function(minicount) {
     if (!window.tp) {
-        window.tp = new TouchPaint( "touchpaint" );
+        window.tp = new HanziCanvas( "touchpaint" );
     }
     
     window.tp.brushcolour  = "#" + shanka.getsetting("brushcolour");
@@ -720,7 +780,7 @@ shanka.addminitouchpaint = function() {
         var minitouchpaints = document.getElementById("minitouchpaints");
         minitouchpaints.appendChild(newtc);
        
-        var newtp = new TouchPaint("touchpaintmini" + shanka.minitps.length.toString());
+        var newtp = new HanziCanvas("touchpaintmini" + shanka.minitps.length.toString());
         newtp.init({ "enabled" : false });
         newtp.setParent(window.tp);
         newtp.copyFromParent();
@@ -745,14 +805,14 @@ shanka.hideremainingminitps = function(minicount) {
 }
 
 shanka.doontouchstart = function(event) {
-    var touch = event.touches.item(0);
+    // var touch = event.touches.item(0);
     var target = event.touches[0].target;
     shanka.doanswerstart(target, true);
     event.preventDefault();
 }
 
 shanka.doontouchmove = function(event) {
-    var touch = event.touches.item(0);
+    // var touch = event.touches.item(0);
     var target = document.elementFromPoint(touch.screenX, touch.screenY);
     shanka.doanswermove(target, true);
     event.preventDefault();
@@ -905,7 +965,7 @@ shanka.studysubmit = function() {
         
         if (shanka.studystarttime) {        
             timeStudied = now.getTime() - shanka.studystarttime.getTime();
-            timeStudied = Math.max(timeStudied, 60 * 1000); // max it at 1 minute
+            timeStudied = Math.min(timeStudied, 60 * 1000); // max it at 1 minute
         }
 
         var known_increment = 0;
@@ -1017,7 +1077,7 @@ shanka.studypleco = function () {
         hanzi = card.traditional;
     }
     
-    // don't 
+    // don't use x-success as can't call us back in a standalone app
     var url = "plecoapi://x-callback-url/s?q=" + encodeURIComponent(hanzi);
                // + "&x-source=Shanka%20Flaschards&x-success="
                // + encodeURIComponent(document.URL);

@@ -1,6 +1,8 @@
 ﻿/*
-    Shanka HSK Flashcards - util.js
+    Shanka HSK Flashcards
 
+    @license
+    
     You are free to copy, distribute, and modify this code, under a similar license
     to this one. You must give the original author (me) credit in any derived work.
     You may not use any part of this code for commercial purposes without obtaining
@@ -11,6 +13,31 @@
     See http://hskhsk.com/shanka for more information.
 
 */
+
+var wait_cursor_on = false;
+function WaitCursorOn() {
+    if (!wait_cursor_on) {
+        wait_cursor_on = true;
+        // wait 100ms before showing wait cursor
+        setTimeout(WaitCursorSwitchOnTimer, 100);
+    }
+}
+
+// Switch it on straight away!
+WaitCursorOn();
+
+function WaitCursorSwitchOnTimer() {
+    if (wait_cursor_on) {
+        document.getElementById("waitcursor").style.display="inline";
+        document.body.style.cursor = 'wait';            
+    }
+}
+
+function WaitCursorOff() {
+    wait_cursor_on = false;
+    document.getElementById("waitcursor").style.display="none";
+    document.body.style.cursor = 'default';        
+}
 
 function isEmpty(ob){
    for(var i in ob){ return false;}
@@ -48,7 +75,7 @@ commaAndList = function(list) {
     for (var i=0, len=list.length; i<len; i++) {
         if (i > 0) {
             if (i == list.length - 1) {
-                text += " and ";
+                text += " " + STR.question_and_separator + " ";
             } else {
                 text += ", ";
             }
@@ -114,29 +141,6 @@ function ExceptionError(context, err) {
     }
 }
 
-
-var wait_cursor_on = false;
-function WaitCursorOn() {
-    if (!wait_cursor_on) {
-        wait_cursor_on = true;
-        // wait 100ms before showing wait cursor
-        setTimeout(WaitCursorSwitchOnTimer, 100);
-    }
-}
-
-function WaitCursorSwitchOnTimer() {
-    if (wait_cursor_on) {
-        document.getElementById("waitcursor").style.display="inline";
-        document.body.style.cursor = 'wait';            
-    }
-}
-
-function WaitCursorOff() {
-    wait_cursor_on = false;
-    document.getElementById("waitcursor").style.display="none";
-    document.body.style.cursor = 'default';        
-}
-
 function GetUserLanguage() {
     var lang = "";
     if (navigator
@@ -164,3 +168,21 @@ function GetUserLanguage() {
     return lang;
 }
 
+parseWindowLocation = function () {
+    var currentState = null;
+    if (window.location.hash && window.location.hash.length > 1) {
+        console.log("constructing state from hash: " + window.location.hash);
+        var hashbits = window.location.hash.slice(1).split(",");
+        if (hashbits.length > 0) {
+            currentState = { "section" : hashbits[0] };
+        }
+        for (var i=1; i < hashbits.length; i++) {
+            parms = hashbits[i].split("=");
+            if (parms.length == 2) {
+                currentState[parms[0]] = parms[1];
+            }
+        }
+        console.log("constructed state: " + JSON.stringify(currentState) );
+    }
+    return currentState;
+}

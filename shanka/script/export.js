@@ -12,6 +12,10 @@
 
 */
 
+shanka.initexported = function() {
+    document.getElementById("export_download_filetext").innerHTML = STR.export_download_filetext;
+}
+
 shanka.initexport = function() {
     var categorylist = document.getElementById("exportcategorylist")
     var lis = categorylist.getElementsByTagName("li");
@@ -30,6 +34,21 @@ shanka.initexport = function() {
         li.onclick = function(e) { shanka.togglechild(e.target); e.preventDefault();}
         categorylist.appendChild(li);
     }
+    
+    document.getElementById("export_categories_label"       ).innerHTML = STR.export_categories_label;
+    document.getElementById("export_export_format_label"    ).innerHTML = STR.export_export_format_label;
+    document.getElementById("export_section_shanka"         ).innerHTML = STR.import_section_shanka;
+    document.getElementById("export_other_label"            ).innerHTML = STR.export_other_label;
+    document.getElementById("export_lessons_label"          ).innerHTML = STR.import_lessons_label;
+    document.getElementById("export_algorithms_label"       ).innerHTML = STR.import_algorithms_label;
+    document.getElementById("export_settings_label"         ).innerHTML = STR.import_settings_label;
+    document.getElementById("export_progress_label"         ).innerHTML = STR.import_progress_label;
+    document.getElementById("export_do_export_label"        ).innerHTML = STR.export_do_export_label;
+    document.getElementById("export_pleco_text_file_label"  ).innerHTML = STR.import_pleco_text_file_label;
+    document.getElementById("export_stickystudy_label"      ).innerHTML = STR.import_stickystudy_label;
+    document.getElementById("export_skritter_simp_label"    ).innerHTML = STR.import_skritter_simp_label;
+    document.getElementById("export_skritter_trad_label"    ).innerHTML = STR.import_skritter_trad_label;
+    document.getElementById("export_do_export_label2"       ).innerHTML = STR.export_do_export_label;
 }
 
 shanka.export = function(fileformat) {

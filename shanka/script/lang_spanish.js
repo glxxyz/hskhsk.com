@@ -11,575 +11,618 @@
     See http://hskhsk.com/shanka for more information.
 
     This file was translated by:
-        Name:
-        Email:
-        Date:
+        Name:Nicolás Godoy
+        Email:nicolasgastongodoy@gmail.com
+        Date:27/01/2014
     
 */
 
 /* Start of language definition */
-lang_spanish = function() { 
+var lang_spanish = function() { 
 
 /* These strings describe the language of this file */
-this. this_language                     = "Spanish";
-this. this_switch_language              = "Switch Language to Spanish";
+this. this_language                     = "Español";
+this. this_switch_language              = "Cambia el idioma a español";
 
 /* These strings describe all currently supported languages */
-this. lang_interface_language           = "Switch Language";
-this. lang_english_language             = "English";
-this. lang_spanish_language             = "Spanish";
-this. lang_french_language              = "French";
-this. lang_italian_language             = "Italian";
+this. lang_interface_language           = "Cambiar idioma";
+this. lang_english_language             = "Inglés";
+this. lang_dutch_language               = "Holandés";
+this. lang_spanish_language             = "Español";
+this. lang_german_language              = "Alemán";
+this. lang_french_language              = "Francés";
+this. lang_italian_language             = "Italiano";
 
 /* Strings to do with the running of the app*/
-this. app_cancel_silences_error         = "('Cancel' silences future errors)";
-this. app_exception_error               = "Exception";
+this. app_cancel_silences_error         = "('Cancelar' silencia  futuros errores)";
+this. app_exception_error               = "Excepción";
 this. app_generic_error                 = "Error";
-this. app_initialising_message          = "<br /><i>Your web browser supports HTML5.<br /><br />Loading...</i><br /><br /><br /><br />";
-this. app_new_version_download_confirm  = "A new version of Shanka has been downloaded. Reload the app now?";
-this. app_no_html5_message              = "<h3>Your web browser doesn't support HTML5. Please use a modern web browser (Safari or Chrome) to run this app.</h3><br /><br /><br />";
-this. app_nojavascript_error            = "Your web browser does not have JavaScript enabled. Please enable JavaScript or use a different browser.";
-this. app_offline_status                = "OFFLINE";
-this. app_please_wait_a_moment          = "Please wait a moment...";
-this. app_support_see_message           = "For support see <a href='http://hskhsk.com/shanka'>hskhsk.com/shanka</a>";
-this. app_was_reloaded_message          = "App was reloaded!";
+this. app_initialising_message          = "<br /><i>Tu buscador soporta HTML5.<br /><br />Cargando...</i><br /><br /><br /><br />";
+this. app_new_version_download_confirm  = "Una nueva versión de Shanka ha sido cargada.¿Regargar la applicación ahora?";
+this. app_no_html5_message              = "<h3>Tu buscador no soporta HTML5. Por favor use un buscador moderno (Safari o Chrome) para ejecutar esta applicación.</h3><br /><br /><br />";
+this. app_nojavascript_error            = "TU buscador no tiene a JavaScript habilitado. Por favor abilite JavaScript o usa un buscador diferente.";
+this. app_offline_status                = "FUERA DE LINEA";
+this. app_please_wait_a_moment          = "Por favor espere un momento...";
+this. app_support_see_message           = "Por soporte vé a...<a href='http://hskhsk.com/shanka'>hskhsk.com/shanka</a>";
+this. app_was_reloaded_message          = "¡La applicación ha sido recargada con éxito!";
 
 /* Generic re-usable strings for buttons etc. */
-this. gen_add_text                      = "Add";
-this. gen_all_text                      = "All";
-this. gen_cancel_text                   = "Cancel";
-this. gen_delete_text                   = "Delete";
-this. gen_duplicate_text                = "Duplicate";
-this. gen_edit_all_text                 = "Edit All";
-this. gen_remove_text                   = "Remove";
-this. gen_save_text                     = "Save";
+this. gen_add_text                      = "Agregar";
+this. gen_all_text                      = "Todo";
+this. gen_cancel_text                   = "Cancelar";
+this. gen_delete_text                   = "Borrar";
+this. gen_duplicate_text                = "Duplicar";
+this. gen_edit_all_text                 = "Editar Todo";
+this. gen_remove_text                   = "Remover";
+this. gen_save_text                     = "Guardar";
 
 /* Main page strings */
-this. main_beginners_quickstart_label   = "Beginners' Quick Start";
-this. main_browser_no_html5_error       = "Your web browser doesn't support HTML5. Please use a modern web browser (Safari or Chrome) to run this app."
-this. main_cards_learned_label          = "learned";
-this. main_cards_queued_label           = "queued";
-this. main_cards_total_label            = "total";
-this. main_choose_option_begin_label    = "Choose an option below to begin studying Chinese!";
-this. main_menu_help_label              = "Menu <b>&#8801;</b> and Help <b>?</b> are in the top corners.";
-this. main_setup_wizard_label           = "Setup Wizard";
+this. main_beginners_quickstart_label   = "'Principiantes' Comienzo Rápido";
+this. main_browser_no_html5_error       = "Tú buscador no soporta HTML5. Por favor use un buscador moderno (Safari o Chrome) para ejecutar esta applicación."
+this. main_choose_option_begin_label    = "¡Elija una opción para comenzar a aprender chino!";
+this. main_menu_help_label              = "Los menús <b>&#8801;</b> y la ayuda <b>?</b> están arriba en las esquinas.";
+this. main_setup_wizard_label           = "Actualización del Asistente de Ayuda";
 
 /* Titles of all pages */
-this. page_about_title                      = "About";
-this. page_add_algorithm_title              = "Add Algorithm";
-this. page_add_category_title               = "Add Category";
-this. page_add_flashcard_title              = "Add Flashcard";
-this. page_add_lesson_title                 = "Add Lesson";
-this. page_add_question_title               = "Add Question";
-this. page_algo_shanka_title                = "Shanka Algorithm";
-this. page_algorithms_title                 = "Algorithms";
-this. page_card_info_title                  = "Card Info";
+this. page_about_title                      = "Sobre";
+this. page_add_algorithm_title              = "Adicionar Algorítmos";
+this. page_add_category_title               = "Adicionar Categorías";
+this. page_add_flashcard_title              = "Adicionar Flashcard";
+this. page_add_lesson_title                 = "Adicionar Lección";
+this. page_add_question_title               = "Agregar Pregunta";
+this. page_algo_shanka_title                = "Algorítmo de Shanka";
+this. page_algorithms_title                 = "Algoritmos";
+this. page_card_info_title                  = "Información de Flashcards";
 this. page_cards_title                      = "Flashcards";
-this. page_categories_title                 = "Categories";
-this. page_category_title                   = "Category";
-this. page_edit_algorithm_title             = "Edit Algorithm";
-this. page_edit_algorithms_title            = "Edit Algorithms";
-this. page_edit_categories_title            = "Edit Categories";
-this. page_edit_category_name_title         = "Edit Category";
-this. page_edit_flashcard_title             = "Edit Flashcard";
-this. page_edit_lesson_title                = "Edit Lesson";
-this. page_edit_lessons_title               = "Edit Lessons";
-this. page_edit_question_title              = "Edit Question";
-this. page_edit_questions_title             = "Edit Questions";
-this. page_export_title                     = "Export";
-this. page_help_contents_title              = "Help Contents";
-this. page_help_prefix_title                = "Help";
-this. page_history_title                    = "History";
-this. page_import_title                     = "Import";
-this. page_initialising_title               = "Initialising";
-this. page_lessons_title                    = "Lessons";
+this. page_categories_title                 = "Categorías";
+this. page_category_title                   = "Categoría";
+this. page_edit_algorithm_title             = "Editar Algoritmo";
+this. page_edit_algorithms_title            = "Editar Algoritmo";
+this. page_edit_categories_title            = "Editar Categoría";
+this. page_edit_category_name_title         = "Editar Categoría";
+this. page_edit_flashcard_title             = "Editar Flashcard";
+this. page_edit_lesson_title                = "Editar Lección";
+this. page_edit_lessons_title               = "Editar Lecciones";
+this. page_edit_question_title              = "Editar Preguntas";
+this. page_edit_questions_title             = "Editar Preguntas";
+this. page_export_title                     = "Exportar";
+this. page_help_contents_title              = "Contenido de Ayuda";
+this. page_help_prefix_title                = "Ayuda";
+this. page_history_title                    = "Historia";
+this. page_import_title                     = "Importar";
+this. page_initialising_title               = "Inicializando";
+this. page_lessons_title                    = "Lecciones";
 this. page_main_app_title                   = "Shanka 闪卡";
-this. page_main_title                       = "Main Page";
-this. page_maintenance_title                = "Maintenance";
-this. page_pleco_import_title               = "Pleco Import";
-this. page_practice_title                   = "Practice";
-this. page_progress_title                   = "Progress";
-this. page_progress_title                   = "Progress";
-this. page_question_title                   = "Question";
-this. page_questions_title                  = "Questions";
-this. page_queue_title                      = "Queue";
-this. page_settings_title                   = "Settings";
-this. page_skritter_import_title            = "Skritter Import";
-this. page_sticky_import_title              = "StickyStudy Import";
-this. page_study_title                      = "Study";
-this. page_wizard1_title                    = "Wizard 1/4";
-this. page_wizard2_title                    = "Wizard 2/4";
-this. page_wizard3_title                    = "Wizard 3/4";
-this. page_wizard4_title                    = "Wizard 4/4";
-this. page_wizard_title                     = "Wizard";
+this. page_main_title                       = "Página Principal";
+this. page_maintenance_title                = "Mantenimiento";
+this. page_pleco_import_title               = "Importar Pleco ";
+this. page_practice_title                   = "Práctica";
+this. page_progress_title                   = "Progreso";
+this. page_question_title                   = "Pregunta";
+this. page_questions_title                  = "Preguntas";
+this. page_queue_title                      = "Enlistadas";
+this. page_settings_title                   = "Configuraciones";
+this. page_skritter_import_title            = "Importe de Skritter";
+this. page_sticky_import_title              = "Importe de StickyStudy";
+this. page_study_title                      = "Estudiar";
+this. page_wizard1_title                    = "Asistente de ayuda 1/4";
+this. page_wizard2_title                    = "Asistente de ayuda 2/4";
+this. page_wizard3_title                    = "Asistente de ayuda 3/4";
+this. page_wizard4_title                    = "Asistente de ayuda 4/4";
+this. page_wizard_title                     = "Asistente de ayuda";
 
 /* Study page */
-this. study_edit_text                       = "Edit";
-this. study_field_question_name_calligraphy = "Calligraphy";
-this. study_field_question_name_cursive     = "Cursive";
-this. study_field_question_name_definition  = "Definition";
-this. study_field_question_name_notes       = "Notes";
+this. study_edit_text                       = "Editar";
+this. study_field_question_name_calligraphy = "Caligrafía";
+this. study_field_question_name_cursive     = "Cursiva";
+this. study_field_question_name_definition  = "Definición";
+this. study_field_question_name_notes       = "Notas";
 this. study_field_question_name_pinyin      = "Pinyin";
-this. study_field_question_name_simplified  = "Simplified";
-this. study_field_question_name_traditional = "Traditional";
-this. study_field_question_text_calligraphy = "Calligraphy";
-this. study_field_question_text_cursive     = "Cursive";
-this. study_field_question_text_definition  = "Definition";
-this. study_field_question_text_input_draw  = "Draw";
-this. study_field_question_text_input_type  = "Type";
-this. study_field_question_text_notes       = "Notes";
+this. study_field_question_name_simplified  = "Simplificado";
+this. study_field_question_name_traditional = "Tradicional";
+this. study_field_question_text_calligraphy = "Caligrafía";
+this. study_field_question_text_cursive     = "Cursiva";
+this. study_field_question_text_definition  = "Definicion";
+this. study_field_question_text_input_draw  = "Dibujar";
+this. study_field_question_text_input_type  = "Escribir";
+this. study_field_question_text_notes       = "Notas";
 this. study_field_question_text_pinyin      = "Pinyin";
 this. study_field_question_text_simplified  = "Hanzi";
 this. study_field_question_text_traditional = "Hanzi";
-this. study_invalid_card_id_error           = "Invalid card id: ";
-this. study_invalid_question_id_error       = "Invalid question id: ";
-this. study_no_cards_questions_use_wizard_error = "There are no cards or questions to study, please use the Quick Start, Wizard, or Import!";
-this. study_practice_short_text             = "Prac.";
-this. study_practice_text                   = "Practice";
-this. study_search_no_results               = "No Results";
-this. study_search_result_label             = "Results";
-this. study_sentence_label                  = "Sentence";
-this. study_show_answer_label               = "Show Answer";
-this. study_study_text                      = "Study";
+this. study_invalid_card_id_error           = "Dirección inválida de carta ";
+this. study_invalid_question_id_error       = "ID de pregunta inválido: ";
+this. study_no_cards_questions_use_wizard_error = "No hay preguntas o flashcards para estudiar ¡Por favor use el Comienzo Rápido,el Asistente o Importar!";
+this. study_practice_short_text             = "Pract.";
+this. study_practice_text                   = "Práctica";
+this. study_search_no_results               = "Sin resultados";
+this. study_search_result_label             = "Resultados";
+this. study_sentence_label                  = "Oraciones";
+this. study_show_answer_label               = "Mostrar Respuesta";
+this. study_study_text                      = "Estudiar";
 
 /* Wizard pages */
-this. wizard_added_lesson_message       = "Added lesson.";
-this. wizard_added_question_message     = "Added question.";
-this. wizard_algorithm_name_advanced    = "Advanced";
-this. wizard_algorithm_name_beginner    = "Beginner";
-this. wizard_algorithm_name_intermediate = "Intermediate";
-this. wizard_algorithm_name_random      = "Random";
-this. wizard_algorithm_name_randomreview = "Random Review";
-this. wizard_algorithm_name_review      = "Review";
-this. wizard_both_characters_label      = "Both";
-this. wizard_calligraphy_label          = "Calligraphy";
-this. wizard_created_algorithm_message  = "Created algorithm.";
-this. wizard_created_flashcards_format  = "Created {0} flashcards.";
-this. wizard_created_lesson_name        = "Wizard Created";
-this. wizard_cursive_label              = "Cursive";
-this. wizard_definition_label           = "Definition";
-this. wizard_done_label                 = "Done!";
-this. wizard_found_lesson_message       = "Found lesson.";
-this. wizard_found_question_message     = "Found question.";
-this. wizard_merged_flashcards_format   = "Merged {0} flashcards.";
-this. wizard_next_label                 = "Next";
+this. wizard_added_lesson_message       = "Lección agregada.";
+this. wizard_added_question_message     = "Pregunta agregada.";
+this. wizard_algorithm_name_advanced    = "Avanzado";
+this. wizard_algorithm_name_beginner    = "Principiante";
+this. wizard_algorithm_name_intermediate = "Intermediario";
+this. wizard_algorithm_name_random      = "Aleatorio";
+this. wizard_algorithm_name_randomreview = "Revisar aleatoreamente";
+this. wizard_algorithm_name_review      = "Revisar";
+this. wizard_both_characters_label      = "Ambas";
+this. wizard_calligraphy_label          = "Caligrafía";
+this. wizard_created_algorithm_message  = "Algoritmo creado";
+this. wizard_created_flashcards_format  = "{0} flashcards creadas.";
+this. wizard_created_lesson_name        = "Asistente Creado";
+this. wizard_cursive_label              = "Cursiva"
+this. wizard_definition_label           = "Definición";
+this. wizard_done_label                 = "¡Hecho!";
+this. wizard_found_lesson_message       = "Lección encontrada.";
+this. wizard_found_question_message     = "Pregunta encontrada.";
+this. wizard_merged_flashcards_format   = "{0} flashcards combinadas.";
+this. wizard_next_label                 = "Próximo";
 this. wizard_pinyin_label               = "Pinyin";
-this. wizard_reading_label              = "Reading Hanzi";
-this. wizard_select_one_vocab_error     = "Please select at least one vocabulary list!";
-this. wizard_select_something_learn_error = "Please select something to learn!";
-this. wizard_sentences_label            = "Sentences";
-this. wizard_simplified_characters_label = "Simplified";
-this. wizard_traditional_characters_label = "Traditional";
-this. wizard_what_is_level_label        = "What is your level for this vocabulary?";
-this. wizard_what_want_learn_label      = "What do you want to learn?";
-this. wizard_which_characters_label     = "Which characters do you want to learn?";
-this. wizard_which_vocab_label          = "Which vocabulary list(s) do you want to study?";
-this. wizard_writing_label              = "Writing Hanzi";
+this. wizard_reading_label              = "Lectura Hanzi";
+this. wizard_select_one_vocab_error     = "¡Por favor elige al menos una lista de vocabulario!";
+this. wizard_select_something_learn_error = "¡Por favor elige algo para aprender!";
+this. wizard_sentences_label            = "Oraciones";
+this. wizard_simplified_characters_label = "Simplificado";
+this. wizard_traditional_characters_label = "Tradicional";
+this. wizard_what_is_level_label        = "¿Cuál es tu nivel para este vocabulario?";
+this. wizard_what_want_learn_label      = "¿Qué quisieras aprender?";
+this. wizard_which_characters_label     = "¿Qué carácteres quisieras aprender?";
+this. wizard_which_vocab_label          = "¿Cuál lista o listas de vocabulario quisieras aprender?";
+this. wizard_writing_label              = "Escritura Hanzi";
 
 /* Flashcard viewing and editing */
-this. card_add_text                     = "Add Card";
-this. card_delete_selected_confirm      = "Delete selected flashcards?";
-this. card_deleted_format               = "Deleted {0} flashcards.";
-this. card_duplicate_selected_confirm   = "Duplicate selected flashcards?";
-this. card_duplicated_format            = "Duplicated {0} flashcards.";
-this. card_enabled_label                = "Enabled";
-this. card_historical_bronze_label      = "Bronze";
-this. card_historical_forms_label       = "Historical Forms";
-this. card_historical_greatseal_label   = "Great Seal";
-this. card_historical_oracle_label      = "Oracle";
-this. card_historical_smallseal_label   = "Small Seal";
-this. card_if_queued_must_be_enabled_error = "If a flashcard is queued, it must also be enabled!";
-this. card_must_have_at_least_simp_trad_error = "You must have at least one of simplified or traditional characters!";
-this. card_must_have_definition_error   = "You must have a definition!";
-this. card_queued_label                 = "Queued";
-this. card_related_flashcards_label     = "Related Flashcards";
-this. card_remove_selected_confirm      = "Remove selected flashcards from this category?";
-this. card_removed_format               = "Removed {0} flashcards.";
-this. card_saved_message                = "Card Saved.";
-this. card_stroke_order_label           = "Stroke Order";
+this. card_add_text                     = "Agregar Carta";
+this. card_delete_selected_confirm      = "¿Deseas borrar cartas selecionadas?";
+this. card_deleted_format               = "{0} flashcards borradas.";
+this. card_duplicate_selected_confirm   = "¿Deseas duplicar cartas selecionadas?";
+this. card_duplicated_format            = "{0} flashcards duplicadas.";
+this. card_enabled_label                = "Habilitado";
+this. card_historical_bronze_label      = "Bronce";
+this. card_historical_forms_label       = "Formas Históricas";
+this. card_historical_greatseal_label   = "Gran Seal";
+this. card_historical_oracle_label      = "Oráculo";
+this. card_historical_smallseal_label   = "Pequeño Seal";
+this. card_if_queued_must_be_enabled_error = "Si una carta está enlistada ¡también tiene que estar habilitada!";
+this. card_must_have_at_least_simp_trad_error = "Debes tener al menos un carácter simplificado o tradicional!";
+this. card_must_have_definition_error   = "¡Debes tener una definición!";
+this. card_queued_label                 = "Enlistada";
+this. card_related_flashcards_label     = "Flashcards Relacionadas";
+this. card_remove_selected_confirm      = "¿Deseas remover las flashcards seleccionadas de esta categoría?";
+this. card_removed_format               = "{0} flashcards borradas.";
+this. card_saved_message                = "Carta Guardada.";
+this. card_stroke_order_label           = "Orden de Trazos";
 
 /* Category list and edit name page */
-this. category_all_name                 = "All";
-this. category_uncategorised_name       = "Uncategorised";
-this. category_delete_selected_confirm  = "Delete selected categories?";
-this. category_deleted_format           = "Deleted {0} categories";
-this. category_duplicate_sel_confirm    = "Duplicate selected categories?";
-this. category_duplicated_format        = "Duplicated {0} categories";
-this. category_edit_name                = "Edit Name";
-this. category_must_enter_name_error    = "You must enter a category name!";
-this. category_name_exists_error        = "That category name already exists!";
-this. category_name_label               = "Category Name";
-this. category_new_name                 = "New Category";
-this. category_saved_format             = "Category '{0}' saved";
+this. category_all_name                 = "Todos";
+this. category_uncategorised_name       = "Descategorizado";
+this. category_delete_selected_confirm  = "¿Deseas borrar las categorías selecionadas?";
+this. category_deleted_format           = "{0} categorías borradas";
+this. category_duplicate_sel_confirm    = "¿Deseas duplicar las categorías seleccionadas?";
+this. category_duplicated_format        = "{0} categories duplicadas";
+this. category_edit_name                = "Editar Nombre";
+this. category_must_enter_name_error    = "¡Debes ingresar un nombre de categoría!";
+this. category_name_exists_error        = "¡El nombre de esa categoría ya existe!";
+this. category_name_label               = "Nombre de la Categoría";
+this. category_new_name                 = "Nueva Categoría";
+this. category_saved_format             = "{0} categorías guardadas";
 
 /* Settings page */
-this. settings_auto_advance_label       = "Auto Advance";
-this. settings_auto_queue_label         = "Auto Queue New Flashcards";
-this. settings_background_colour_label  = "Background Colour";
-this. settings_background_guides_label  = "Background Guides";
-this. settings_border_colour_label      = "Border Colour";
-this. settings_brush_colour_label       = "Brush Colour";
-this. settings_brush_width_label        = "Brush Width";
-this. settings_each_enabled_rating_must_have_val_error = "Each of the enabled rating buttons must have a value";
-this. settings_enable_tone_colours_label = "Enable Tone Colours";
-this. settings_general_label            = "General Settings";
-this. settings_grid_colour_label        = "Grid Colour";
-this. settings_guide_star_label         = "米 Star";
-this. settings_guide_grid_label         = "井 Grid";
-this. settings_guide_cross_label        = "十 Cross";
-this. settings_guide_bar_label          = "丨 Bar";
-this. settings_guide_none_label         = "No Guides";
-this. settings_hanzi_input_label        = "Hanzi Drawing Input";
-this. settings_must_enable_two_buttons_error = "You must enable at least two of the rating buttons";
-this. settings_preferred_script_label   = "Preferred Script";
-this. settings_rating_enabled_label     = "Enabled";
-this. settings_ratings_label            = "Ratings";
-this. settings_response_1_default       = "No Idea";
-this. settings_response_2_default       = "Wrong";
-this. settings_response_3_default       = "So-So";
-this. settings_response_4_default       = "Right";
-this. settings_response_5_default       = "Easy";
-this. settings_saved_message            = "Settings saved.";
-this. settings_simp_trad_label          = "Simplified [Traditional]";
-this. settings_simplified_label         = "Simplified Only";
-this. settings_tone_1_label             = "Tone 1";
-this. settings_tone_2_label             = "Tone 2";
-this. settings_tone_3_label             = "Tone 3";
-this. settings_tone_4_label             = "Tone 4";
-this. settings_tone_5_label             = "Tone 5";
-this. settings_tone_colours_label       = "Pinyin Tone Colours";
-this. settings_tone_marks_label         = "Pinyin Tone Marks";
-this. settings_trad_simp_label          = "Traditional [Simplified]";
-this. settings_traditional_label        = "Traditional Only";
+this. settings_auto_advance_label       = "Auto Avance";
+this. settings_auto_queue_label         = "Auto-enlistar Nuevas Flashcard";
+this. settings_background_colour_label  = "Color de Fondo";
+this. settings_background_guides_label  = "Guías de Fondo";
+this. settings_border_colour_label      = "Color del Margen ";
+this. settings_brush_colour_label       = "Color del Pincel";
+this. settings_brush_width_label        = "Anchura del Pincel";
+this. settings_each_enabled_rating_must_have_val_error = "Cada uno de los  botones de clasificación habilitados deben tener una valoración";
+this. settings_enable_tone_colours_label = "Color de Tonos Habilitados";
+this. settings_general_label            = "Configuraciones Generales";
+this. settings_grid_colour_label        = "Paleta de Colores";
+this. settings_guide_star_label         = "米 Estrella";
+this. settings_guide_grid_label         = "井 Cuadrícula";
+this. settings_guide_cross_label        = "十 Cruz";
+this. settings_guide_bar_label          = "丨 Barra";
+this. settings_guide_none_label         = "Sin Guías";
+this. settings_hanzi_input_label        = "Entrada del Dibujo Hanzi";
+this. settings_must_enable_two_buttons_error = "Debes  habilitar al menos dos de los botones de clasificación";
+this. settings_preferred_script_label   = "Secuencia de Comando Preferido";
+this. settings_rating_enabled_label     = "Habilitado";
+this. settings_ratings_label            = "Calificaciones";
+this. settings_response_1_default       = "No tengo idea";
+this. settings_response_2_default       = "Incorrecto";
+this. settings_response_3_default       = "Más o Menos";
+this. settings_response_4_default       = "Correcto";
+this. settings_response_5_default       = "Fácil";
+this. settings_saved_message            = "Configuraciónes Guardadas.";
+this. settings_simp_trad_label          = "Simplificado [Tradicional]";
+this. settings_simplified_label         = "Solo Simplificado";
+this. settings_tone_1_label             = "Tono 1";
+this. settings_tone_2_label             = "Tono 2";
+this. settings_tone_3_label             = "Tono 3";
+this. settings_tone_4_label             = "Tono 4";
+this. settings_tone_5_label             = "Tono 5";
+this. settings_tone_colours_label       = "Colores de los tonos de Pinyin";
+this. settings_tone_marks_label         = "Marcas de los tonos de Pinyin";
+this. settings_trad_simp_label          = "Traditional [Simplificado]";
+this. settings_traditional_label        = "Solo Tradicional";
 
 /* Maintenance page */
-this. maintenance_app_cache_label       = "App Cache";
-this. maintenance_erase_label           = "Erase";
-this. maintenance_erase_local_label     = "Erase local data";
-this. maintenance_installed_label       = "Installed";
-this. maintenance_latest_label          = "Latest";
-this. maintenance_rebuild_label         = "Rebuild";
-this. maintenance_rebuild_local_label   = "Rebuild local storage";
-this. maintenance_refresh_label         = "Refresh";
-this. maintenance_reload_label          = "Reload";
-this. maintenance_reload_local_label    = "Reload local data";
-this. maintenance_stand_alone_label     = "Standalone";
-this. maintenance_storage_used_format   = "Using {0} characters of local storage";
-this. maintenance_system_language_label = "System Language";
-this. maintenance_update_label          = "Update";
+this. maintenance_app_cache_label       = "Caché de la Aplicación";
+this. maintenance_erase_label           = "Borrar";
+this. maintenance_erase_local_label     = "Borrar datos locales";
+this. maintenance_installed_label       = "Instalado";
+// this. maintenance_latest_label          = "Último";
+this. maintenance_rebuild_label         = "Reconstruido";
+this. maintenance_rebuild_local_label   = "Reconstruir el Almacenamiento Local";
+this. maintenance_refresh_label         = "Actualizar";
+this. maintenance_reload_label          = "Recargar";
+this. maintenance_reload_local_label    = "Recargar el Almacenamiento Local";
+this. maintenance_stand_alone_label     = "Autónomo";
+this. maintenance_storage_used_format   = " {0} Carácteres del Almacenamiento Local en uso";
+this. maintenance_system_language_label = "Lenguajedel Sistema";
+this. maintenance_update_label          = "Actualizar";
 
 /* Import page */
-this. import_algorithms_label               = "Algorithms";
+this. import_algorithms_label               = "Algoritmos";
 this. import_chineasy_label                 = "Chineasy";
 this. import_default_category_label         = "Default Category";
-this. import_downloading_file_message       = "Downloading import file, please wait...";
+this. import_downloading_file_message       = "Descargando el archivo importador, por favor aguarde...";
 this. import_flashcards_label               = "Flashcards";
 this. import_generic_error                  = "Import error";
-this. import_hsk1_label                     = "HSK 1 Words";
-this. import_hsk2_label                     = "HSK 2 Words";
-this. import_hsk3_label                     = "HSK 3 Words";
-this. import_hsk4_label                     = "HSK 4 Words";
-this. import_hsk5_label                     = "HSK 5 Words";
-this. import_hsk6_label                     = "HSK 6 Words";
-this. import_lessons_label                  = "Lessons";
-this. import_parsing_data_message           = "Parsing import data...";
-this. import_paste_text_label               = "Paste text or a link (http://...) here";
-this. import_pleco_text_file_label          = "Pleco Text File";
-this. import_pleco_xml_file_label           = "Pleco XML File";
-this. import_progress_label                 = "Progress";
-this. import_section_other                  = "Other";
-this. import_section_quick                  = "Quick";
+this. import_lessons_label                  = "Lecciones";
+this. import_parsing_data_message           = "Analizando datos de importación...";
+this. import_paste_text_label               = "Pega el texto o link (http://...) aquí";
+this. import_pleco_text_file_label          = "Archivo de texto Pleco";
+this. import_pleco_xml_file_label           = "Archivo XML Pleco";
+this. import_progress_label                 = "Progreso";
+this. import_section_other                  = "Otro";
+this. import_section_quick                  = "Rápido";
 this. import_section_shanka                 = "Shanka";
-this. import_settings_label                 = "Settings";
-this. import_skritter_simp_label            = "Skritter (Simplified)";
-this. import_skritter_trad_label            = "Skritter (Traditional)";
+this. import_settings_label                 = "Configuraciones";
+this. import_skritter_simp_label            = "Skritter (Simplificado)";
+this. import_skritter_trad_label            = "Skritter (Tradicional)";
 this. import_stickystudy_label              = "StickyStudy";
-this. import_timed_out_error                = "Import timed out!";
+this. import_timed_out_error                = "Importar tiempo agotado!";
 
 /* Export page */
-this. export_beginning_message              = "Beginning Export...";
-this. export_categories_label               = "Categories to Export";
-this. export_do_export_label                = "Export";
+this. export_beginning_message              = "Comenzando Exportación...";
+this. export_categories_label               = "Categorías para Exportar";
+this. export_do_export_label                = "Exportar";
 this. export_download_filename              = "ShankaExport.txt";
-this. export_download_filetext              = "Download File";
-this. export_export_format_label            = "Export Format";
-this. export_other_label                    = "Other";
-this. export_success_message                = "Exported all data!";
+this. export_download_filetext              = "Descargar Archivo";
+this. export_export_format_label            = "Formato de Exportación";
+this. export_other_label                    = "Otro";
+this. export_success_message                = "Toda la información exportada!";
 
 /* Question list and page */
-this. question_answer_label             = "Answer";
-this. question_auto_generate_label      = "Auto-generate";
-this. question_calligraphy_label        = "Calligraphy";
-this. question_components_label         = "Question Components";
-this. question_cursive_label            = "Cursive";
-this. question_definition_label         = "Definition";
-this. question_delete_selected_confirm  = "Delete selected questions?";
-this. question_deleted_format           = "Deleted {0} questions";
+this. question_answer_label             = "Respuesta";
+this. question_auto_generate_label      = "Autogenerar";
+this. question_calligraphy_label        = "Caligrafía";
+this. question_components_label         = "Componentes de las Preguntas";
+this. question_cursive_label            = "Cursiva";
+this. question_definition_label         = "Definición";
+this. question_delete_selected_confirm  = "¿Desea borrar las preguntas seleccionadas?";
+this. question_deleted_format           = "{0} preguntas borradas";
 this. question_display_label            = "Display";
-this. question_duplicate_sel_confirm    = "Duplicate selected questions?";
-this. question_duplicated_format        = "Duplicated {0} questions";
-this. question_hanzi_touch_label        = "Hanzi Touchpad";
-this. question_inputs_label             = "Inputs";
-this. question_name_label               = "Question Name";
-this. question_name_text_error          = "Your question must have a name and some question text!";
-this. question_new_name                 = "New Question";
-this. question_notes_label              = "Notes";
+this. question_duplicate_sel_confirm    = "¿Duplicar preguntas seleccionadas?";
+this. question_duplicated_format        = "{0}Preguntas duplicadas";
+this. question_hanzi_touch_label        = "Touchpad Hanzi";
+this. question_inputs_label             = "Entradas";
+this. question_name_label               = "Nombre de la pregunta";
+this. question_name_text_error          = "¡Tu pregunta debe tener un nombre y algo de texto!";
+this. question_new_name                 = "Pregunta Nueva";
+this. question_notes_label              = "Notas";
 this. question_pinyin_label             = "Pinyin";
-this. question_saved_format             = "Question '{0}' saved";
-this. question_simplified_label         = "Simplified Hanzi";
-this. question_stem_answer_error        = "Your question must have at least one stem and one answer!";
-this. question_stem_label               = "Stem";
-this. question_text_edit_label          = "Text Edit Field";
-this. question_text_label               = "Question Text";
-this. question_traditional_label        = "Traditional Hanzi";
-this. question_whats_the_format         = "What's the {0}?";
+this. question_saved_format             = "'{0}' preguntas agregadas";
+this. question_simplified_label         = "Hanzi Simplificado";
+this. question_stem_answer_error        = "¡Tu pregunta debe tener al menos texto y una respuesta!";
+this. question_stem_label               = "Tema";
+this. question_text_edit_label          = "Campo de Edición de Texto";
+this. question_text_label               = "Texto de la Pregunta";
+this. question_traditional_label        = "Hanzi Tradicional";
+this. question_whats_the_format         = "Qué es {0}?";
+this. question_and_separator            = "y";
 
 /* Lesson list and page */
-this. lesson_delete_selected_confirm    = "Delete selected lessons?";
-this. lesson_deleted_format             = "Deleted {0} lessons";
-this. lesson_duplicate_selected_confirm = "Duplicate selected lessons?";
-this. lesson_duplicated_format          = "Duplicated {0} lessons";
-this. lesson_must_include_1_cat_error   = "You must include at least one category!";
-this. lesson_must_include_1_quest_error = "You must include at least one question!";
-this. lesson_name_already_exist_error   = "That lesson name already exists!";
-this. lesson_name_cant_be_empty_error   = "Lesson name cannot be empty!";
-this. lesson_name_label                 = "Lesson Name";
-this. lesson_new_name                   = "New Lesson";
-this. lesson_review_mode_name           = "(Review)";
-this. lesson_reviewing_label            = "Reviewing";
-this. lesson_saved_format               = "Lesson '{0}' saved";
+this. lesson_delete_selected_confirm    = "¿Deseas borrar lecciones seleccionadas?";
+this. lesson_deleted_format             = "{0} lecciones seleccionadas";
+this. lesson_duplicate_selected_confirm = "¿Desea duplicar lecciones seleccionadas?";
+this. lesson_duplicated_format          = "{0} lecciones duplicadas";
+this. lesson_must_include_1_cat_error   = "¡Debes incluir al menos una categoría!";
+this. lesson_must_include_1_quest_error = "¡Debes incluir al menos una pregunta!";
+this. lesson_name_already_exist_error   = "¡El nombre de esa lección ya existe!";
+this. lesson_name_cant_be_empty_error   = "¡El nombre de la lección está vacío!";
+this. lesson_name_label                 = "Nombre de la Lección";
+this. lesson_new_name                   = "Nueva Lección";
+this. lesson_review_mode_name           = "(Reveer)";
+this. lesson_reviewing_label            = "Reviendo";
+this. lesson_saved_format               = "'{0}'lecciones guardadas";
 
 /* Algorithm list and page */
-this. algorithm_adjustment_speed_positive_error         = "Adjustment Speed must be positive!"
-this. algorithm_any_element_probability_0_1_error       = "Any Element Probability must be between 0 and 1!";
-this. algorithm_cannot_delete_last_error                = "Cannot delete the last algorithm";
-this. algorithm_daily_correct_target_positive_int_error = "Daily Correct Target must be a positive integer!";
-this. algorithm_daily_minutes_target_positive_int_error = "Daily Minutes Target must be a positive integer!";
-this. algorithm_daily_new_target_positive_int_error     = "Daily New Target must be a positive integer!";
-this. algorithm_default_knowledge_rate_0_1_error        = "Default Knowledge Rate must be between 0 and 1!";
-this. algorithm_delete_selected_confirm                 = "Delete selected algorithms?";
-this. algorithm_duplicate_selected_confirm              = "Duplicate selected algorithms?";
-this. algorithm_first_element_probability_0_1_error     = "First Element Probability must be between 0 and 1!";
-this. algorithm_minimum_interval_postive_0_error        = "Minimum Interval must be positive or zero!";
-this. algorithm_minimum_unknown_card_positive_int_error = "Minimum Unknown Cards must be a positive integer!";
-this. algorithm_name_cant_be_empty_error                = "Algorithm name cannot be empty!";
-this. algorithm_threshold_knowledge_rate_0_1_error      = "Threshold Knowledge Rate must be between 0 and 1!";
-this. algorithm_adjustment_speed        = "Adjustment Speed";
-this. algorithm_any_element_probability = "Any Element Probability";
-this. algorithm_choose_label            = "Choose an Algorithm";
-this. algorithm_current_label           = "Current";
-this. algorithm_daily_correct_target    = "Daily Correct Target";
-this. algorithm_daily_minutes_target    = "Daily Minutes Target";
-this. algorithm_daily_new_target        = "Daily New Target";
-this. algorithm_default_knowledge_rate  = "Default Knowledge Rate";
-this. algorithm_deleted_format          = "Deleted {0} algorithms";
-this. algorithm_duplicated_format       = "Duplicated {0} algorithms";
-this. algorithm_first_element_prob      = "First Element Probability";
-this. algorithm_history_today           = "today";
-this. algorithm_history_yesterday       = "yesterday";
-this. algorithm_knowledge_rate_display  = "Knowledge Rate";
-this. algorithm_knowledge_rate_trouble  = "having trouble";
-this. algorithm_knowledge_rate_learned  = "learned";
-this. algorithm_knowledge_rate_learning = "learning";
-this. algorithm_minimum_interval        = "Minimum Interval";
-this. algorithm_minimum_unknown_cards   = "Minimum Unknown Cards";
-this. algorithm_name_label              = "Name";
-this. algorithm_new_name                = "New Algorithm";
-this. algorithm_parameters              = "Parameters";
-this. algorithm_saved_format            = "Algorithm '{0}' saved";
-this. algorithm_study_settings          = "Study Settings";
-this. algorithm_threshold_kn_rate       = "Threshold Knowledge Rate";
+this. algorithm_adjustment_speed_positive_error         = "¡La Velocidad del Ajuste debe ser positiva!"
+this. algorithm_any_element_probability_0_1_error       = "¡Cualquier Elemento de Probabilidad debe estar entre 0 y 1!";
+this. algorithm_cannot_delete_last_error                = "¿No puedes borrar el último algoritmo?";
+this. algorithm_daily_correct_target_positive_int_error = "¡El Objetivo Diario Correcto debe ser un entero positivo!";
+this. algorithm_daily_minutes_target_positive_int_error = "¡El Objetivo de Minutos Diarios debe ser un entero positivo!";
+this. algorithm_daily_new_target_positive_int_error     = "¡El Nuevo Objetivo Diario debe ser un número positivo entero!";
+this. algorithm_default_knowledge_rate_0_1_error        = "¡El Error de la Calificación de Conocimiento  debe estar entre 0 y 1!";
+this. algorithm_delete_selected_confirm                 = "¿Deseas borrar los algoritmos seleccionados?";
+this. algorithm_duplicate_selected_confirm              = "¿Duplicar algoritmos seleccionados?";
+this. algorithm_first_element_probability_0_1_error     = "El primer elemento debe estar entre 0 y 1!";
+this. algorithm_minimum_interval_postive_0_error        = "El intervalo mínimo debe ser positivo o cero!";
+this. algorithm_minimum_unknown_card_positive_int_error = "El Mínimo de Cartas Desconocidas debe ser un entero positivo!";
+this. algorithm_name_cant_be_empty_error                = "¡El Nombre del Argoritmo no puede estar vacío!";
+this. algorithm_threshold_knowledge_rate_0_1_error      = "¡El rango en el cual una carta es considerada aprendida debe estar entre 0 y 1!";
+this. algorithm_adjustment_speed        = "Ajuste de Velocidad";
+this. algorithm_any_element_probability = "Ningún Elemento de Probabilidad";
+this. algorithm_choose_label            = "Elige un algoritmo";
+this. algorithm_current_label           = "En uso";
+this. algorithm_daily_correct_target    = "Objetivo Diario Correcto";
+this. algorithm_daily_minutes_target    = "Objetivo de Minutos Diaros";
+this. algorithm_daily_new_target        = "Nuevo Objetivo Diario";
+this. algorithm_default_knowledge_rate  = "Tasa de Incumplimiento del Conocimiento.";
+this. algorithm_deleted_format          = "{0} algoritmos borrados";
+this. algorithm_duplicated_format       = "{0} algoritmos duplicados";
+this. algorithm_first_element_prob      = "Probabilidad del Primer Elemento";
+this. algorithm_history_today           = "hoy";
+this. algorithm_history_yesterday       = "ayer";
+this. algorithm_knowledge_rate_display  = "Clasificación de Conocimiento";
+this. algorithm_knowledge_rate_trouble  = "Con Problemas";
+this. algorithm_knowledge_rate_learned  = "Aprendido";
+this. algorithm_knowledge_rate_learning = "Aprendiendo";
+this. algorithm_minimum_interval        = "Intervalo Mínimo";
+this. algorithm_minimum_unknown_cards   = "Mínimo Cartas Desconocidad";
+this. algorithm_name_label              = "Nombre";
+this. algorithm_new_name                = "Algoritmo Nuevo";
+this. algorithm_parameters              = "Parámetros";
+this. algorithm_saved_format            = "'{0}' algoritmos guardados";
+this. algorithm_study_settings          = "Configuración de Estudio";
+this. algorithm_threshold_kn_rate       = "Rango de Flashcard aprendida";
 
 /* Local storage rebuild and load */
-this. local_storage_cannot_save_ios     = "Unable to save to local storage. Either your local storage quote has been exceeded, or you are in Private Browsing mode.";
-this. local_storage_cannot_save_other   = "Unable to save to local storage, your local storage quota has been exceeded.";
-this. local_storage_erase_confirm       = "Erase local storage data?";
-this. local_storage_erased_message      = "Local storage data was nuked!";
-this. local_storage_rebuild_confirm     = "Rebuild local storage?";
-this. local_storage_rebuilt_ok_message  = "Local storage was rebuilt- no errors were found!";
+this. local_storage_cannot_save_ios     = "Deshabilitado para guardar en el almacenamiento local. Quizá tu almacenamiento locar ha sido excedido, o estás navegando en Modo Privado.";
+this. local_storage_cannot_save_other   = "Deshabilitado pata guargar en almacenamiento local, tu capacidad de almacenamiento ha sido excedida.";
+this. local_storage_erase_confirm       = "Deseas borrar los datos de almacenamiento local?";
+this. local_storage_erased_message      = "Los Datos de Almacenamiento Local fueron bombardeados!";
+this. local_storage_rebuild_confirm     = "¿Deseas Reconstruir el Almacenamiento Local?";
+this. local_storage_rebuilt_ok_message  = "¡El almacenamienot local ha sido reconstruido, ningún error ha sido encontrado!";
 this. local_storage_errors_detected_resolved_error =
-    "Local storage data errors were detected and resolved.\n\n" +
-    "You may have missing or disconnected lessons, questions, categories, or cards.\n\n" +
-    "More detailed information is available in the JavaScript console.";
+    "Errores del almacenamieto local de datos fueron detectados y resueltos.\n\n" +
+    "Quizá has estado perdiendo o desconectando lecciones, preguntas, categorías o flashcards.\n\n" +
+    "Información más detallada está disponible en la consola Java.";
 
 /* Help pages */
-this. help_contents_label = "Help Contents";
+this. help_contents_label = "Contenidos de Asistencia al Usuario";
 
 this. help_main_page =
-    "<h3>Before you Begin</h3>" +
-        "<p>You should first add the main page (welcome page) of this app to the homescreen of your device.</p>" +
-        "<p>This will let you use the app when you are offline, and will also give put the app full-screen giving you more room to study.</p>" +
-        "<p>On iOS this means clicking the icon in the middle of the bottom of the screen, that looks like a box with an arrow pointing up, and selecting 'Add to Home Screen'.</p>" +
-        "<p>Similar functionality is available on all modern web browsers on Windows, Android, Mac OS, Windows Mobile, and Blackberry.</p>";
+    "<h3>Antes de que Comiences</h3>" +
+        "<p>Primero deberías agregar la página principal (página de bienvenida) de esta aplicación a la pantalla de inicio de tu dispositivo.</p>" +
+        "<p>Eso te permitirá  usar la aplicación  cuando estés desconectado, y también te pondrá la pantalla completa para darte más espacio.</p>" +
+        "<p>En iOS esto significa cliquear el Ícono en el medio del botón de la pantalla, este luce como una caja con una flecha señalando, y seleccionando 'Adicionar a Inicio de Pantalla'.</p>" +
+        "<p>Funcionalidad similar está disponible en todos los buscadores modernos en  Windows, Android, Mac OS, Windows Mobile,y Blackberry.</p>";
 
 this. help_lessons =
-    "<h3>Selected Lessons</h3>" +
-        "<p>When you study, only questions and categories from lessons that are checked will be used.</p>";
+    "<h3>Lecciones Seleccionadas</h3>" +
+        "<p>Cuando estudies, solo van a ser utilizadas preguntas y categorías de lecciones que estén controladas .</p>";
 
 this. help_card_info =
-    "<h3>Categories</h3>" +
-        "<p>Lists the categories, if any, that the current card is assigned to.</p>" +
-    "<h3>Related Flashcards</h3>" +
-        "<p>Shows all flashchards that share characters in common with the current flashcard.</p>" +
-    "<h3>Stroke Order</h3>" +
-        "<p>Some (but not all) characters have stroke order diagrams provided by the Wikimedia Foundation.</p>" +
-    "<h3>Historical Forms</h3>" +
-        "<p>The Wikimedia Foundation has collected together representative historical forms for many characters. " +
-        "These can help to understand the shape of some pictographs.</p>";
+    "<h3>Categorías</h3>" +
+        "<p>Listas de Categorías,si hay alguna,a la cual la carta actual sea asignada.</p>" +
+    "<h3>Flashcards Relacionadas</h3>" +
+        "<p>Mostrar todas las Flashcards que compartan  carácteres en común  con la flashcard en uso.</p>" +
+    "<h3>Orden de Trazos</h3>" +
+        "<p>Algunos (no todos) los carácteres tienen diagramas de orden de trazos provistos por The Wikimedia Foundation.</p>" +
+    "<h3>Formas Históricas</h3>" +
+        "<p>La Fundación WIkipedia ha coleccionado formas de carácteres representativos para muchos carácteres. " +
+        "Estos pueden ayudarte a entender la forma de algunos pictogramas.</p>";
 
 this. help_practice =
-    "<h3>Just Relax!</h3>" +
-        "<p>The practice page allows you sit back and practice whichever characters you like.</p>" +
-        "<p>Enter the characters that you want to study in the text box.</p>" +
-        "<p>All other character drawing functionality from the Study page is available.</p>" +
-    "<h3>Search</h3>" +
-        "<p>You can search through the hanzi and pinyin of all Flashcards by clicking the magnifying glass icon. " +
-        "The search will look for the characters in the text box, and will display a results list or go to the card if there is only one result.</p>";
+    "<h3>Relájate!</h3>" +
+        "<p>La página de práctica te permite  sentarte y practicar cualquier carácter que desees.</p>" +
+        "<p>Ingresa los carácteres que quieras estudiar en la próxima caja.</p>" +
+        "<p>Todas las otras funcionalidades de los dibujos de los carácteres de la página de estudio están disponible.</p>" +
+    "<h3>Buscar</h3>" +
+        "<p>Puedes buscar a través de texto en hanzi o pinyin  de todas las flashcards cliqueando sobre la lupa. " +
+        "El buscador va a buscar el carácter en la caja de texto y se desplegará una lista de resultados o irá a la carta si hay solo un resultado.</p>";
 
 this. help_study =
-    "<p>This is the page of the app where you will spend most of your time, testing yourself on flashcards.</p>" +
-    "<h3>Stem</h3>" +
-        "<p>The Stem of the question is the information that you are given.</p>" +
-    "<h3>Answer</h3>" +
-        "<p>The Answer is the information that you supply. Type or draw the answer as appropriate, and then click 'show answer' to see if you were correct.</p>" +
-    "<h3>Hanzi Input</h3>" +
-        "<p>If a hanzi input control is displayed for the current question, you can draw as many characters as you want of the answer, and repeat each multiple times " +
-        "for practice if you prefer. Clicking the 下 button moves you to the next mini grid, or adds a new one if you are currently viewing the last mini grid. You can also " +
-        "click on the grids to select them. Other controls allow you to choose the colour of the pen, show/hide an overlaay of the current character, undo/redo your drawing, " +
-        "and clear the current grid.</p>" +
-    "<h3>Display</h3>" +
-        "<p>Some extra information such as notes that you are not graded on can also be displayed alongside the answer.</p>" +
-    "<h3>Grading</h3>" +
-        "<p>Grade yourself on each part of the answer, to determine when you will next be tested on the current flashcard. " +
-        "You can grade multiple items at once by swiping or dragging between them.</p>";
+    "<p>Esta es la página de la aplicación donde vas a pasar la mayoría del tiempo, poniéndote a prueba en las flashcards.</p>" +
+    "<h3>Tema</h3>" +
+        "<p>El tema de la pregunta es la información que se te va a dar .</p>" +
+    "<h3>Respuesta</h3>" +
+        "<p>La respuesta es la información que administrarás. Escribe o dibuja la respuesta apropiada y luego haz click sobre 'Mostrar Respuesta' para ver si es correcta.</p>" +
+    "<h3>Ingreso de texto en Hanzi</h3>" +
+        "<p>Si un controlador de entrada  hanzi está siendo mostrado por la pregunta actual, podrías dibujar tantos carácteres como quieras dibujar como respuesta y repetir cada uno muchas veces " +
+        "para practicar si es que así lo deseas. Haz click en el botón 下 y te moverás a la próxima mini-grilla o agregará una nueva si estás viendo la última mini-grilla.También puedes " +
+        "hacer click sobre las grillas y seleccionarlas. Los demás controles te permiten  elegir el color del lapiz, muestra/oculta el carácter en modo marca de agua en uso, deshacer/rehacer tu dibujo, " +
+        "y limpiar la grilla actual.</p>" +
+    "<h3>Visualización</h3>" +
+        "<p>Información extra como notas en las que no has sido clasificado pueden ser visualizadas al lado de la respuesta también.</p>" +
+    "<h3>Calificador</h3>" +
+        "<p>Califícate a tí mismo en cada aspecto de la respuesta, para  determinar cuándo serás examinado en la flashcard actual. " +
+        "Puedes calificar vários items a la vez arrastrando y deslizandolos.</p>";
 
 this. help_categories =
-    "<p>Categories are sometimes called word lists in other systems. They help you to organise your flashcards, and to tell the app which flashcards you want to study.</p>" +
-    "<p>A card can exist in multiple categories, or none at all in which case it is 'uncategorised'.</p>";
+    "<p>Las categorías son usualmente llamadas listas de palabras en otros sistemas. Ellas ayudan a organizar tus flashcards y le dirán a la apliación cuál flashcadr deseas estudiar.</p>" +
+    "<p>Una flashcard que existe en múltiples categorías o en ninguna en caso de que esté 'descategorizada'.</p>";
 
 this. help_progress =
-    "<p>The progress page shows you how many words were counted as known, how long you studied, and how many flashcards you studied, " +
-    "on each day that you used the app.</p>";
+    "<p>La página de progreso te muestra cuántas palabras fueron contadas como aprendidas,cuánto tiempo y cuántas flashcards has estudiado, " +
+    "cada día en el que has usado la aplicación.</p>";
 
 this. help_history =
-    "<p>The history page shows all of the flashcards that you have studied, in the order that you studied them. " +
-    "Each flashcard will only appear in the list once.</p>";
+    "<p>La página del historial muestra todas las flashcrs que has estudiado y en el order en que las has estudiado. " +
+    "Cada flashcard aparecerá en la lista solo una vez.</p>";
 
 this. help_import =
-    "<p>With this page you can import data from the built in word lists, or from another flashcard system.</p>";
+    "<p>Con esta página  puedes importar datos de las listas construidas o de cualquier otro sistema de flshcards .</p>";
 
-this. help_export = "export help" +
-    "<p>Exporting allows you to backup your data, You can also move it to Shanka running on another device, or to another flashcard system.</p>" +
-    "<h3>Export Result</h3>" +
-        "<p>Copy the text in the textedit and paste into another app. " +
-        "Alternatively, click the \"Download file\" button.</p>";
+this. help_export = "Ayuda de Exportación" +
+    "<p>Exportar te permite hacer copias de seguridad de tus datos.También puedes exportarlo a otro dispositivo o a otro sistema de flashcards.</p>" +
+    "<h3>Resultado de Exportación</h3>" +
+        "<p>Copia el texto al editor de teco y pégalo en otra aplicación. " +
+        "Alternativamente, haz click en botón de \"Download file\".</p>";
 
 this. help_settings =
-    "<p>The settings screen allows you to tweak many of the internals of the app.</p>" +
-    "<h3>General Settings</h3>" +
-        "<p>If auto advance is switched on, the next flashcard will be shown as soon as you have graded a flashcard when studying.</p>" +
-    "<h3>Hanzi drawing input</h3>" +
-        "<p>These settings control the look of the hanzi drawing control in study and practice modes.</p>" +
-    "<h3>Background Guides</h3>" +
-        "<p>The shape of the hanzi drawing background guides grid can be configured here.</p>" +
-    "<h3>Pinyin Tone Colours</h3>" +
-        "<p>If enabled, this will control the colours displayed for each syllable of toned pinyin.</p>" +
-    "<h3>Preferred Script</h3>" +
-        "<p>You can decide whether you prefer to see Simplified Hanzi, Traditional, or a combination of the two.</p>" +
-    "<h3>Ratings</h3>" +
-        "<p>Choose the names that you want to see for the ratings in the study page, and disable any that you don't want to use by unselecting them.</p>";
+    "<p>Las configuraciones de pantalla te permiten mejorar la aplicación.</p>" +
+    "<h3>Configuraciones Generales</h3>" +
+        "<p>Si el auto-avance está encendido, la próxima flashcard va a ser mostrada tan pronto como hayas calificado una flashcard cuando estés estudiando.</p>" +
+    "<h3>Ingreso del Dibujo Hanzi</h3>" +
+        "<p>Estas configuraciones controlan el aspecto del control de dibujo Hanzi en el modo de estudio y práctica.</p>" +
+    "<h3>Guías de Fondo</h3>" +
+        "<p>La forma del fondo de la grilla de dibujo Hanzi puede ser configurada aquí.</p>" +
+    "<h3>Color de los tonos Pinyin</h3>" +
+        "<p>Si está habilitado,este controlará los colores mostrados para cada sílaba de los tonos.</p>" +
+    "<h3>Escritura Preferente</h3>" +
+        "<p>Puedes decidir si deseas ver Hanzi, Simplificado o Tradicional , como así también una combinación de ambos.</p>" +
+    "<h3>Calificaciones</h3>" +
+        "<p>Elige los nombres de las calificaciones que deseas ver en la página de estudio,y deshabilita cualquiera que no desees utilizar deseleccionándolas.</p>";
 
 this. help_queue =
-    "<p>The queue shows you all of the words that you are currently studying, and lets you know how well you know them all. "
-    "The words are in the approximate order that they will be studied, although the order is randomised so that it doesn't become predictable.</p>";
+    "<p>La lista muestra todas la palabras que estás actualmente estudiando y te permite saber qué tan bien las conoces."
+    "La palabras están en orden aproximado en la forma que serán aprendidas,aunque el orden sea casual así no se hace predecible.</p>";
 
 this. help_algorithms =         
-    "<h3>Shanka Algorithm</h3>" +
-        "<p>This algorithm controls the order that flashcards are displayed to you, and how many new flashcards are added when you have learned earlier ones.</p>" +
-    "<h3>Study Settings</h3>" +
-        "<p><li><b>Minimum Unknown Cards</b> - When the number of unknown cards falls below this level, new cards will be added to the queue.</p>" +
-        "<p><li><b>Daily Correct Target</b> - Target minimum number of questions to answer correct each day.</p>" +
-        "<p><li><b>Daily New Target</b> - Target minimum number of new flashcards to add each day.</p>" +
-        "<p><li><b>Daily Minutes Target</b> - Target minimum time to spend studying each day, in minutes.</p>" +
-    "<h3>Parameters</h3>" +
-        "<p><li><b>Default Knowledge Rate</b> - Knowledge rate <i><b>kn_rate</b></i> is how well you know each piece of information in a flashcard. Zero is not at all, one is perfect knowledge.</p>" +
-        "<p><li><b>Threshold Knowledge Rate</b> - The knowledge rate at which the information on a card will be counted as being 'known'.</p>" +
-        "<p><li><b>Adjustment Speed</b> - How quickly the knowledge rate for each piece of information on a flashcard will move towards zero/one when you answer questions wrong/right. " +
-            "If this adjustment speed is <i><b>a</b></i>, then when a question is answered incorrectly, <i><b>kn_rate<sub>new</sub> = kn_rate<sub>old</sub> / a</b></i>. " +
-            "When a question is answered correctly, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. If the five answer choices are numbered 1-5, then "
-            "answer 3 will not change the knowledge rate, answers 2 and 4 are wrong and right, and answers 1 and 5 count as two wrong or right answers respectively.</p>" +
-        "<p><li><b>Any Element Probability</b> - The probability that the next flashcard will be randomly drawn from anywhere in the queue, instead of the front of the queue. "
-            "This setting allows even very old cards to be occasionally sprinkled into the studying. If you don't want this to happen, set the value to zero.</p>" +
-        "<p><li><b>First Element Probability</b> - If this probability is <i><b>p</b></i>, and the first flashcard in the queue is number <i><b>0</b></i>, then flashcard "
-            "<i><b>n</b></i> will be chosen as the card to study with probability <i><b>p &times; (1-p)<sup>n</sup></b></i>. " + 
-            "As the sum for all flashcards in the queue will be slightly less than 1, the leftover probability is assigned to the first element.</p>" +
-        "<p><li><b>Minimum Interval</b> - The minimum number of cards that must be shown before a card is repeated, even if it is always marked as unknown.</p>";
+    "<h3>Algoritmo de Shanka</h3>" +
+        "<p>Este algoritmo  controla el orden de las flashcards en el cual son mostradas,y cómo muchas flashcards nuevas serán adicionadas cuando hayas aprendido las previas.</p>" +
+    "<h3>Configuraciones de Estudio</h3>" +
+        "<p><li><b> Mínimo de Flashcards Desconocidas</b> - Cuando el número de Flascards desconocidas caiga por debajo de este nivel,nuevas flashcards serán adicionadas a la lista.</p>" +
+        "<p><li><b>Objetivo Diario Correcto</b> - Proponte un mínimo de número de preguntas a responder cada día .</p>" +
+        "<p><li><b>Nuevo Obejtivo Diario</b> - Proponte un mínimo número de nuevas flashcards para adicionar cada día .</p>" +
+        "<p><li><b>Objetivo de Minutos Diarios</b> - Proponte un mínimo de tiempo diario para estudiar en minutos.</p>" +
+    "<h3>Parámetros</h3>" +
+        "<p><li><b>Tasa de Incumplimiento del Conocimiento.</b> - La calificación del conocimiento <i><b>kn_rate</b></i> es qué tan bien tú conoces la información en una flashcard.Cero es nada y uno es conocimiento perfecto de la flashcard.</p>" +
+        "<p><li><b>Umbral del Conocimiento </b> - La calificación del conocimiento en la cual la información en una carta será contada como 'aprendida'.</p>" +
+        "<p><li><b>Ajuste dela Velocidad</b> - Qué tan rápido la calificación del conocimiento  para cada información en una flashcard será cambiada a cero/uni cuando respondas las preguntas bien/mal. " +
+            "Si este ajuste de velocidad será <i><b>a</b></i>, cuando una pregunta sea reopondida incorrectamente,<i><b>kn_rate<sub>new</sub> = kn_rate<sub>old</sub> / a</b></i>. " +
+            "Cuando la pregunta sea respondida correctamente, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. Si las cinco opciones de  respuesta están enumeradas de 1 al 5, luego "
+            "la respuesta  3 no cambiará  la calificación del conocimiento, las respuestas 2 y 4 son correctas o incorrectas, y las respuestas 1 y 5 como dos incorrectas o correcctas respectivamente.</p>" +
+        "<p><li><b>Cualquier Elemento de Prbabilidad</b> - La probabilidad de que la próxima flashcard  sea dibujada casualmente de cualquier lugar de la lista , en vez del frente de la lista. "
+            "Esta configuración te permite que flashcards sea ocacionalmente esparcidas en el estudio.Si no deseas que esto suceda, define su valor como cero.</p>" +
+        "<p><li><b>Primer Elemento de Probabilidad</b> - Si esta probabilidad es <i><b>p</b></i>, y la primera flashcard en la lista es número<i><b>0</b></i>, luego la flashcard "
+            "<i><b>n</b></i> será seleccionada como la flashcard a estudias con probabilidad <i><b>p &times; (1-p)<sup>n</sup></b></i>. " + 
+            "Como la suma de todas las flashcards en la lista serán apenas menores a uno, el resto de probabilidad se le será asignada al primer elemento .</p>" +
+        "<p><li><b>Intervalo Mínimo</b> - El intervalo mínimo de número de flashacrs debe ser mostrado antes de que una flashcard se repita, incluso si  esta sea simepre definida como desconocida.</p>";
 
 this. help_questions =     
-    "<h3>Question Name</h3> " +
-        "<p>Just used to identify the question in the question lists.</p> " +
-    "<h3>Question Text</h3> " +
-        "<p>The question that appears at the top of the card above the question stem, e.g. \"What is the pinyin for this character?\"</p> " +
+    "<h3>Nombre de la Pregunta</h3> " +
+        "<p> Es solo usada para indentificar  la pregunta en la lista de preguntas.</p> " +
+    "<h3>Texto de la Pregunta</h3> " +
+        "<p>La pregunta que aparece en la cima de la flashcard sobre el tem principal de la pregunta ,por ejemplo. \"Cuál es el pinyin de este carácter?\"</p> " +
         "<p>Leave the auto-generate checkbox clicked if you want to have the app create this text based on the selected inputs, stem and answer.</p> " +
-    "<h3>Inputs</h3> " +
-        "<p>These inputs are displayed alongside the question stem. If you type " +
-        "Chinese into the edit box, you can use either your device's pinyin " +
-        "IME or handwriting input.</p> " +
+    "<h3>Entradas</h3> " +
+        "<p>Estas entradas  son visualizadas a lo largo de la pregunta. Si escribes 'These inputs are displayed alongside the question stem. If you type' " +
+        "chino en la caja de edición, podrás usar o tu dispositivo IMC para escribir en pinyin " +
+        "o escribiendo a mano.</p> " +
     "<h3>Stem</h3> " +
-        "<p>The 'front' of the card, for this question.</p> " +
-    "<h3>Answer</h3> " +
-        "<p>The part of the 'back' of the card that you are graded on.</p> " +
-    "<h3>Display</h3> " +
-        "<p>Other information on the 'back' of the card, that is displayed alongside the answer.</p>";
+        "<p>El frente de la flashcard para esa pregunta.</p> " +
+    "<h3>Respuesta</h3> " +
+        "<p> Es la parte 'trasera' de la flashcard sobre la cual eres calificado.</p> " +
+    "<h3>Visualización</h3> " +
+        "<p>Más información en la parte trasera de la flashcard que es mostrada junto a la respuesta .</p>";
 
 this. help_maintenance = 
-    "<h3>Reload</h3>" +
-        "<p>Reloading will restart the app, using the information in the local storage. " +
-        " This might help sometimes if you run into problems, or if you accidently run multiple instances of the app.</p>" +
-    "<h3>Standalone</h3>" +
-        "<p>This data is used to help diagnose problems with the app. It should be true if you are running the app in " +
-        "'homescreen' or 'standalone' mode, and false if you are within a web browser.</p>" +
-    "<h3>System Language</h3>" +
-        "<p>This is the language code reported by your system.</p>" +
-    "<h3>App Cache</h3>" +
-        "<p>This web app always stores data about cards etc. in local storage. The app cache is seperate from this, and " +
-        "downloads the actual application pages so that you can access them while offline. If the app cache status is " +
-        "UNCACHED then you may not be able to access the app while offline. To ensure offline use you should look for " +
-        "an app cache status of CACHED.</p>" +
-    "<h3>Update Web App</h3>" +
-        "<p>To install the latest version of this app, click 'Update Web App' if you notice that the latest version is " +
-        "different from the current installed version. You shouldn't need to use this functionality if you download an " +
-        "update when prompted on startup</p>" +
-    "<h3>Local Storage</h3>" +
-        "<p>See <a href='http://dev-test.nemikor.com/web-storage/support-test/'>this page</a> " +
-        "to calculate your local storage limit, which is usually at least 2.5M chars depending on your browser. " +
-        "Note: 1k=2<sup>10</sup>=1024 characters, 1M=2<sup>20</sup> characters. Usually 1 character = 2 bytes, so " +
-        "2.5M characters = 5MB of storage space.</p>" +
-    "<h3>Erase Local Data</h3>" +
-        "<p>If you are having problems you could try clearing your local storage data. If you want to keep your current "
-        "history, you should first export a backup of your data.</p>";
+    "<h3>Recargar</h3>" +
+        "<p>Recargando la applicación se reiniciará,usando la información en el almacenamiento local." +
+        " Quizá esto te ayude si alguna vez tienes problemas o si accientalmente ejecutas varias instancies de la aplicación.</p>" +
+    "<h3>Autonomidad</h3>" +
+        "<p>Esta información es usada para ayudar a identificar problemas con la aplicación.Este debería ser verdadero si estás ejecutando la aplicación en " +
+        " el modo 'pantalla de inicio' o 'autónomo', y falso si estás usando el buscador.</p>" +
+    "<h3>Lenguage del Sistema</h3>" +
+        "<p>Este es el código de lenguaje reportado por tu sistema.</p>" +
+    "<h3>Caché de la Aplicación</h3>" +
+        "<p> Esta aplicación web siempre guarda información sobre las flashcards,etc en el almacenamiento local.El caché de la  aplicación  está separado de este,y" +
+        "descarga las páginas de la aplicación real de modo que  puedas acceder a ellos cuando estés desconectado.Si el estado de la aplicación es" +
+        "NO EN CHACHÉ entonces no deberías accder a la aplicación cuando estés desconectado.Para asegurarte de estar en uso desconectado deberías poner" +
+        "el estatus de la aplicación EN CACHÉ .</p>" +
+    "<h3>Actualizar la Aplicación Web</h3>" +
+        "<p>Para instalar  la última versión de la aplicación, haz click en 'Actualizad la Aplicación Web' si notas que la última versión  es " +
+        "diferente a la versión ya instalada.No deberías necesitas utilizar esta funcionalidad si descargas una " +
+        "cuando se te solicite actualizar una vez iniciada la aplicación</p>" +
+    "<h3>Almacenamiento Local</h3>" +
+        "<p>Ve a  <a href='http://dev-test.nemikor.com/web-storage/support-test/'>this page</a> " +
+        "para calcular tu límite de almacenamiento local , que usualmente es de al menos  2.5M de carácteres dependiendo de tu buscador. " +
+        "Nota: 1k=2<sup>10</sup>=1024 carácteres, 1M=2<sup>20</sup> carácteres. Usualmente  1 carácter = 2 bytes, entonces " +
+        "2.5M carácteres = 5MB de espacio de almacenamiento.</p>" +
+    "<h3>Borrar Almacenamiento Local</h3>" +
+        "<p> Si tienes problemas podrías intentar limpiar tus datos de almacenamiento local.Si deseas mantener tu  historial actual "
+        "primero deberías exportar una copia de seguridad de tus datos.</p>";
 
 this. help_wizard =
-    "<p>Use this wizard to simplify the creation of lessons.</p>" +
-    "<p>You can use the wizard more than once to create multiple lessons, and then choose which to study from the lessons screen.</p>";
+    "<p>Usa este asistente para simplificar la creación de lecciones.</p>" +
+    "<p>Puedes utilizar la asistencia más de una vez para crear múltiples lecciones, y luego elegir cuál estudiar de la pantalla de lecciones.</p>";
 
 this. help_about = 
-    "<h3>License</h3>" +
-        "<p>You are free to copy, distribute, and modify this code, under a similar license" +
-        "to this one. You must give the original author (me) credit in any dervied work. " +
-        "You may not use any part of this code for commercial purposes without obtaining" +
-        "my permission.</p>" +
+    "<h3>Licencia</h3>" +
+        "<p>Eres libre para copiar,distribuir y modificar este código bajo licencia similar " +
+        "a esta. Debes darle el crédito al autor origial (yo) en cualquier trabajo derivado. " +
+        "No debes usar ninguna parte de este código  con propósitos comerciales sin haber obtenido " +
+        "mi permiso.</p>" +
         "<p>Alan Davies 2014 alan@hskhsk.com/p>" +
-        "<p>See http://hskhsk.com/shanka for more information.</p>" +
-    "<h3>Credits</h3>" +
-        "Initial structure inspired by sqldb example by Steven de Salas http://html5db.desalasworks.com/<br />" +
+        "<p>Ve a  http://hskhsk.com/shanka para más información.</p>" +
+    "<h3>Creditos</h3>" +
+        "Estructura inicial inspirada por Steven de Salas http://html5db.desalasworks.com/<br />" +
         "String compression routines by Pieroxy http://pieroxy.net/blog/pages/lz-string/index.html<br />" +
-        "Touchpaint control is a heavily modified version of the original by Greg Murray http://gregmurray.org/ipad/touchpaint/<br />" +            
-        "Colour Picker is Jan Odvárko's jscolor http://jscolor.com/<br />" +  
-        "Some parts of the Shanka algorithm were inspired by Adam Nagy of Cybertron BT's defunct product Memodrops " +
-        "http://memodrops.com/algorithm.html (page does not exist any more but is archived at http://archive.org<br />" +
-        "Many problems were solved with the help of the comments and solutions on Stack Overflow http://stackoverflow.com/<br />"+
-        "Many thanks to the Chinese Forums, Pleco, and Skritter user communities, and the many beta testers who participated.<br />" +
-        "Thank you also to the translators who internationalised this app!";
+        "Control de pantalla táctil es una versión intensamente modificada  de la versión hecha por Greg Murray http://gregmurray.org/ipad/touchpaint/<br />" +            
+        "La Grila de Colores es de  Jan Odvárko's jscolor http://jscolor.com/<br />" +  
+        "Algunas partes del algoritmo de Shanka fueron inspirados por  Adam Nagy de Cybertron BT's defunct product Memodrops " +
+        "http://memodrops.com/algorithm.html ( esta pa´gina no existe actualmente pero está archivada en http://archive.org<br />" +
+        "Muchos problemas fueron resueltos con la ayuda de los comentarios y soluciones en Stack Overflow http://stackoverflow.com/<br />"+
+        "Muchas gracias a Chinese Forums, Pleco, y la comunidad de usuarios Skritter , como así también a los testeadores beta que participaron.<br />" +
+        "¡Gracias también a los traductores que internacionalizaron esta aplicación!";
         
+// Progress page and progress displayed on main page
+this. main_cards_learned_label  = "aprendido";
+// this. main_cards_queued_label  = "enlistado";
+this. main_cards_total_label    = "total";
+this. progress_studied_label    = "estudió";
+this. progress_total_label      = "Total";
+this. progress_daily_label      = "Diario";
+this. progress_today_label      = "Hoy";
+this. progress_seconds          = "segundos";
+this. progress_minutes          = "minutos";
+this. progress_hours            = "horas";
+this. progress_days             = "dias";
+this. progress_weeks            = "semanas";
+this. progress_years            = "año";
+this. progress_list_format      = "Estudió {0}, y se enteró de {1} tarjetas, en {2}"; 
+
+
+/* Translated version of this section should be modified to show
+ * which files have and haven't been translated */
+this. language_unknown_error = "Código de idioma Desconocido:";
+this. import_hsk1_label                     = "Palabras HSK 1";
+this. import_hsk2_label                     = "Palabras HSK 2 (Inglés)";
+this. import_hsk3_label                     = "Palabras HSK 3 (Inglés)";
+this. import_hsk4_label                     = "Palabras HSK 4 (Inglés)";
+this. import_hsk5_label                     = "Palabras HSK 5 (Inglés)";
+this. import_hsk6_label                     = "Palabras HSK 6 (Inglés)";
+this. import_hsk1_sentences_label           = "Frases HSK 1 (Inglés)";
+this. import_hsk2_sentences_label           = "Frases HSK 2 (Inglés)";
+this. import_hsk3_sentences_label           = "Frases HSK 3 (Inglés)";
+this. import_chineasy_label                 = "Chineasy";
+this. import_hsk1_category                  = "HSK 1";
+this. import_hsk2_category                  = "HSK 2";
+this. import_hsk3_category                  = "HSK 3";
+this. import_hsk4_category                  = "HSK 4";
+this. import_hsk5_category                  = "HSK 5";
+this. import_hsk6_category                  = "HSK 6";
+this. import_hsk1_sentences_category        = "HSK 1 Sentences";
+this. import_hsk2_sentences_category        = "HSK 2 Sentences";
+this. import_hsk3_sentences_category        = "HSK 3 Sentences";
+this. import_chineasy_category              = "Chineasy";
+this. import_hsk1_location                  = "lists/HSK 2012 L1 es.txt";
+this. import_hsk2_location                  = "lists/HSK 2012 L2.txt";
+this. import_hsk3_location                  = "lists/HSK 2012 L3.txt";
+this. import_hsk4_location                  = "lists/HSK 2012 L4.txt";
+this. import_hsk5_location                  = "lists/HSK 2012 L5.txt";
+this. import_hsk6_location                  = "lists/HSK 2012 L6.txt";
+this. import_hsk1_sentences_location        = "lists/HSK 2012 Examples L1.txt";
+this. import_hsk2_sentences_location        = "lists/HSK 2012 Examples L2.txt";
+this. import_hsk3_sentences_location        = "lists/HSK 2012 Examples L3.txt";
+this. import_chineasy_location              = "lists/Chineasy es.txt";
 } /* End of language definition */

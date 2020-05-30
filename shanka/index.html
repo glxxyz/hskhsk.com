@@ -17,7 +17,7 @@
         <title>Shanka 闪卡</title>
 
         <!-- Sets initial viewport load and disables zooming    -->
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,56 +28,11 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="res/shanka-icon-iphone-72x72.png">
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="res/shanka-icon-iphone-57x57.png">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-39955029-5', 'hskhsk.com');
-  ga('send', 'pageview');
-</script>
-
-        <link rel="stylesheet" href="res/ratchet.css">
-        <link rel="stylesheet" href="res/snap.css">
-        <link rel="stylesheet" href="res/shanka.css">
-
-        <!-- Include the compiled Ratchet JS -->
-        <script type="text/javascript" src="script/snap.js"></script>
-        <script src="script/lz-string-1.3.3.js"></script>
-        <script src="script/lang_english.js"></script>
-        <script src="script/lang_spanish.js"></script>
-        <script src="script/lang_italian.js"></script>
-        <script src="script/lang_french.js"></script>
-        <script src="script/language.js"></script>
-        <script src="script/util.js"></script>
-        <script src="script/touchpaint.js"></script>
-        <script src="script/shanka.js"></script>
-        <script src="script/lesson.js"></script>
-        <script src="script/card.js"></script>
-        <script src="script/category.js"></script>
-        <script src="script/question.js"></script>
-        <script src="script/algorithm.js"></script>
-        <script src="script/progress.js"></script>
-        <script src="script/local.js"></script>
-        <script src="script/study.js"></script>
-        <script src="script/import.js"></script>
-        <script src="script/export.js"></script>
-        <script src="script/historyqueue.js"></script>
-        <script src="script/settings.js"></script>
-        <script src="script/maintenance.js"></script>
-        <script src="script/wizard.js"></script>
-        <script src="script/help.js"></script>
-        <script src="script/version.js"></script>
-        <script src="script/ratchet.js"></script>
-        <script src="script/fastclick.js"></script>
-        <script src="script/AppScroll.js"></script>
-        <script src="script/jscolor.js"></script>
-
+        <link rel="stylesheet" href="shanka.all.css">
     </head>
     
     <body onload="shanka.init()">
-    
+
     <img id="waitcursor" src="res/ajax-loader.gif" class="waitcursor" />
     
     <div class="snap-drawers">
@@ -85,22 +40,22 @@
             <ul class="list">
               <!--h2 class="snap-drawer-heading">Shanka 闪卡</h2-->
               <!-- TODO: add data-ignore="push" to link? -->
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showmain();"><div class="snapicon">&#x2302;</div> <span class="snapdrawerlabel"-->Main</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showstudy();"><div class="snapicon">&#10002;</div> <span class="snapdrawerlabel"--><script>document.write(STR.study_study_text);</script></span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.freepractice();"><div class="snapicon">&#9775;</div> <span class="snapdrawerlabel"-->Practice</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showcard();"><div class="snapicon">&#x271A;</div> <span class="snapdrawerlabel"--><script>document.write(STR.gen_add_text);</script></span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showhistory();"><div class="snapicon">&#x231A;</div> <span class="snapdrawerlabel"-->History</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showqueue();"><div class="snapicon">&#x2709;</div> <span class="snapdrawerlabel"-->Queue</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showprogress();"><div class="snapicon">&#9733;</div> <span class="snapdrawerlabel"-->Progress</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showcategories();"><div class="snapicon">&#9745;</div> <span class="snapdrawerlabel"-->Categories</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showquestions();"><div class="snapicon"><b>?</b></div> <span class="snapdrawerlabel"-->Questions</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showlessons();"><div class="snapicon">&#x270D;</div> <span class="snapdrawerlabel"-->Lessons</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showalgorithms();"><div class="snapicon">&#x222B;</div> <span class="snapdrawerlabel"-->Algorithms</span></a></li>
-            <li class="snap-drawer-li"><a href='javascript:snapper.close();shanka.wizard();'><div class="snapicon">&#x2708;</div> <span class="snapdrawerlabel"-->Wizard</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showimport();"><div class="snapicon">&#8665;</div> <span class="snapdrawerlabel"-->Import</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showexport();"><div class="snapicon">&#8663;</div> <span class="snapdrawerlabel"-->Export</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showsettings();"><div class="snapicon">&#x2328;</div> <span class="snapdrawerlabel"-->Settings</span></a></li>
-            <li class="snap-drawer-li"><a href="javascript:snapper.close();shanka.showmaintenance();"><div class="snapicon">&#9762;</div> <span class="snapdrawerlabel"-->Maintenance</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showmain();">       <div class="snapicon">&#x2302;</div> <span class="snapdrawerlabel" id="snap_page_main_title">       X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showstudy();">      <div class="snapicon">&#10002;</div> <span class="snapdrawerlabel" id="snap_study_study_text">      X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.freepractice();">   <div class="snapicon">&#9775; </div> <span class="snapdrawerlabel" id="snap_page_practice_title">   X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showcard();">       <div class="snapicon">&#x271A;</div> <span class="snapdrawerlabel" id="snap_gen_add_text">          X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showhistory();">    <div class="snapicon">&#x231A;</div> <span class="snapdrawerlabel" id="snap_page_history_title">    X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showqueue();">      <div class="snapicon">&#x2709;</div> <span class="snapdrawerlabel" id="snap_page_queue_title">      X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showprogress();">   <div class="snapicon">&#9733; </div> <span class="snapdrawerlabel" id="snap_page_progress_title">   X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showcategories();"> <div class="snapicon">&#9745; </div> <span class="snapdrawerlabel" id="snap_page_categories_title"> X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showquestions();">  <div class="snapicon"><b>?</b></div> <span class="snapdrawerlabel" id="snap_page_questions_title">  X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showlessons();">    <div class="snapicon">&#x270D;</div> <span class="snapdrawerlabel" id="snap_page_lessons_title">    X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showalgorithms();"> <div class="snapicon">&#x222B;</div> <span class="snapdrawerlabel" id="snap_page_algorithms_title"> X</span></a></li>
+            <li class="snap-drawer-li"><a href='javascript:shanka.snapperclose();shanka.wizard();'>         <div class="snapicon">&#x2708;</div> <span class="snapdrawerlabel" id="snap_page_wizard_title">     X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showimport();">     <div class="snapicon">&#8665; </div> <span class="snapdrawerlabel" id="snap_page_import_title">     X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showexport();">     <div class="snapicon">&#8663; </div> <span class="snapdrawerlabel" id="snap_page_export_title">     X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showsettings();">   <div class="snapicon">&#x2328;</div> <span class="snapdrawerlabel" id="snap_page_settings_title">   X</span></a></li>
+            <li class="snap-drawer-li"><a href="javascript:shanka.snapperclose();shanka.showmaintenance();"><div class="snapicon">&#9762; </div> <span class="snapdrawerlabel" id="snap_page_maintenance_title">X</span></a></li>
               
             </ul>
         </div>
@@ -125,20 +80,21 @@
 
                     <span style="font-size: 120%">
 
-                        <noscript><h3>Your web browser does not have JavaScript enabled.
-                        Please enable JavaScript or use a different browser.</h3></noscript>
+                        <!-- Copy and paste multiple languages here -->
+                        <noscript>
+                            <h3>Your web browser does not have JavaScript enabled. Please enable JavaScript or use a different browser.</h3>
+                        </noscript>
                 
-                        <!-- 'cut' the 'mustard', apparently-->
-                        <script>
-                        if ('querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
-                            document.write(STR.app_initialising_message);
-                        } else {
-                            document.write(STR.app_no_html5_message);
-                        }
-                        </script>
+                        <!-- Display 'initialising' message here or an error if no HTML5 support -->
+                        <span id="default_app_initialising_message"></span>
                     </span>
                 </div>
-                <div style="position: absolute; bottom: 2%; left:7%;"><span style="font-size: 120%"><script>document.write(STR.app_support_see_message);</script></span></div>
+                <div style="position: absolute; bottom: 2%; left:7%;">
+                    <!-- will be replaced with language specific version -->
+                    <span id="default_app_support_see_message" style="font-size: 120%">
+                        For support see <a href='http://hskhsk.com/shanka'>hskhsk.com/shanka</a>
+                    </span>
+                </div>
             </div>
 
             <div id="study" style="display: none">
@@ -149,9 +105,9 @@
 
                 <div class="studyeditbts">
                     <button onclick="javascript:shanka.studyinfo(); return false;" class="studyinfobutton" id="studyinfo">&#x24D8;</button>
-                    <button onclick="javascript:shanka.studycurrent(); return false;" class="studycurrentbutton" id="studycurrent"><script>document.write(STR.study_study_text);</script></button>            
-                    <button onclick="javascript:shanka.studypractice(); return false;" class="studypracticebutton" id="studypractice"><script>document.write(STR.study_practice_text);</script></button>
-                    <button onclick="javascript:shanka.studyedit(); return false;" class="studyeditbutton" id="studyedit"><script>document.write(STR.study_edit_text);</script></button>
+                    <button onclick="javascript:shanka.studycurrent(); return false;" class="studycurrentbutton" id="studycurrent">X</button>            
+                    <button onclick="javascript:shanka.studypractice(); return false;" class="studypracticebutton" id="studypractice">X</button>
+                    <button onclick="javascript:shanka.studyedit(); return false;" class="studyeditbutton" id="studyedit">X</button>
                     <button onclick="javascript:shanka.studypleco(); return false;" class="studyplecobutton" id="studyplecotop">&#x1f41f;</button>
                 </div>
                 <div class="studyeditbts">
@@ -177,10 +133,10 @@
                                 <div id="notesstem" class="englishstem notes" title="Notes"><!--NOTES--></div>
                             </div>
                             <div id="questionstemtext" class="questiontext"><!--STEM--></div>
-                        <a href="javascript:shanka.reveal();" class="button-block" id="studyreveal"><script>document.write(STR.study_show_answer_label);</script></a>
+                        <a href="javascript:shanka.reveal();" class="button-block" id="studyreveal">X</a>
                         
                         <div id="textanswer" class="textanswer">
-                            <input id="studytextinput" type="text" style="width:100%;" placeholder="Text answer"/>
+                            <input id="studytextinput" type="text" style="width:100%;" placeholder="..."/>
                         </div>
                         
                         </div>
@@ -222,6 +178,13 @@
                                  </div>
                              </div>
                         </div>
+                        
+                        <div id="sentencehanziouter">
+                            <input id="sentencehanziinput" class="sentenceinput" type="text" style="width:100%;" placeholder="..."/>
+                            <div id="sentencehanzibuttons">
+                            </div>
+                        </div>
+                        
                         <div id="answers" class="answers" style="display:none" data-snap-ignore="true"> 
                             <div id="answertablesimplified" class="answertable">
                                 <div id="answertextsimplified"  class="answertext hanzianswer simplified"><!--SIMPLIFIED--></div>
@@ -318,57 +281,13 @@
                 
                 <div id="searchresults">
                     <div class="content-padded">
-                        <h3><script>document.write(STR.study_search_result_label);</script></h3>
+                        <h3 id="study_search_result_label">X</h3>
                     </div>
                     <ul id="searchresultslist" class="inset list">
                     </ul>
                 </div>
             </div>            
-        </div>
-    <script type="text/javascript">    
-        // Helper
-        $ = function(id){
-            return document.getElementById(id);
-        },
-        
-        // Instance
-        snapper = new Snap({
-            element: document.getElementById('content'),
-            disable: 'right'
-        }),
-        
-        // 
-        UpdateDrawers = function(){
-            var state = snapper.state(),
-                towards = state.info.towards,
-                opening = state.info.opening;
-            if(opening=='right' && towards=='left'){
-                $('left-drawer').classList.remove('active-drawer');
-            } else if(opening=='left' && towards=='right') {
-                $('left-drawer').classList.add('active-drawer');
-            }
-        };
-        
-        snapper.on('drag', UpdateDrawers);
-        snapper.on('animating', UpdateDrawers);
-        snapper.on('animated', UpdateDrawers);
-        
-        $('toggle-left').addEventListener('click', function(){
-            shanka.showsidebarmenu();
-        });
-        
-        $('help-button').addEventListener('click', function(){
-            shanka.showhelp();
-        });
-        
-        // appscroll 
-        var scroller = new AppScroll({
-            toolbar: document.getElementsByClassName('bar-title')[0],
-            scroller: document.getElementsByClassName('content')[0]
-        });
-        scroller.on();
-    </script>
-    
+        </div>    
 
 <div id="content-options">        
     
@@ -377,33 +296,19 @@
         <div id="result" class="result"></div>
         
         <ul class="segmented-controller">
-            <li id ="main-today-button" class="active" onclick="javascript:shanka.switchtab(this, 'main-today-tab');">
-                <a><script>document.write(STR.progress_today_label);</script></a>
+            <li id ="main-alltime-button" class="active" onclick="javascript:shanka.switchtab(this, 'main-alltime-tab');">
+                <a id="progress_total_label">X</a>
             </li>
-            <li id ="main-alltime-button" onclick="javascript:shanka.switchtab(this, 'main-alltime-tab');">
-                <a><script>document.write(STR.progress_alltime_label);</script></a>
+            <li id ="main-today-button" onclick="javascript:shanka.switchtab(this, 'main-today-tab');">
+                <a id="progress_today_label">X</a>
             </li>
         </ul>
 
         <br />
-        <ul class="inset list">
-            <li id="main-today-tab" class="segmented-controller-item active">
-                <br />
-                <center>
-                    <span class="bigcounter" id="maintimestudiedtoday">X.X</span></class>
-                    <div class="undercnt" id="maintimeunittoday">hours</script></div>
-                    <br />
-                    <table><tr><td class="cntcont">
-                        <span class="medcounter" id="maincardslearnedtoday">YY</span></class>
-                        <div class="undercnt"><script>document.write(STR.main_cards_learned_label);</script></div>
-                    </td><td>&nbsp;&nbsp;
-                    </td><td class="cntcont">
-                        <span class="medcounter" id="maincardsstudiedtoday">ZZZ</span></class>
-                        <div class="undercnt"><script>document.write(STR.progress_studied_label);</script></div>
-                    </td></tr></table>
-                </center>
-            </li>
-            <li id="main-alltime-tab" class="segmented-controller-item">
+        
+        <div class="thinborder">
+        <br />
+            <div id="main-alltime-tab" class="segmented-controller-item active">
                 <br />
                 <center>
                     <span class="bigcounter" id="maintimestudiedalltime">A.A</span></class>
@@ -411,22 +316,40 @@
                     <br />
                     <table><tr><td class="cntcont">
                         <span class="medcounter" id="maincardslearnedalltime">BB</span></class>
-                        <div class="undercnt"><script>document.write(STR.main_cards_learned_label);</script></div>
+                        <div class="undercnt" id="all_main_cards_learned_label">X</div>
                     </td><td>&nbsp;&nbsp;
                     </td><td class="cntcont">
                         <span class="medcounter" id="maincardsstudiedalltime">CCCC</span></class>
-                        <div class="undercnt"><script>document.write(STR.progress_studied_label);</script></div>
+                        <div class="undercnt" id="all_progress_studied_label">X</div>
                     </td></tr></table>
                 </center>
-            </li>
-        </ul>
+            </div>
+            <div id="main-today-tab" class="segmented-controller-item">
+                <br />
+                <center>
+                    <span class="bigcounter" id="maintimestudiedtoday">X.X</span></class>
+                    <div class="undercnt" id="maintimeunittoday">X</script></div>
+                    <br />
+                    <table><tr><td class="cntcont">
+                        <span class="medcounter" id="maincardslearnedtoday">YY</span></class>
+                        <div class="undercnt" id="today_main_cards_learned_label">X</div>
+                    </td><td>&nbsp;&nbsp;
+                    </td><td class="cntcont">
+                        <span class="medcounter" id="maincardsstudiedtoday">ZZZ</span></class>
+                        <div class="undercnt" id="today_progress_studied_label">X</div>
+                    </td></tr></table>
+                </center>
+            </div>
+            <br />
+            <br />
+        </div>
     
         <br />
 
         <center>
-            <a href="javascript:shanka.showstudy();" class="button" style="width:100px；"><script>document.write(STR.study_study_text);</script></a>
-            <a href="javascript:shanka.freepractice();" class="button" style="width:100px；"><script>document.write(STR.study_practice_text);</script></a>
-            <a href="javascript:shanka.showcard();" class="button" style="width:100px；"><script>document.write(STR.card_add_text);</script></a>
+            <a href="javascript:shanka.showstudy();" class="button" style="width:100px；" id="study_study_text">X</a>
+            <a href="javascript:shanka.freepractice();" class="button" style="width:100px；" id="study_practice_text">X</a>
+            <a href="javascript:shanka.showcard();" class="button" style="width:100px；" id="card_add_text">X</a>
         </center>
 
     </div>
@@ -436,50 +359,61 @@
     <div class="content-padded">
         <div id="result" class="result"></div>
         <span style="font-size: 120%">
-
-            <!-- 'cut' the 'mustard', apparently-->
-            <script>
-            if ('querySelector' in document && 'addEventListener' in window && Array.prototype.forEach) {
-                document.write( "<p>" + STR.main_menu_help_label + "</p>" +
-                                "<p>" + STR.main_choose_option_begin_label + "</p>" +
-                                "</div>" + 
-                                "<ul class='list inset'>" +
-                                    "<li>" +
-                                        "<a href='javascript:shanka.onetouchwizard();'>" + 
-                                            "<strong><span style='font-size: 120%'>" + STR.main_beginners_quickstart_label + "</span></strong>" +
-                                            "<span class='chevron'></span>" + 
-                                        "</a>" + 
-                                   "</li>" + 
-                                "</ul><br />" + 
-                                "<ul class='list inset'>" +
-                                    "<li>" +
-                                        "<a href='javascript:shanka.wizard();'>" + 
-                                            "<strong><span style='font-size: 120%'>" + STR.main_setup_wizard_label + "</span></strong>" +
-                                            "<span class='chevron'></span>" + 
-                                        "</a>" + 
-                                   "</li>" + 
-                                "</ul>" + 
-                                "<div class='content-padded'>");
-            } else {
-                document.write("<h3>" + STR.main_browser_no_html5_error + "</h3>");
-            }
-            </script>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <p id="main_menu_help_label">X</p>
+            <p id="main_choose_option_begin_label">X</p>
         </span>
     </div>
-    <div style="position: absolute; bottom: 2%; left:7%;"><span style="font-size: 120%"><script>document.write(STR.app_support_see_message);</script></span></div>
+    <ul class='list inset'>
+        <li>
+            <a href='javascript:shanka.onetouchwizard();'>
+               <strong>
+                   <span id="main_beginners_quickstart_label">X</span>
+                   <span class='chevron'></span> 
+               </strong>
+            </a>
+        </li> 
+    </ul>
+    <br /> 
+    <ul class='list inset'>
+        <li>
+            <a href='javascript:shanka.wizard();'>
+               <strong>
+                   <span id="main_setup_wizard_label">X</span>
+                   <span class='chevron'></span>
+               </strong>
+           </a> 
+        </li> 
+    </ul>
+
+    <div class='content-padded'>
+        <!-- will be replaced with language specific version -->
+        <span id="welcome_app_support_see_message" style="font-size: 120%">
+            For support see <a href='http://hskhsk.com/shanka'>hskhsk.com/shanka</a>
+        </span>
+    </div>
+
+    <div class='content-padded'>
+        <h3 id="lang_interface_language">
+            X
+        </h3>
+    </div>
+
+    <div id="supportedlanglist">
+    </div>
 </div>
 
 <div id="initialising" title = "Initialising...">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <h3><script>document.write(STR.app_please_wait_a_moment);</script></h3>
+        <!-- will be replaced with language specific version -->
+        <h3 id="app_please_wait_a_moment">
+            Please wait a moment...
+        </h3>
         
-        <h3><script>document.write(STR.app_support_see_message);</script></h3>
+        <!-- will be replaced with language specific version -->
+        <span id="init_app_support_see_message" style="font-size: 120%">
+            For support see <a href='http://hskhsk.com/shanka'>hskhsk.com/shanka</a>
+        </span>
     </div>
 </div>
 
@@ -488,8 +422,8 @@
         <div id="result" class="result"></div>
         <span id="helptext">X</span>
         <hr />
-        <p><a href="javascript:shanka.showhelp('contents');"><script>document.write(STR.help_contents_label);</script></a></p>
-        <p><script>document.write(STR.app_support_see_message);</script></p>
+        <p><a href="javascript:shanka.showhelp('contents');" id="help_contents_label">X</a></p>
+        <p id="help_app_support_see_message">X</p>
     </div>
 </div>
 
@@ -500,11 +434,11 @@
     
     <ul id="cardsettinglist" class="inset list">
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.card_enabled_label);</script></b>
+            <b id="card_enabled_label">X</b>
             <div id="cardenabled" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.card_queued_label);</script></b>
+            <b id="card_queued_label">X</b>
             <div id="cardqueued" class="toggle check"></div>
         </li>
     </ul>
@@ -513,23 +447,23 @@
         <form>
             <div class="input-group">
                 <div class="input-row">        
-                    <label><script>document.write(STR.question_simplified_label);</script></label> <input id="cardsimp" class="simplified biggerfont" type="text" placeholder="Simp"/>
+                    <label id="question_simplified_label">X</label> <input id="cardsimp" class="simplified biggerfont" type="text" placeholder="Simp"/>
                 </div>
                 <div class="input-row">        
-                    <label><script>document.write(STR.question_traditional_label);</script></label> <input id="cardtrad" class="simplified biggerfont" type="text" placeholder="Trad"/>
+                    <label id="question_traditional_label">X</label> <input id="cardtrad" class="simplified biggerfont" type="text" placeholder="Trad"/>
                 </div>
                 <div class="input-row">        
-                    <label><script>document.write(STR.question_pinyin_label);</script></label> <input id="cardpiny" type="text" placeholder="pinyin"/>
+                    <label id="question_pinyin_label">X</label> <input id="cardpiny" type="text" placeholder="pinyin"/>
                 </div>
             </div>
         </form>
 
         <ul>
-            <li><b><script>document.write(STR.question_definition_label);</script></b><textarea id="carddef" style="height:80px;"></textarea></li>
-            <li><b><script>document.write(STR.question_notes_label);</script></b><textarea id="cardnotes" style="height:80px;"></textarea></li>
+            <li><b id="question_definition_label">X</b><textarea id="carddef" style="height:80px;"></textarea></li>
+            <li><b><span id="question_notes_label">X</span></b><textarea id="cardnotes" style="height:80px;"></textarea></li>
         </ul>
         
-        <b id="categorytitle"><script>document.write(STR.page_categories_title);</script></b>
+        <b id="page_categories_title">X</b>
     </div>
     
     <ul id="categorylist" class="inset list">
@@ -541,21 +475,21 @@
     </ul>
         
     <div class="content-padded">
-        <a id="savecard" href="javascript:shanka.savecard();" class="button left"><script>document.write(STR.gen_save_text);</script></a>
-        <a href="javascript:shanka.navigateprevious();" class="button right"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a id="savecard" href="javascript:shanka.savecard();" class="button left">X</a>
+        <a id="cancelcard" href="javascript:shanka.navigateprevious();" class="button right">X</a>
     </div>
 </div>
 
 <div id="info">
-    <button class="study-toggle-button" id="study-toggle-button" onclick="javascript:snapper.open('left'); return false;">&#8801;</button>
+    <button class="study-toggle-button" id="study-toggle-button" onclick="javascript:shanka.snapperopen('left'); return false;">&#8801;</button>
     <button class="study-back-button" id="study-back-button" onclick="javascript:shanka.studyback(); return false;">&lt;</button>
     <button class="study-help-button" id="study-help-button" onclick="javascript:shanka.showhelp(); return false;">?</button>
     <button class="study-fwd-button" id="study-fwd-button" onclick="javascript:shanka.studyforward(); return false;">&gt;</button>
 
     <div class="studyeditbts">
-        <button onclick="javascript:shanka.studycurrent(); return false;" class="studycurrentbutton" id="infostudycurrent"><script>document.write(STR.study_study_text);</script></button>
-        <button onclick="javascript:shanka.studypractice(); return false;" class="studypracticebutton"><script>document.write(STR.study_practice_short_text);</script></button>
-        <button onclick="javascript:shanka.studyedit(); return false;" class="studyeditbutton"><script>document.write(STR.study_edit_text);</script></button>
+        <button onclick="javascript:shanka.studycurrent(); return false;" class="studycurrentbutton" id="infostudycurrent">X</button>
+        <button onclick="javascript:shanka.studypractice(); return false;" class="studypracticebutton" id="study_practice_short_text">X</button>
+        <button onclick="javascript:shanka.studyedit(); return false;" class="studyeditbutton" id="study_edit_text">X</button>
         <button onclick="javascript:shanka.studypleco(); return false;" class="studyplecobutton" id="infoplecotop">&#x1f41f;</button>
     </div>
         
@@ -569,7 +503,7 @@
             <div id="infonotes" class="englishstem notes" title="Notes">#NOTES#</div>
         </center>  
     
-        <h3><script>document.write(STR.page_categories_title);</script></h3>
+        <h3 id="page_categories_title">X</h3>
         <ul class="inset list" id="categorylist">
             <li>
                 <a href="javascript:shanka.showcategory(#ID#);">#NAME#
@@ -580,7 +514,7 @@
         </ul>                        
 
         <div id="relatedflashcards">
-            <h3><script>document.write(STR.card_related_flashcards_label);</script></h3>    
+            <h3 id="card_related_flashcards_label">X</h3>    
             <p>
                 <ul class="inset list" id="relatedcards">
                     <li><a href="javascript:shanka.showcardinfo(#ID#);" class="simplified">#DESCRIPTION#
@@ -590,7 +524,7 @@
             </p>
         </div>
         
-        <h3 id="sorder-title" style="display: none;"><script>document.write(STR.card_stroke_order_label);</script> <a href="https://commons.wikimedia.org/wiki/Commons:CJK_stroke_order_project"><small>&#x24D8;</small></a></h3>
+        <h3 id="sorder-title" style="display: none;"><span id="card_stroke_order_label">X</span> <a href="https://commons.wikimedia.org/wiki/Commons:CJK_stroke_order_project"><small>&#x24D8;</small></a></h3>
         <div id="sorder" style="display: none; text-align: center;">
             <div class="paddedbox" id="sorderdiv" style="display: none;"> <!-- replace id with sorder-#CHAR# -->
                 <img src="strokeorder/#CHAR#-order.gif" width="100" height="100"
@@ -598,29 +532,29 @@
             </div>
         </div>
 
-        <h3 id="hform-title" style="display: none;"><script>document.write(STR.card_historical_forms_label);</script> <a href="https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project"><small>&#x24D8;</small></a></h3>
+        <h3 id="hform-title" style="display: none;"><span id="card_historical_forms_label">X</span> <a href="https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project"><small>&#x24D8;</small></a></h3>
         <div id="hform" style="display: none;">
             <div id="hformdiv" style="display: none;"> <!-- replace id with hform-#CHAR# -->
                 <div class="paddedbox" id="hform-oracle-#CHAR#" style="display: none;">
-                    <a href="https://commons.wikimedia.org/wiki/Category:Oracle_script_characters"><script>document.write(STR.card_historical_oracle_label);</script></a><br />
+                    <a href="https://commons.wikimedia.org/wiki/Category:Oracle_script_characters" id="card_historical_oracle_label">X</a><br />
                     <img src="etymology/#CHAR#-oracle.png" width="66" height="66"
                          onload="javascript:$('hform-title').style.display='block';$('hform').style.display='block';$('hform-#CHAR#').style.display='block';$('hform-oracle-#CHAR#').style.display='inline-block';">
                 </div>
 
                 <div class="paddedbox" id="hform-bronze-#CHAR#" style="display: none;">
-                    <a href="https://commons.wikimedia.org/wiki/Category:Bronze_script"><script>document.write(STR.card_historical_bronze_label);</script></a><br />
+                    <a href="https://commons.wikimedia.org/wiki/Category:Bronze_script" id="card_historical_bronze_label">X</a><br />
                     <img src="etymology/#CHAR#-bronze.png" width="66" height="66"
                          onload="javascript:$('hform-title').style.display='block';$('hform').style.display='block';$('hform-#CHAR#').style.display='block';$('hform-bronze-#CHAR#').style.display='inline-block';">
                 </div>
 
                 <div class="paddedbox" id="hform-bigseal-#CHAR#" style="display: none;">
-                    <a href="https://commons.wikimedia.org/wiki/Category:Great_seal_script_characters"><script>document.write(STR.card_historical_greatseal_label);</script></a><br />
+                    <a href="https://commons.wikimedia.org/wiki/Category:Great_seal_script_characters" id="card_historical_greatseal_label">X</a><br />
                     <img src="etymology/#CHAR#-bigseal.png" width="66" height="66"
                          onload="javascript:$('hform-title').style.display='block';$('hform').style.display='block';$('hform-#CHAR#').style.display='block';$('hform-bigseal-#CHAR#').style.display='inline-block';">
                 </div>
 
                 <div class="paddedbox" id="hform-seal-#CHAR#" style="display: none;">
-                    <a href="https://commons.wikimedia.org/wiki/Category:Seal_script_characters"><script>document.write(STR.card_historical_smallseal_label);</script></a><br />
+                    <a href="https://commons.wikimedia.org/wiki/Category:Seal_script_characters" id="card_historical_smallseal_label">X</a><br />
                     <img src="etymology/#CHAR#-seal.png" width="66" height="66"
                          onload="javascript:$('hform-title').style.display='block';$('hform').style.display='block';$('hform-#CHAR#').style.display='block';$('hform-seal-#CHAR#').style.display='inline-block';">
                 </div>
@@ -644,10 +578,10 @@
     <div class="content-padded">
         <div id="result" class="result"></div>
         <div style="float:right; margin-top: 15px; margin-right: 15px;">
-            <span class="rightindent3heading"><script>document.write(STR.study_study_text);</script></span>
+            <span class="rightindent3heading"><span id="study_study_text">X</span></span>
         </div>
-        <a href="javascript:shanka.addlesson();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editlessons();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
+        <a href="javascript:shanka.addlesson();" class="button"><span id="gen_add_text">X</span></a>        
+        <a href="javascript:shanka.editlessons();" class="button"><span id="gen_edit_all_text">X</span></a>
     </div>
     <ul id="lessonlist" class="list">
         <li>
@@ -659,19 +593,19 @@
         </li>
     </ul>
     
-    <div class="content-padded">
-        <a href="javascript:shanka.addlesson();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editlessons();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.addlesson();" class="button"><span id="gen_add_text2">X</span></a>        
+        <a href="javascript:shanka.editlessons();" class="button"><span id="gen_edit_all_text2">X</span></a>
+    </div>-->
     
 </div>
 
 <div id="editlessons">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.doduplicatelessons();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletelessons();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showlessons();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a href="javascript:shanka.doduplicatelessons();" class="button"><span id="gen_duplicate_text">X</span></a>        
+        <a href="javascript:shanka.dodeletelessons();" class="button-negative"><span id="gen_delete_text">X</span></a>
+        <a href="javascript:shanka.showlessons();" class="button"><span id="gen_cancel_text">X</span></a>
     </div>
         
         <ul class="list" id="lessonlist">
@@ -680,11 +614,11 @@
             </li>
         </ul>
         
-    <div class="content-padded">
-        <a href="javascript:shanka.doduplicatelessons();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletelessons();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showlessons();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.doduplicatelessons();" class="button"><span id="gen_duplicate_text2">X</span></a>        
+        <a href="javascript:shanka.dodeletelessons();" class="button-negative"><span id="gen_delete_text2">X</span></a>
+        <a href="javascript:shanka.showlessons();" class="button"><span id="gen_cancel_text2">X</span></a>
+    </div>-->
 </div>
 
 <div id="lesson">
@@ -693,7 +627,7 @@
         <form>
             <div class="input-group">
                 <div class="input-row">        
-                    <label><script>document.write(STR.lesson_name_label);</script></label> <input id="editlessonname" type="text" placeholder="My Lesson"/>
+                    <label><span id="lesson_name_label">X</span></label> <input id="editlessonname" type="text" placeholder="My Lesson"/>
                 </div>
             </div>
         </form>
@@ -701,18 +635,18 @@
     
     <ul id="reviewmodelist" class="inset list">
         <li>
-            <b><script>document.write(STR.lesson_reviewing_label);</script></b>
+            <b><span id="lesson_reviewing_label">X</span></b>
             <div id="reviewmodeenabled" class="toggle check"  onclick="javascript:shanka.toggle(this); return false;"></div>
         </li>
     </ul>
     
     <div class="content-padded">
-        <h3><script>document.write(STR.page_questions_title);</script></h3>
+        <h3><span id="page_questions_title">X</span></h3>
     </div>
     
     <ul id="questionlistall" class="inset list">
         <li>
-            <b><script>document.write(STR.gen_all_text);</script></b>
+            <b><span id="questions_gen_all_text">X</span></b>
             <div id="questionenabledall" class="toggle check redcheck" onclick="javascript:shanka.toggle(this); shanka.lessonquestionallclicked(); return false;"></div>
         </li>
     </ul>
@@ -725,12 +659,12 @@
     </ul>
     
     <div class="content-padded">
-        <h3><script>document.write(STR.gen_all_text);</script></h3> 
+        <h3><span id="categories_gen_all_text">X</span></h3> 
     </div>
     
     <ul id="categorylistall" class="inset list">
         <li>
-            <b><script>document.write(STR.page_categories_title);</script></b>
+            <b><span id="page_categories_title">X</span></b>
             <div id="categoryenabledall" class="toggle check redcheck" onclick="javascript:shanka.toggle(this); shanka.lessoncategoryallclicked(); return false;"></div>
         </li>
     </ul>
@@ -744,8 +678,8 @@
     </ul>
     
     <div class="content-padded">
-        <a href="javascript:shanka.dosavelesson();" class="button left"><script>document.write(STR.gen_save_text);</script></a>
-        <a href="javascript:shanka.showlessons();" class="button right"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a href="javascript:shanka.dosavelesson();" class="button left"><span id="gen_save_text">X</span></a>
+        <a href="javascript:shanka.showlessons();" class="button right"><span id="gen_cancel_text">X</span></a>
     </div>
 </div>    
 
@@ -753,10 +687,10 @@
     <div class="content-padded">
         <div id="result" class="result"></div>
         <div style="float:right; margin-top: 15px; margin-right: 10px;">
-            <span class="rightindent3heading"><script>document.write(STR.algorithm_current_label);</script></span>
+            <span class="rightindent3heading"><span id="algorithm_current_label">X</span></span>
         </div>
-        <a href="javascript:shanka.addalgorithm();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editalgorithms();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
+        <a href="javascript:shanka.addalgorithm();" class="button"><span id="gen_add_text">X</span></a>        
+        <a href="javascript:shanka.editalgorithms();" class="button"><span id="gen_edit_all_text">X</span></a>
     </div>
     
     <ul id="algorithmlist" class="list radiogroup">
@@ -769,19 +703,19 @@
         </li>
     </ul>
     
-    <div class="content-padded">
-        <a href="javascript:shanka.addalgorithm();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editalgorithms();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.addalgorithm();" class="button"><span id="gen_add_text2">X</span></a>        
+        <a href="javascript:shanka.editalgorithms();" class="button"><span id="gen_edit_all_text2">X</span></a>
+    </div>-->
     
 </div>
 
 <div id="editalgorithms">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.doduplicatealgorithms();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletealgorithms();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showalgorithms();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a href="javascript:shanka.doduplicatealgorithms();" class="button"><span id="gen_duplicate_text">X</span></a>        
+        <a href="javascript:shanka.dodeletealgorithms();" class="button-negative"><span id="gen_delete_text">X</span></a>
+        <a href="javascript:shanka.showalgorithms();" class="button"><span id="gen_cancel_text">X</span></a>
     </div>
         
         <ul class="list" id="algorithmlist">
@@ -790,17 +724,17 @@
             </li>
         </ul>
         
-    <div class="content-padded">
-        <a href="javascript:shanka.doduplicatealgorithms();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletealgorithms();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showalgorithms();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.doduplicatealgorithms();" class="button"><span id="gen_duplicate_text2">X</span></a>        
+        <a href="javascript:shanka.dodeletealgorithms();" class="button-negative"><span id="gen_delete_text2">X</span></a>
+        <a href="javascript:shanka.showalgorithms();" class="button"><span id="gen_cancel_text2">X</span></a>
+    </div>-->
 </div>
 
 <div id="algorithm-add">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <h3><script>document.write(STR.algorithm_choose_label);</script></h3>
+        <h3><span id="algorithm_choose_label">X</span></h3>
     </div>
     
     <ul class="list inset">
@@ -825,71 +759,71 @@
     </ul>
     
     <div class="content-padded">
-        <a href="javascript:shanka.showalgorithms();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>        
+        <a href="javascript:shanka.showalgorithms();" class="button"><span id="gen_cancel_text">X</span></a>        
     </div>
 </div>    
 
 <div id="algorithm-shanka">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <h3><script>document.write(STR.page_algo_shanka_title);</script></h3>
+        <h3><span id="page_algo_shanka_title">X</span></h3>
         <form>
             <div class="input-group">
                 <div class="input-row">        
-                    <label><script>document.write(STR.algorithm_name_label);</script></label> <input id="editalgorithmname" type="text" placeholder="My Algorithm"/>
+                    <label><span id="algorithm_name_label">X</span></label> <input id="editalgorithmname" type="text" placeholder="My Algorithm"/>
                 </div>
             </div>
         </form>        
-        <h3><script>document.write(STR.algorithm_study_settings);</script></h3>
+        <h3><span id="algorithm_study_settings">X</span></h3>
         <form>
             <div class="input-group">
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_minimum_unknown_cards);</script></label> <input id="auto_unknown_min" type="text" placeholder="Max"/>
+                    <label class="wide"><span id="algorithm_minimum_unknown_cards">X</span></label> <input id="auto_unknown_min" type="text" placeholder="Max"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_daily_correct_target);</script></label> <input id="daily_correct_target" type="text" placeholder="Correct Count"/>
+                    <label class="wide"><span id="algorithm_daily_correct_target">X</span></label> <input id="daily_correct_target" type="text" placeholder="Correct Count"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_daily_new_target);</script></label> <input id="daily_new_target" type="text" placeholder="New Count"/>
+                    <label class="wide"><span id="algorithm_daily_new_target">X</span></label> <input id="daily_new_target" type="text" placeholder="New Count"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_daily_minutes_target);</script></label> <input id="daily_time_target" type="text" placeholder="Time"/>
+                    <label class="wide"><span id="algorithm_daily_minutes_target">X</span></label> <input id="daily_time_target" type="text" placeholder="Time"/>
                 </div>
             </div>
         </form>        
-        <h3><script>document.write(STR.algorithm_parameters);</script></h3>
+        <h3><span id="algorithm_parameters">X</span></h3>
         <form>
             <div class="input-group">
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_default_knowledge_rate);</script></label> <input id="default_kn_rate" type="text" placeholder="Default"/>
+                    <label class="wide"><span id="algorithm_default_knowledge_rate">X</span></label> <input id="default_kn_rate" type="text" placeholder="Default"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_threshold_kn_rate);</script></label> <input id="known_kn_rate" type="text" placeholder="Threshold"/>
+                    <label class="wide"><span id="algorithm_threshold_kn_rate">X</span></label> <input id="known_kn_rate" type="text" placeholder="Threshold"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_adjustment_speed);</script></label> <input id="adjustment_speed" type="text" placeholder="Speed"/>
+                    <label class="wide"><span id="algorithm_adjustment_speed">X</span></label> <input id="adjustment_speed" type="text" placeholder="Speed"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_any_element_probability);</script></label> <input id="prob_of_any_random" type="text" placeholder="Probability"/>
+                    <label class="wide"><span id="algorithm_any_element_probability">X</span></label> <input id="prob_of_any_random" type="text" placeholder="Probability"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_first_element_prob);</script></label> <input id="first_element_prob" type="text" placeholder="Probability"/>
+                    <label class="wide"><span id="algorithm_first_element_prob">X</span></label> <input id="first_element_prob" type="text" placeholder="Probability"/>
                 </div>
                 <div class="input-row">        
-                    <label class="wide"><script>document.write(STR.algorithm_minimum_interval);</script></label> <input id="minimum_interval" type="text" placeholder="Interval"/>
+                    <label class="wide"><span id="algorithm_minimum_interval">X</span></label> <input id="minimum_interval" type="text" placeholder="Interval"/>
                 </div>
             </div>
         </form>        
-        <a href="javascript:shanka.dosaveshankaalgorithm();" class="button"><script>document.write(STR.gen_save_text);</script></a>        
-        <a href="javascript:shanka.showalgorithms();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>        
+        <a href="javascript:shanka.dosaveshankaalgorithm();" class="button"><span id="gen_save_text">X</span></a>        
+        <a href="javascript:shanka.showalgorithms();" class="button"><span id="gen_cancel_text">X</span></a>        
     </div>
 </div>    
 
 <div id="categories">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.addcategory();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editcategories();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
+        <a href="javascript:shanka.addcategory();" class="button"><span id="gen_add_text">X</span></a>        
+        <a href="javascript:shanka.editcategories();" class="button"><span id="gen_edit_all_text">X</span></a>        
     </div>
     
     <ul class="list" id="categorylist">
@@ -900,18 +834,18 @@
             </a>
         </li>
     </ul>                        
-    <div class="content-padded">
-        <a href="javascript:shanka.addcategory();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editcategories();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.addcategory();" class="button"><span id="gen_add_text2">X</span></a>        
+        <a href="javascript:shanka.editcategories();" class="button"><span id="gen_edit_all_text2">X</span></a>
+    </div>-->
 </div>
 
 <div id="editcategories">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.doduplicatecategories();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletecategories();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showcategories();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a href="javascript:shanka.doduplicatecategories();" class="button"><span id="gen_duplicate_text">X</span></a>        
+        <a href="javascript:shanka.dodeletecategories();" class="button-negative"><span id="gen_delete_text">X</span></a>
+        <a href="javascript:shanka.showcategories();" class="button"><span id="gen_cancel_text">X</span></a>
     </div>
         
         <ul class="list" id="categorylist">
@@ -920,11 +854,11 @@
             </li>
         </ul>
         
-    <div class="content-padded">
-        <a href="javascript:shanka.doduplicatecategories();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletecategories();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showcategories();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.doduplicatecategories();" class="button"><span id="gen_duplicate_text2">X</span></a>        
+        <a href="javascript:shanka.dodeletecategories();" class="button-negative"><span id="gen_delete_text2">X</span></a>
+        <a href="javascript:shanka.showcategories();" class="button"><span id="gen_cancel_text2">X</span></a>
+    </div>-->
 </div>
 
 <div id="addcategory">
@@ -933,13 +867,13 @@
         <form>
             <div class="input-group">
                 <div class="input-row">        
-                    <label><script>document.write(STR.category_name_label);</script></label> <input id="addcategoryname" type="text" placeholder="My Category"/>
+                    <label><span id="category_name_label">X</span></label> <input id="addcategoryname" type="text" placeholder="My Category"/>
                 </div>
             </div>
         </form>
         <p>
-            <a href="javascript:shanka.doaddcategoryadd();" class="button left"><script>document.write(STR.gen_save_text);</script></a>
-            <a href="javascript:shanka.showcategories();" class="button right"><script>document.write(STR.gen_cancel_text);</script></a>        
+            <a href="javascript:shanka.doaddcategoryadd();" class="button left"><span id="gen_save_text">X</span></a>
+            <a href="javascript:shanka.showcategories();" class="button right"><span id="gen_cancel_text">X</span></a>        
         </p>
     </div>
 </div>
@@ -950,13 +884,13 @@
         <form>
             <div class="input-group">
                 <div class="input-row">        
-                    <label><script>document.write(STR.category_name_label);</script></label> <input id="editcategoryname" type="text" placeholder="My Category"/>
+                    <label><span id="category_name_label">X</span></label> <input id="editcategoryname" type="text" placeholder="My Category"/>
                 </div>
             </div>
         </form>
         <p>
-         <a href="javascript:shanka.dosavecategory();" class="button left"><script>document.write(STR.gen_save_text);</script></a>
-         <a href="javascript:shanka.showcurrentcategory();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
+         <a href="javascript:shanka.dosavecategory();" class="button left"><span id="gen_save_text">X</span></a>
+         <a href="javascript:shanka.showcurrentcategory();" class="button"><span id="gen_cancel_text">X</span></a>
         </p>
     </div>
 </div>
@@ -964,9 +898,10 @@
 <div id="category">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.editcategory();" class="button left"><script>document.write(STR.category_edit_name);</script></a>        
-        <a href="javascript:shanka.showcard();" class="button right"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editflashcards();" class="button left"><script>document.write(STR.gen_edit_all_text);</script></a>        
+        <a href="javascript:shanka.editcategory();" class="button left"><span id="category_edit_name">X</span></a>        
+        <a href="javascript:shanka.showcard();" class="button right"><span id="gen_add_text">X</span></a>        
+        <a href="javascript:shanka.editflashcards();" class="button left"><span id="gen_edit_all_text">X</span></a>        
+        <select id="pageselect" onchange="javascript:shanka.onpageselectchange();"></select>
     </div>
         
     <ul class="list" id="cards">
@@ -975,20 +910,21 @@
         </a></li>
     </ul>
         
-    <div class="content-padded">
-        <a href="javascript:shanka.editcategory();" class="button left"><script>document.write(STR.category_edit_name);</script></a>        
-        <a href="javascript:shanka.showcard();" class="button right"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editflashcards();" class="button left"><script>document.write(STR.gen_edit_all_text);</script></a>        
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.editcategory();" class="button left"><span id="category_edit_name2">X</span></a>        
+        <a href="javascript:shanka.showcard();" class="button right"><span id="gen_add_text2">X</span></a>        
+        <a href="javascript:shanka.editflashcards();" class="button left"><span id="gen_edit_all_text2">X</span></a>        
+    </div>-->
 </div>
     
 <div id="editflashcards">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.doduplicateflashcards();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.doremoveflashcards();" class="button"><script>document.write(STR.gen_remove_text);</script></a>        
-        <a href="javascript:shanka.dodeleteflashcards();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.doshowcategory();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a href="javascript:shanka.doduplicateflashcards();" class="button"><span id="gen_duplicate_text">X</span></a>        
+        <a href="javascript:shanka.doremoveflashcards();" class="button"><span id="gen_remove_text">X</span></a>        
+        <a href="javascript:shanka.dodeleteflashcards();" class="button-negative"><span id="gen_delete_text">X</span></a>
+        <a href="javascript:shanka.doshowcategory();" class="button"><span id="gen_cancel_text">X</span></a>
+        <select id="pageselect" onchange="javascript:shanka.onpageselectchange();"></select>
     </div>
         
         <ul class="list" id="cards">
@@ -997,16 +933,20 @@
             </li>
         </ul>
         
-    <div class="content-padded">
-        <a href="javascript:shanka.doduplicateflashcards();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.doremoveflashcards();" class="button"><script>document.write(STR.gen_remove_text);</script></a>        
-        <a href="javascript:shanka.dodeleteflashcards();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.doshowcategory();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.doduplicateflashcards();" class="button"><span id="gen_duplicate_text2">X</span></a>        
+        <a href="javascript:shanka.doremoveflashcards();" class="button"><span id="gen_remove_text2">X</span></a>        
+        <a href="javascript:shanka.dodeleteflashcards();" class="button-negative"><span id="gen_delete_text2">X</span></a>
+        <a href="javascript:shanka.doshowcategory();" class="button"><span id="gen_cancel_text2">X</span></a>
+    </div>-->
 </div>
     
 <div id="history">
-    <div id="result" class="result"></div>
+    <div class="content-padded">
+        <div id="result" class="result"></div>
+        <select id="pageselect" onchange="javascript:shanka.onpageselectchange();"></select>
+    </div>
+    
     <ul class="list" id="historylist">
         <li><a href="javascript:shanka.showcardinfo(#ID#);" class="simplified">#DESCRIPTION#
                 <span class="chevron"></span>
@@ -1015,7 +955,11 @@
 </div>
 
 <div id="queue">
-    <div id="result" class="result"></div>
+    <div class="content-padded">
+        <div id="result" class="result"></div>
+        <select id="pageselect" onchange="javascript:shanka.onpageselectchange();"></select>
+    </div>
+    
     <ul class="list" id="queuelist">
         <li><a href="javascript:shanka.showcardinfo(#ID#);" class="simplified">#DESCRIPTION#
                 <span class="chevron"></span>
@@ -1024,23 +968,44 @@
 </div>
 
 <div id="progress">
-    <div id="result" class="result"></div>
-    <ul class="list" id="progresslist">
-    </ul>
-</div>
+    <div class="content-padded">
+        <div id="result" class="result"></div>
+        <select id="pageselect" onchange="javascript:shanka.onpageselectchange();"></select>
+        
+        <ul class="segmented-controller">
+            <li id ="main-alltime-list-button" class="active" onclick="javascript:shanka.switchtab(this, 'main-alltime-list-tab');">
+                <a><span id="progress_total_label">X</span></a>
+            </li>
+            <li id ="main-today-list-button" onclick="javascript:shanka.switchtab(this, 'main-today-list-tab');">
+                <a><span id="progress_daily_label">X</span></a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <div id="main-alltime-list-tab" class="segmented-controller-item active">
+            <ul id="progresstotallist" class="norightpaddinglist list">
+            </ul>
+        </div>
+        <div id="main-today-list-tab" class="segmented-controller-item">
+            <ul id="progressdailylist" class="norightpaddinglist list">
+            </ul>
+        </div>
+    </div>
+</div>  
 
 <div id="import">
     <div class="content-padded">
         <div id="result" class="result"></div>
         <ul class="segmented-controller">
             <li id ="import-quick-button" class="active" onclick="javascript:shanka.switchtab(this, 'import-quick-tab');">
-                <a><script>document.write(STR.import_section_quick);</script></a>
+                <a id="import_section_quick">X</a>
             </li>
             <li id ="import-shanka-button" onclick="javascript:shanka.switchtab(this, 'import-shanka-tab');">
-                <a><script>document.write(STR.import_section_shanka);</script></a>
+                <a id="import_section_shanka">X</a>
             </li>
             <li id ="import-pleco-button" onclick="javascript:shanka.switchtab(this, 'import-other-tab');">
-                <a><script>document.write(STR.import_section_other);</script></a>
+                <a id="import_section_other">X</a>
             </li>
         </ul>
     </div>
@@ -1050,43 +1015,61 @@
             <ul class="list inset">
                 <li>
                     <a href="javascript:shanka.importHSK1Wrapper();">
-                        <strong><script>document.write(STR.import_hsk1_label);</script></strong>
+                        <strong><span id="import_hsk1_label">X</span></strong>
                         <span class="chevron"></span>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:shanka.importHSK2Wrapper();">
-                        <strong><script>document.write(STR.import_hsk2_label);</script></strong>
+                        <strong><span id="import_hsk2_label">X</span></strong>
                         <span class="chevron"></span>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:shanka.importHSK3Wrapper();">
-                        <strong><script>document.write(STR.import_hsk3_label);</script></strong>
+                        <strong><span id="import_hsk3_label">X</span></strong>
                         <span class="chevron"></span>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:shanka.importHSK4Wrapper();">
-                        <strong><script>document.write(STR.import_hsk4_label);</script></strong>
+                        <strong><span id="import_hsk4_label">X</span></strong>
                         <span class="chevron"></span>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:shanka.importHSK5Wrapper();">
-                        <strong><script>document.write(STR.import_hsk5_label);</script></strong>
+                        <strong><span id="import_hsk5_label">X</span></strong>
                         <span class="chevron"></span>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:shanka.importHSK6Wrapper();">
-                        <strong><script>document.write(STR.import_hsk6_label);</script></strong>
+                        <strong><span id="import_hsk6_label">X</span></strong>
+                        <span class="chevron"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:shanka.importHSK1SentencesWrapper();">
+                        <strong><span id="import_hsk1_sentences_label">X</span></strong>
+                        <span class="chevron"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:shanka.importHSK2SentencesWrapper();">
+                        <strong><span id="import_hsk2_sentences_label">X</span></strong>
+                        <span class="chevron"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:shanka.importHSK3SentencesWrapper();">
+                        <strong><span id="import_hsk3_sentences_label">X</span></strong>
                         <span class="chevron"></span>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:shanka.importChineasyWrapper();">
-                        <strong><script>document.write(STR.import_chineasy_label);</script></strong>
+                        <strong><span id="import_chineasy_label">X</span></strong>
                         <span class="chevron"></span>
                     </a>
                 </li>
@@ -1096,34 +1079,34 @@
         <li id="import-shanka-tab" class="segmented-controller-item">
             <ul class="inset list">
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_flashcards_label);</script>
+                    <span id="import_flashcards_label">X</span>
                     <div id="import-shanka-flashcards" class="toggle check active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_lessons_label);</script>
+                    <span id="import_lessons_label">X</span>
                     <div  id="import-shanka-lessons"class="toggle check active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_algorithms_label);</script>
+                    <span id="import_algorithms_label">X</span>
                     <div  id="import-shanka-algorithms"class="toggle check active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_settings_label);</script>
+                    <span id="import_settings_label">X</span>
                     <div  id="import-shanka-settings"class="toggle check active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_progress_label);</script>
+                    <span id="import_progress_label">X</span>
                     <div  id="import-shanka-progress"class="toggle check active">
                     </div>
                 </li>
             </ul>
 
             <div class="content-padded">
-                <h3><script>document.write(STR.import_paste_text_label);</script></h3>
+                <h3 id="import_paste_text_label">X</h3>
 
                 <p><textarea id="importdatashanka" style="height:150px;"></textarea></p>
 
@@ -1137,42 +1120,42 @@
         <li id="import-other-tab" class="segmented-controller-item">
             <ul class="inset list radiogroup">
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_pleco_text_file_label);</script>
+                    <span id="import_pleco_text_file_label">X</span>
                     <div id="importplecotext" class="toggle radio active">
                     </div>
                 </li>
                 <li class="disabled" onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_pleco_xml_file_label);</script>
+                    <span id="import_pleco_xml_file_label">X</span>
                     <div id="importplecoxml" class="toggle radio disabled">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_stickystudy_label);</script>
+                    <span id="import_stickystudy_label">X</span>
                     <div id="importsticky" class="toggle radio">
                     </div>
                 </li>
                 <li class="disabled" onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_skritter_simp_label);</script>
+                    <span id="import_skritter_simp_label">X</span>
                     <div id="importsimp" class="toggle radio disabled">
                     </div>
                 </li>
                 <li class="disabled" onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_skritter_trad_label);</script>
+                    <span id="import_skritter_trad_label">X</span>
                     <div id="importtrad" class="toggle radio disabled">
                     </div>
                 </li>
             </ul>
             
             <div class="content-padded">
-                <h3><script>document.write(STR.import_default_category_label);</script></h3>
+                <h3 id="import_default_category_label">X</h3>
                 
                 <select id="categorylist"></select>
                 
-                <h3><script>document.write(STR.import_paste_text_label);</script></h3>
+                <h3 id="import_paste_text_label2">X</h3>
                 
                 <p><textarea id="importdataother" style="height:150px;"></textarea></p>
                 <p>
-                    <a href="javascript:shanka.doimport();" class="button-block">Import</a>
+                    <a href="javascript:shanka.doimport();" class="button-block" id="import_button_title">X</a>
                 </p>
             </div>
         </li>
@@ -1184,7 +1167,7 @@
     <div class="content-padded">
     <div id="result" class="result"></div>
 
-        <h3><script>document.write(STR.export_categories_label);</script></h3>
+        <h3 id="export_categories_label">X</h3>
     </div>
     
     <ul id="exportcategorylist" class="inset list">
@@ -1197,14 +1180,14 @@
     </ul>    
 
     <div class="content-padded">
-        <h3><script>document.write(STR.export_export_format_label);</script></h3>
+        <h3 id="export_export_format_label">X</h3>
     
         <ul class="segmented-controller">
             <li id ="export-shanka-button" class="active" onclick="javascript:shanka.switchtab(this, 'export-shanka-tab');">
-                <a><script>document.write(STR.import_section_shanka);</script></a>
+                <a id="export_section_shanka">X</a>
             </li>
             <li id ="export-other-button" onclick="javascript:shanka.switchtab(this, 'export-other-tab');">
-                <a><script>document.write(STR.export_other_label);</script></a>
+                <a id="export_other_label">X</a>
             </li>
         </ul>
     </div>
@@ -1213,57 +1196,57 @@
         <li id="export-shanka-tab" class="segmented-controller-item active">
             <ul class="inset list">
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_lessons_label);</script>
+                    <span id="export_lessons_label">X</span>
                     <div id="exportlessons" class="toggle check active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_algorithms_label);</script>
+                    <span id="export_algorithms_label">X</span>
                     <div id="exportalgorithms" class="toggle check active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_settings_label);</script>
+                    <span id="export_settings_label">X</span>
                     <div id="exportsettings" class="toggle check active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_progress_label);</script>
+                    <span id="export_progress_label">X</span>
                     <div id="exportprogress" class="toggle check active">
                     </div>
                 </li>
             </ul>
             
             <div class="content-padded">
-                <a href="javascript:shanka.doexportshanka();" class="button-block"><script>document.write(STR.export_do_export_label);</script></a>
+                <a href="javascript:shanka.doexportshanka();" class="button-block"><span id="export_do_export_label">X</span></a>
             </div>
         </li>
         <li id="export-other-tab" class="segmented-controller-item">
             <ul class="inset list radiogroup">
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_pleco_text_file_label);</script>
+                    <span id="export_pleco_text_file_label">X</span>
                     <div id="exportpleco" class="toggle radio active">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_stickystudy_label);</script>
+                    <span id="export_stickystudy_label">X</span>
                     <div id="exportsticky" class="toggle radio">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_skritter_simp_label);</script>
+                    <span id="export_skritter_simp_label">X</span>
                     <div id="exportsimp" class="toggle radio">
                     </div>
                 </li>
                 <li onclick="javascript:shanka.togglechild(this); return false;">
-                    <script>document.write(STR.import_skritter_trad_label);</script>
+                    <span id="export_skritter_trad_label">X</span>
                     <div id="exporttrad" class="toggle radio">
                     </div>
                 </li>
             </ul>
             
             <div class="content-padded">
-                <a href="javascript:shanka.doexportother();" class="button-block"><script>document.write(STR.export_do_export_label);</script></a>
+                <a href="javascript:shanka.doexportother();" class="button-block" id="export_do_export_label2">X</a>
             </div>
         </li>
     </ul>
@@ -1272,7 +1255,7 @@
 <div id="exported">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.doexporttextfile();" class="button-block"><script>document.write(STR.export_download_filetext);</script></a>
+        <a href="javascript:shanka.doexporttextfile();" class="button-block"><span id="export_download_filetext">X</span></a>
         
         <textarea id="exporttextdata" style="height:400px;"></textarea>
     </div>
@@ -1280,25 +1263,32 @@
 
 <div id="settings">
     <div class="content-padded">
-       <div id="result" class="result"></div>
-       <h3><script>document.write(STR.settings_general_label);</script></h3>
+        <div id="result" class="result"></div>
+        <h3><span id="lang_interface_language">X</span></h3>
+    </div>
+        
+    <div id="settingslanguages">
+    </div>
+       
+    <div class="content-padded">
+       <h3><span id="settings_general_label">X</span></h3>
     </div>
     
     <ul class="inset list">
         <li onclick="javascript:shanka.togglechild(this); return false;" style="display: none;">
-            <script>document.write(STR.settings_auto_queue_label);</script>
+            <span id="settings_auto_queue_label">X</span>
             <div id="studyaddauto" class="toggle yesno">
                 <div class="toggle-handle"></div>
             </div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;" style="display: none;">
-            <script>document.write(STR.settings_tone_marks_label);</script>
+            <span id="settings_tone_marks_label">X</span>
             <div id="pinyinmarks" class="toggle yesno">
                 <div class="toggle-handle"></div>
             </div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_auto_advance_label);</script>
+            <span id="settings_auto_advance_label">X</span>
             <div id="autoadvance" class="toggle yesno">
                 <div class="toggle-handle"></div>
             </div>
@@ -1306,115 +1296,115 @@
     </ul>
         
     <div class="content-padded">
-       <h3><script>document.write(STR.settings_hanzi_input_label);</script></h3>
+       <h3><span id="settings_hanzi_input_label">X</span></h3>
     </div>
     
     <ul class="inset list">
         <li>
-            <script>document.write(STR.settings_brush_colour_label);</script><input id="brushcolour"  maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_brush_colour_label">X</span><input id="brushcolour"  maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_background_colour_label);</script> <input id="backgcolour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_background_colour_label">X</span> <input id="backgcolour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_grid_colour_label);</script> <input id="gridcolour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_grid_colour_label">X</span> <input id="gridcolour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_border_colour_label);</script> <input id="bordercolour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_border_colour_label">X</span> <input id="bordercolour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_brush_width_label );</script> <input id="brushwidth" maxlength="3" size="4" style="position:absolute; right: 5%;"/>
+            <span id="settings_brush_width_label">X</span> <input id="brushwidth" maxlength="3" size="4" style="position:absolute; right: 5%;"/>
         </li>
     </ul>        
 
     <div class="content-padded">
-       <h3><script>document.write(STR.settings_background_guides_label );</script></h3>
+       <h3><span id="settings_background_guides_label">X</span></h3>
     </div>
     
     <ul class="inset list radiogroup">
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_guide_star_label );</script>
+            <span id="settings_guide_star_label">X</span>
             <div id="guidestar" class="toggle radio"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_guide_grid_label);</script>
+            <span id="settings_guide_grid_label">X</span>
             <div id="guidegrid" class="toggle radio"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_guide_cross_label);</script>
+            <span id="settings_guide_cross_label">X</span>
             <div id="guidecross" class="toggle radio"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_guide_bar_label);</script>
+            <span id="settings_guide_bar_label">X</span>
             <div id="guidebar" class="toggle radio"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_guide_none_label);</script>
+            <span id="settings_guide_none_label">X</span>
             <div id="guidenone" class="toggle radio"></div>
         </li>
     </ul>
     
     <div class="content-padded">
-       <h3><script>document.write(STR.settings_tone_colours_label);</script></h3>
+       <h3><span id="settings_tone_colours_label">X</span></h3>
     </div>
     
     <ul class="inset list">
         <li onclick="javascript:shanka.togglechild(this); shanka.tonecolourenableclicked(); return false;">
-            <script>document.write(STR.settings_enable_tone_colours_label);</script> (not implemented yet...)
+            <span id="settings_enable_tone_colours_label">X</span> (not implemented yet...)
             <div id="tonecolourenable" class="toggle yesno">
                 <div class="toggle-handle"></div>
             </div>
         </li>
 
         <li>
-            <script>document.write(STR.settings_tone_1_label);</script> <input id="tone1colour"  maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_tone_1_label">X</span> <input id="tone1colour"  maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_tone_2_label);</script> <input id="tone2colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_tone_2_label">X</span> <input id="tone2colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_tone_3_label);</script> <input id="tone3colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_tone_3_label">X</span> <input id="tone3colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_tone_4_label);</script> <input id="tone4colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_tone_4_label">X</span> <input id="tone4colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
         <li>
-            <script>document.write(STR.settings_tone_5_label);</script> <input id="tone5colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
+            <span id="settings_tone_5_label">X</span> <input id="tone5colour" maxlength="6" size="8" style="position:absolute; right: 5%;"/>
         </li>
     </ul>        
 
     <div class="content-padded">
-        <h3><script>document.write(STR.settings_preferred_script_label);</script></h3>
+        <h3><span id="settings_preferred_script_label">X</span></h3>
     </div>
     
     <ul class="inset list radiogroup">
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_simp_trad_label);</script>
+            <span id="settings_simp_trad_label">X</span>
             <div id="scriptsimptrad" class="toggle radio">
             </div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_trad_simp_label);</script>
+            <span id="settings_trad_simp_label">X</span>
             <div id="scripttradsimp" class="toggle radio">
             </div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_simplified_label);</script>
+            <span id="settings_simplified_label">X</span>
             <div id="scriptsimplified" class="toggle radio">
             </div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <script>document.write(STR.settings_traditional_label);</script>
+            <span id="settings_traditional_label">X</span>
             <div id="scripttraditional" class="toggle radio">
             </div>
         </li>
     </ul>
         
     <div style="float:right; margin-top: 30px; margin-right: 8px;">
-        <span class="rightindent3heading"><script>document.write(STR.settings_rating_enabled_label);</script></span>
+        <span class="rightindent3heading"><span id="settings_rating_enabled_label">X</span></span>
     </div>
     <div class="content-padded">
-        <h3><script>document.write(STR.settings_ratings_label);</script></h3>
+        <h3><span id="settings_ratings_label">X</span></h3>
     </div>
     <ul class="inset list">
         <li class="thin-li">
@@ -1445,16 +1435,16 @@
     </ul>
     
     <div class="content-padded">        
-         <a href="javascript:shanka.dosavesettings();" class="button"><script>document.write(STR.gen_save_text);</script></a>
-         <a href="javascript:shanka.docancel();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
+         <a href="javascript:shanka.dosavesettings();" class="button"><span id="gen_save_text">X</span></a>
+         <a href="javascript:shanka.docancel();" class="button"><span id="gen_cancel_text">X</span></a>
     </div>
 </div>
 
 <div id="questions">
     <div class="content-padded">        
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.showquestion();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editquestions();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
+        <a href="javascript:shanka.showquestion();" class="button"><span id="gen_add_text">X</span></a>        
+        <a href="javascript:shanka.editquestions();" class="button"><span id="gen_edit_all_text">X</span></a>
     </div>
     
     <ul id="questionlist" class="list">
@@ -1466,19 +1456,19 @@
         </li>
     </ul>
     
-    <div class="content-padded">        
+    <!--<div class="content-padded">        
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.showquestion();" class="button"><script>document.write(STR.gen_add_text);</script></a>        
-        <a href="javascript:shanka.editquestions();" class="button"><script>document.write(STR.gen_edit_all_text);</script></a>
-    </div>
+        <a href="javascript:shanka.showquestion();" class="button"><span id="gen_add_text2">X</span></a>        
+        <a href="javascript:shanka.editquestions();" class="button"><span id="gen_edit_all_text2">X</span></a>
+    </div>-->
 </div>
 
 <div id="editquestions">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <a href="javascript:shanka.doduplicatequestions();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletequestions();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showquestions();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a href="javascript:shanka.doduplicatequestions();" class="button"><span id="gen_duplicate_text">X</span></a>        
+        <a href="javascript:shanka.dodeletequestions();" class="button-negative"><span id="gen_delete_text">X</span></a>
+        <a href="javascript:shanka.showquestions();" class="button"><span id="gen_cancel_text">X</span></a>
     </div>
         
         <ul class="list" id="questionlist">
@@ -1487,11 +1477,11 @@
             </li>
         </ul>
         
-    <div class="content-padded">
-        <a href="javascript:shanka.doduplicatequestions();" class="button"><script>document.write(STR.gen_duplicate_text);</script></a>        
-        <a href="javascript:shanka.dodeletequestions();" class="button-negative"><script>document.write(STR.gen_delete_text);</script></a>
-        <a href="javascript:shanka.showquestions();" class="button"><script>document.write(STR.gen_cancel_text);</script></a>
-    </div>
+    <!--<div class="content-padded">
+        <a href="javascript:shanka.doduplicatequestions();" class="button"><span id="gen_duplicate_text2">X</span></a>        
+        <a href="javascript:shanka.dodeletequestions();" class="button-negative"><span id="gen_delete_text2">X</span></a>
+        <a href="javascript:shanka.showquestions();" class="button"><span id="gen_cancel_text2">X</span></a>
+    </div>-->
 </div>
 
 <div id="question">
@@ -1500,74 +1490,74 @@
 
         <div style="float: right;">
             <table><tr><td>
-            <script>document.write(STR.question_auto_generate_label);</script>&nbsp;&nbsp;
+            <span id="question_auto_generate_label">X</span>&nbsp;&nbsp;
             </td><td>
             <div id="questionnameauto" class="toggle check"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             </td></tr></table>
         </div>
         
-        <h3><script>document.write(STR.question_name_label);</script></h3>
+        <h3><span id="question_name_label">X</span></h3>
         <textarea id="questionname" style="height:75px;"></textarea>
 
         <div style="float: right;">
             <table><tr><td>
-            <script>document.write(STR.question_auto_generate_label);</script>&nbsp;&nbsp;
+            <span id="question_auto_generate_label2">X</span>&nbsp;&nbsp;
             </td><td>
             <div id="questiontextauto" class="toggle check"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             </td></tr></table>
         </div>
             
-        <h3><script>document.write(STR.question_text_label);</script></h3>    
+        <h3><span id="question_text_label">X</span></h3>    
         <textarea id="questiontext" style="height:75px;"></textarea>
         
-        <h3><script>document.write(STR.question_components_label);</script></h3>
+        <h3><span id="question_components_label">X</span></h3>
     </div>
     
     <ul class="inset list">
         <li class="norightpadding">
             <div class="rightindenttext">
-                <span class="rightindent1heading"><script>document.write(STR.question_stem_label);</script></span>&nbsp;
-                <span class="rightindent2heading"><script>document.write(STR.question_answer_label);</script></span>
-                <span class="rightindent3heading"><script>document.write(STR.question_display_label);</script></span>
+                <span class="rightindent1heading"><span id="question_stem_label">X</span></span>&nbsp;
+                <span class="rightindent2heading"><span id="question_answer_label">X</span></span>
+                <span class="rightindent3heading"><span id="question_display_label">X</span></span>
             </div>
         </li>
         <li class="radiogroup">
-            <script>document.write(STR.question_simplified_label);</script>
+            <span id="question_simplified_label">X</span>
             <div id="simplifiedstem"    class="toggle radio deselectallowed rightindent1"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="simplifiedanswer"  class="toggle radio deselectallowed rightindent2"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="simplifieddisplay" class="toggle radio deselectallowed rightindent3"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         </li>
         <li class="radiogroup">
-            <script>document.write(STR.question_traditional_label);</script>
+            <span id="question_traditional_label">X</span>
             <div id="traditionalstem"    class="toggle radio deselectallowed rightindent1"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="traditionalanswer"  class="toggle radio deselectallowed rightindent2"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="traditionaldisplay" class="toggle radio deselectallowed rightindent3"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         </li>
         <li class="radiogroup">
-            <script>document.write(STR.question_pinyin_label);</script>
+            <span id="question_pinyin_label">X</span>
             <div id="pinyinstem"    class="toggle radio deselectallowed rightindent1"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="pinyinanswer"  class="toggle radio deselectallowed rightindent2"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="pinyindisplay" class="toggle radio deselectallowed rightindent3"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         </li>
         <li class="radiogroup">
-            <script>document.write(STR.question_definition_label);</script>
+            <span id="question_definition_label">X</span>
             <div id="definitionstem"    class="toggle radio deselectallowed rightindent1"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="definitionanswer"  class="toggle radio deselectallowed rightindent2"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="definitiondisplay" class="toggle radio deselectallowed rightindent3"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         </li>
         <li class="radiogroup">
-            <script>document.write(STR.question_notes_label);</script>
+            <span id="question_notes_label">X</span>
             <div id="notesstem"    class="toggle radio deselectallowed rightindent1"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="notesanswer"  class="toggle radio deselectallowed rightindent2"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="notesdisplay" class="toggle radio deselectallowed rightindent3"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         </li>
         <li class="radiogroup">
-            <script>document.write(STR.question_cursive_label);</script>
+            <span id="question_cursive_label">X</span>
             <div id="cursivestem"    class="toggle radio deselectallowed rightindent1"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="cursiveanswer"  class="toggle radio deselectallowed rightindent2"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="cursivedisplay" class="toggle radio deselectallowed rightindent3"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         <li class="radiogroup">
-            <script>document.write(STR.question_calligraphy_label);</script>
+            <span id="question_calligraphy_label">X</span>
             <div id="calligstem"    class="toggle radio deselectallowed rightindent1"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="calliganswer"  class="toggle radio deselectallowed rightindent2"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
             <div id="calligdisplay" class="toggle radio deselectallowed rightindent3"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
@@ -1575,24 +1565,24 @@
     </ul>
     
     <div class="content-padded">
-        <h3><script>document.write(STR.question_inputs_label);</script></h3>
+        <h3><span id="question_inputs_label">X</span></h3>
     </div>
 
     <ul class="inset list">
         <li>
-            <script>document.write(STR.question_hanzi_touch_label);</script>
+            <span id="question_hanzi_touch_label">X</span>
             <div id="questiondrawinput" class="toggle check"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         </li>
         
         <li>
-            <script>document.write(STR.question_text_edit_label);</script>
+            <span id="question_text_edit_label">X</span>
             <div id="questiontypeinput" class="toggle check"  onclick="javascript:shanka.toggle(this); shanka.onquestionchange(); return false;"></div>
         </li>
     </ul>
     
     <div class="content-padded">
-        <a id="questionsave" href="javascript:shanka.doupdatequestion();" class="button left"><script>document.write(STR.gen_save_text);</script></a>
-        <a id="questioncancel" href="javascript:shanka.showquestions();" class="button right"><script>document.write(STR.gen_cancel_text);</script></a>
+        <a id="questionsave" href="javascript:shanka.doupdatequestion();" class="button left"><span id="gen_save_text">X</span></a>
+        <a id="questioncancel" href="javascript:shanka.showquestions();" class="button right"><span id="gen_cancel_text">X</span></a>
     </div>
 </div>
 
@@ -1601,22 +1591,21 @@
         <div id="result" class="result"></div>
     </div>
     <ul class="inset list">        
-        <li><script>document.write(STR.maintenance_reload_local_label);</script>
-            <a href="javascript:shanka.doreload();" class="button"><script>document.write(STR.maintenance_reload_label);</script></a></li>
+        <li><span id="maintenance_reload_local_label">X</span>
+            <a href="javascript:shanka.doreload();" class="button"><span id="maintenance_reload_label">Y</span></a></li>
 
-        <li><script>document.write(STR.maintenance_stand_alone_label);</script>: <span id="standalonestatus">X</span></li>
+        <li><span id="maintenance_stand_alone_label">X</span>: <span id="standalonestatus">Y</span></li>
 
-        <li><script>document.write(STR.maintenance_system_language_label);</script>: <span id="systemlanguage">X</span></li>
+        <li><span id="maintenance_system_language_label">X</span>: <span id="systemlanguage">Y</span></li>
         
         <li>
-            <script>document.write(STR.maintenance_app_cache_label);</script>: <span id="appcachestatus">X</span>
-            <a href="javascript:shanka.updateappcachestatus();" class="button"><script>document.write(STR.maintenance_refresh_label);</script></a>
+            <span id="maintenance_app_cache_label">X</span>: <span id="appcachestatus">Y</span>
+            <a href="javascript:shanka.updateappcachestatus();" class="button"><span id="maintenance_refresh_label">X</span></a>
         </li>
 
         <li>
-            <script>document.write(STR.maintenance_installed_label);</script>: v<span id="currentversionnum">X</span> (<span id="currentversiondate">Y</span>)<br />
-            <script>document.write(STR.maintenance_latest_label);</script>: v<span id="latestversionnum">X</span> (<span id="latestversiondate">Y</span>)<br />        
-            <a href="javascript:shanka.redownload();" class="button"><script>document.write(STR.maintenance_update_label);</script></a>
+            <span id="maintenance_installed_label">X</span>: v<span id="currentversionnum">X</span> (<span id="currentversiondate">Y</span>)<br />
+            <a href="javascript:shanka.redownload();" class="button"><span id="maintenance_update_label">X</span></a>
         </li>
 
         <li><span id="localstorageused">X</span></li>
@@ -1627,8 +1616,8 @@
         -->
             
         <li>
-            <script>document.write(STR.maintenance_erase_local_label);</script>
-            <a href="javascript:shanka.donuke();" class="button"><script>document.write(STR.maintenance_erase_label);</script></a>
+            <span id="maintenance_erase_local_label">X</span>
+            <a href="javascript:shanka.donuke();" class="button"><span id="maintenance_erase_label">X</span></a>
         </li>
     </ul>
 </div>
@@ -1636,12 +1625,12 @@
 <div id="wizard1">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <span style="font-size: 120%"><script>document.write(STR.wizard_which_characters_label);</script></span>
+        <span style="font-size: 120%"><span id="wizard_which_characters_label">X</span></span>
     </div>
     <ul class="list inset">
         <li>
             <a href="javascript:shanka.wizard1result('simplified')">
-                <strong><span style="font-size: 120%"><script>document.write(STR.wizard_simplified_characters_label);</script></span></strong>
+                <strong><span style="font-size: 120%"><span id="wizard_simplified_characters_label">X</span></span></strong>
                 <div class="chevron"></div>
             </a>
         </li>
@@ -1653,7 +1642,7 @@
     <ul class="list inset">
         <li>
             <a href="javascript:shanka.wizard1result('traditional')">
-                <strong><span style="font-size: 120%"><script>document.write(STR.wizard_traditional_characters_label);</script></span></strong>
+                <strong><span style="font-size: 120%"><span id="wizard_traditional_characters_label">X</span></span></strong>
                 <div class="chevron"></div>
             </a>
         </li>
@@ -1665,7 +1654,7 @@
     <ul class="list inset">
         <li>
             <a href="javascript:shanka.wizard1result('both')">
-                <strong><span style="font-size: 120%"><script>document.write(STR.wizard_both_characters_label);</script></span></strong>
+                <strong><span style="font-size: 120%"><span id="wizard_both_characters_label">X</span></span></strong>
                 <div class="chevron"></div>
             </a>
         </li>
@@ -1675,54 +1664,66 @@
 <div id="wizard2">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <span style="font-size: 120%"><script>document.write(STR.wizard_which_vocab_label);</script></span>
+        <span style="font-size: 120%"><span id="wizard_which_vocab_label">X</span></span>
     </div>
     
     <ul id="cardsettinglist" class="inset list">
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.import_hsk1_label);</script></b>
+            <b><span id="import_hsk1_label">X</span></b>
             <div id="vocabhsk1" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.import_hsk2_label);</script></b>
+            <b><span id="import_hsk2_label">X</span></b>
             <div id="vocabhsk2" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.import_hsk3_label);</script></b>
+            <b><span id="import_hsk3_label">X</span></b>
             <div id="vocabhsk3" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.import_hsk4_label);</script></b>
+            <b><span id="import_hsk4_label">X</span></b>
             <div id="vocabhsk4" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.import_hsk5_label);</script></b>
+            <b><span id="import_hsk5_label">X</span></b>
             <div id="vocabhsk5" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.import_hsk6_label);</script></b>
+            <b><span id="import_hsk6_label">X</span></b>
             <div id="vocabhsk6" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.import_chineasy_label);</script></b>
+            <b><span id="import_hsk1_sentences_label">X</span></b>
+            <div id="vocabhsk1sent" class="toggle check"></div>
+        </li>
+        <li onclick="javascript:shanka.togglechild(this); return false;">
+            <b><span id="import_hsk2_sentences_label">X</span></b>
+            <div id="vocabhsk2sent" class="toggle check"></div>
+        </li>
+        <li onclick="javascript:shanka.togglechild(this); return false;">
+            <b><span id="import_hsk3_sentences_label">X</span></b>
+            <div id="vocabhsk3sent" class="toggle check"></div>
+        </li>
+        <li onclick="javascript:shanka.togglechild(this); return false;">
+            <b><span id="import_chineasy_label">X</span></b>
             <div id="vocabchineasy" class="toggle check"></div>
         </li>
     </ul>
     
     <div class="content-padded">
-        <a href="javascript:shanka.wizard2result();" class="button-block" id="studyedit"><script>document.write(STR.wizard_next_label);</script></a>
+        <a href="javascript:shanka.wizard2result();" class="button-block" id="studyedit"><span id="wizard_next_label">X</span></a>
     </div>
 </div>
 
 <div id="wizard3">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <span style="font-size: 120%"><script>document.write(STR.wizard_what_is_level_label);</script></span>
+        <span style="font-size: 120%"><span id="wizard_what_is_level_label">X</span></span>
     </div>
     <ul class="list inset">
         <li>
             <a href="javascript:shanka.wizard3result('beginner')">
-                <strong><span style="font-size: 120%"><script>document.write(STR.wizard_algorithm_name_beginner);</script></span></strong>
+                <strong><span style="font-size: 120%"><span id="wizard_algorithm_name_beginner">X</span></span></strong>
                 <div class="chevron"></div>
             </a>
         </li>
@@ -1734,7 +1735,7 @@
     <ul class="list inset">
         <li>
             <a href="javascript:shanka.wizard3result('intermediate')">
-                <strong><span style="font-size: 120%"><script>document.write(STR.wizard_algorithm_name_intermediate);</script></span></strong>
+                <strong><span style="font-size: 120%"><span id="wizard_algorithm_name_intermediate">X</span></span></strong>
                 <div class="chevron"></div>
             </a>
         </li>
@@ -1746,7 +1747,7 @@
     <ul class="list inset">
         <li>
             <a href="javascript:shanka.wizard3result('advanced')">
-                <strong><span style="font-size: 120%"><script>document.write(STR.wizard_algorithm_name_advanced);</script></span></strong>
+                <strong><span style="font-size: 120%"><span id="wizard_algorithm_name_advanced">X</span></span></strong>
                 <div class="chevron"></div>
             </a>
         </li>
@@ -1758,41 +1759,78 @@
 <div id="wizard4">
     <div class="content-padded">
         <div id="result" class="result"></div>
-        <span style="font-size: 120%"><script>document.write(STR.wizard_what_want_learn_label);</script></span>
+        <span style="font-size: 120%"><span id="wizard_what_want_learn_label">X</span></span>
     </div>
     
     <ul id="cardsettinglist" class="inset list">
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.wizard_definition_label);</script></b>
+            <b><span id="wizard_definition_label">X</span></b>
             <div id="learndefinition" class="toggle check active"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.wizard_pinyin_label);</script></b>
+            <b><span id="wizard_pinyin_label">X</span></b>
             <div id="learnpinyin" class="toggle check active"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.wizard_reading_label);</script></b>
+            <b><span id="wizard_reading_label">X</span></b>
             <div id="learnhanzi" class="toggle check active"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.wizard_writing_label);</script></b>
+            <b><span id="wizard_writing_label">X</span></b>
             <div id="learnwriting" class="toggle check active"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.wizard_cursive_label);</script></b>
+            <b><span id="wizard_cursive_label">X</span></b>
             <div id="learncursive" class="toggle check"></div>
         </li>
         <li onclick="javascript:shanka.togglechild(this); return false;">
-            <b><script>document.write(STR.wizard_calligraphy_label);</script></b>
+            <b><span id="wizard_calligraphy_label">X</span></b>
             <div id="learncallig" class="toggle check"></div>
         </li>
     </ul>
     
     <div class="content-padded">
-        <a href="javascript:shanka.wizard4result();" class="button-block" id="studyedit"><script>document.write(STR.wizard_done_label);</script></a>
+        <a href="javascript:shanka.wizard4result();" class="button-block" id="studyedit"><span id="wizard_done_label">X</span></a>
     </div>
 </div>
 
 </div> <!-- content-options -->
 
-</body></html>
+<!-- include the script at the very end so the HTML is loaded -->
+<script src="shanka.min.js"></script>
+<!--
+<script src="script/lz-string-1.3.3.js"></script>
+<script src="script/util.js"></script>
+<script src="script/lang_dutch.js"></script></body></html>
+<script src="script/lang_english.js"></script>
+<script src="script/lang_french.js"></script>
+<script src="script/lang_italian.js"></script>
+<script src="script/lang_spanish.js"></script>
+<script src="script/lang_german.js"></script>
+<script src="script/language.js"></script>
+<script src="script/snap.js"></script>
+<script src="script/hanzicanvas.js"></script>
+<script src="script/shanka.js"></script>
+<script src="script/lesson.js"></script>
+<script src="script/card.js"></script>
+<script src="script/category.js"></script>
+<script src="script/question.js"></script>
+<script src="script/algorithm.js"></script>
+<script src="script/progress.js"></script>
+<script src="script/local.js"></script>
+<script src="script/study.js"></script>
+<script src="script/import.js"></script>
+<script src="script/export.js"></script>
+<script src="script/historyqueue.js"></script>
+<script src="script/settings.js"></script>
+<script src="script/maintenance.js"></script>
+<script src="script/wizard.js"></script>
+<script src="script/help.js"></script>
+<script src="script/version.js"></script>
+<script src="script/AppScroll.js"></script>
+<script src="script/ratchet.js"></script>
+<script src="script/fastclick.js"></script>
+<script src="script/jscolor.js"></script>
+-->
+</body>
+</html>
