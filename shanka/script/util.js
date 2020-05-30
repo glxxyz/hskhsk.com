@@ -13,11 +13,12 @@
     See http://hskhsk.com/shanka for more information.
 
 */
+var util_globals = new Object();
 
-var wait_cursor_on = false;
+util_globals.wait_cursor_on = false;
 function WaitCursorOn() {
-    if (!wait_cursor_on) {
-        wait_cursor_on = true;
+    if (!util_globals.wait_cursor_on) {
+        util_globals.wait_cursor_on = true;
         // wait 100ms before showing wait cursor
         setTimeout(WaitCursorSwitchOnTimer, 100);
     }
@@ -27,24 +28,24 @@ function WaitCursorOn() {
 WaitCursorOn();
 
 function WaitCursorSwitchOnTimer() {
-    if (wait_cursor_on) {
+    if (util_globals.wait_cursor_on) {
         document.getElementById("waitcursor").style.display="inline";
         document.body.style.cursor = 'wait';            
     }
 }
 
 function WaitCursorOff() {
-    wait_cursor_on = false;
+    util_globals.wait_cursor_on = false;
     document.getElementById("waitcursor").style.display="none";
     document.body.style.cursor = 'default';        
 }
 
 function isEmpty(ob){
-   for(var i in ob){ return false;}
+   for(var i in ob){ return ((i==null) ? false : false);}
    return true;
 }
 
-contains = function(array, obj) {
+function contains(array, obj) {
     var i = array.indexOf(obj);
     return i != -1;
 }
@@ -57,7 +58,7 @@ function is_IE() {
     return /Trident/.test(navigator.userAgent);
 }
 
-arrayAisSubsetOfB = function(arrayA, arrayB) {
+function arrayAisSubsetOfB(arrayA, arrayB) {
     for (var i=0, len=arrayA.length; i<len; i++) {
         if (!contains(arrayB, arrayA[i])) {
             return false;
@@ -66,11 +67,11 @@ arrayAisSubsetOfB = function(arrayA, arrayB) {
     return true;
 }
 
-arrayAEqualsB = function(arrayA, arrayB) {
+function arrayAEqualsB(arrayA, arrayB) {
     return (arrayA.length == arrayB.length) && arrayAisSubsetOfB(arrayA, arrayB);
 }
 
-commaAndList = function(list) {
+function commaAndList(list) {
     var text = "";
     for (var i=0, len=list.length; i<len; i++) {
         if (i > 0) {
@@ -85,7 +86,7 @@ commaAndList = function(list) {
     return text;
 }
 
-LookupAtoB = function(inputkeys, outputvalues, keys, values) {
+function LookupAtoB(inputkeys, outputvalues, keys, values) {
     for (var i=0, len=inputkeys.length; i<len; i++) {
         var key = inputkeys[i];
         var index = keys.indexOf(key);
@@ -99,7 +100,7 @@ LookupAtoB = function(inputkeys, outputvalues, keys, values) {
 }
 
 // internal errors can be silenced
-var errors_enabled = true;
+util_globals.errors_enabled = true;
 function ReportError(str) {
 
     // get it in the log first at least
@@ -108,9 +109,9 @@ function ReportError(str) {
     // delete this- at least prevent us from going back to this page when refreshing
     delete localStorage["state"];    
 
-    if (errors_enabled) {
+    if (util_globals.errors_enabled) {
         if (!confirm(STR.app_generic_error + ":\n\n" + str + "\n\n" + STR.app_cancel_silences_error)) {
-            errors_enabled = false;
+            util_globals.errors_enabled = false;
         }
     }
 }
@@ -135,7 +136,7 @@ function ExceptionError(context, err) {
     } else {
         if (errors_enabled) {
             if (!confirm(str + STR.app_cancel_silences_error)) {
-                errors_enabled = false;
+                util_globals.errors_enabled = false;
             }
         }
     }
@@ -168,7 +169,7 @@ function GetUserLanguage() {
     return lang;
 }
 
-parseWindowLocation = function () {
+function parseWindowLocation() {
     var currentState = null;
     if (window.location.hash && window.location.hash.length > 1) {
         console.log("constructing state from hash: " + window.location.hash);
@@ -177,7 +178,7 @@ parseWindowLocation = function () {
             currentState = { "section" : hashbits[0] };
         }
         for (var i=1; i < hashbits.length; i++) {
-            parms = hashbits[i].split("=");
+            var parms = hashbits[i].split("=");
             if (parms.length == 2) {
                 currentState[parms[0]] = parms[1];
             }

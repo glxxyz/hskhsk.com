@@ -18,7 +18,7 @@
 */
 
 /* Start of language definition */
-lang_french = function() { 
+var lang_french = function() { 
 
 /* These strings describe the language of this file */
 this. this_language                     = "FrenchinFrench";

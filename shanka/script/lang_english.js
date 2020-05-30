@@ -482,7 +482,7 @@ this. help_settings =
         "<p>Choose the names that you want to see for the ratings in the study page, and disable any that you don't want to use by unselecting them.</p>";
 
 this. help_queue =
-    "<p>The queue shows you all of the words that you are currently studying, and lets you know how well you know them all. "
+    "<p>The queue shows you all of the words that you are currently studying, and lets you know how well you know them all. " +
     "The words are in the approximate order that they will be studied, although the order is randomised so that it doesn't become predictable.</p>";
 
 this. help_algorithms =         
@@ -498,9 +498,9 @@ this. help_algorithms =
         "<p><li><b>Threshold Knowledge Rate</b> - The knowledge rate at which the information on a card will be counted as being 'known'.</p>" +
         "<p><li><b>Adjustment Speed</b> - How quickly the knowledge rate for each piece of information on a flashcard will move towards zero/one when you answer questions wrong/right. " +
             "If this adjustment speed is <i><b>a</b></i>, then when a question is answered incorrectly, <i><b>kn_rate<sub>new</sub> = kn_rate<sub>old</sub> / a</b></i>. " +
-            "When a question is answered correctly, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. If the five answer choices are numbered 1-5, then "
+            "When a question is answered correctly, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. If the five answer choices are numbered 1-5, then " +
             "answer 3 will not change the knowledge rate, answers 2 and 4 are wrong and right, and answers 1 and 5 count as two wrong or right answers respectively.</p>" +
-        "<p><li><b>Any Element Probability</b> - The probability that the next flashcard will be randomly drawn from anywhere in the queue, instead of the front of the queue. "
+        "<p><li><b>Any Element Probability</b> - The probability that the next flashcard will be randomly drawn from anywhere in the queue, instead of the front of the queue. " +
             "This setting allows even very old cards to be occasionally sprinkled into the studying. If you don't want this to happen, set the value to zero.</p>" +
         "<p><li><b>First Element Probability</b> - If this probability is <i><b>p</b></i>, and the first flashcard in the queue is number <i><b>0</b></i>, then flashcard "
             "<i><b>n</b></i> will be chosen as the card to study with probability <i><b>p &times; (1-p)<sup>n</sup></b></i>. " + 
@@ -548,7 +548,7 @@ this. help_maintenance =
         "Note: 1k=2<sup>10</sup>=1024 characters, 1M=2<sup>20</sup> characters. Usually 1 character = 2 bytes, so " +
         "2.5M characters = 5MB of storage space.</p>" +
     "<h3>Erase Local Data</h3>" +
-        "<p>If you are having problems you could try clearing your local storage data. If you want to keep your current "
+        "<p>If you are having problems you could try clearing your local storage data. If you want to keep your current " +
         "history, you should first export a backup of your data.</p>";
 
 this. help_wizard =
@@ -620,9 +620,9 @@ this. import_hsk3_category                  = "HSK 3";
 this. import_hsk4_category                  = "HSK 4";
 this. import_hsk5_category                  = "HSK 5";
 this. import_hsk6_category                  = "HSK 6";
-this. import_hsk1_sentences_category        = "HSK 1 Sentences";
-this. import_hsk2_sentences_category        = "HSK 2 Sentences";
-this. import_hsk3_sentences_category        = "HSK 3 Sentences";
+this. import_hsk1_sentences_category        = "HSK 1 句子";
+this. import_hsk2_sentences_category        = "HSK 2 句子";
+this. import_hsk3_sentences_category        = "HSK 3 句子";
 this. import_chineasy_category              = "Chineasy";
 this. import_hsk1_location                  = "lists/HSK 2012 L1.txt";
 this. import_hsk2_location                  = "lists/HSK 2012 L2.txt";

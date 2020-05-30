@@ -139,14 +139,14 @@
                 return Math.abs(degrees);
             },
             events: {
-                addEvent: function addEvent(element, eventName, func) {
+                addEvent: function(element, eventName, func) {
                     if (element.addEventListener) {
                         return element.addEventListener(eventName, func, false);
                     } else if (element.attachEvent) {
                         return element.attachEvent("on" + eventName, func);
                     }
                 },
-                removeEvent: function addEvent(element, eventName, func) {
+                removeEvent: function(element, eventName, func) {
                     if (element.addEventListener) {
                         return element.removeEventListener(eventName, func, false);
                     } else if (element.attachEvent) {

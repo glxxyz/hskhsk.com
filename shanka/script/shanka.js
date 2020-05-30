@@ -32,7 +32,7 @@
 
 // ---------------------------
 // create shanka as a singleton
-shanka = {};
+var shanka = {};
 
 shanka.init = function() {
     WaitCursorOn();
@@ -817,19 +817,21 @@ shanka.initwelcome = function() {
 
 // ================
 // Pinyin numbers to tone marks
-
+/*
 var pinyintones = [ "A\u0100\u00C1\u0102\u00C0A", "a\u0101\u00E1\u0103\u00E0a",
                     "E\u0112\u00C9\u0114\u00C8E", "e\u0113\u00E9\u0115\u00E8e",
                     "O\u014C\u00D3\u014E\u00D2O", "o\u014D\u00F3\u014F\u00F2o",
                     "I\u012A\u00CD\u012C\u00CCI", "i\u012B\u00ED\u012D\u00ECi",
                     "U\u016A\u00DA\u016C\u00D9U", "u\u016B\u00FA\u016D\u00F9u",
                     "\u00DC\u01D5\u01D7\u01D9\u01DB\u00DC", "\u00FC\u01D6\u01D8\u01DA\u01DC\u00FC"];
+                    */
 var pyreplacements = [["u:", "\u00FC"], ["v", "\u00FC"], ["U:", "\u00DC"], ["V", "\u00DC"]];
 
 var pinyin_numbers_to_tone_marks = function(inputstr) {
     var result = "";
     var nexthanzi = 0;
     var reg = new RegExp(/[A-Za-z\u00FC\u00DC:]+[1-5]/g);
+    var match = null;
     while((match = reg.exec(inputstr)) != null) {
         var start = inputstr.indexOf(match, nexthanzi);
         

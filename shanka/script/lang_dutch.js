@@ -489,7 +489,7 @@ this. help_settings =
         "<p>Kies de namen die u wilt zien voor de beoordelingen in de studie-pagina, en alle die u niet wilt gebruiken.</p>";
 
 this. help_queue =
-    "<p>De wachtrij toont u alle woorden die u momenteel studeert, en laat u weten hoe goed u ze allemaal kent. "
+    "<p>De wachtrij toont u alle woorden die u momenteel studeert, en laat u weten hoe goed u ze allemaal kent. " +
     "De woorden zijn geschatte volgorde waarin ze worden bestudeerd. De orde is wel willekeurig, zodat het niet voorspelbaar wordt.</p>";
 
 this. help_algorithms =         
@@ -505,11 +505,11 @@ this. help_algorithms =
         "<p><li><b>Threshold Knowledge Rate</b> - De kennisgraad waarbij elk stukje informatie zal worden gezien als gekend.</p>" +
         "<p><li><b>Adjustment Speed</b> - De snelheid waarbij de kennis voor elk stukje informatie zal evolueren naar nul/één als u vragen fout/goed beantwoord. " +
             "If this adjustment speed is <i><b>a</b></i>, then when a question is answered incorrectly, <i><b>kn_rate<sub>new</sub> = kn_rate<sub>old</sub> / a</b></i>. " +
-            "Als u een vraag juist beantwoord, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. If the five answer choices are numbered 1-5, then "
+            "Als u een vraag juist beantwoord, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. If the five answer choices are numbered 1-5, then " +
             "answer 3 will not change the knowledge rate, answers 2 and 4 are wrong and right, and answers 1 and 5 count as two wrong or right answers respectively.</p>" +
-        "<p><li><b>Any Element Probability</b> - The probability that the next flashcard will be randomly drawn from anywhere in the queue, instead of the front of the queue. "
+        "<p><li><b>Any Element Probability</b> - The probability that the next flashcard will be randomly drawn from anywhere in the queue, instead of the front of the queue. " +
             "This setting allows even very old cards to be occasionally sprinkled into the studying. If you don't want this to happen, set the value to zero.</p>" +
-        "<p><li><b>First Element Probability</b> - If this probability is <i><b>p</b></i>, and the first flashcard in the queue is number <i><b>0</b></i>, then flashcard "
+        "<p><li><b>First Element Probability</b> - If this probability is <i><b>p</b></i>, and the first flashcard in the queue is number <i><b>0</b></i>, then flashcard " +
             "<i><b>n</b></i> will be chosen as the card to study with probability <i><b>p &times; (1-p)<sup>n</sup></b></i>. " + 
             "As the sum for all flashcards in the queue will be slightly less than 1, the leftover probability is assigned to the first element.</p>" +
         "<p><li><b>Minimum Interval</b> - The minimum number of cards that must be shown before a card is repeated, even if it is always marked as unknown.</p>";
@@ -555,7 +555,7 @@ this. help_maintenance =
         "Note: 1k=2<sup>10</sup>=1024 characters, 1M=2<sup>20</sup> characters. Meestal is 1 karakter = 2 bytes, dus" +
         "2.5M karakters = 5MB ruimte.</p>" +
     "<h3>Lokale data verwijderen</h3>" +
-        "<p> Bij problemen kan u opteren om de lokale data te verwijderen. Als u uw huidige geschiedenis "
+        "<p> Bij problemen kan u opteren om de lokale data te verwijderen. Als u uw huidige geschiedenis " +
         "wilt behouden, dient u eerst een backup van uw data te exporteren.</p>";
 
 this. help_wizard =
@@ -625,9 +625,9 @@ this. import_hsk3_category                  = "HSK 3";
 this. import_hsk4_category                  = "HSK 4";
 this. import_hsk5_category                  = "HSK 5";
 this. import_hsk6_category                  = "HSK 6";
-this. import_hsk1_sentences_category        = "HSK 1 Sentences";
-this. import_hsk2_sentences_category        = "HSK 2 Sentences";
-this. import_hsk3_sentences_category        = "HSK 3 Sentences";
+this. import_hsk1_sentences_category        = "HSK 1 句子";
+this. import_hsk2_sentences_category        = "HSK 2 句子";
+this. import_hsk3_sentences_category        = "HSK 3 句子";
 this. import_chineasy_category              = "Chineasy";
 this. import_hsk1_location                  = "lists/HSK 2012 L1 nl.txt";
 this. import_hsk2_location                  = "lists/HSK 2012 L2.txt";

@@ -16,7 +16,7 @@
 
 var canvascache = [];
 
-HanziCanvas = function(uuid) {
+var HanziCanvas = function(uuid) {
 
    var _this = this;
    var _enabled = true;
@@ -410,7 +410,7 @@ HanziCanvas = function(uuid) {
             var last = points[points.length-1];
             var deltax = last.x - current.x;
             var deltay = last.y - current.y;
-            dist = Math.sqrt(Math.pow(deltax, 2) + Math.pow(deltay, 2));
+            var dist = Math.sqrt(Math.pow(deltax, 2) + Math.pow(deltay, 2));
             if (dist<=3) {
                 pushpoint = false;
             }

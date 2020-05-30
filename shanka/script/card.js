@@ -39,17 +39,18 @@ function Card () {
 // Card methods
 
 Card.prototype._getdefault = function(section) {
+    var defval = "";
     switch (section) {
         // no need to switch on keystem or keyans
-        case "kn_rate":    return 0.5; break;
-        case "last_time":  return 0; break;
-        case "next_time":  return 0; break;
-        case "last_score": return 0; break;
-        case "question_count": return 0; break;
-        case "correct_count": return 0; break;
+        case "kn_rate":    defval = 0.5; break;
+        case "last_time":  defval = 0; break;
+        case "next_time":  defval = 0; break;
+        case "last_score": defval = 0; break;
+        case "question_count": defval = 0; break;
+        case "correct_count": defval = 0; break;
         default: ReportError("Card._getdefault unknown section: " + section);
     }
-    return "";
+    return defval;
 }
 
 Card.prototype._getseckey = function(section, keystem, keyans) {
@@ -815,7 +816,7 @@ shanka.getrelatedcardids = function(cardid) {
     for (var i=0, ilen=hanzi.length; i<ilen; i++) {
         var ch = hanzi[i];
         if (ch in shanka.relatedcharmap) {
-            wordmap = shanka.relatedcharmap[ch];
+            var wordmap = shanka.relatedcharmap[ch];
             for (var word in wordmap) {
                 var cardids = wordmap[word];
                 for (var j=0, jlen=cardids.length; j<jlen; j++) {

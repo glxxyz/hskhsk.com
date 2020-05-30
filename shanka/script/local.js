@@ -351,29 +351,31 @@ shanka.redownload = function() {
 }
 
 shanka.getappcachestatus = function() {
+    var status = "";
     switch (applicationCache.status) {
       case applicationCache.UNCACHED: // UNCACHED == 0
-        return 'UNCACHED';
+        status = 'UNCACHED';
         break;
       case applicationCache.IDLE: // IDLE == 1
-        return 'IDLE';
+        status = 'IDLE';
         break;
       case applicationCache.CHECKING: // CHECKING == 2
-        return 'CHECKING';
+        status = 'CHECKING';
         break;
       case applicationCache.DOWNLOADING: // DOWNLOADING == 3
-        return 'DOWNLOADING';
+        status = 'DOWNLOADING';
         break;
       case applicationCache.UPDATEREADY:  // UPDATEREADY == 4
-        return 'UPDATEREADY';
+        status = 'UPDATEREADY';
         break;
       case applicationCache.OBSOLETE: // OBSOLETE == 5
-        return 'OBSOLETE';
+        status = 'OBSOLETE';
         break;
       default:
-        return 'UKNOWN CACHE STATUS';
+        status = 'UKNOWN CACHE STATUS';
         break;
     };
+    return status;
 }
 
 shanka.confirmandupdate = function() {

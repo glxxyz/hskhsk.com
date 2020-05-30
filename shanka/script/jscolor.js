@@ -77,7 +77,9 @@ var jscolor = {
 				if(m[3]) {
 					try {
 						prop = (new Function ('return (' + m[3] + ')'))();
-					} catch(eInvalidProp) {}
+					} catch(eInvalidProp) {
+						eInvalidProp;
+					}
 				}
 				e[i].color = new jscolor.color(e[i], prop);
 			}
@@ -763,6 +765,7 @@ var jscolor = {
 			try {
 				p.sldM.style.cursor = 'pointer';
 			} catch(eOldIE) {
+				eOldIE;
 				p.sldM.style.cursor = 'hand';
 			}
 
@@ -786,6 +789,7 @@ var jscolor = {
 			try {
 				p.btn.style.cursor = 'pointer';
 			} catch(eOldIE) {
+				eOldIE;
 				p.btn.style.cursor = 'hand';
 			}
 			p.btn.onmousedown = function () {

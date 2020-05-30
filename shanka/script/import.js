@@ -34,6 +34,7 @@ shanka.import = function(data, format, categoryname, ishttp, callbackafterimport
                 }
             };
             xhr.onerror = function (e) {
+            	e;
                 ReportError(STR.import_generic_error + ": " + xhr.statusText);
             };
             xhr.ontimeout = function () {
@@ -68,7 +69,7 @@ shanka.continueimport = function(response, format, categoryid, callbackafterimpo
         // TODO: check for duplicate cards when adding
         if (format == "shanka") {
             var importobj = JSON.parse(response);
-            for (key in importobj) {
+            for (var key in importobj) {
                 // TODO
                 switch (key) {
                     case "categories":
@@ -281,6 +282,7 @@ shanka.doimport = function() {
     }
     
     shanka.import(data, format, categoryname, false, function(category, created, merged) {
+    	category;
         shanka.showmain();        
         shanka.addtoresult(STR.wizard_created_flashcards_format.replace("{0}", created.toString()));
         if (merged) {

@@ -270,13 +270,13 @@ shanka.showcategory = function(categoryid) {
     shanka.navigate({"section" : "category", "categoryid" : categoryid});
 }
 
-shanka.showcurrentcategory = function(categoryid) {
+shanka.showcurrentcategory = function() {
     if ("categoryid" in shanka.state) {
         shanka.navigate({"section" : "category", "categoryid" : shanka.state["categoryid"]});
     }
 }
 
-shanka.editcategory = function(categoryid) {
+shanka.editcategory = function() {
     shanka.navigate({"section" : "editcategory", "categoryid" : shanka.state["categoryid"]});
 }
 

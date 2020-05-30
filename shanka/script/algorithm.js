@@ -45,6 +45,8 @@ Algorithm.prototype.getdata = function(key) {
 /* ********** Begin algorithm-specific code ********** */
 
 Algorithm.prototype._getdefault= function(key) {
+	var defval = "";
+
     switch (this.type) {
         case "shanka":
             // just break for now
@@ -56,26 +58,26 @@ Algorithm.prototype._getdefault= function(key) {
     }
     
     switch (key) {
-        case "auto_unknown_min"    : return 7;   break; // shanka
-        case "daily_correct_target": return 50;   break; // shanka
-        case "daily_new_target"    : return 10;   break; // shanka
-        case "daily_time_target"   : return 20;   break; // shanka
-        case "default_kn_rate"     : return 0.5;  break; // shanka
-        case "known_kn_rate"       : return 0.8;  break; // shanka
-        case "default_lead_time"   : return 24*60*60*1000;  break; // time based SRS, in ms
-        case "answer_1_factor"     : return 0.33; break; // time based SRS
-        case "answer_2_factor"     : return 0.67; break; // time based SRS
-        case "answer_3_factor"     : return 1.0;  break; // time based SRS
-        case "answer_4_factor"     : return 1.5;  break; // time based SRS
-        case "answer_5_factor"     : return 3.0;  break; // time based SRS
-        case "adjustment_speed"    : return 2.0;  break; // shanka
-        case "prob_of_any_random"  : return 0.1;  break; // shanka
-        case "first_element_prob"  : return 0.15; break; // shanka
-        case "minimum_interval"    : return 4; break; // shanka
+        case "auto_unknown_min"    : defval = 7;   break; // shanka
+        case "daily_correct_target": defval = 50;   break; // shanka
+        case "daily_new_target"    : defval = 10;   break; // shanka
+        case "daily_time_target"   : defval = 20;   break; // shanka
+        case "default_kn_rate"     : defval = 0.5;  break; // shanka
+        case "known_kn_rate"       : defval = 0.8;  break; // shanka
+        case "default_lead_time"   : defval = 24*60*60*1000;  break; // time based SRS, in ms
+        case "answer_1_factor"     : defval = 0.33; break; // time based SRS
+        case "answer_2_factor"     : defval = 0.67; break; // time based SRS
+        case "answer_3_factor"     : defval = 1.0;  break; // time based SRS
+        case "answer_4_factor"     : defval = 1.5;  break; // time based SRS
+        case "answer_5_factor"     : defval = 3.0;  break; // time based SRS
+        case "adjustment_speed"    : defval = 2.0;  break; // shanka
+        case "prob_of_any_random"  : defval = 0.1;  break; // shanka
+        case "first_element_prob"  : defval = 0.15; break; // shanka
+        case "minimum_interval"    : defval = 4; break; // shanka
         default: ReportError("Algorithm._getdefault Unknown key: " + key + " for type: " + this.type);
     }
     
-    return "";
+    return defval;
 }
 
 Algorithm.prototype.getnextcardquestion = function() {
@@ -160,6 +162,8 @@ Algorithm.prototype.getnextcardquestion = function() {
 }
 
 Algorithm.prototype.choosequestionbasedoncard = function(card) {
+	card;
+
     var question = null;
     
     switch (this.type) {
@@ -269,11 +273,12 @@ Algorithm.prototype.queuecompare = function(a, b) {
 }
 
 // nasty to use globals, but quick...
-var trouble_shown = false;
-var learned_shown = false;
-var learning_shown = false;
+var algorithm_globals = new Object();
+algorithm_globals.trouble_shown = false;
+algorithm_globals.learned_shown = false;
+algorithm_globals.learning_shown = false;
 
-Algorithm.prototype.getqueuedisplaytext = function(card) {
+Algorithm.prototype.getqueuedisplaytext = function(/* card */) {
     var kn_rate = 0;
     var text = "";
     switch (this.type) {
@@ -281,19 +286,19 @@ Algorithm.prototype.getqueuedisplaytext = function(card) {
             kn_rate = Math.round(card.kn_rate * 100);
             text = STR.algorithm_knowledge_rate_display + ": " + kn_rate.toString() + "%";
             if (kn_rate < Math.round(this.getdata("default_kn_rate") * 100)) {
-                if (!trouble_shown) {
+                if (!algorithm_globals.trouble_shown) {
                     text += " (" + STR.algorithm_knowledge_rate_trouble + ")";
-                    trouble_shown = true;
+                    algorithm_globals.trouble_shown = true;
                 }
             } else if (card.kn_rate > this.getdata("known_kn_rate")) {
-                if (!learned_shown) {
+                if (!algorithm_globals.learned_shown) {
                     text += " (" + STR.algorithm_knowledge_rate_learned + ")";
-                    learned_shown = true;
+                    algorithm_globals.learned_shown = true;
                 }
             } else {
-                if (!learning_shown) {
+                if (!algorithm_globals.learning_shown) {
                     text += " (" + STR.algorithm_knowledge_rate_learning + ")";
-                    learning_shown = true;
+                    algorithm_globals.learning_shown = true;
                 }
             }
             break;
@@ -548,6 +553,8 @@ shanka.dosaveshankaalgorithm = function() {
             WaitCursorOff();    
             return;
         }
+        
+        var algorithm = null;
         
         if ("algorithmid" in shanka.state) {
             var algorithmid = parseInt(shanka.state["algorithmid"]);

@@ -162,9 +162,9 @@ shanka.initqueue = function() {
     var filteredqueue = shanka.filterlistpages(shanka.queue);
 
     // nasty to use globals, but quick...
-    trouble_shown = false;
-    learned_shown = false;
-    learning_shown = false;
+    algorithm_globals.trouble_shown = false;
+    algorithm_globals.learned_shown = false;
+    algorithm_globals.learning_shown = false;
     
     var lastdividerkn = -1;
     for (var i=0, len=filteredqueue.length; i<len; i++) {

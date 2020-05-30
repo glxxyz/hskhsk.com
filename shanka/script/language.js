@@ -93,28 +93,29 @@ function language() {
     
     // get a given language's name in the current language
     this.get_language_name = function(languageId) {
+    	var lang = "unknown";
         switch (languageId) {
             case "en":
-                return this.lang_english_language;
+                lang = this.lang_english_language;
                 break;
             case "nl":
-                return this.lang_dutch_language;
+                lang = this.lang_dutch_language;
                 break;
             case "es":
-                return this.lang_spanish_language;
+                lang = this.lang_spanish_language;
                 break;
             case "de":
-                return this.lang_german_language;
+                lang = this.lang_german_language;
                 break;
             case "fr":
-                return this.lang_french_language;
+                lang = this.lang_french_language;
                 break;
             case "it":
-                return this.lang_italian_language;
+                lang = this.lang_italian_language;
                 break;
         }
         
-        return "unknown";
+        return lang;
     }    
 }
 

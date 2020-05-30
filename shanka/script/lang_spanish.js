@@ -483,7 +483,7 @@ this. help_settings =
         "<p>Elige los nombres de las calificaciones que deseas ver en la página de estudio,y deshabilita cualquiera que no desees utilizar deseleccionándolas.</p>";
 
 this. help_queue =
-    "<p>La lista muestra todas la palabras que estás actualmente estudiando y te permite saber qué tan bien las conoces."
+    "<p>La lista muestra todas la palabras que estás actualmente estudiando y te permite saber qué tan bien las conoces." +
     "La palabras están en orden aproximado en la forma que serán aprendidas,aunque el orden sea casual así no se hace predecible.</p>";
 
 this. help_algorithms =         
@@ -499,11 +499,11 @@ this. help_algorithms =
         "<p><li><b>Umbral del Conocimiento </b> - La calificación del conocimiento en la cual la información en una carta será contada como 'aprendida'.</p>" +
         "<p><li><b>Ajuste dela Velocidad</b> - Qué tan rápido la calificación del conocimiento  para cada información en una flashcard será cambiada a cero/uni cuando respondas las preguntas bien/mal. " +
             "Si este ajuste de velocidad será <i><b>a</b></i>, cuando una pregunta sea reopondida incorrectamente,<i><b>kn_rate<sub>new</sub> = kn_rate<sub>old</sub> / a</b></i>. " +
-            "Cuando la pregunta sea respondida correctamente, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. Si las cinco opciones de  respuesta están enumeradas de 1 al 5, luego "
+            "Cuando la pregunta sea respondida correctamente, <i><b>kn_rate<sub>new</sub> = 1 + (kn_rate<sub>old</sub> - 1) / a</b></i>. Si las cinco opciones de  respuesta están enumeradas de 1 al 5, luego " +
             "la respuesta  3 no cambiará  la calificación del conocimiento, las respuestas 2 y 4 son correctas o incorrectas, y las respuestas 1 y 5 como dos incorrectas o correcctas respectivamente.</p>" +
-        "<p><li><b>Cualquier Elemento de Prbabilidad</b> - La probabilidad de que la próxima flashcard  sea dibujada casualmente de cualquier lugar de la lista , en vez del frente de la lista. "
+        "<p><li><b>Cualquier Elemento de Prbabilidad</b> - La probabilidad de que la próxima flashcard  sea dibujada casualmente de cualquier lugar de la lista , en vez del frente de la lista. " +
             "Esta configuración te permite que flashcards sea ocacionalmente esparcidas en el estudio.Si no deseas que esto suceda, define su valor como cero.</p>" +
-        "<p><li><b>Primer Elemento de Probabilidad</b> - Si esta probabilidad es <i><b>p</b></i>, y la primera flashcard en la lista es número<i><b>0</b></i>, luego la flashcard "
+        "<p><li><b>Primer Elemento de Probabilidad</b> - Si esta probabilidad es <i><b>p</b></i>, y la primera flashcard en la lista es número<i><b>0</b></i>, luego la flashcard " +
             "<i><b>n</b></i> será seleccionada como la flashcard a estudias con probabilidad <i><b>p &times; (1-p)<sup>n</sup></b></i>. " + 
             "Como la suma de todas las flashcards en la lista serán apenas menores a uno, el resto de probabilidad se le será asignada al primer elemento .</p>" +
         "<p><li><b>Intervalo Mínimo</b> - El intervalo mínimo de número de flashacrs debe ser mostrado antes de que una flashcard se repita, incluso si  esta sea simepre definida como desconocida.</p>";
@@ -549,7 +549,7 @@ this. help_maintenance =
         "Nota: 1k=2<sup>10</sup>=1024 carácteres, 1M=2<sup>20</sup> carácteres. Usualmente  1 carácter = 2 bytes, entonces " +
         "2.5M carácteres = 5MB de espacio de almacenamiento.</p>" +
     "<h3>Borrar Almacenamiento Local</h3>" +
-        "<p> Si tienes problemas podrías intentar limpiar tus datos de almacenamiento local.Si deseas mantener tu  historial actual "
+        "<p> Si tienes problemas podrías intentar limpiar tus datos de almacenamiento local.Si deseas mantener tu  historial actual " +
         "primero deberías exportar una copia de seguridad de tus datos.</p>";
 
 this. help_wizard =
@@ -571,7 +571,7 @@ this. help_about =
         "La Grila de Colores es de  Jan Odvárko's jscolor http://jscolor.com/<br />" +  
         "Algunas partes del algoritmo de Shanka fueron inspirados por  Adam Nagy de Cybertron BT's defunct product Memodrops " +
         "http://memodrops.com/algorithm.html ( esta pa´gina no existe actualmente pero está archivada en http://archive.org<br />" +
-        "Muchos problemas fueron resueltos con la ayuda de los comentarios y soluciones en Stack Overflow http://stackoverflow.com/<br />"+
+        "Muchos problemas fueron resueltos con la ayuda de los comentarios y soluciones en Stack Overflow http://stackoverflow.com/<br />" +
         "Muchas gracias a Chinese Forums, Pleco, y la comunidad de usuarios Skritter , como así también a los testeadores beta que participaron.<br />" +
         "¡Gracias también a los traductores que internacionalizaron esta aplicación!";
         
@@ -611,9 +611,9 @@ this. import_hsk3_category                  = "HSK 3";
 this. import_hsk4_category                  = "HSK 4";
 this. import_hsk5_category                  = "HSK 5";
 this. import_hsk6_category                  = "HSK 6";
-this. import_hsk1_sentences_category        = "HSK 1 Sentences";
-this. import_hsk2_sentences_category        = "HSK 2 Sentences";
-this. import_hsk3_sentences_category        = "HSK 3 Sentences";
+this. import_hsk1_sentences_category        = "HSK 1 句子";
+this. import_hsk2_sentences_category        = "HSK 2 句子";
+this. import_hsk3_sentences_category        = "HSK 3 句子";
 this. import_chineasy_category              = "Chineasy";
 this. import_hsk1_location                  = "lists/HSK 2012 L1 es.txt";
 this. import_hsk2_location                  = "lists/HSK 2012 L2.txt";

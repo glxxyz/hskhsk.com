@@ -655,7 +655,7 @@ shanka.showcharbutton = function() {
 
 shanka.updatecharbutton = function() {
     if ("char" in shanka.state) {
-        index = parseInt(shanka.state["char"]);
+        var index = parseInt(shanka.state["char"]);
         var text = shanka.gettraceword();
         var tracechar = text.charAt(index);
         document.getElementById("tracechar").innerHTML = tracechar;
@@ -833,7 +833,7 @@ shanka.doansweronmouseover = function(event) {
     shanka.doanswermove(event.target, false);
 }
 
-shanka.doansweronmouseup = function(event) {
+shanka.doansweronmouseup = function(/* event */) {
     shanka.doanswerend();
 }
 
@@ -848,6 +848,8 @@ shanka.doanswerstart = function(target, touch) {
 }
 
 shanka.doanswermove = function(target, touch) {
+	touch;
+	
     if (   target
         && shanka.answertouchstarted
         && shanka.answermovelastover != target
@@ -929,8 +931,8 @@ shanka.doanswerend = function() {
 }
 
 shanka.allanswerschosen = function() {
-    var cardid = parseInt(shanka.state["cardid"]);
-    var card = shanka.cards[cardid];
+    // var cardid = parseInt(shanka.state["cardid"]);
+    // var card = shanka.cards[cardid];
     var questionid = parseInt(shanka.state["questionid"]);
     var question = shanka.questions[questionid];
 
