@@ -1,0 +1,179 @@
+html * {
+	font-family: "Times New Roman", Times, serif, KaiTi, STKaiti, DFKai-SB, BiauKai, STHeitiSC-Light, STHeitiTC-Light;
+	font-size: 100%;
+	line-height: 130%;
+}
+
+body {
+	font-size: 130%;
+}
+
+.outerbox {}
+
+.box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.paddedbox {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 0em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 0em;
+}
+
+.bordered {
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+}
+
+.title {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.indent {
+	clear: both;
+	padding-left: 1.8em;
+	text-indent: -1.3em;
+}
+
+table tr td {
+	padding-right: 1em;
+}
+
+.compact {
+	margin-bottom: 0.4em;
+	margin-top: 0.2em;
+}
+
+.definition {
+	color: #000;
+	text-decoration: none;
+}
+
+.hsk-1 {
+	color: #888888;
+	text-decoration: none;
+}
+
+.hsk0 {
+	color: #000000;
+	text-decoration: none;
+}
+
+.hsk1 {
+	color: #E12E2E;
+	text-decoration: none;
+}
+
+
+/* was f85656 */
+
+.hsk2 {
+	color: #EB8B2B;
+	text-decoration: none;
+}
+
+
+/* was ffa448 */
+
+.hsk3 {
+	color: #CFBE00;
+	text-decoration: none;
+}
+
+
+/* was bbbb00 */
+
+.hsk4 {
+	color: #1ca10d;
+	text-decoration: none;
+}
+
+.hsk5 {
+	color: #1D8FCC;
+	text-decoration: none;
+}
+
+
+/* was 41a7de */
+
+.hsk6 {
+	color: #db44df;
+	text-decoration: none;
+}
+
+.hsk0light {
+	background-color: #BBBBBB;
+}
+
+.hsk1light {
+	background-color: #DD8B8B;
+}
+
+.hsk2light {
+	background-color: #EDB984;
+}
+
+.hsk3light {
+	background-color: #D0C97B;
+}
+
+.hsk4light {
+	background-color: #86AE81;
+}
+
+.hsk5light {
+	background-color: #88B8D2;
+}
+
+.hsk6light {
+	background-color: #D69FD8;
+}
+
+.arrowlink {
+	text-decoration: none;
+}
+
+.bighanzi {
+	font-size: 10em;
+	border-width: 1px;
+	border-style: solid;
+}
+
+ul.tree {
+	list-style-type: none;
+	background: url(vline.png) repeat-y;
+	margin: 0;
+	margin-left: 6px;
+	padding: 0;
+}
+
+ul.tree li {
+	margin: 0;
+	padding: 0 12px;
+	line-height: 20px;
+	background: url(node.png) no-repeat;
+}
+
+ul.tree li:last-child {
+	background: #fff url(lastnode.png) no-repeat;
+}
+
+.inlinehelp {
+	display: none;
+	background-color: #FFFFCC;
+	padding: 10px;
+	text-indent: 0em;
+	max-width: 300px;
+	font-size: 90%;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: 60%;
+}
