@@ -57,15 +57,15 @@ def handle_root():
 </ul>
 <h4 lang="en">'New HSK' Lists</h4>
 <ul>
-    <li><a href="/hskwords">HSK Words for 2012-2018</a></li>
-    <li><a href="/hskchars">HSK Characters for 2012-2018</a></li>
+    <li><a href="/hskwords">HSK Words for 2012-2020</a></li>
+    <li><a href="/hskchars">HSK Characters for 2012-2020</a></li>
     <li><a href="/hskwords2010">HSK Words for 2010 (outdated)</a></li>
     <li><a href="/hskchars2010">HSK Characters for 2010 (outdated)</a></li>
 </ul>
 <h4 lang="en">HSK List Comparisons</h4>
 <ul>
-    <li><a href="/hskwords20102018">Where the HSK 2010 words are in 2018</a></li>
-    <li><a href="/hskchars20102018">Where the HSK 2010 characters are in 2018</a></li>
+    <li><a href="/hskwords20102020">Where the HSK 2010 words are in 2020</a></li>
+    <li><a href="/hskchars20102020">Where the HSK 2010 characters are in 2020</a></li>
 </ul>
 <a href="/mandcomp">Mandarin Companion Vocabulary Analysis</a>""")
     results.append("""<p lang="en"><small><i>Page generated in {:1.6f} seconds</i></small></p>""".format(time.time() - start_time))
@@ -940,92 +940,50 @@ def page_not_cached(page):
     return (page + getform("expand") + getform("hsk")) not in page_cache
 
 @app.route('/hskwords', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2012', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2013', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2014', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2015', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2016', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2017', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2018', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2019', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2020', methods=['GET', 'PUT', 'POST'])
 def handle_hskwords():
-    pagetitle = "HSK Words for 2012-2018"
+    pagetitle = "HSK Words for 2012-2020"
     extralink = ""
     return hskvocablist('/hskwords', pagetitle, extralink, "words", "/hskchars", "characters", hskwords, freqorder_word_link_table)
 
 @app.route('/hskwords2010', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2011', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2012', methods=['GET', 'PUT', 'POST'])
 def handle_hskwords2010():
     pagetitle = "HSK Words for 2010 (outdated)"
-    extralink = """ <a href="/hskwords">HSK Words for 2012-2018</a>"""
+    extralink = """ <a href="/hskwords">HSK Words for 2012-2020</a>"""
     return hskvocablist('/hskwords2010', pagetitle, extralink, "words", "/hskchars2010", "characters", hskwords2010, freqorder_word_link_table)
 
-@app.route('/hskwords2011', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2011():
-    return handle_hskwords2010()
-
-@app.route('/hskwords2012', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2012():
-    return handle_hskwords()
-
-@app.route('/hskwords2013', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2013():
-    return handle_hskwords()
-
-@app.route('/hskwords2014', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2014():
-    return handle_hskwords()
-
-@app.route('/hskwords2015', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2015():
-    return handle_hskwords()
-
-@app.route('/hskwords2016', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2016():
-    return handle_hskwords()
-
-@app.route('/hskwords2017', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2017():
-    return handle_hskwords()
-
-@app.route('/hskwords2018', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords2018():
-    return handle_hskwords()
-
 @app.route('/hskchars', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2012', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2013', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2014', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2015', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2016', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2017', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2018', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2019', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2020', methods=['GET', 'PUT', 'POST'])
 def handle_hskchars():
-    pagetitle = "HSK Characters for 2012-2018"
+    pagetitle = "HSK Characters for 2012-2020"
     extralink = ""
     return hskvocablist('/hskchars', pagetitle, extralink, "characters", "/hskwords", "words", hskchars, freqorder_char_link_table)
 
 @app.route('/hskchars2010', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2011', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2012', methods=['GET', 'PUT', 'POST'])
 def handle_hskchars2010():
     pagetitle = "HSK Characters for 2010 (outdated)"
-    extralink = """ <a href="/hskchars">HSK Characters 2012-2018</a>"""
+    extralink = """ <a href="/hskchars">HSK Characters 2012-2020</a>"""
     return hskvocablist('/hskchars2010', pagetitle, extralink, "characters", "/hskwords2010", "words", hskchars2010, freqorder_char_link_table)
-
-@app.route('/hskchars2011', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2011():
-    return handle_hskchars2010()
-
-@app.route('/hskchars2012', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2012():
-    return handle_hskchars()
-
-@app.route('/hskchars2013', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2013():
-    return handle_hskchars()
-
-@app.route('/hskchars2014', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2014():
-    return handle_hskchars()
-
-@app.route('/hskchars2015', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2015():
-    return handle_hskchars()
-
-@app.route('/hskchars2016', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2016():
-    return handle_hskchars()
-
-@app.route('/hskchars2017', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2017():
-    return handle_hskchars()
-
-@app.route('/hskchars2018', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars2018():
-    return handle_hskchars()
 
 def hskvocablist(thislink, pagetitle, extralink, thisitem, otherlink, otheritem, vocab, linkfunction):
     start_time = time.time()
@@ -1108,60 +1066,28 @@ def handle_chars1000():
     return query_page_cache("/chars1000") + ", retrieved in {:1.6f} seconds.</i></small></p>\n".format(time.time() - start_time) + page_footer + "</body>\n</html>"
 
 @app.route('/hskwords20102012', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords20102012():
-    return handle_hskwords20102016()
-
 @app.route('/hskwords20102013', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords20102013():
-    return handle_hskwords20102016()
-
 @app.route('/hskwords20102014', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords20102014():
-    return handle_hskwords20102016()
-
 @app.route('/hskwords20102015', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords20102015():
-    return handle_hskwords20102016()
-
 @app.route('/hskwords20102016', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords20102016():
-    return hskvocabdiff("/hskwords2010", "/hskwords2018", "/hskwords20102018", "words", "/hskchars20102018", "characters", hskwords2010, hskwords, freqorder_word_link)
-
 @app.route('/hskwords20102017', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords20102017():
-    return handle_hskwords20102016()
-
 @app.route('/hskwords20102018', methods=['GET', 'PUT', 'POST'])
-def handle_hskwords20102018():
-    return handle_hskwords20102016()
+@app.route('/hskwords20102019', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords20102020', methods=['GET', 'PUT', 'POST'])
+def handle_hskwords20102012():
+    return hskvocabdiff("/hskwords2010", "/hskwords2020", "/hskwords20102020", "words", "/hskchars20102020", "characters", hskwords2010, hskwords, freqorder_word_link)
 
 @app.route('/hskchars20102012', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars20102012():
-    return handle_hskchars20102016()
-
 @app.route('/hskchars20102013', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars20102013():
-    return handle_hskchars20102016()
-
 @app.route('/hskchars20102014', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars20102014():
-    return handle_hskchars20102016()
-
 @app.route('/hskchars20102015', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars20102015():
-    return handle_hskchars20102016()
-
 @app.route('/hskchars20102016', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars20102016():
-    return hskvocabdiff("/hskchars2010", "/hskchars2018", "/hskchars20102018", "characters", "/hskwords20102018", "words", hskchars2010, hskchars, freqorder_char_link)
-
 @app.route('/hskchars20102017', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars20102017():
-    return handle_hskchars20102016()
-
 @app.route('/hskchars20102018', methods=['GET', 'PUT', 'POST'])
-def handle_hskchars20102018():
-    return handle_hskchars20102016()
+@app.route('/hskchars20102019', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars20102020', methods=['GET', 'PUT', 'POST'])
+def handle_hskchars20102012():
+    return hskvocabdiff("/hskchars2010", "/hskchars2020", "/hskchars20102020", "characters", "/hskwords20102020", "words", hskchars2010, hskchars, freqorder_char_link)
 
 def hskvocabdiff(oldlink, newlink, thislink, thisitem, otherlink, otheritem, oldvocab, newvocab, linkfunction):
     start_time = time.time()
@@ -1169,18 +1095,18 @@ def hskvocabdiff(oldlink, newlink, thislink, thisitem, otherlink, otheritem, old
         init_resources()
         results = []
         results.append("""<html lang="zh-Hans">\n<head>""")
-        results.append("<title>HSK\u4E1C\u897F - Where the HSK 2010 {} are in 2012-2018</title>".format(thisitem[0].upper() + thisitem[1:]))
+        results.append("<title>HSK\u4E1C\u897F - Where the HSK 2010 {} are in 2012-2020</title>".format(thisitem[0].upper() + thisitem[1:]))
         results.append(allstyle)
         results.append("</head>\n<body>")
         results.append("""<a href="http://hskhsk.com/word-lists">HSK\u4E1C\u897F</a>""")
         results.append("""<a href="/">Scripts</a>""")
-        results.append("""<a href="{}">Where the HSK 2010 {} are in 2012-2018</a>""".format(otherlink, otheritem[0].upper() + otheritem[1:]))
-        results.append("<h3>HSK 2010 {} that changed level in 2012-2018</h3>".format(thisitem[0].upper() + thisitem[1:]))
+        results.append("""<a href="{}">Where the HSK 2010 {} are in 2012-2020</a>""".format(otherlink, otheritem[0].upper() + otheritem[1:]))
+        results.append("<h3>HSK 2010 {} that changed level in 2012-2020</h3>".format(thisitem[0].upper() + thisitem[1:]))
         results.append("""<p>This table shows the {0} in the New HSK 2010 that changed level when the word lists were revised
-in 2012 (also valid to date as of 2018), {0} that didn't change level are shown below.
+in 2012 (also valid to date as of 2020), {0} that didn't change level are shown below.
 For definitions hover over the characters, or try clicking on almost anything.</p>
 <table border="1" style="border-collapse:collapse;" cellpadding="2em" cellspacing="0">
-<tr><th rowspan=2 colspan=2 style="background-color: #FFFFFF;"></th><th colspan=7><a href="{1}" class="hsk0">HSK 2012-2018</a></th></tr>
+<tr><th rowspan=2 colspan=2 style="background-color: #FFFFFF;"></th><th colspan=7><a href="{1}" class="hsk0">HSK 2012-2020</a></th></tr>
 <tr>""".format(thisitem, newlink))
         for i in range(1, 7):
             results.append("""<th><div style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;<a href="{}#hsk{}" class="hsk{}">HSK {}</a>&nbsp;&nbsp;&nbsp;&nbsp;</div></th>""".format(newlink, i, i, i))
@@ -1213,7 +1139,7 @@ For definitions hover over the characters, or try clicking on almost anything.</
             results.append("</tr>")
         results.append("</table>")
 
-        results.append("<h3>HSK 2010 {} that didn't change level in 2012-2018</h3>".format(thisitem[0].upper() + thisitem[1:]))
+        results.append("<h3>HSK 2010 {} that didn't change level in 2012-2020</h3>".format(thisitem[0].upper() + thisitem[1:]))
         for level in range(1, 7):
             results.append("""<h4><a class="hsk{0}" name="hsk{0}">HSK {0} {1} that didn't change level</a></h4>""".format(level, thisitem[0].upper() + thisitem[1:]))
             somehanzi = newvocab[level] & oldvocab[level]
