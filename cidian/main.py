@@ -3,11 +3,9 @@
 # Alan Davies alan@hskhsk.com
 
 from flask import Flask, request, make_response, Response
-import codecs, unicodedata, urllib.request, urllib.parse, urllib.error, html, re, time, pickle
+import codecs, unicodedata, urllib.request, urllib.parse, urllib.error, html, re, time
 
-# config (small c) - where the data files are, and a place to cache the maps and sets for faster startup
-data_dir = "/home/hskhsk/data/"
-cache_dir = "/home/hskhsk/cache/"
+data_dir = "data/"
 
 app = Flask(__name__)
 app.secret_key = 'no need for a secret key right now fjblltrltdgghvlufudvlldk'
@@ -28,13 +26,13 @@ def getform(key, default=""):
         value = request.form[key]
     return value
 
-@app.route('/', methods=['GET', 'PUT', 'POST'])
-@app.route('/hsk', methods=['GET', 'PUT', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
+@app.route('/hsk', methods=['GET', 'POST'])
 def handle_root():
     start_time = time.time()
-    return Response(generate_root(start_time), mimetype='text/html')
+    return Response(gen_root(start_time), mimetype='text/html')
 
-def generate_root(start_time):
+def gen_root(start_time):
     yield "<html lang=\"zh-Hans\">\n<head>\n<title>HSK\u4E1C\u897F Scripts</title>\n"
     yield allstyle
     yield """
@@ -77,16 +75,16 @@ def generate_root(start_time):
     yield page_footer
     yield "\n</body>\n</html>\n"
 
-@app.route('/pinyinfix', methods=['GET', 'PUT', 'POST'])
+@app.route('/pinyinfix', methods=['GET', 'POST'])
 def handle_pinyinfix():
     start_time = time.time()
     pinyin = getform("pinyin", "")
     if len(pinyin)>100000:
         return """Sorry, that text is too big; It will consume too much server CPU time to process.
             If you want to set up this script on a dedicated server get in touch with alan@hskhsk.com"""
-    return Response(generate_pinyinfix(start_time, pinyin), mimetype='text/html')
+    return Response(gen_pinyinfix(start_time, pinyin), mimetype='text/html')
 
-def generate_pinyinfix(start_time, pinyin):
+def gen_pinyinfix(start_time, pinyin):
     yield """<html lang="zh-Hans">\n<head>"""
     yield "<title>HSK\u4E1C\u897F - Pinyin Fixt</title>"
     yield allstyle
@@ -100,6 +98,7 @@ def generate_pinyinfix(start_time, pinyin):
     <p>The only errors currently fixed are to correct the caron accents with breve on vowels that take the third tone. For example \u0103 -> \u01CE.</p>
     <p>Other pages on this site may still erroneously use the caron and can be fixed by using this script.</p>
     <p>Enter your erroneous pinyin in the first textbox, and corrected pinyin will be output in the second textbox.</p>
+    <p>Thank you Ádám Szegi for pointing out the erroneous caron accents that previously existed on this site!</p>
 </div>
 
 <form method="POST" action="/pinyinfix">
@@ -109,7 +108,7 @@ def generate_pinyinfix(start_time, pinyin):
 <p><input type="submit" value="    Go!    " /></p>
 <p><textarea name="pinyinfix" cols="80" rows="8">"""
     countfixed = [0]
-    yield from fixpinyin(pinyin, countfixed)
+    yield from gen_fixpinyin(pinyin, countfixed)
     yield """</textarea></p>\n</form>"""
     if len(pinyin) > 0:
         if countfixed[0] == 0:
@@ -122,20 +121,21 @@ def generate_pinyinfix(start_time, pinyin):
     yield page_footer
     yield "\n</body>\n</html>"
 
-@app.route('/homophones', methods=['GET', 'PUT', 'POST'])
+@app.route('/homophones', methods=['GET', 'POST'])
 def handle_homophones():
     start_time = time.time()
     expand = getform("expand", "no")
     numchars = getform("chars", "2")
     tones = getform("tones", "no")
     hskwordsonly = getform("hsk", "no")
+    withinfo = getform("expand") == "yes"
     numcharsint = int(numchars)
     init_resources()
-    return Response(generate_homophones(start_time, expand, tones, hskwordsonly, numcharsint), mimetype='text/html')
+    return Response(gen_homophones(start_time, expand, tones, hskwordsonly, numcharsint, withinfo), mimetype='text/html')
 
-def generate_homophones(start_time, expand, tones, hskwordsonly, numcharsint)
+def gen_homophones(start_time, expand, tones, hskwordsonly, numcharsint, withinfo):
     yield """<html lang="zh-Hans">\n<head>
-<title>HSK\u4E1C\u897F\u8BCD\u5178 Homophones</title>""""
+<title>HSK\u4E1C\u897F\u8BCD\u5178 Homophones</title>"""
     yield allstyle
     yield """</head>\n<body>
 <form method="get" action="/cidian">
@@ -149,7 +149,7 @@ def generate_homophones(start_time, expand, tones, hskwordsonly, numcharsint)
 </form>
 <div> Other word lengths: """
     for c in [1, 2, 3]:
-        if c > 1
+        if c > 1:
             yield ", "
         if c == numcharsint:
             yield str(c)
@@ -200,7 +200,7 @@ def generate_homophones(start_time, expand, tones, hskwordsonly, numcharsint)
                                "&def=compact" if expand == "yes" else "",
                                "&hsk1=t&hsk2=t&hsk3=t&hsk4=t&hsk5=t&hsk6=t" if hskwordsonly == "yes" else "")
                 separator = "<br />" if expand == "yes" else chinese_comma_sep
-                yield separator.join(freqorder_word_link_hskcolour(nonvariants))
+                yield from gen_freqorder_word_link_hskcolour(nonvariants, separator, withinfo, expand)
                 yield "</div>"
     else:
         homophones = [] # ["pinyin", ... ]
@@ -228,7 +228,7 @@ def generate_homophones(start_time, expand, tones, hskwordsonly, numcharsint)
                                "&def=compact" if expand == "yes" else "",
                                "&hsk1=t&hsk2=t&hsk3=t&hsk4=t&hsk5=t&hsk6=t" if hskwordsonly == "yes" else "")
                 separator = "<br />" if expand == "yes" else chinese_comma_sep
-                yield separator.join(freqorder_word_link_hskcolour(nonvariants))
+                yield from gen_freqorder_word_link_hskcolour(nonvariants, separator, withinfo, expand)
                 yield "</div>"
     if not found:
         yield "<i>There are no words...</i>"
@@ -236,9 +236,10 @@ def generate_homophones(start_time, expand, tones, hskwordsonly, numcharsint)
     yield page_footer
     yield "</body>\n</html>"
 
-@app.route('/radicals', methods=['GET', 'PUT', 'POST'])
+@app.route('/radicals', methods=['GET', 'POST'])
 def handle_radicals():
     start_time = time.time()
+    expand = getform("expand")
     init_resources()
     hsklevel = int(getform("hsk", 0)) # can be e.g. 12 and 14 etc.
     results = []
@@ -288,24 +289,25 @@ Show HSK Characters by Radical:
             hskradchars = radicalchars & hskchars[hsklevel]
             if len(hskradchars):
                 results.append("""<div class="paddedbox">""")
-                results.append("""<b>{}</b></br>""".format(hanzideflink(radical, radical, "none")))
+                results.append("""<b>{}</b></br>""".format(hanzideflink(radical, radical, "none", expand)))
                 separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
-                results.append(separator.join(freqorder_char_link_hskcolour(hskradchars)))
+                results.append(separator.join(freqorder_char_link_hskcolour(hskradchars, expand)))
                 results.append("</div>")
         # results.append("</tr></table>")
     else:
         results.append("""<h4>Radicals</h4>""")
         separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
-        results.append(separator.join(freqorder_radical_link(list(cc_radicals.keys()))))
+        results.append(separator.join(freqorder_radical_link(list(cc_radicals.keys()), expand)))
 
     results.append("""<p><small><i>Page generated in {:1.6f}""".format(time.time() - start_time))
     return "\n".join(results) + " seconds.</i></small></p>\n" + page_footer + "</body>\n</html>"
 
-@app.route('/mandcomp', methods=['GET', 'PUT', 'POST'])
+@app.route('/mandcomp', methods=['GET', 'POST'])
 def handle_mandcomp():
     start_time = time.time()
     init_resources()
     results = []
+    expand = getform("expand")
     results.append("""<html lang="zh-Hans">\n<head>""")
     results.append("<title>Mandarin Companion Vocabulary Analysis</title>")
     results.append(allstyle)
@@ -313,12 +315,12 @@ def handle_mandcomp():
     results.append("""<form method="get" action="/cidian">""")
     results.append("""<a href="https://hskhsk.com/word-lists">HSK\u4E1C\u897F</a>""")
     results.append("""<a href="/">Scripts</a>""")
-    if getform("expand") == "yes":
+    if expand == "yes":
         results.append("""<input type="hidden" name="expand" value="yes" />""")
     results.append("""<input type="text" name="q" value=""/><input type="submit" value="Go" />""")
     results.append("""<a href="/search">Advanced Search</a>""")
     results.append("""<a href="/radicals">Radicals</a> """)
-    if getform("expand") == "yes":
+    if expand == "yes":
         results.append("""[<a href="/mandcomp">collapse definitions</a>]""")
     else:
         results.append("""[<a href="/mandcomp?expand=yes">expand definitions</a>]""")
@@ -329,50 +331,51 @@ def handle_mandcomp():
     results.append("""See <a href="http://mandarincompanion.com/">mandarincompanion.com</a> for more information about these graded Chinese readers.""")
 
     results.append("<hr />")
-    mandcomp_appendset(results, 1, """Vocab for "The Secret Garden" """)
-    mandcomp_appendset(results, 2, """Vocab for "Sherlock Holmes and the Red-Headed League" """)
-    mandcomp_appendset(results, 3, """Vocab for "The Monkey's Paw" """)
-    mandcomp_appendset(results, 4, """Vocab for "The Country of the Blind" """)
-    mandcomp_appendset(results, 5, """Vocab for "The Sixty-Year Dream" """)
+    mandcomp_appendset(results, 1, """Vocab for "The Secret Garden" """, expand)
+    mandcomp_appendset(results, 2, """Vocab for "Sherlock Holmes and the Red-Headed League" """, expand)
+    mandcomp_appendset(results, 3, """Vocab for "The Monkey's Paw" """, expand)
+    mandcomp_appendset(results, 4, """Vocab for "The Country of the Blind" """, expand)
+    mandcomp_appendset(results, 5, """Vocab for "The Sixty-Year Dream" """, expand)
     results.append("<hr />")
-    mandcomp_appendset(results, 105, """Vocab Used in Every Book""")
-    mandcomp_appendset(results, 301, """Additional Vocab for "The Secret Garden" """)
-    mandcomp_appendset(results, 302, """Additional Vocab for "Sherlock Holmes and the Red-Headed League" """)
-    mandcomp_appendset(results, 303, """Additional Vocab for "The Monkey's Paw" """)
-    mandcomp_appendset(results, 304, """Additional Vocab for "The Country of the Blind" """)
-    mandcomp_appendset(results, 305, """Additional Vocab for "The Sixty-Year Dream" """)
+    mandcomp_appendset(results, 105, """Vocab Used in Every Book""", expand)
+    mandcomp_appendset(results, 301, """Additional Vocab for "The Secret Garden" """, expand)
+    mandcomp_appendset(results, 302, """Additional Vocab for "Sherlock Holmes and the Red-Headed League" """, expand)
+    mandcomp_appendset(results, 303, """Additional Vocab for "The Monkey's Paw" """, expand)
+    mandcomp_appendset(results, 304, """Additional Vocab for "The Country of the Blind" """, expand)
+    mandcomp_appendset(results, 305, """Additional Vocab for "The Sixty-Year Dream" """, expand)
     results.append("<hr />")
-    mandcomp_appendset(results, 201, """Vocab Used Only in "The Secret Garden" """)
-    mandcomp_appendset(results, 202, """Vocab Used Only in "Sherlock Holmes and the Red-Headed League" """)
-    mandcomp_appendset(results, 203, """Vocab Used Only in "The Monkey's Paw" """)
-    mandcomp_appendset(results, 204, """Vocab Used Only in "The Country of the Blind" """)
-    mandcomp_appendset(results, 205, """Vocab Used Only in "The Sixty-Year Dream" """)
+    mandcomp_appendset(results, 201, """Vocab Used Only in "The Secret Garden" """, expand)
+    mandcomp_appendset(results, 202, """Vocab Used Only in "Sherlock Holmes and the Red-Headed League" """, expand)
+    mandcomp_appendset(results, 203, """Vocab Used Only in "The Monkey's Paw" """, expand)
+    mandcomp_appendset(results, 204, """Vocab Used Only in "The Country of the Blind" """, expand)
+    mandcomp_appendset(results, 205, """Vocab Used Only in "The Sixty-Year Dream" """, expand)
     results.append("<hr />")
-    mandcomp_appendset(results, 101, """Vocab Used in Exactly One Book""")
-    mandcomp_appendset(results, 102, """Vocab Used in Exactly Two Books""")
-    mandcomp_appendset(results, 103, """Vocab Used in Exactly Three Books""")
-    mandcomp_appendset(results, 104, """Vocab Used in Exactly Four Books""")
+    mandcomp_appendset(results, 101, """Vocab Used in Exactly One Book""", expand)
+    mandcomp_appendset(results, 102, """Vocab Used in Exactly Two Books""", expand)
+    mandcomp_appendset(results, 103, """Vocab Used in Exactly Three Books""", expand)
+    mandcomp_appendset(results, 104, """Vocab Used in Exactly Four Books""", expand)
     results.append("<hr />")
-    mandcomp_appendset(results, 100, "Whole Series Vocab")
+    mandcomp_appendset(results, 100, "Whole Series Vocab", expand)
 
     results.append("""<p><small><i>Page generated in {:1.6f}""".format(time.time() - start_time))
     return "\n".join(results) + " seconds.</i></small></p>\n" + page_footer + "</body>\n</html>"
 
-def mandcomp_appendset(results, wordlist, title):
+def mandcomp_appendset(results, wordlist, title, expand):
     results.append("""<h4>{} ({} Words) <a class="arrowlink" title="Download Pleco Flashcards" href="/flash?card=pleco&mandcomp={}">&dArr;</a></h4>""".format(title, len(mc_words[wordlist]), wordlist))
-    separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
-    results.append(separator.join(freqorder_word_link_hskcolour(mc_words[wordlist])))
+    separator = "<br />" if expand == "yes" else chinese_comma_sep
+    results.append(separator.join(freqorder_word_link_hskcolour(mc_words[wordlist], expand)))
 
-@app.route('/dict', methods=['GET', 'PUT', 'POST'])
+@app.route('/dict', methods=['GET', 'POST'])
 def handle_dict():
     return handle_cidian()
 
-@app.route('/cidian', methods=['GET', 'PUT', 'POST'])
+@app.route('/cidian', methods=['GET', 'POST'])
 def handle_cidian():
     start_time = time.time()
     init_resources()
     results = []
     query = getform("q")
+    expand = getform("expand")
     titlebit = ""
     if query != "":
         titlebit = ": " + query
@@ -383,13 +386,13 @@ def handle_cidian():
     results.append("""<form method="get" action="/cidian">""")
     results.append("""<a href="https://hskhsk.com/word-lists">HSK\u4E1C\u897F</a> """)
     results.append("""<a href="/">Scripts</a> """)
-    if getform("expand") == "yes":
+    if expand == "yes":
         results.append("""<input type="hidden" name="expand" value="yes" />""")
     results.append("""<input type="text" name="q" value="{}"/><input type="submit" value="Go" />""".format(query))
     results.append("""<a href="/search">Advanced Search</a> """)
     results.append("""<a href="/radicals">Radicals</a> """)
     expandcollapseentry = len(results) # a bit ugly, keep this for later in case we need to update it
-    if getform("expand") == "yes":
+    if expand == "yes":
         results.append("""[<a href="/cidian?expand=no&q={}">collapse definitions</a>]""".format(html.escape(query)))
     else:
         results.append("""[<a href="/cidian?expand=yes&q={}">expand definitions</a>]""".format(html.escape(query)))
@@ -404,11 +407,11 @@ def handle_cidian():
     if not foundresult and query in cedict_definition:
         foundresult = True
         results.append("""<table><tr><td valign="top" align="left">""")
-        results.append("""<span class="bighanzi">{}</span>""".format("".join([hanzideflink(q, q, "none") for q in query])))
+        results.append("""<span class="bighanzi">{}</span>""".format("".join([hanzideflink(q, q, "none", expand) for q in query])))
         results.append("""</td><td valign="top" align="left" width="90%">""")
 
         results.append("<b>")
-        results.append(get_full_hanzi_info(query, 30))
+        results.append(get_full_hanzi_info(query, 30, expand))
         results.append("</b>")
 
         tradlist = []
@@ -447,8 +450,8 @@ def handle_cidian():
         results.append("""<div class="outerbox">""")
         for q in querynodupes:
             results.append("""<div class="paddedbox">""")
-            results.append("""<span style="font-weight: bold;"">{} <a class="arrowlink" href="/search?component={}&min=1&max=1{}">\u21D2</a></span>""".format(hanzideflink(q, q, "char"), html.escape(q), "&def=compact" if getform("expand") == "yes" else ""))
-            results = results + get_char_composition(q)
+            results.append("""<span style="font-weight: bold;"">{} <a class="arrowlink" href="/search?component={}&min=1&max=1{}">\u21D2</a></span>""".format(hanzideflink(q, q, "char", expand), html.escape(q), "&def=compact" if expand == "yes" else ""))
+            results = results + get_char_composition(q, expand)
             results.append("""</div>""")
         results.append("""</div>""")
 
@@ -456,8 +459,8 @@ def handle_cidian():
         results.append("""<div class="outerbox">""")
         for q in querynodupes:
             results.append("""<div class="paddedbox">""")
-            results.append("""<span style="font-weight: bold;"">{} <a class="arrowlink" href="/search?compound={}&min=1&max=1{}">\u21D2</a></span>""".format(hanzideflink(q, q, "char"), html.escape(q), "&def=compact" if getform("expand") == "yes" else ""))
-            results = results + get_char_composes(q)
+            results.append("""<span style="font-weight: bold;"">{} <a class="arrowlink" href="/search?compound={}&min=1&max=1{}">\u21D2</a></span>""".format(hanzideflink(q, q, "char", expand), html.escape(q), "&def=compact" if expand == "yes" else ""))
+            results = results + get_char_composes(q, expand)
             results.append("""</div>""")
         results.append("""</div>""")
 
@@ -465,10 +468,10 @@ def handle_cidian():
         results.append("""<div class="outerbox">""")
         for q in querynodupes:
             results.append("""<div class="paddedbox">""")
-            results.append("""<span style="font-weight: bold;"">{} <a class="arrowlink" href="/search?hanzi=*{}*{}">\u21D2</a></span><br />""".format(hanzideflink(q, q, "char"), html.escape(q), "&def=compact" if getform("expand") == "yes" else ""))
-            separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
+            results.append("""<span style="font-weight: bold;"">{} <a class="arrowlink" href="/search?hanzi=*{}*{}">\u21D2</a></span><br />""".format(hanzideflink(q, q, "char", expand), html.escape(q), "&def=compact" if expand == "yes" else ""))
+            separator = "<br />" if expand == "yes" else chinese_comma_sep
             if q in char_componentof:
-                results.append(separator.join(freqorder_word_link_hskcolour(char_componentof[q])))
+                results.append(separator.join(freqorder_word_link_hskcolour(char_componentof[q], expand)))
             results.append("""</div>""")
         results.append("""</div>""")
 
@@ -488,34 +491,34 @@ def handle_cidian():
             foundresult = True
             results.append("""<h4>Pinyin Results for "{}"</h4>""".format(query))
             for c in freqorder_word(pywords):
-                results.append("""{} {}<br />""".format(hanzideflink(c, c, "auto"), ("&nbsp;" * 8) + get_compact_hanzi_info(c, 80)))
+                results.append("""{} {}<br />""".format(hanzideflink(c, c, "auto", expand), ("&nbsp;" * 8) + get_compact_hanzi_info(c, 80)))
 
         enwords = get_words_from_english(query)
         if len(enwords):
             foundresult = True
             results.append("""<h4>Definition Results for "{}"</h4>""".format(query))
             for c in freqorder_word(enwords):
-                results.append("""{} {}<br />""".format(hanzideflink(c, c, "auto"), ("&nbsp;" * 8) + get_compact_hanzi_info(c, 80)))
+                results.append("""{} {}<br />""".format(hanzideflink(c, c, "auto", expand), ("&nbsp;" * 8) + get_compact_hanzi_info(c, 80)))
 
-    if (not foundresult) and (len(query) < 50 or getform("expand") == "yes") and (getform("expand") != "no"):
+    if (not foundresult) and (len(query) < 50 or expand == "yes") and (expand != "no"):
         # a bit ugly, but night have to update the earlier link to say 'collapse'
         results[expandcollapseentry] = """[<a href="/cidian?expand=no&q={}">collapse definitions</a>]""".format(html.escape(query))
         foundresult = True
         validwords = allvalidwords(query)
         results.append("""<h4>All Possible Words</h4>""".format(query))
         for word in validwords:
-            results.append("""{} {}<br />""".format(hanzideflink(word, word, "auto"), ("&nbsp;" * 8) + get_compact_hanzi_info(word, 80)))
+            results.append("""{} {}<br />""".format(hanzideflink(word, word, "auto", expand), ("&nbsp;" * 8) + get_compact_hanzi_info(word, 80)))
 
     if not foundresult:
         foundresult = True
-        annotatewords(results, query)
+        annotatewords(results, query, expand)
 
     results.append("""<p><small><i>Page generated in {:1.6f} seconds</i></small></p>""".format(time.time() - start_time))
     results.append(page_footer)
     results.append("\n</body>\n</html>")
     return "\n".join(results)
 
-@app.route('/search', methods=['GET', 'PUT', 'POST'])
+@app.route('/search', methods=['GET', 'POST'])
 def handle_search():
     start_time = time.time()
     init_resources()
@@ -528,7 +531,7 @@ def handle_search():
     hsk6 = "checked" if getform("hsk6") else ""
     mandcomp = int(getform("mandcomp")) if getform("mandcomp") else 0
 
-
+    expand = getform("expand")
     pinyin = getform("pinyin")
     hanzi = getform("hanzi")
     component = getform("component")
@@ -733,13 +736,14 @@ to sort the results.
                                       hsk4,
                                       hsk5,
                                       hsk6,
-                                      mandcomp)
+                                      mandcomp,
+                                      expand)
 
     if len(resultset):
         results.append("<h4>Results</h4>")
         params = request.query_string
         results.append("<p><small>Download flashcards: <a href='/flash?card=pleco&{0}'>Pleco</a> <a href='/flash?card=sticky&{0}'>StickyStudy</a></small></p>".format(params))
-        results.append(word_link_hskcolour_search(resultset, definition))
+        results.append(word_link_hskcolour_search(resultset, definition, expand))
 
     results.append("""<p><small><i>Page generated in {:1.6f} seconds</i></small></p>""".format(time.time() - start_time))
     results.append(page_footer)
@@ -758,6 +762,7 @@ def handle_flash():
     hsk5 = "checked" if getform("hsk5") else ""
     hsk6 = "checked" if getform("hsk6") else ""
     mandcomp = int(getform("mandcomp")) if getform("mandcomp") else ""
+    expand = getform("expand")
     pinyin = getform("pinyin")
     hanzi = getform("hanzi")
     component = getform("component")
@@ -781,7 +786,8 @@ def handle_flash():
                                       hsk4,
                                       hsk5,
                                       hsk6,
-                                      mandcomp)
+                                      mandcomp,
+                                      expand)
 
     if len(resultset):
         results = flashcard_list(resultset, fileformat)
@@ -836,7 +842,8 @@ def processadvancedsearch(searchformat,
                           hsk4,
                           hsk5,
                           hsk6,
-                          mandcomp):
+                          mandcomp,
+                          expand):
     began_search = False;
 
     resultset = set()
@@ -927,47 +934,47 @@ def processadvancedsearch(searchformat,
 
     return resultlist
 
-@app.route('/hskwords', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2012', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2013', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2014', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2015', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2016', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2017', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2018', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2019', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2020', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords', methods=['GET', 'POST'])
+@app.route('/hskwords2012', methods=['GET', 'POST'])
+@app.route('/hskwords2013', methods=['GET', 'POST'])
+@app.route('/hskwords2014', methods=['GET', 'POST'])
+@app.route('/hskwords2015', methods=['GET', 'POST'])
+@app.route('/hskwords2016', methods=['GET', 'POST'])
+@app.route('/hskwords2017', methods=['GET', 'POST'])
+@app.route('/hskwords2018', methods=['GET', 'POST'])
+@app.route('/hskwords2019', methods=['GET', 'POST'])
+@app.route('/hskwords2020', methods=['GET', 'POST'])
 def handle_hskwords():
     pagetitle = "HSK Words for 2012-2020"
     extralink = ""
     return hskvocablist('/hskwords', pagetitle, extralink, "words", "/hskchars", "characters", hskwords, freqorder_word_link_table)
 
-@app.route('/hskwords2010', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2011', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords2012', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords2010', methods=['GET', 'POST'])
+@app.route('/hskwords2011', methods=['GET', 'POST'])
+@app.route('/hskwords2012', methods=['GET', 'POST'])
 def handle_hskwords2010():
     pagetitle = "HSK Words for 2010 (outdated)"
     extralink = """ <a href="/hskwords">HSK Words for 2012-2020</a>"""
     return hskvocablist('/hskwords2010', pagetitle, extralink, "words", "/hskchars2010", "characters", hskwords2010, freqorder_word_link_table)
 
-@app.route('/hskchars', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2012', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2013', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2014', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2015', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2016', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2017', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2018', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2019', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2020', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars', methods=['GET', 'POST'])
+@app.route('/hskchars2012', methods=['GET', 'POST'])
+@app.route('/hskchars2013', methods=['GET', 'POST'])
+@app.route('/hskchars2014', methods=['GET', 'POST'])
+@app.route('/hskchars2015', methods=['GET', 'POST'])
+@app.route('/hskchars2016', methods=['GET', 'POST'])
+@app.route('/hskchars2017', methods=['GET', 'POST'])
+@app.route('/hskchars2018', methods=['GET', 'POST'])
+@app.route('/hskchars2019', methods=['GET', 'POST'])
+@app.route('/hskchars2020', methods=['GET', 'POST'])
 def handle_hskchars():
     pagetitle = "HSK Characters for 2012-2020"
     extralink = ""
     return hskvocablist('/hskchars', pagetitle, extralink, "characters", "/hskwords", "words", hskchars, freqorder_char_link_table)
 
-@app.route('/hskchars2010', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2011', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars2012', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars2010', methods=['GET', 'POST'])
+@app.route('/hskchars2011', methods=['GET', 'POST'])
+@app.route('/hskchars2012', methods=['GET', 'POST'])
 def handle_hskchars2010():
     pagetitle = "HSK Characters for 2010 (outdated)"
     extralink = """ <a href="/hskchars">HSK Characters 2012-2020</a>"""
@@ -976,6 +983,7 @@ def handle_hskchars2010():
 def hskvocablist(thislink, pagetitle, extralink, thisitem, otherlink, otheritem, vocab, linkfunction):
     start_time = time.time()
     init_resources()
+    expand = getform("expand")
     results = []
     results.append("""<html lang="zh-Hans">\n<head>""")
     results.append("<title>HSK\u4E1C\u897F - {}</title>".format(pagetitle))
@@ -983,27 +991,28 @@ def hskvocablist(thislink, pagetitle, extralink, thisitem, otherlink, otheritem,
     results.append("</head>\n<body>")
     results.append("""<a href="https://hskhsk.com/word-lists">HSK\u4E1C\u897F</a>""")
     results.append("""<a href="/">Scripts</a>""")
-    results.append("""<a href="{}{}">HSK {}</a>""".format(otherlink, "?expand=yes" if getform("expand") == "yes" else "", otheritem[0].upper() + otheritem[1:]))
+    results.append("""<a href="{}{}">HSK {}</a>""".format(otherlink, "?expand=yes" if expand == "yes" else "", otheritem[0].upper() + otheritem[1:]))
     results.append(extralink)
-    results.append("""[<a href="{}">collapse definitions</a>]""".format(thislink) if getform("expand") == "yes" else """[<a href="{}?expand=yes">expand definitions</a>]""".format(thislink))
+    results.append("""[<a href="{}">collapse definitions</a>]""".format(thislink) if expand == "yes" else """[<a href="{}?expand=yes">expand definitions</a>]""".format(thislink))
     results.append("<h2>{}</h2>".format(pagetitle))
-    if getform("expand") != "yes":
+    if expand != "yes":
         results.append("""<p>For definitions hover over or click on the {}, or <a href="{}?expand=yes">expand definitions</a>.</p>""".format(thisitem, thislink))
     for i in range(1, 7):
         results.append("""<h4><a class="hsk{0}" name="hsk{0}">HSK {0} {1}</a></h4>""".format(i, thisitem[0].upper() + thisitem[1:]))
-        if getform("expand") == "yes":
+        if expand == "yes":
             results.append("<table><tr><td>")
-            results.append("</td></tr><tr><td>".join(linkfunction(vocab[i])))
+            results.append("</td></tr><tr><td>".join(linkfunction(vocab[i], expand)))
             results.append("</td></tr></table>")
         else:
-            results.append(chinese_comma_sep.join(linkfunction(vocab[i])))
-    results.append("""<p><small><i>Page generated in {:1.6f}""".format(time.time() - start_time))
+            results.append(chinese_comma_sep.join(linkfunction(vocab[i], expand)))
+    results.append("""<p><small><i>Page generated in {:1.6f} seconds</i></small></p>""".format(time.time() - start_time))
     return "\n".join(results)
 
-@app.route('/words1000', methods=['GET', 'PUT', 'POST'])
+@app.route('/words1000', methods=['GET', 'POST'])
 def handle_words1000():
     start_time = time.time()
     init_resources()
+    expand = getform("expand")
     results = []
     results.append("""<html lang="zh-Hans">\n<head>""")
     results.append("<title>HSK\u4E1C\u897F - Highest Frequency Words</title>")
@@ -1011,21 +1020,22 @@ def handle_words1000():
     results.append("</head>\n<body>")
     results.append("""<a href="https://hskhsk.com/word-lists">HSK\u4E1C\u897F</a>""")
     results.append("""<a href="/">Scripts</a>""")
-    results.append("""<a href="/chars1000{}">Highest Frequency Characters</a>""".format("?expand=yes" if getform("expand") == "yes" else ""))
-    results.append("""[<a href="words1000">collapse definitions</a>]""" if getform("expand") == "yes" else """[<a href="words1000?expand=yes">expand definitions</a>]""")
+    results.append("""<a href="/chars1000{}">Highest Frequency Characters</a>""".format("?expand=yes" if expand == "yes" else ""))
+    results.append("""[<a href="words1000">collapse definitions</a>]""" if expand == "yes" else """[<a href="words1000?expand=yes">expand definitions</a>]""")
     results.append("<h2>Highest Frequency Words</h2>")
-    if getform("expand") != "yes":
+    if expand != "yes":
         results.append("<p>For definitions hover over or click on the word, or select 'expand definitions'.</p>")
-    separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
+    separator = "<br />" if expand == "yes" else chinese_comma_sep
     topwords = [word for (freq, word) in word_freq_ordered[:1000] ]
-    results.append(separator.join(freqorder_word_link_hskcolour(topwords)))
+    results.append(separator.join(freqorder_word_link_hskcolour(topwords, expand)))
     results.append("""<p><small><i>Page generated in {:1.6f}""".format(time.time() - start_time))
     return "\n".join(results) +" seconds.</i></small></p>\n" + page_footer + "</body>\n</html>"
 
-@app.route('/chars1000', methods=['GET', 'PUT', 'POST'])
+@app.route('/chars1000', methods=['GET', 'POST'])
 def handle_chars1000():
     start_time = time.time()
     init_resources()
+    expand = getform("expand")
     results = []
     results.append("""<html lang="zh-Hans">\n<head>""")
     results.append("<title>HSK\u4E1C\u897F - Highest Frequency Characters</title>")
@@ -1033,44 +1043,45 @@ def handle_chars1000():
     results.append("</head>\n<body>")
     results.append("""<a href="https://hskhsk.com/word-lists">HSK\u4E1C\u897F</a>""")
     results.append("""<a href="/">Scripts</a>""")
-    results.append("""<a href="/words1000{}">Highest Frequency Words</a>""".format("?expand=yes" if getform("expand") == "yes" else ""))
-    results.append("""[<a href="chars1000">collapse definitions</a>]""" if getform("expand") == "yes" else """[<a href="chars1000?expand=yes">expand definitions</a>]""")
+    results.append("""<a href="/words1000{}">Highest Frequency Words</a>""".format("?expand=yes" if expand == "yes" else ""))
+    results.append("""[<a href="chars1000">collapse definitions</a>]""" if expand == "yes" else """[<a href="chars1000?expand=yes">expand definitions</a>]""")
     results.append("<h2>Highest Frequency Characters</h2>")
-    if getform("expand") != "yes":
+    if expand != "yes":
         results.append("<p>For definitions hover over or click on the character, or select 'expand definitions'.</p>")
-    separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
+    separator = "<br />" if expand == "yes" else chinese_comma_sep
     topchars = [char for (freq, char) in char_freq_ordered[:1000] ]
-    results.append(separator.join(freqorder_char_link_hskcolour(topchars)))
+    results.append(separator.join(freqorder_char_link_hskcolour(topchars, expand)))
     results.append("""<p><small><i>Page generated in {:1.6f}""".format(time.time() - start_time))
     return "\n".join(results)+" seconds.</i></small></p>\n" + page_footer + "</body>\n</html>"
 
-@app.route('/hskwords20102012', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102013', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102014', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102015', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102016', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102017', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102018', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102019', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskwords20102020', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskwords20102012', methods=['GET', 'POST'])
+@app.route('/hskwords20102013', methods=['GET', 'POST'])
+@app.route('/hskwords20102014', methods=['GET', 'POST'])
+@app.route('/hskwords20102015', methods=['GET', 'POST'])
+@app.route('/hskwords20102016', methods=['GET', 'POST'])
+@app.route('/hskwords20102017', methods=['GET', 'POST'])
+@app.route('/hskwords20102018', methods=['GET', 'POST'])
+@app.route('/hskwords20102019', methods=['GET', 'POST'])
+@app.route('/hskwords20102020', methods=['GET', 'POST'])
 def handle_hskwords20102012():
     return hskvocabdiff("/hskwords2010", "/hskwords2020", "/hskwords20102020", "words", "/hskchars20102020", "characters", hskwords2010, hskwords, freqorder_word_link)
 
-@app.route('/hskchars20102012', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102013', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102014', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102015', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102016', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102017', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102018', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102019', methods=['GET', 'PUT', 'POST'])
-@app.route('/hskchars20102020', methods=['GET', 'PUT', 'POST'])
+@app.route('/hskchars20102012', methods=['GET', 'POST'])
+@app.route('/hskchars20102013', methods=['GET', 'POST'])
+@app.route('/hskchars20102014', methods=['GET', 'POST'])
+@app.route('/hskchars20102015', methods=['GET', 'POST'])
+@app.route('/hskchars20102016', methods=['GET', 'POST'])
+@app.route('/hskchars20102017', methods=['GET', 'POST'])
+@app.route('/hskchars20102018', methods=['GET', 'POST'])
+@app.route('/hskchars20102019', methods=['GET', 'POST'])
+@app.route('/hskchars20102020', methods=['GET', 'POST'])
 def handle_hskchars20102012():
     return hskvocabdiff("/hskchars2010", "/hskchars2020", "/hskchars20102020", "characters", "/hskwords20102020", "words", hskchars2010, hskchars, freqorder_char_link)
 
 def hskvocabdiff(oldlink, newlink, thislink, thisitem, otherlink, otheritem, oldvocab, newvocab, linkfunction):
     start_time = time.time()
     init_resources()
+    expand = getform("expand")
     results = []
     results.append("""<html lang="zh-Hans">\n<head>""")
     results.append("<title>HSK\u4E1C\u897F - Where the HSK 2010 {} are in 2012-2020</title>".format(thisitem[0].upper() + thisitem[1:]))
@@ -1111,8 +1122,8 @@ For definitions hover over the characters, or try clicking on almost anything.</
                 else:
                     somehanzi = (oldvocab[old] & newvocab[new]) - newvocab[old] # add the set subtract to account for case where word exists at multiple levels
                 results.append("<td>")
-                separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
-                results.append(separator.join(linkfunction(somehanzi)))
+                separator = "<br />" if expand == "yes" else chinese_comma_sep
+                results.append(separator.join(linkfunction(somehanzi, expand)))
                 results.append("</td>")
         results.append("</tr>")
     results.append("</table>")
@@ -1121,15 +1132,16 @@ For definitions hover over the characters, or try clicking on almost anything.</
     for level in range(1, 7):
         results.append("""<h4><a class="hsk{0}" name="hsk{0}">HSK {0} {1} that didn't change level</a></h4>""".format(level, thisitem[0].upper() + thisitem[1:]))
         somehanzi = newvocab[level] & oldvocab[level]
-        separator = "<br />" if getform("expand") == "yes" else chinese_comma_sep
-        results.append(separator.join(linkfunction(somehanzi)))
+        separator = "<br />" if expand == "yes" else chinese_comma_sep
+        results.append(separator.join(linkfunction(somehanzi, expand)))
 
-    results.append("""<p><small><i>Page generated in {:1.6f}""".format(time.time() - start_time))
+    results.append("""<p><small><i>Page generated in {:1.6f} seconds""".format(time.time() - start_time))
     return "\n".join(results) + " seconds.</i></small></p>\n" + page_footer + "</body>\n</html>"
 
-@app.route('/hanzi', methods=['GET', 'PUT', 'POST'])
+@app.route('/hanzi', methods=['GET', 'POST'])
 def handle_hanzi():
     start_time = time.time()
+    expand = getform("expand")
     defaultistrue = "true"
     if getform("ignoredefaults", ""):
         defaultistrue = ""
@@ -1227,7 +1239,7 @@ def handle_hanzi():
 
         <div id="outputoptionshelp" class="inlinehelp">
 <p>The Comma Separated option will output comma separated words/characters, with no frequency information (the other two options will be ignored).</p>
-<p>The other two otions add frequency information to the listboxes of hanzi characters that are output.</p>
+<p>The other two options add frequency information to the listboxes of hanzi characters that are output.</p>
 <p>With the frequency index, 1 is the highest frequency word/character, and higher values are less frequent.</p>
 <p>The raw word/character frequency is the actual frequency reported by SUBTLEX-CH, with higher values being more
 frequent, which helps to understand the relative frequency of each character.</p>
@@ -1252,15 +1264,16 @@ frequent, which helps to understand the relative frequency of each character.</p
                outputcommasepchecked, addfreqindexchecked, addfreqvaluechecked,
                hanzi))
     if hanzi != defaulthanzi:
-        performactions(hanzi, results)
+        performactions(hanzi, results, expand)
     results.append("""<p><small><i>Page generated in {:1.6f} seconds</i></small></p>""".format(time.time() - start_time))
     results.append(page_footer)
     results.append("\n</body>\n</html>")
     return "\n".join(results)
 
-@app.route('/sets', methods=['GET', 'PUT', 'POST'])
+@app.route('/sets', methods=['GET', 'POST'])
 def handle_sets():
     start_time = time.time()
+    expand = getform("expand")
 
     outputoneperlinechecked = ""
     outputoneperlinechecked = "checked" if getform("outputformat") == "oneperline" else ""
@@ -1367,22 +1380,22 @@ def handle_sets():
                oneperlinecheckedB, commasepcheckedB, blockcheckedB,
                hanziA, hanziB))
     if hanziA != "" or hanziB != "":
-        performsetops(hanziA, hanziB, results)
+        performsetops(hanziA, hanziB, results, expand)
     results.append("""<p><small><i>Page generated in {:1.6f} seconds</i></small></p>""".format(time.time() - start_time))
     results.append(page_footer)
     results.append("\n</body>\n</html>")
     return "\n".join(results)
 
-def performsetops(hanziA, hanziB, results):
+def performsetops(hanziA, hanziB, results, expand):
     init_resources()
 
     notes = []
     if getform("formatA") == "block":
-        wordsA, charsA, hskwordcount, hskcharcount = parseblock(hanziA, notes)
+        wordsA, charsA, hskwordcount, hskcharcount = parseblock(hanziA, notes, expand)
     elif getform("formatA") == "commasep":
-        wordsA, charsA, hskwordcount, hskcharcount = parsecommasep(hanziA, notes, True)
+        wordsA, charsA, hskwordcount, hskcharcount = parsecommasep(hanziA, notes, True, expand)
     else:
-        wordsA, charsA, hskwordcount, hskcharcount = parselist(hanziA, notes, True)
+        wordsA, charsA, hskwordcount, hskcharcount = parselist(hanziA, notes, True, expand)
     if len(notes):
         results.append("""<h2><span style="color:red;">Warnings (List A)</span> <a class="arrowlink" href="javascript:toggle_visibility('warningshelp');"><small><small>(?)</small></small></a></h2><ul>
  <div id="warningshelp" class="inlinehelp" style="max-width:600px;">
@@ -1396,11 +1409,11 @@ def performsetops(hanziA, hanziB, results):
 
     notes = []
     if getform("formatB") == "block":
-        wordsB, charsB, hskwordcount, hskcharcount = parseblock(hanziB, notes)
+        wordsB, charsB, hskwordcount, hskcharcount = parseblock(hanziB, notes, expand)
     elif getform("formatB") == "commasep":
-        wordsB, charsB, hskwordcount, hskcharcount = parsecommasep(hanziB, notes, True)
+        wordsB, charsB, hskwordcount, hskcharcount = parsecommasep(hanziB, notes, True, expand)
     else:
-        wordsB, charsB, hskwordcount, hskcharcount = parselist(hanziB, notes, True)
+        wordsB, charsB, hskwordcount, hskcharcount = parselist(hanziB, notes, True, expand)
     if len(notes):
         results.append("""<h2><span style="color:red;">Warnings (List B)</span> <a class="arrowlink" href="javascript:toggle_visibility('warningshelp');"><small><small>(?)</small></small></a></h2><ul>
  <div id="warningshelp" class="inlinehelp" style="max-width:600px;">
@@ -1468,7 +1481,7 @@ def setresultbox(title, idname, itemset, joinchar, itemname):
         titlewithsize = title + """<span style="font-weight: lighter; font-size: 80%; font-style: italic;"> ({} {}{})</span>""".format(setlen, itemname, "s" if setlen>1 else "")
     return blockboxtemplate().format(titlewithsize, idname , joinchar.join(itemset))
 
-def performactions(hanzi, results):
+def performactions(hanzi, results, expand):
     init_resources()
     # only parse if one of these actions is being performed
     if (   getform("analysevocab")
@@ -1481,11 +1494,11 @@ def performactions(hanzi, results):
         or getform("suggestchars")):
         notes = []
         if getform("format") == "block":
-            words, chars, hskwordcount, hskcharcount = parseblock(hanzi, notes)
+            words, chars, hskwordcount, hskcharcount = parseblock(hanzi, notes, expand)
         elif getform("format") == "commasep":
-            words, chars, hskwordcount, hskcharcount = parsecommasep(hanzi, notes, False)
+            words, chars, hskwordcount, hskcharcount = parsecommasep(hanzi, notes, False, expand)
         else:
-            words, chars, hskwordcount, hskcharcount = parselist(hanzi, notes, False)
+            words, chars, hskwordcount, hskcharcount = parselist(hanzi, notes, False, expand)
         if len(notes):
             results.append("""<h2><span style="color:red;">Warnings</span> <a class="arrowlink" href="javascript:toggle_visibility('warningshelp');"><small><small>(?)</small></small></a></h4><ul>
  <div id="warningshelp" class="inlinehelp" style="max-width:500px;">
@@ -1522,9 +1535,9 @@ def performactions(hanzi, results):
         results.append("<h2>Results</h2>")
     # these actions just use the raw hanzi
     if getform("annotatewords"):
-        annotatewords(results, hanzi)
+        annotatewords(results, hanzi, expand)
     if getform("annotatechars"):
-        annotatechars(results, hanzi)
+        annotatechars(results, hanzi, expand)
 
 def blockboxtemplate(cols=""):
     if getform("outputcommasep") or getform("hanziA"):
@@ -1762,14 +1775,14 @@ def suggestfreqchars(results, chars):
     charstext = "\n".join(freqorder_char(foundchars))
     results.append(textareatemplate.format("highfreqchars", charstext))
 
-def annotatewords(results, hanzi):
+def annotatewords(results, hanzi, expand):
     results.append("""<h4>Annotated Words</h4>""")
     results.append("""<p class="bordered">""")
-    tokenised = mostlikelywordsallchars(hanzi)
+    tokenised = mostlikelywordsallchars(hanzi, expand)
     textblocks = []
     for ishanzi, text in tokenised:
         if ishanzi == True:
-            textblocks.append(wordchardeflink(text, "word"))
+            textblocks.append(wordchardeflink(text, "word", expand))
         elif text == "\n":
             results.append("".join(textblocks))
             results.append("<br>")
@@ -1781,14 +1794,14 @@ def annotatewords(results, hanzi):
     results.append("".join(textblocks))
     results.append("</p>")
 
-def annotatechars(results, hanzi):
+def annotatechars(results, hanzi, expand):
     results.append("""<h4>Annotated Characters</h4>""")
     results.append("""<p class="bordered">""")
     charlist = [c for c in hanzi]
     textblocks = []
     for char in charlist:
         if char_is_ok(char):
-            textblocks.append(hanzideflink(char, char, "char"))
+            textblocks.append(hanzideflink(char, char, "char", expand))
         elif char == "\n":
             results.append("".join(textblocks))
             results.append("<br>")
@@ -1818,7 +1831,7 @@ def init_resources():
 
 # ================
 # Parse Hanzi input
-def parselist(hanzi, notes, allownonhanzi):
+def parselist(hanzi, notes, allownonhanzi, expand):
     hskwordcount = {}
     hskcharcount = {}
     hskwordcount[0] = hskwordcount[1] = hskwordcount[2] = hskwordcount[3] = hskwordcount[4] = hskwordcount[5] = hskwordcount[6] = 0
@@ -1850,16 +1863,16 @@ def parselist(hanzi, notes, allownonhanzi):
                     ignorechars.add(char)
 
     if len(ignorewords):
-        notes.append("Ignored words: " + ", ".join([wordchardeflink(h, "none") for h in ignorewords]))
+        notes.append("Ignored words: " + ", ".join([wordchardeflink(h, "none", expand) for h in ignorewords]))
     if len(ignorechars):
-        notes.append("Ignored characters: " + ", ".join([wordchardeflink(h, "none") for h in ignorechars]))
+        notes.append("Ignored characters: " + ", ".join([wordchardeflink(h, "none", expand) for h in ignorechars]))
     if len(unknownwords):
-        notes.append("Unknown words: " + ", ".join([wordchardeflink(h, "none") for h in unknownwords]))
+        notes.append("Unknown words: " + ", ".join([wordchardeflink(h, "none", expand) for h in unknownwords]))
     if len(unknownchars):
-        notes.append("Unknown characters: " + ", ".join([wordchardeflink(h, "none") for h in unknownchars]))
+        notes.append("Unknown characters: " + ", ".join([wordchardeflink(h, "none", expand) for h in unknownchars]))
     return words, chars, hskwordcount, hskcharcount
 
-def parsecommasep(hanzi, notes, allownonhanzi):
+def parsecommasep(hanzi, notes, allownonhanzi, expand):
     hskwordcount = {}
     hskcharcount = {}
     hskwordcount[0] = hskwordcount[1] = hskwordcount[2] = hskwordcount[3] = hskwordcount[4] = hskwordcount[5] = hskwordcount[6] = 0
@@ -1889,16 +1902,16 @@ def parsecommasep(hanzi, notes, allownonhanzi):
                 ignorechars.add(char)
 
     if len(ignorewords):
-        notes.append("Ignored words: " + ", ".join([wordchardeflink(h, "none") for h in ignorewords]))
+        notes.append("Ignored words: " + ", ".join([wordchardeflink(h, "none", expand) for h in ignorewords]))
     if len(ignorechars):
-        notes.append("Ignored characters: " + ", ".join([wordchardeflink(h, "none") for h in ignorechars]))
+        notes.append("Ignored characters: " + ", ".join([wordchardeflink(h, "none", expand) for h in ignorechars]))
     if len(unknownwords):
-        notes.append("Unknown words: " + ", ".join([wordchardeflink(h, "none") for h in unknownwords]))
+        notes.append("Unknown words: " + ", ".join([wordchardeflink(h, "none", expand) for h in unknownwords]))
     if len(unknownchars):
-        notes.append("Unknown characters: " + ", ".join([wordchardeflink(h, "none") for h in unknownchars]))
+        notes.append("Unknown characters: " + ", ".join([wordchardeflink(h, "none", expand) for h in unknownchars]))
     return words, chars, hskwordcount, hskcharcount
 
-def parseblock(hanzi, notes):
+def parseblock(hanzi, notes, expand):
     hskwordcount = {}
     hskcharcount = {}
     hskwordcount[0] = hskwordcount[1] = hskwordcount[2] = hskwordcount[3] = hskwordcount[4] = hskwordcount[5] = hskwordcount[6] = 0
@@ -1907,7 +1920,7 @@ def parseblock(hanzi, notes):
     chars = set()
     ignorechars = set()
     unknownchars = set()
-    tokenised = mostlikelywordsallchars(hanzi, notes)
+    tokenised = mostlikelywordsallchars(hanzi, expand, notes)
     for ishanzi, text in tokenised:
         if ishanzi:
             for char in text:
@@ -1920,9 +1933,9 @@ def parseblock(hanzi, notes):
         else:
             ignorechars.add(text)
     if len(ignorechars):
-        notes.append("Ignored characters: " + ", ".join([wordchardeflink(h, "none") for h in ignorechars]))
+        notes.append("Ignored characters: " + ", ".join([wordchardeflink(h, "none", expand) for h in ignorechars]))
     if len(unknownchars):
-        notes.append("Unknown characters: " + ", ".join([wordchardeflink(h, "none") for h in unknownchars]))
+        notes.append("Unknown characters: " + ", ".join([wordchardeflink(h, "none", expand) for h in unknownchars]))
     return words, chars, hskwordcount, hskcharcount
 
 def determinefreqscore(split):
@@ -1948,7 +1961,7 @@ def allpossiblesplits(hanzi):
                 splits.append( [test] + t )
     return splits
 
-def determinebestsplit(hanzi, notes):
+def determinebestsplit(hanzi, notes, expand):
     allsplits = allpossiblesplits(hanzi)
     maxfreq = 0
     maxsplit = []
@@ -1960,12 +1973,12 @@ def determinebestsplit(hanzi, notes):
     if notes is not None:
         # firstslice, lastslice = sliceoffallsame(allsplits)
         if sum([1 if max(list(map(len, s))) > 1 else 0 for s in allsplits]) > 1:
-            note = "Ambiguous words detected. Chose split: " + "|".join([wordchardeflink(h, "none") for h in maxsplit]) + ". Words not chosen: "
+            note = "Ambiguous words detected. Chose split: " + "|".join([wordchardeflink(h, "none", expand) for h in maxsplit]) + ". Words not chosen: "
             wordsout = set()
             for split in allsplits:
                 wordsout = wordsout | set(split)
             wordsout = wordsout - set(maxsplit)
-            note += ", ".join([wordchardeflink(h, "none") for h in wordsout])
+            note += ", ".join([wordchardeflink(h, "none", expand) for h in wordsout])
             notes.append(note)
     return maxsplit
 
@@ -1994,7 +2007,7 @@ def sliceoffallsame(lists):
     return first, last
 
 # more advanced version of 'parseblock'
-def mostlikelywordsallchars(hanzi, notes=None):
+def mostlikelywordsallchars(hanzi, expand, notes=None):
     rawtokens = []
     startofchunk = 0
     for i in range (0, len(hanzi)):
@@ -2009,7 +2022,7 @@ def mostlikelywordsallchars(hanzi, notes=None):
     tokens = []
     for ishanzi, hanzi in rawtokens:
         if ishanzi:
-            split = determinebestsplit(hanzi, notes)
+            split = determinebestsplit(hanzi, notes, expand)
             for s in split:
                 tokens.append( (True, s) )
         else:
@@ -2070,8 +2083,8 @@ def freqorder_char(hanzi):
         return [h for f, h in freqlist]
 
 # colour can be "char", "word", "none", "auto"
-def hanzideflink(hanziword, hanzichar, colour):
-    urlstub = "/cidian?{}q=".format("expand=yes&" if getform("expand") == "yes" else "")
+def hanzideflink(hanziword, hanzichar, colour, expand):
+    urlstub = "/cidian?{}q=".format("expand=yes&" if expand == "yes" else "")
     url = urlstub + urllib.parse.quote(html.escape(hanziword))
     title = get_linktext_hanzi_info(hanziword, hanzichar, 30)
     wordlevel = query_hsk_word_level(hanziword)
@@ -2088,48 +2101,86 @@ def hanzideflink(hanziword, hanzichar, colour):
     return linkformat.format(url, html.escape(title), html.escape(hanzichar), wordlevel, charlevel, radicallevel)
 
 # colour can be "char", "word", "none", "auto"
-def wordchardeflink(hanzi, colour):
-    return "".join([hanzideflink(hanzi, c, colour) for c in hanzi])
+def gen_hanzideflink(hanziword, hanzichar, colour, expand):
+    urlstub = "/cidian?{}q=".format("expand=yes&" if expand == "yes" else "")
+    url = urlstub + urllib.parse.quote(html.escape(hanziword))
+    title = get_linktext_hanzi_info(hanziword, hanzichar, 30)
+    wordlevel = query_hsk_word_level(hanziword)
+    charlevel = query_hsk_char_level(hanzichar)
+    radicallevel = query_hsk_radical_level(hanzichar)
+    linkclass = "definition"
+    if (colour == "word" or colour == "auto") and wordlevel > 0:
+        linkclass = "hsk{3}";
+    elif (colour == "char" or colour == "auto") and charlevel > 0:
+        linkclass = "hsk{4}";
+    elif (colour == "radical"):
+        linkclass = "hsk{5}";
+    linkformat = '<a class="' + linkclass + '" href="{0}" title="{1}">{2}</a>'
+    yield linkformat.format(url, html.escape(title), html.escape(hanzichar), wordlevel, charlevel, radicallevel)
 
-def freqorder_word_link_table(hanzi):
-    return freqorder_word_link(hanzi, "</td><td>")
+# colour can be "char", "word", "none", "auto"
+def wordchardeflink(hanzi, colour, expand):
+    return "".join([hanzideflink(hanzi, c, colour, expand) for c in hanzi])
 
-def freqorder_word_link(hanzi, infosep="&nbsp;" * 8):
+# colour can be "char", "word", "none", "auto"
+def gen_wordchardeflink(hanzi, colour, expand):
+    for c in hanzi:
+        yield from gen_hanzideflink(hanzi, c, colour, expand)
+
+def freqorder_word_link_table(hanzi, expand):
+    return freqorder_word_link(hanzi, expand, "</td><td>")
+
+eight_space = "&nbsp;" * 8 # note: not eight ace
+space_eight_space = " " + eight_space
+
+def freqorder_word_link(hanzi, expand, infosep=eight_space):
     withinfo = getform("expand") == "yes"
     freqlist = [(query_word_freq_index(h), h) for h in hanzi]
     freqlist.sort()
-    return [wordchardeflink(h, "none") + (" " + infosep + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
+    return [wordchardeflink(h, "none", expand) + (" " + infosep + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
 
-def freqorder_word_link_hskcolour(hanzi):
+def freqorder_word_link_hskcolour(hanzi, expand):
     withinfo = getform("expand") == "yes"
     freqlist = [(query_word_freq_index(h), h) for h in hanzi]
     freqlist.sort()
-    return [wordchardeflink(h, "word") + (" " + ("&nbsp;" * 8) + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
+    return [wordchardeflink(h, "word", expand) + (" " + ("&nbsp;" * 8) + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
 
-def freqorder_char_link_hskcolour(hanzi):
-    withinfo = getform("expand") == "yes"
+def gen_freqorder_word_link_hskcolour(hanzi, separator, withinfo, expand):
+    freqlist = [(query_word_freq_index(h), h) for h in hanzi]
+    freqlist.sort()
+    sep = ""
+    for f, h in freqlist:
+        yield sep
+        sep = separator
+        yield from gen_wordchardeflink(h, "word", expand)
+        yield space_eight_space
+        if withinfo:
+            yield from gen_get_compact_hanzi_info(h, 80)
+
+def freqorder_char_link_hskcolour(hanzi, expand):
+    withinfo = expand == "yes"
     freqlist = [(query_char_freq_index(h), h) for h in hanzi]
     freqlist.sort()
-    return [wordchardeflink(h, "char") + (" " + ("&nbsp;" * 8) + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
+    return [wordchardeflink(h, "char", expand) + (" " + ("&nbsp;" * 8) + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
 
-def freqorder_radical_link(hanzi):
-    withinfo = getform("expand") == "yes"
+def freqorder_radical_link(hanzi, expand):
+    withinfo = expand == "yes"
     freqlist = [(query_radical_freq_index(h), h) for h in hanzi]
     freqlist.sort()
-    return [wordchardeflink(h, "radical") + (" " + ("&nbsp;" * 8) + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
+    return [wordchardeflink(h, "radical", expand) + (" " + ("&nbsp;" * 8) + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
 
-def freqorder_char_link_table(hanzi):
-    return freqorder_char_link(hanzi, "</td><td>")
+def freqorder_char_link_table(hanzi, expand):
+    return freqorder_char_link(hanzi, expand, "</td><td>")
 
-def freqorder_char_link(hanzi, infosep="&nbsp;" * 8):
-    withinfo = getform("expand") == "yes"
+def freqorder_char_link(hanzi, expand, infosep=eight_space):
+    withinfo = expand == "yes"
     freqlist = [(query_char_freq_index(h), h) for h in hanzi]
     freqlist.sort()
-    return [hanzideflink(h, h, "none") + (" " + infosep + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
+    return [hanzideflink(h, h, "none", expand) + (" " + infosep + get_compact_hanzi_info(h, 80) if withinfo else "") for f, h in freqlist]
 
 #todo limit was 1000 before, now reset to 10000
 # definition is off, full
-def word_link_hskcolour_search(hanzi, definition):
+def word_link_hskcolour_search(hanzi, definition, expand):
     separator = ""
     suffix = ""
     if len(hanzi) > 10000:
@@ -2144,7 +2195,7 @@ Please contact alan@hskhsk.com for more information.</i></p>"""
     else:
         separator = "<br />"
     maxlen = 999 if definition == "full" else 80
-    listpart = separator.join([  wordchardeflink(h, "word")
+    listpart = separator.join([  wordchardeflink(h, "word", expand)
                                + ("" if definition == "off" else " " + ("&nbsp;" * 8) + get_compact_hanzi_info(h, maxlen))
                                for h in hanzi])
     return listpart + suffix
@@ -2200,50 +2251,15 @@ def query_hsk_radical_level(somehanzi):
     return 0
 
 def do_hsk_parsing():
-    global hsk_word_level, hsk_char_level, hskwords, hskchars, hskwords2010, hskchars2010
-    try:
-        with open(cache_dir + "HSK.hsk_word_level.cache", "rb") as pfile:
-            hsk_word_level = pickle.load(pfile)
-        with open(cache_dir + "HSK.hsk_char_level.cache", "rb") as pfile:
-            hsk_char_level = pickle.load(pfile)
-        with open(cache_dir + "HSK.hskwords.cache", "rb") as pfile:
-            hskwords = pickle.load(pfile)
-        with open(cache_dir + "HSK.hskchars.cache", "rb") as pfile:
-            hskchars = pickle.load(pfile)
-        with open(cache_dir + "HSK.hskwords2010.cache", "rb") as pfile:
-            hskwords2010 = pickle.load(pfile)
-        with open(cache_dir + "HSK.hskchars2010.cache", "rb") as pfile:
-            hskchars2010 = pickle.load(pfile)
-    except:
-        hsk_word_level = {} # {"A" : 1, "ABC" : 1 }
-        hsk_char_level = {} # {"A" : 1, "B" : 1 , "C" : 1}
-        hskwords = {} # {1 : set("A", "ABC"), ...}
-        hskchars = {}
-        hskwords2010 = {} # {1 : set("A", "ABC"), ...}
-        hskchars2010 = {}
-
-        parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L1.txt", 1)
-        parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L2.txt", 2)
-        parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L3.txt", 3)
-        parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L4.txt", 4)
-        parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L5.txt", 5)
-        parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L6.txt", 6)
-        build_hsk_extralists(hskwords, hskchars)
-        parse_hsk_2010_file(data_dir + "New_HSK_2010.csv")
-        build_hsk_extralists(hskwords2010, hskchars2010)
-
-        with open(cache_dir + "HSK.hsk_word_level.cache", "wb") as pfile:
-            pickle.dump(hsk_word_level, pfile, -1)
-        with open(cache_dir + "HSK.hsk_char_level.cache", "wb") as pfile:
-            pickle.dump(hsk_char_level, pfile, -1)
-        with open(cache_dir + "HSK.hskwords.cache", "wb") as pfile:
-            pickle.dump(hskwords, pfile, -1)
-        with open(cache_dir + "HSK.hskchars.cache", "wb") as pfile:
-            pickle.dump(hskchars, pfile, -1)
-        with open(cache_dir + "HSK.hskwords2010.cache", "wb") as pfile:
-            pickle.dump(hskwords2010, pfile, -1)
-        with open(cache_dir + "HSK.hskchars2010.cache", "wb") as pfile:
-            pickle.dump(hskchars2010, pfile, -1)
+    parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L1.txt", 1)
+    parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L2.txt", 2)
+    parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L3.txt", 3)
+    parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L4.txt", 4)
+    parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L5.txt", 5)
+    parse_hsk_file(data_dir + "HSK Official With Definitions 2012 L6.txt", 6)
+    build_hsk_extralists(hskwords, hskchars)
+    parse_hsk_2010_file(data_dir + "New_HSK_2010.csv")
+    build_hsk_extralists(hskwords2010, hskchars2010)
 
 # parse newer 2012 HSK format
 def parse_hsk_file(infilename, hsklevel):
@@ -2316,20 +2332,12 @@ def parse_hsk_2010_file(infilename):
 mc_words = {} # # {1 : set("A", "ABC"), ...}
 
 def do_mc_parsing():
-    global mc_words
-    try:
-        with open(cache_dir + "MandarinCompanion.mc_words.cache", "rb") as pfile:
-            mc_words = pickle.load(pfile)
-    except:
-        parse_mc_file(data_dir + "MandarinCompanion1_secret_garden.txt", 1)
-        parse_mc_file(data_dir + "MandarinCompanion2_sherlock_holmes.txt", 2)
-        parse_mc_file(data_dir + "MandarinCompanion3_monkeys_paw.txt", 3)
-        parse_mc_file(data_dir + "MandarinCompanion4_country_of_the_blind.txt", 4)
-        parse_mc_file(data_dir + "MandarinCompanion5_sixty_year_dream.txt", 5)
-        build_mc_extralists()
-
-        with open(cache_dir + "MandarinCompanion.mc_words.cache", "wb") as pfile:
-            pickle.dump(mc_words, pfile, -1)
+    parse_mc_file(data_dir + "MandarinCompanion1_secret_garden.txt", 1)
+    parse_mc_file(data_dir + "MandarinCompanion2_sherlock_holmes.txt", 2)
+    parse_mc_file(data_dir + "MandarinCompanion3_monkeys_paw.txt", 3)
+    parse_mc_file(data_dir + "MandarinCompanion4_country_of_the_blind.txt", 4)
+    parse_mc_file(data_dir + "MandarinCompanion5_sixty_year_dream.txt", 5)
+    build_mc_extralists()
 
 def parse_mc_file(infilename, mclevel):
     mc_words[mclevel] = set()
@@ -2455,100 +2463,47 @@ def query_radical_freq_index(char):
 
 # parse SUBTLEX word frequency
 def parse_word_freq_file(infilename):
-    global word_freq, word_freq_index, word_freq_ordered, part_of_multichar_word, char_componentof, subtlex_word_set
-    try:
-        with open(cache_dir + infilename + ".word_freq.cache", "rb") as pfile:
-            word_freq = pickle.load(pfile)
-        with open(cache_dir + infilename + ".word_freq_index.cache", "rb") as pfile:
-            word_freq_index = pickle.load(pfile)
-        with open(cache_dir + infilename + ".word_freq_ordered.cache", "rb") as pfile:
-            word_freq_ordered = pickle.load(pfile)
-        with open(cache_dir + infilename + ".part_of_multichar_word.cache") as pfile:
-            part_of_multichar_word = pickle.load(pfile)
-        with open(cache_dir + infilename + ".char_componentof.cache", "rb") as pfile:
-            char_componentof = pickle.load(pfile)
-        with open(cache_dir + infilename + ".subtlex_word_set.cache", "rb") as pfile:
-            subtlex_word_set = pickle.load(pfile)
-    except:
-        word_freq = {} # {"AB" : 1234, ...}
-        word_freq_index = {} # {"AB" : 1, ...}
-        word_freq_ordered = [] # [(1234, "AB"), ...] # sorted by descending frequency
-        part_of_multichar_word = set() # a set of characters that make up multi-character words
-        char_componentof = {} # {"A" : set(["AB", ...]}
-        subtlex_word_set = set()
-
-        infile = codecs.open(data_dir + infilename, 'r', "utf-8")
-        freq_index = 1
-        for line in infile:
-            splitted = line.strip().split("\t")
-            if len(splitted) == 7:
-                word = unicodedata.normalize("NFKC", splitted[0].strip()).replace('\ufeff',"")
-                freq = int(splitted[1].strip())
-                if word != "" and freq > 0:
-                    subtlex_word_set.add(word)
-                    word_freq[word] = freq
-                    word_freq_index[word] = freq_index
-                    freq_index += 1
-                    for char in word:
-                        part_of_multichar_word.add(char)
-                        if char not in char_componentof:
-                            char_componentof[char] = set()
-                        char_componentof[char].add(word)
-        for word, freq in word_freq.items():
-            word_freq_ordered.append( (freq, word) )
-        word_freq_ordered.sort()
-        word_freq_ordered.reverse()
-        infile.close()
-        with open(cache_dir + infilename + ".word_freq.cache", "wb") as pfile:
-            pickle.dump(word_freq, pfile, -1)
-        with open(cache_dir + infilename + ".word_freq_index.cache", "wb") as pfile:
-            pickle.dump(word_freq_index, pfile, -1)
-        with open(cache_dir + infilename + ".word_freq_ordered.cache", "wb") as pfile:
-            pickle.dump(word_freq_ordered, pfile, -1)
-        with open(cache_dir + infilename + ".part_of_multichar_word.cache", "wb") as pfile:
-            pickle.dump(part_of_multichar_word, pfile, -1)
-        with open(cache_dir + infilename + ".char_componentof.cache", "wb") as pfile:
-            pickle.dump(char_componentof, pfile, -1)
-        with open(cache_dir + infilename + ".subtlex_word_set.cache", "wb") as pfile:
-            pickle.dump(subtlex_word_set, pfile, -1)
+    infile = codecs.open(data_dir + infilename, 'r', "utf-8")
+    freq_index = 1
+    for line in infile:
+        splitted = line.strip().split("\t")
+        if len(splitted) == 7:
+            word = unicodedata.normalize("NFKC", splitted[0].strip()).replace('\ufeff',"")
+            freq = int(splitted[1].strip())
+            if word != "" and freq > 0:
+                subtlex_word_set.add(word)
+                word_freq[word] = freq
+                word_freq_index[word] = freq_index
+                freq_index += 1
+                for char in word:
+                    part_of_multichar_word.add(char)
+                    if char not in char_componentof:
+                        char_componentof[char] = set()
+                    char_componentof[char].add(word)
+    for word, freq in word_freq.items():
+        word_freq_ordered.append( (freq, word) )
+    word_freq_ordered.sort()
+    word_freq_ordered.reverse()
+    infile.close()
 
 # parse SUBTLEX char frequency
 def parse_char_freq_file(infilename):
-    global char_freq, char_freq_index, char_freq_ordered
-    try:
-        with open(cache_dir + infilename + ".char_freq.cache", "rb") as pfile:
-            char_freq = pickle.load(pfile)
-        with open(cache_dir + infilename + ".char_freq_index.cache", "rb") as pfile:
-            char_freq_index = pickle.load(pfile)
-        with open(cache_dir + infilename + ".char_freq_ordered.cache", "rb") as pfile:
-            char_freq_ordered = pickle.load(pfile)
-    except:
-        char_freq = {} # {"A" : 6789, ...}
-        char_freq_index = {} # {"A" : 1, ...}
-        char_freq_ordered = [] # [(1234, "A"), ...] # sorted by descending frequency
-
-        infile = codecs.open(data_dir + infilename, 'r', "utf-8")
-        freq_index = 1
-        for line in infile:
-            splitted = line.strip().split("\t")
-            if len(splitted) == 7:
-                char = unicodedata.normalize("NFKC", splitted[0].strip()).replace('\ufeff',"")
-                freq = int(splitted[1].strip())
-                if char != "" and freq > 0:
-                    char_freq[char] = freq
-                    char_freq_index[char] = freq_index
-                    freq_index += 1
-        for char, freq in char_freq.items():
-            char_freq_ordered.append( (freq, char) )
-        char_freq_ordered.sort()
-        char_freq_ordered.reverse()
-        infile.close()
-        with open(cache_dir + infilename + ".char_freq.cache", "wb") as pfile:
-            pickle.dump(char_freq, pfile, -1)
-        with open(cache_dir + infilename + ".char_freq_index.cache", "wb") as pfile:
-            pickle.dump(char_freq_index, pfile, -1)
-        with open(cache_dir + infilename + ".char_freq_ordered.cache", "wb") as pfile:
-            pickle.dump(char_freq_ordered, pfile, -1)
+    infile = codecs.open(data_dir + infilename, 'r', "utf-8")
+    freq_index = 1
+    for line in infile:
+        splitted = line.strip().split("\t")
+        if len(splitted) == 7:
+            char = unicodedata.normalize("NFKC", splitted[0].strip()).replace('\ufeff',"")
+            freq = int(splitted[1].strip())
+            if char != "" and freq > 0:
+                char_freq[char] = freq
+                char_freq_index[char] = freq_index
+                freq_index += 1
+    for char, freq in char_freq.items():
+        char_freq_ordered.append( (freq, char) )
+    char_freq_ordered.sort()
+    char_freq_ordered.reverse()
+    infile.close()
 
 # ================
 # CC-CEDICT parsing for definitions, pinyin, traditional characters
@@ -2584,75 +2539,16 @@ def get_words_from_english(english):
 ccedict_variant_re = re.compile("(also written|variant of|written as) ([^ \[\],\.\(\)]+)")
 ccedict_lineparse  = re.compile("^(\S+)\s+(\S+).*?\[(.*?)\] /(.*)")
 def parse_ccedict(infilename):
-    global cedict_traditional, cedict_pinyintonemarks, cedict_pinyintonenum, toneless_pinyin, toned_pinyin, cedict_definition, english_words, cedict_word_set, tonenum_pinyin, variant_trad, variant_simp
-    try:
-        with open(cache_dir + infilename + ".cedict_traditional.cache", "rb") as pfile:
-            cedict_traditional = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cedict_pinyintonemarks.cache", "rb") as pfile:
-            cedict_pinyintonemarks = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cedict_pinyintonenum.cache", "rb") as pfile:
-            cedict_pinyintonenum = pickle.load(pfile)
-        with open(cache_dir + infilename + ".toneless_pinyin.cache", "rb") as pfile:
-            toneless_pinyin = pickle.load(pfile)
-        with open(cache_dir + infilename + ".toned_pinyin.cache", "rb") as pfile:
-            toned_pinyin = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cedict_definition.cache", "rb") as pfile:
-            cedict_definition = pickle.load(pfile)
-        with open(cache_dir + infilename + ".english_words.cache", "rb") as pfile:
-            english_words = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cedict_word_set.cache", "rb") as pfile:
-            cedict_word_set = pickle.load(pfile)
-        with open(cache_dir + infilename + ".tonenum_pinyin.cache", "rb") as pfile:
-            tonenum_pinyin = pickle.load(pfile)
-        with open(cache_dir + infilename + ".variant_trad.cache", "rb") as pfile:
-            variant_trad = pickle.load(pfile)
-        with open(cache_dir + infilename + ".variant_simp.cache", "rb") as pfile:
-            variant_simp = pickle.load(pfile)
-    except:
-        cedict_traditional = {}
-        cedict_pinyintonemarks = {}
-        cedict_pinyintonenum = {}
-        toneless_pinyin = {} # { "hao" : set([hanzi, ...])}
-        toned_pinyin = {} # { "ha^o" : set([hanzi, ...])}
-        tonenum_pinyin = {} # { "hao3" : set([hanzi, ...])}
-        cedict_definition = {} # hanzi : [definitions]
-        english_words = {} # { "test" : set([hanzi, ...])}
-        cedict_word_set = set()
-        variant_trad = {} # { "h" : set(["H", ...])}
-        variant_simp = {} # { "h" : set(["H", ...])}
-
-        infile = codecs.open(data_dir + infilename, 'r', "utf-8")
-        for line in infile:
-            if line[0] != "#":
-                match = ccedict_lineparse.search(line)
-                if match is not None:
-                    trad = match.group(1)
-                    word = match.group(2)
-                    pinyin = match.group(3)
-                    definition = match.group(4)
-                    add_dict_entry(word, trad, pinyin, definition)
-        with open(cache_dir + infilename + ".cedict_traditional.cache", "wb") as pfile:
-            pickle.dump(cedict_traditional, pfile, -1)
-        with open(cache_dir + infilename + ".cedict_pinyintonemarks.cache", "wb") as pfile:
-            pickle.dump(cedict_pinyintonemarks, pfile, -1)
-        with open(cache_dir + infilename + ".cedict_pinyintonenum.cache", "wb") as pfile:
-            pickle.dump(cedict_pinyintonenum, pfile, -1)
-        with open(cache_dir + infilename + ".toneless_pinyin.cache", "wb") as pfile:
-            pickle.dump(toneless_pinyin, pfile, -1)
-        with open(cache_dir + infilename + ".toned_pinyin.cache", "wb") as pfile:
-            pickle.dump(toned_pinyin, pfile, -1)
-        with open(cache_dir + infilename + ".cedict_definition.cache", "wb") as pfile:
-            pickle.dump(cedict_definition, pfile, -1)
-        with open(cache_dir + infilename + ".english_words.cache", "wb") as pfile:
-            pickle.dump(english_words, pfile, -1)
-        with open(cache_dir + infilename + ".cedict_word_set.cache", "wb") as pfile:
-            pickle.dump(cedict_word_set, pfile, -1)
-        with open(cache_dir + infilename + ".tonenum_pinyin.cache", "wb") as pfile:
-            pickle.dump(tonenum_pinyin, pfile, -1)
-        with open(cache_dir + infilename + ".variant_trad.cache", "wb") as pfile:
-            pickle.dump(variant_trad, pfile, -1)
-        with open(cache_dir + infilename + ".variant_simp.cache", "wb") as pfile:
-            pickle.dump(variant_simp, pfile, -1)
+    infile = codecs.open(data_dir + infilename, 'r', "utf-8")
+    for line in infile:
+        if line[0] != "#":
+            match = ccedict_lineparse.search(line)
+            if match is not None:
+                trad = match.group(1)
+                word = match.group(2)
+                pinyin = match.group(3)
+                definition = match.group(4)
+                add_dict_entry(word, trad, pinyin, definition)
 
 removetone = re.compile("[012345]")
 findenglish = re.compile("[A-Za-z]+")
@@ -2731,85 +2627,63 @@ cc_strokes = {} # {"H" : 3}
 
 def parse_cc_file(infilename):
     global cc_components, cc_composes, cc_radicals, cc_radicalof, cc_strokes
-    try:
-        with open(cache_dir + infilename + ".cc_components.cache", "rb") as pfile:
-            cc_components = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cc_composes.cache", "rb") as pfile:
-            cc_composes = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cc_radicals.cache", "rb") as pfile:
-            cc_radicals = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cc_radicalof.cache", "rb") as pfile:
-            cc_radicalof = pickle.load(pfile)
-        with open(cache_dir + infilename + ".cc_strokes.cache", "rb") as pfile:
-            cc_strokes = pickle.load(pfile)
-    except:
-        cc_components = {} # {"H" : set(["|", "-"])}
-        cc_composes = {} # {"-" : set(["H"]), "|" : set(["H"])}
-        cc_radicals = {} # {"|" : set(["H"])}
-        cc_radicalof = {} # {"H" : "|"}
-        cc_strokes = {} # {"H" : 3}
+    cc_components = {} # {"H" : set(["|", "-"])}
+    cc_composes = {} # {"-" : set(["H"]), "|" : set(["H"])}
+    cc_radicals = {} # {"|" : set(["H"])}
+    cc_radicalof = {} # {"H" : "|"}
+    cc_strokes = {} # {"H" : 3}
 
-        infile = codecs.open(data_dir + infilename, 'r', "utf-8")
-        for line in infile:
-            if ignore_invalid_unicode and invalid_unicode_re_pattern.search(line) != None:
-                print("Ignoring line with invalid Unicode: ", line)
-                continue
-            splitted = line.strip("\r\n").replace('\ufeff',"").split("\t")
-            if len(splitted) == 12:
-                zi = splitted[1]
-                strokes = splitted[2]
-                first = splitted [4]
-                second = splitted[7]
-                radical = splitted [11]
-                for char in first + second:
-                    if char != "" and char != zi and char != "*":
-                        if zi not in cc_components:
-                            cc_components[zi] = set()
-                        cc_components[zi].add(char)
-                        if char not in cc_composes:
-                            cc_composes[char] = set()
-                        cc_composes[char].add(zi)
-                if radical== "*":
-                    if zi not in cc_radicals:
-                        cc_radicals[zi] = set()
-                    cc_radicals[zi].add(zi)
-                    cc_radicalof[zi] = zi
-                elif radical != "":
-                    if radical not in cc_radicals:
-                        cc_radicals[radical] = set()
-                    cc_radicals[radical].add(zi)
-                    cc_radicalof[zi] = radical
-                if zi not in cc_strokes:
-                    cc_strokes[zi] = int(strokes)
-        with open(cache_dir + infilename + ".cc_components.cache", "wb") as pfile:
-            pickle.dump(cc_components, pfile, -1)
-        with open(cache_dir + infilename + ".cc_composes.cache", "wb") as pfile:
-            pickle.dump(cc_composes, pfile, -1)
-        with open(cache_dir + infilename + ".cc_radicals.cache", "wb") as pfile:
-            pickle.dump(cc_radicals, pfile, -1)
-        with open(cache_dir + infilename + ".cc_radicalof.cache", "wb") as pfile:
-            pickle.dump(cc_radicalof, pfile, -1)
-        with open(cache_dir + infilename + ".cc_strokes.cache", "wb") as pfile:
-            pickle.dump(cc_strokes, pfile, -1)
+    infile = codecs.open(data_dir + infilename, 'r', "utf-8")
+    for line in infile:
+        if ignore_invalid_unicode and invalid_unicode_re_pattern.search(line) != None:
+            print("Ignoring line with invalid Unicode: ", line)
+            continue
+        splitted = line.strip("\r\n").replace('\ufeff',"").split("\t")
+        if len(splitted) == 12:
+            zi = splitted[1]
+            strokes = splitted[2]
+            first = splitted [4]
+            second = splitted[7]
+            radical = splitted [11]
+            for char in first + second:
+                if char != "" and char != zi and char != "*":
+                    if zi not in cc_components:
+                        cc_components[zi] = set()
+                    cc_components[zi].add(char)
+                    if char not in cc_composes:
+                        cc_composes[char] = set()
+                    cc_composes[char].add(zi)
+            if radical== "*":
+                if zi not in cc_radicals:
+                    cc_radicals[zi] = set()
+                cc_radicals[zi].add(zi)
+                cc_radicalof[zi] = zi
+            elif radical != "":
+                if radical not in cc_radicals:
+                    cc_radicals[radical] = set()
+                cc_radicals[radical].add(zi)
+                cc_radicalof[zi] = radical
+            if zi not in cc_strokes:
+                cc_strokes[zi] = int(strokes)
 
-def get_char_composition(query):
+def get_char_composition(query, expand):
     result = []
     if query in cc_components:
         result.append("""<ul class="tree">""")
         for c in freqorder_char(cc_components[query]):
-            result.append("""<li>{}""".format(hanzideflink(c, c, "char")))
-            if getform("expand") == "yes":
+            result.append("""<li>{}""".format(hanzideflink(c, c, "char", expand)))
+            if expand == "yes":
                 result.append(("&nbsp;" * 8) + get_compact_hanzi_info(c, 80))
-            result = result + get_char_composition(c)
+            result = result + get_char_composition(c, expand)
             result.append("</li>")
         result.append("</ul>")
     return result
 
-def get_char_composes(query):
+def get_char_composes(query, expand):
     result = []
     if query in cc_composes:
         result.append("""<ul class="tree">""")
-        expandyes = getform("expand") == "yes"
+        expandyes = expand == "yes"
         needsendli = False
         isfirst = True
         subresult = []
@@ -2818,18 +2692,18 @@ def get_char_composes(query):
             if isfirst or expandyes or haschildren:
                 if needsendli:
                     subresult.append("</li>")
-                subresult.append("""<li>{}""".format(hanzideflink(c, c, "char")))
+                subresult.append("""<li>{}""".format(hanzideflink(c, c, "char", expand)))
                 if expandyes:
                     subresult.append(("&nbsp;" * 8) + get_compact_hanzi_info(c, 80))
                 if haschildren:
-                    subresult = subresult + get_char_composes(c)
+                    subresult = subresult + get_char_composes(c, expand)
                     isfirst = True
                 else:
                     isfirst = False
                 needsendli = True
             else:
                 subresult.append(chinese_comma_sep)
-                subresult.append(hanzideflink(c, c, "char"))
+                subresult.append(hanzideflink(c, c, "char", expand))
                 needsendli = False
         result.append("".join(subresult))
         if needsendli:
@@ -2866,7 +2740,7 @@ def get_dictionary_entry(word):
         results.append(definition)
     return ", ".join(results)
 
-def get_full_hanzi_info(hanzi,  maxlen):
+def get_full_hanzi_info(hanzi,  maxlen, expand):
     charbits = []
     wordbits = []
     chardefbits = []
@@ -2874,7 +2748,7 @@ def get_full_hanzi_info(hanzi,  maxlen):
     if hanzi in cc_radicals:
         charbits.append("is radical, radical {} {}".format("freq index ", query_radical_freq_index(hanzi)))
     if hanzi in cc_radicalof:
-        charbits.append("""radical {}""".format(hanzideflink(cc_radicalof[hanzi], cc_radicalof[hanzi], "char")))
+        charbits.append("""radical {}""".format(hanzideflink(cc_radicalof[hanzi], cc_radicalof[hanzi], "char", expand)))
     if hanzi in cc_strokes:
         strokes = cc_strokes[hanzi]
         charbits.append("""{} stroke{}""".format(strokes, "s" if strokes > 1 else ""))
@@ -2884,7 +2758,7 @@ def get_full_hanzi_info(hanzi,  maxlen):
     wordfreqidx = query_word_freq_index(hanzi)
     if wordfreqidx < max_freq_index:
         wordbits.append("{} {}".format("freq index ", wordfreqidx))
-    expandtext = "?expand=yes" if getform("expand") == "yes" else ""
+    expandtext = "?expand=yes" if expand == "yes" else ""
     charlevel = query_hsk_char_level_negative_notfound(hanzi)
     wordlevel = query_hsk_word_level_negative_notfound(hanzi)
     result = ""
@@ -2919,6 +2793,9 @@ def get_compact_hanzi_info(hanzi, maxlen):
     defbits = get_hanzi_compactdeflist(hanzi, maxlen)
     result = ", ".join(defbits)
     return result
+
+def gen_get_compact_hanzi_info(hanzi, maxlen):
+    yield from gen_get_hanzi_compactdeflist(hanzi, maxlen)
 
 def get_linktext_hanzi_info(word, char, maxlen):
     chardefbits = []
@@ -2966,6 +2843,43 @@ def get_hanzi_compactdeflist(query, max_def_len):
         results.append(definition)
     return results
 
+def gen_get_hanzi_compactdeflist(query, max_def_len):
+    yielded = False
+    if query in cedict_pinyintonemarks:
+        pinyin = []
+        for p in cedict_pinyintonemarks[query]:
+            if p not in pinyin:
+                pinyin.append(p)
+        if len(pinyin):
+            if yielded:
+                yield ", "
+            yielded = True
+            yield "/".join([p for p in pinyin])
+    if query in cedict_traditional:
+        trad = []
+        for t in cedict_traditional[query]:
+            if t not in trad and t != query:
+                trad.append(t)
+        if len(trad):
+            if yielded:
+                yield ", "
+            yielded = True
+            yield "/".join(["[" + t + "]" for t in trad])
+    if query in cedict_definition:
+        definition = ""
+        for d in cedict_definition[query]:
+            dstrip = d.strip("\r\n ,/")
+            if len(definition) < max_def_len and len(dstrip):
+                if len(definition):
+                    definition += ", "
+                definition += dstrip
+        if len(definition) > max_def_len:
+            definition = definition[:max_def_len] + "..."
+        if yielded:
+            yield ", "
+        yielded = True
+        yield definition
+
 def removedupes(source):
     result = []
     for s in source:
@@ -2977,33 +2891,10 @@ def removedupes(source):
 # radicals
 radical_freq = {}
 radical_freq_index = {}
-hsk_radical_level = {} # {"A" : 1, "B" : 1 , "C" : 1}
+hsk_radical_level = {}  # {"A" : 1, "B" : 1 , "C" : 1}
 
 # init_radical_data
 def init_radical_data():
-    global radical_freq, radical_freq_index, hsk_radical_level
-    try:
-        with open(cache_dir + "radical_freq.cache", "rb") as pfile:
-            radical_freq = pickle.load(pfile)
-        with open(cache_dir + "radical_freq_index.cache", "rb") as pfile:
-            radical_freq_index = pickle.load(pfile)
-        with open(cache_dir + "hsk_radical_level.cache", "rb") as pfile:
-            hsk_radical_level = pickle.load(pfile)
-    except:
-        radical_freq = {}
-        radical_freq_index = {}
-        hsk_radical_level = {} # {"A" : 1, "B" : 1 , "C" : 1}
-
-        build_radical_data()
-
-        with open(cache_dir + "radical_freq.cache", "wb") as pfile:
-            pickle.dump(radical_freq, pfile, -1)
-        with open(cache_dir + "radical_freq_index.cache", "wb") as pfile:
-            pickle.dump(radical_freq_index, pfile, -1)
-        with open(cache_dir + "hsk_radical_level.cache", "wb") as pfile:
-            pickle.dump(hsk_radical_level, pfile, -1)
-
-def build_radical_data():
     for char, freq in char_freq.items():
         if char in cc_radicalof:
             radical = cc_radicalof[char]
@@ -3069,8 +2960,7 @@ brevetocaron = {
     "\u016C" : "\u01D3", # U breve -> U caron
 }
 
-def fixpinyin(pinyin, coundfixed):
-    fixed = []
+def gen_fixpinyin(pinyin, countfixed):
     normalized = unicodedata.normalize("NFKC", pinyin)
     for c in normalized:
         if c in brevetocaron:
@@ -3078,3 +2968,14 @@ def fixpinyin(pinyin, coundfixed):
             countfixed[0] = countfixed[0] + 1
         else:
             yield c
+
+if __name__ == '__main__':
+    # This is used when running locally only. When deploying to Google App
+    # Engine, a webserver process such as Gunicorn will serve the app. This
+    # can be configured by adding an `entrypoint` to app.yaml.
+    # Flask's development server will automatically serve static files in
+    # the "static" directory. See:
+    # http://flask.pocoo.org/docs/1.0/quickstart/#static-files. Once deployed,
+    # App Engine itself will serve those files as configured in app.yaml.
+    app.run(host='127.0.0.1', port=8080, debug=True)
+# [START gae_python37_render_template]
