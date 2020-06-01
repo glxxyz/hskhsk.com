@@ -1,0 +1,23 @@
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="static/hskhsk.css" />
+    <script type="text/javascript" src="static/hskhsk.js"></script>
+</head>
+<body>
+
+{% block heading %}{% endblock %}
+
+{% block content %}{% endblock %}
+
+<p lang='en'>
+    <i>
+        Page generated in {{ generated_time }} seconds.
+        Source code is now available on <a href="https://github.com/glxxyz/hskhsk.com/tree/master/cidian">github</a>.
+        If you find this site useful, <a href='https://hskhsk.com/contribute'>let me know</a>!
+    </i>
+</p>
+
+</body>
+</html>

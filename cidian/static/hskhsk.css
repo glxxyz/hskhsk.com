@@ -1,11 +1,10 @@
 html * {
 	font-family: "Times New Roman", Times, serif, KaiTi, STKaiti, DFKai-SB, BiauKai, STHeitiSC-Light, STHeitiTC-Light;
-	font-size: 100%;
-	line-height: 130%;
+	line-height: 120%;
 }
 
 body {
-	font-size: 130%;
+	font-size: 110%;
 }
 
 .outerbox {}
@@ -18,10 +17,7 @@ body {
 .paddedbox {
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 0em;
-	padding-right: 1em;
-	padding-bottom: 1em;
-	padding-left: 0em;
+	padding: 0em 1em 1em 0em;
 }
 
 .bordered {
@@ -70,24 +66,15 @@ table tr td {
 	text-decoration: none;
 }
 
-
-/* was f85656 */
-
 .hsk2 {
 	color: #EB8B2B;
 	text-decoration: none;
 }
 
-
-/* was ffa448 */
-
 .hsk3 {
 	color: #CFBE00;
 	text-decoration: none;
 }
-
-
-/* was bbbb00 */
 
 .hsk4 {
 	color: #1ca10d;
@@ -107,34 +94,6 @@ table tr td {
 	text-decoration: none;
 }
 
-.hsk0light {
-	background-color: #BBBBBB;
-}
-
-.hsk1light {
-	background-color: #DD8B8B;
-}
-
-.hsk2light {
-	background-color: #EDB984;
-}
-
-.hsk3light {
-	background-color: #D0C97B;
-}
-
-.hsk4light {
-	background-color: #86AE81;
-}
-
-.hsk5light {
-	background-color: #88B8D2;
-}
-
-.hsk6light {
-	background-color: #D69FD8;
-}
-
 .arrowlink {
 	text-decoration: none;
 }
@@ -148,8 +107,7 @@ table tr td {
 ul.tree {
 	list-style-type: none;
 	background: url(vline.png) repeat-y;
-	margin: 0;
-	margin-left: 6px;
+	margin: 0 0 0 6px;
 	padding: 0;
 }
 
@@ -164,13 +122,24 @@ ul.tree li:last-child {
 	background: #fff url(lastnode.png) no-repeat;
 }
 
-.inlinehelp {
+.inlinehelp, .wideinlinehelp {
 	display: none;
 	background-color: #FFFFCC;
 	padding: 10px;
 	text-indent: 0em;
 	max-width: 300px;
 	font-size: 90%;
+}
+
+.widehelp {
+	max-width: 600px;
+}
+
+.errortext {
+	display: none;
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-indent: 0em;
 }
 
 sub {

@@ -1,0 +1,36 @@
+{% extends 'tool.html' %}
+
+{% block tool %}
+    Pinyin Fix
+{% endblock %}
+
+{% block content %}
+    <div>
+        Clean up issues with pinyin accents.
+        <a class="arrowlink" href="javascript:toggle_visibility('mainhelp');"><small>(?)</small></a>
+    </div>
+    <div id="mainhelp" class="widehelp" >
+        <p>This tool cleans up some specific errors with pinyin text.</p>
+        <p>The only errors currently fixed are to correct the caron accents with breve on vowels that take the third tone. For example ă -> ǎ.</p>
+        <p>Other pages on this site may still erroneously use the caron and can be fixed by using this script.</p>
+        <p>Enter your erroneous pinyin in the first textbox, click Go!, and corrected pinyin will be output in the second textbox.</p>
+        <p>Thank you Ádám Szegi for pointing out the erroneous caron accents that previously existed on this site!</p>
+    </div>
+
+    <form method="POST" action="/pinyinfix">
+        <p><textarea name="pinyin" cols="80" rows="8">{{ pinyin }}</textarea></p>
+        <p><input type="submit" value="    Go!    " /></p>
+        <p><textarea name="pinyinfix" cols="80" rows="8">{{ fixed }}</textarea></p>
+    </form>
+    {% if pinyin | length > 0 %}
+        <p>
+            {% if fixed_count == 0 %}
+                There were no erroneous characters to fix.
+            {% elif fixed_count == 1 %}
+                Fixed 1 erroneous character.
+            {% else %}
+                Fixed {{ fixed_count }} erroneous characters.
+            {% endif %}
+        </p>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'tool.html' %}
+
+{% block tool %}
+    Homophones
+{% endblock %}
+
+{% block content %}
+    <div>
+        Other word lengths:
+        {% if num_chars == 1 %}1{% else %}<a href="{{ link_1 }}">1</a>{% endif %}
+        {% if num_chars == 2 %}2{% else %}<a href="{{ link_2 }}">2</a>{% endif %}
+        {% if num_chars == 3 %}3{% else %}<a href="{{ link_3 }}">3</a>{% endif %}
+        {% if num_chars == 4 %}4{% else %}<a href="{{ link_4 }}">4</a>{% endif %}
+        {% if num_chars == 5 %}5{% else %}<a href="{{ link_5 }}">5</a>{% endif %}
+        {% if num_chars == 6 %}6{% else %}<a href="{{ link_6 }}">6</a>{% endif %}
+        {% if num_chars == 7 %}7{% else %}<a href="{{ link_7 }}">7</a>{% endif %}
+        {% if num_chars == 8 %}8{% else %}<a href="{{ link_8 }}">8</a>{% endif %}
+        {% if num_chars == 9 %}9{% else %}<a href="{{ link_9 }}">9</a>{% endif %}
+        [<a href="{{ link_expand }}">{% if expand %}collapse definitions{% else %}expand definitions{% endif %}</a>]
+        [<a href="{{ link_match_tones }}">{% if match_tones %}ignore tones{% else %}match tones{% endif %}</a>]
+        [<a href="{{ link_hsk_only }}">{% if hsk_only %}all words{% else %}HSK words only{% endif %}</a>]
+    </div>
+
+    <h3>
+        {{ num_chars }}-Character Homophones,
+        {% if match_tones %}Matching Tones{% else %}Ignoring Tones{% endif %}
+        {% if hsk_only %}, HSK Words Only{% endif %}
+    </h3>
+
+    {% for group in homophones %}
+        <div {% if expand %} style='margin-bottom: 10px;' {% else %} class="paddedbox" {% endif %} >
+            <div style='font-weight: bold;'>
+                {{ group.pinyin }}
+                <a class='arrowlink' href="{{ group.link_search }}">⇒</a>
+            </div>
+            {% for homophone in group.members %}
+                <a href="{{ homophone.dictionary_link }}"
+                   title="{{ homophone.definition }}"
+                   class="hsk{{ homophone.hsk_level }}">{{ homophone.hanzi }}</a>
+                {%- if expand -%}
+                    {{ homophone.definition }}<br />
+                {%- else -%}
+                    {{- "，" if not loop.last -}}
+                {%- endif -%}
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+    {% if homophones | length == 0 %}
+        <i>There are no words...</a>
+    {% endif %}
+{% endblock %}
