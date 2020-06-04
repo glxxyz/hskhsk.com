@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="845px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" viewBox="-94 -93 189 188" height="841px"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="1.5"
+              d="M 27.586569,3.864027 L 31.648129,13.204336" class="水果 水"
+              stroke-opacity="1.0" stroke="#fea3a3"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 27.586569,3.864027 L 36.399422,4.906205" class="水果 果"
+              stroke-opacity="1.0" stroke="#dab4b4"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 40.273026,-31.106918 L 45.837528,-38.099709" class="什么 么"
+              stroke-opacity="1.0" stroke="#d78a8a"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -25.846750,-61.716995 L -16.464211,-62.597198" class="不客气 不"
+              stroke-opacity="1.0" stroke="#fb8080"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -25.846750,-61.716995 L -33.019333,-55.672649" class="不客气 气"
+              stroke-opacity="1.0" stroke="#d9aeae"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 24.959181,-32.538361 L 15.921888,-34.741871" class="我们 我"
+              stroke-opacity="1.0" stroke="#f85959"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 20.704296,50.415924 L 27.526310,43.870892" class="电影 电"
+              stroke-opacity="1.0" stroke="#d9a5a5"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -45.929356,-43.443584 L -39.630508,-49.647758" class="天气 气"
+              stroke-opacity="1.0" stroke="#d9b1b1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -45.929356,-43.443584 L -56.058399,-45.158791" class="天气 天"
+              stroke-opacity="1.0" stroke="#d9b1b1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -71.291862,-53.831280 L -75.833145,-46.983364" class="现在 在"
+              stroke-opacity="1.0" stroke="#f86262"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -45.583855,78.287399 L -36.230042,82.261406" class="同学 学"
+              stroke-opacity="1.0" stroke="#d9b2b2"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 2.634925,76.982651 L -2.567738,85.803093" class="医生 生"
+              stroke-opacity="1.0" stroke="#d89e9e"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 2.634925,76.982651 L 8.919756,67.231537" class="医生 医"
+              stroke-opacity="1.0" stroke="#d99e9e"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 37.144783,-81.499153 L 45.486794,-77.411346" class="下午 下"
+              stroke-opacity="1.0" stroke="#fc8b8b"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 37.144783,-81.499153 L 26.803219,-75.017334" class="下午 午"
+              stroke-opacity="1.0" stroke="#dbaeae"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 39.707600,30.682827 L 33.721237,37.429855" class="电脑 电"
+              stroke-opacity="1.0" stroke="#d9acac"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 12.451686,-88.448906 L 10.754904,-79.801941" class="中午 中"
+              stroke-opacity="1.0" stroke="#dab3b3"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 12.451686,-88.448906 L 20.738140,-76.287300" class="中午 午"
+              stroke-opacity="1.0" stroke="#dcb5b5"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 55.566124,-30.091747 L 50.936562,-37.769066" class="怎么样 么"
+              stroke-opacity="1.0" stroke="#d89b9b"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 55.566124,-30.091747 L 61.706379,-37.042095" class="怎么样 怎"
+              stroke-opacity="1.0" stroke="#d89b9b"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -10.704923,-25.641659 L -20.826939,-27.142565" class="没关系 没"
+              stroke-opacity="1.0" stroke="#d9a8a8"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 61.446060,-66.124138 L 53.035728,-72.687454" class="下雨 下"
+              stroke-opacity="1.0" stroke="#fc9393"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 45.375729,43.924870 L 35.124950,41.716671" class="电视 电"
+              stroke-opacity="1.0" stroke="#d9a9a9"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -10.046638,76.206848 L -6.457092,85.483978" class="先生 生"
+              stroke-opacity="1.0" stroke="#d79494"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -78.871132,-9.445489 L -75.516464,-18.302212" class="看见 看"
+              stroke-opacity="1.0" stroke="#fa7a7a"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -78.871132,-9.445489 L -77.783371,-0.241605" class="看见 见"
+              stroke-opacity="1.0" stroke="#d8a1a1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -90.308884,-2.739820 L -81.209938,2.101317" class="再见 见"
+              stroke-opacity="1.0" stroke="#d8a1a1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 83.004288,-33.123871 L 85.522301,-25.318893" class="名字 字"
+              stroke-opacity="1.0" stroke="#fd9797"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 28.805790,74.665596 L 36.490974,68.924011" class="桌子 子"
+              stroke-opacity="1.0" stroke="#d9b0b0"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -0.289772,-89.420898 L 7.261243,-79.030457" class="中国 中"
+              stroke-opacity="1.0" stroke="#d9aeae"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 10.593983,26.062014 L 13.955342,34.252220" class="小姐 小"
+              stroke-opacity="1.0" stroke="#fb8585"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -75.824524,47.442986 L -70.876381,54.488968" class="商店 店"
+              stroke-opacity="1.0" stroke="#d9b1b1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -34.664280,69.659691 L -32.894478,79.604752" class="学校 学"
+              stroke-opacity="1.0" stroke="#d9a5a5"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -22.484648,73.705193 L -29.054974,80.740341" class="学习 学"
+              stroke-opacity="1.0" stroke="#d9adad"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 27.451952,-58.006989 L 36.237514,-54.547161" class="上午 上"
+              stroke-opacity="1.0" stroke="#fc8c8c"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 27.451952,-58.006989 L 24.362864,-68.605103" class="上午 午"
+              stroke-opacity="1.0" stroke="#dcb5b5"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -17.058844,22.394775 L -13.326906,31.886461" class="多少 多"
+              stroke-opacity="1.0" stroke="#fb8080"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -17.058844,22.394775 L -27.165298,21.140583" class="多少 少"
+              stroke-opacity="1.0" stroke="#fc9595"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 35.825756,53.469494 L 38.663528,61.998394" class="杯子 子"
+              stroke-opacity="1.0" stroke="#dab3b3"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 57.302876,-51.500813 L 51.575993,-44.968616" class="怎么 么"
+              stroke-opacity="1.0" stroke="#d78f8f"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 57.302876,-51.500813 L 62.196247,-44.118633" class="怎么 怎"
+              stroke-opacity="1.0" stroke="#d78f8f"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -67.966377,-34.736008 L -62.966164,-42.188793" class="今天 天"
+              stroke-opacity="1.0" stroke="#d89a9a"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -63.698227,42.023865 L -58.534618,49.726631" class="米饭 饭"
+              stroke-opacity="1.0" stroke="#dab5b5"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 25.216459,28.197144 L 28.951551,36.682007" class="打电话 电"
+              stroke-opacity="1.0" stroke="#d8a1a1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 53.728264,33.523956 L 58.034607,25.788824" class="哪儿 哪"
+              stroke-opacity="1.0" stroke="#fb8383"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 53.728264,33.523956 L 57.740009,43.218681" class="哪儿 儿"
+              stroke-opacity="1.0" stroke="#d89e9e"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 1.367221,-63.179314 L -7.531044,-63.070206" class="对不起 不"
+              stroke-opacity="1.0" stroke="#f96d6d"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 36.865540,-7.812121 L 39.543549,1.168440" class="苹果 果"
+              stroke-opacity="1.0" stroke="#dab3b3"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -54.019680,-32.870449 L -58.486263,-41.894226" class="昨天 天"
+              stroke-opacity="1.0" stroke="#d9a9a9"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -18.615868,87.926575 L -27.811255,85.258904" class="学生 学"
+              stroke-opacity="1.0" stroke="#d9acac"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -18.615868,87.926575 L -9.283048,89.100105" class="学生 生"
+              stroke-opacity="1.0" stroke="#d9acac"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 67.219490,36.401676 L 78.512520,34.579433" class="一点儿 一"
+              stroke-opacity="1.0" stroke="#fb8787"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 67.219490,36.401676 L 73.735229,42.519596" class="一点儿 点"
+              stroke-opacity="1.0" stroke="#fc8d8d"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 67.219490,36.401676 L 62.041016,43.703552" class="一点儿 儿"
+              stroke-opacity="1.0" stroke="#d9b2b2"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -58.984238,68.684914 L -65.338120,61.503899" class="饭店 店"
+              stroke-opacity="1.0" stroke="#dab3b3"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -58.984238,68.684914 L -56.891155,57.834167" class="饭店 饭"
+              stroke-opacity="1.0" stroke="#dab3b3"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -51.791069,-56.119762 L -57.572979,-49.317116" class="明天 天"
+              stroke-opacity="1.0" stroke="#d8a2a2"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 6.812678,50.863537 L 9.832177,59.329155" class="医院 医"
+              stroke-opacity="1.0" stroke="#d9a8a8"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 39.203571,81.655426 L 39.823414,70.713806" class="椅子 子"
+              stroke-opacity="1.0" stroke="#d9b1b1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 60.987114,65.342575 L 59.832298,51.814831" class="女儿 儿"
+              stroke-opacity="1.0" stroke="#d8a4a4"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 50.374073,57.253063 L 43.447842,63.301304" class="儿子 子"
+              stroke-opacity="1.0" stroke="#d8a1a1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M 50.374073,57.253063 L 56.426105,50.653812" class="儿子 儿"
+              stroke-opacity="1.0" stroke="#d8a1a1"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -27.239561,-86.183075 L -29.374689,-77.798004" class="前面 面"
+              stroke-opacity="1.0" stroke="#d9aeae"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -16.853855,-75.443077 L -26.050035,-74.105095" class="后面 面"
+              stroke-opacity="1.0" stroke="#d9a9a9"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -33.542839,-17.103308 L -38.477280,-9.141083" class="没有 有"
+              stroke-opacity="1.0" stroke="#f96262"/>
+        <path fill="none" stroke-width="1.5"
+              d="M -33.542839,-17.103308 L -27.996944,-24.260607" class="没有 没"
+              stroke-opacity="1.0" stroke="#d78e8e"/>
+    </g>
+    <g id="nodes">
+        <circle fill="#f96060" fill-opacity="1.0" r="4.4765363" class="一"
+                cx="82.93189" cy="33.866325"/>
+        <circle fill="#ffb2b2" fill-opacity="1.0" r="4.4551673" class="水果"
+                cx="27.586569" cy="3.8640273"/>
+        <circle fill="#fd9595" fill-opacity="1.0" r="4.476331" class="水"
+                cx="33.433163" cy="17.309357"/>
+        <circle fill="#f95f5f" fill-opacity="1.0" r="4.4765363" class="什么"
+                cx="40.273026" cy="-31.106918"/>
+        <circle fill="#fc8e8e" fill-opacity="1.0" r="4.4764476" class="分钟"
+                cx="-64.031624" cy="5.2102475"/>
+        <circle fill="#fea7a7" fill-opacity="1.0" r="4.4741755" class="不客气"
+                cx="-25.84675" cy="-61.716995"/>
+        <circle fill="#f85959" fill-opacity="1.0" r="4.4765363" class="不"
+                cx="-12.007244" cy="-63.01532"/>
+        <circle fill="#fb8282" fill-opacity="1.0" r="4.4765177" class="些"
+                cx="87.883194" cy="20.904186"/>
+        <circle fill="#fa7171" fill-opacity="1.0" r="4.476534" class="多"
+                cx="-11.688887" cy="36.052544"/>
+        <circle fill="#fc8a8a" fill-opacity="1.0" r="4.4764857" class="喝"
+                cx="6.4857907" cy="-49.700935"/>
+        <circle fill="#f85c5c" fill-opacity="1.0" r="4.4765363" class="我们"
+                cx="24.95918" cy="-32.53836"/>
+        <circle fill="#f85757" fill-opacity="1.0" r="4.4765363" class="我"
+                cx="11.572764" cy="-35.80229"/>
+        <circle fill="#fd9c9c" fill-opacity="1.0" r="4.476043" class="飞机"
+                cx="-69.9302" cy="29.999508"/>
+        <circle fill="#fc8989" fill-opacity="1.0" r="4.4764876" class="认识"
+                cx="-19.809835" cy="47.241394"/>
+        <circle fill="#fa7777" fill-opacity="1.0" r="4.4765315" class="东西"
+                cx="36.07043" cy="-68.184494"/>
+        <circle fill="#fc8e8e" fill-opacity="1.0" r="4.4764476" class="漂亮"
+                cx="-15.080438" cy="61.715263"/>
+        <circle fill="#ffb6b6" fill-opacity="1.0" r="4.344338" class="北京"
+                cx="-6.651831" cy="49.96368"/>
+        <circle fill="#fd9696" fill-opacity="1.0" r="4.4763103" class="电影"
+                cx="20.704296" cy="50.415924"/>
+        <circle fill="#feadad" fill-opacity="1.0" r="4.4700007" class="天气"
+                cx="-45.929356" cy="-43.443584"/>
+        <circle fill="#feadad" fill-opacity="1.0" r="4.469868" class="茶"
+                cx="-83.9494" cy="-31.426683"/>
+        <circle fill="#f96a6a" fill-opacity="1.0" r="4.476535" class="现在"
+                cx="-71.29186" cy="-53.83128"/>
+        <circle fill="#f85b5b" fill-opacity="1.0" r="4.4765363" class="在"
+                cx="-78.30722" cy="-43.25264"/>
+        <circle fill="#feafaf" fill-opacity="1.0" r="4.467261" class="同学"
+                cx="-45.583855" cy="78.2874"/>
+        <circle fill="#fa6e6e" fill-opacity="1.0" r="4.476535" class="太"
+                cx="-13.890567" cy="-1.6642582"/>
+        <circle fill="#fc8787" fill-opacity="1.0" r="4.476497" class="医生"
+                cx="2.6349247" cy="76.98265"/>
+        <circle fill="#fea4a4" fill-opacity="1.0" r="4.475094" class="下午"
+                cx="37.144783" cy="-81.49915"/>
+        <circle fill="#fa7272" fill-opacity="1.0" r="4.476534" class="下"
+                cx="49.506634" cy="-75.44151"/>
+        <circle fill="#f95e5e" fill-opacity="1.0" r="4.4765363" class="有"
+                cx="-40.835407" cy="-5.3360057"/>
+        <circle fill="#fea3a3" fill-opacity="1.0" r="4.475329" class="电脑"
+                cx="39.7076" cy="30.682827"/>
+        <circle fill="#ffb2b2" fill-opacity="1.0" r="4.4573956" class="中午"
+                cx="12.451686" cy="-88.448906"/>
+        <circle fill="#fc8d8d" fill-opacity="1.0" r="4.47646" class="狗"
+                cx="-13.438973" cy="-88.65609"/>
+        <circle fill="#f95e5e" fill-opacity="1.0" r="4.4765363" class="这"
+                cx="-5.355053" cy="-12.880046"/>
+        <circle fill="#fd9696" fill-opacity="1.0" r="4.4762907" class="四"
+                cx="50.60899" cy="-6.3580503"/>
+        <circle fill="#fc9494" fill-opacity="1.0" r="4.47636" class="衣服"
+                cx="-36.86336" cy="8.021591"/>
+        <circle fill="#fb8282" fill-opacity="1.0" r="4.4765167" class="怎么样"
+                cx="55.566124" cy="-30.091747"/>
+        <circle fill="#fc8787" fill-opacity="1.0" r="4.476498" class="买"
+                cx="90.14757" cy="5.6109743"/>
+        <circle fill="#f96060" fill-opacity="1.0" r="4.4765363" class="想"
+                cx="50.974224" cy="73.813126"/>
+        <circle fill="#ffb7b7" fill-opacity="1.0" r="4.0" class="汉语"
+                cx="-1.8778211" cy="-37.555847"/>
+        <circle fill="#fb7b7b" fill-opacity="1.0" r="4.476528" class="年"
+                cx="63.994614" cy="-4.6155033"/>
+        <circle fill="#fa7272" fill-opacity="1.0" r="4.476534" class="时候"
+                cx="5.331443" cy="13.226692"/>
+        <circle fill="#fda0a0" fill-opacity="1.0" r="4.475686" class="星期"
+                cx="-15.782205" cy="-38.02616"/>
+        <circle fill="#fb7d7d" fill-opacity="1.0" r="4.476527" class="吃"
+                cx="14.55032" cy="-61.577118"/>
+        <circle fill="#fc8e8e" fill-opacity="1.0" r="4.476452" class="喂"
+                cx="8.539275" cy="-10.974939"/>
+        <circle fill="#f85757" fill-opacity="1.0" r="4.4765363" class="的"
+                cx="-86.139" cy="24.095678"/>
+        <circle fill="#fd9b9b" fill-opacity="1.0" r="4.4760914" class="没关系"
+                cx="-10.704923" cy="-25.641659"/>
+        <circle fill="#ffb5b5" fill-opacity="1.0" r="4.408903" class="下雨"
+                cx="61.44606" cy="-66.12414"/>
+        <circle fill="#fd9c9c" fill-opacity="1.0" r="4.476006" class="二"
+                cx="24.909029" cy="-85.96264"/>
+        <circle fill="#fa7878" fill-opacity="1.0" r="4.4765306" class="小"
+                cx="15.65499" cy="38.39354"/>
+        <circle fill="#fc8a8a" fill-opacity="1.0" r="4.476482" class="写"
+                cx="53.673397" cy="7.245853"/>
+        <circle fill="#fb8181" fill-opacity="1.0" r="4.476519" class="爸爸"
+                cx="47.045975" cy="19.460287"/>
+        <circle fill="#fd9999" fill-opacity="1.0" r="4.476185" class="五"
+                cx="19.43865" cy="15.256729"/>
+        <circle fill="#f95f5f" fill-opacity="1.0" r="4.4765363" class="吗"
+                cx="-0.015046746" cy="0.20816958"/>
+        <circle fill="#fd9d9d" fill-opacity="1.0" r="4.4759994" class="电视"
+                cx="45.37573" cy="43.92487"/>
+        <circle fill="#fa7373" fill-opacity="1.0" r="4.476534" class="先生"
+                cx="-10.046638" cy="76.20685"/>
+        <circle fill="#fc8d8d" fill-opacity="1.0" r="4.4764543" class="看见"
+                cx="-78.87113" cy="-9.445489"/>
+        <circle fill="#f96868" fill-opacity="1.0" r="4.476535" class="看"
+                cx="-73.93082" cy="-22.48851"/>
+        <circle fill="#f95e5e" fill-opacity="1.0" r="4.4765363" class="会"
+                cx="9.219514" cy="89.54082"/>
+        <circle fill="#fc8e8e" fill-opacity="1.0" r="4.476446" class="再见"
+                cx="-90.30888" cy="-2.7398205"/>
+        <circle fill="#fb7e7e" fill-opacity="1.0" r="4.476525" class="朋友"
+                cx="-74.390656" cy="17.35174"/>
+        <circle fill="#f85858" fill-opacity="1.0" r="4.4765363" class="是"
+                cx="-2.0036106" cy="63.486805"/>
+        <circle fill="#fc8989" fill-opacity="1.0" r="4.4764876" class="名字"
+                cx="83.00429" cy="-33.12387"/>
+        <circle fill="#fea5a5" fill-opacity="1.0" r="4.474693" class="字"
+                cx="86.89618" cy="-21.060333"/>
+        <circle fill="#feabab" fill-opacity="1.0" r="4.4723754" class="桌子"
+                cx="28.80579" cy="74.665596"/>
+        <circle fill="#fb7d7d" fill-opacity="1.0" r="4.476526" class="家"
+                cx="-81.77709" cy="36.144653"/>
+        <circle fill="#fea8a8" fill-opacity="1.0" r="4.4735923" class="中国"
+                cx="-0.28977206" cy="-89.4209"/>
+        <circle fill="#fc9393" fill-opacity="1.0" r="4.4763737" class="小姐"
+                cx="10.593983" cy="26.062014"/>
+        <circle fill="#fda1a1" fill-opacity="1.0" r="4.4755764" class="十"
+                cx="3.1998403" cy="-24.354109"/>
+        <circle fill="#fc8d8d" fill-opacity="1.0" r="4.4764614" class="号"
+                cx="31.643797" cy="-20.33699"/>
+        <circle fill="#feadad" fill-opacity="1.0" r="4.469677" class="商店"
+                cx="-75.824524" cy="47.442986"/>
+        <circle fill="#fda0a0" fill-opacity="1.0" r="4.4757032" class="老师"
+                cx="73.17935" cy="24.346518"/>
+        <circle fill="#fd9595" fill-opacity="1.0" r="4.4763265" class="学校"
+                cx="-34.66428" cy="69.65969"/>
+        <circle fill="#f96161" fill-opacity="1.0" r="4.4765363" class="那"
+                cx="-66.32427" cy="-8.450448"/>
+        <circle fill="#fea6a6" fill-opacity="1.0" r="4.474414" class="学习"
+                cx="-22.484648" cy="73.70519"/>
+        <circle fill="#ffb2b2" fill-opacity="1.0" r="4.455377" class="上午"
+                cx="27.451952" cy="-58.00699"/>
+        <circle fill="#f96666" fill-opacity="1.0" r="4.476535" class="上"
+                cx="40.402706" cy="-52.906876"/>
+        <circle fill="#fc9090" fill-opacity="1.0" r="4.476424" class="多少"
+                cx="-17.058844" cy="22.394775"/>
+        <circle fill="#fd9b9b" fill-opacity="1.0" r="4.4760995" class="少"
+                cx="-31.607325" cy="20.589334"/>
+        <circle fill="#ffb2b2" fill-opacity="1.0" r="4.4522533" class="杯子"
+                cx="35.825756" cy="53.469494"/>
+        <circle fill="#f96a6a" fill-opacity="1.0" r="4.476535" class="怎么"
+                cx="57.302876" cy="-51.500813"/>
+        <circle fill="#f96161" fill-opacity="1.0" r="4.4765363" class="来"
+                cx="69.65194" cy="56.036106"/>
+        <circle fill="#f96262" fill-opacity="1.0" r="4.4765363" class="都"
+                cx="46.35223" cy="-19.121248"/>
+        <circle fill="#fda0a0" fill-opacity="1.0" r="4.4757113" class="六"
+                cx="-63.008724" cy="-63.527096"/>
+        <circle fill="#fa7474" fill-opacity="1.0" r="4.476533" class="喜欢"
+                cx="13.920031" cy="2.0205321"/>
+        <circle fill="#fb7f7f" fill-opacity="1.0" r="4.4765234" class="今天"
+                cx="-67.96638" cy="-34.736008"/>
+        <circle fill="#ffb6b6" fill-opacity="1.0" r="4.3520255" class="米饭"
+                cx="-63.698227" cy="42.023865"/>
+        <circle fill="#f96060" fill-opacity="1.0" r="4.4765363" class="她"
+                cx="19.609903" cy="-47.04904"/>
+        <circle fill="#fc8e8e" fill-opacity="1.0" r="4.476452" class="打电话"
+                cx="25.21646" cy="28.197144"/>
+        <circle fill="#f85d5d" fill-opacity="1.0" r="4.4765363" class="好"
+                cx="-27.920536" cy="58.10743"/>
+        <circle fill="#fc8d8d" fill-opacity="1.0" r="4.4764566" class="岁"
+                cx="74.6193" cy="-15.583537"/>
+        <circle fill="#fb7d7d" fill-opacity="1.0" r="4.476526" class="开"
+                cx="-27.593023" cy="-3.4856434"/>
+        <circle fill="#fc8888" fill-opacity="1.0" r="4.4764924" class="哪儿"
+                cx="53.728264" cy="33.523956"/>
+        <circle fill="#fb7e7e" fill-opacity="1.0" r="4.476525" class="哪"
+                cx="60.212093" cy="21.87758"/>
+        <circle fill="#fb8282" fill-opacity="1.0" r="4.4765153" class="对不起"
+                cx="1.3672215" cy="-63.179314"/>
+        <circle fill="#fc8c8c" fill-opacity="1.0" r="4.476467" class="月"
+                cx="-47.22306" cy="-19.240623"/>
+        <circle fill="#fea9a9" fill-opacity="1.0" r="4.473532" class="七"
+                cx="15.4780855" cy="76.34558"/>
+        <circle fill="#fa7171" fill-opacity="1.0" r="4.476534" class="听"
+                cx="-20.838737" cy="-50.024128"/>
+        <circle fill="#fb7e7e" fill-opacity="1.0" r="4.476525" class="妈妈"
+                cx="-30.879263" cy="-40.436234"/>
+        <circle fill="#fd9f9f" fill-opacity="1.0" r="4.475753" class="睡觉"
+                cx="-40.9457" cy="53.588413"/>
+        <circle fill="#f96262" fill-opacity="1.0" r="4.4765363" class="个"
+                cx="-88.975075" cy="11.22053"/>
+        <circle fill="#fc8f8f" fill-opacity="1.0" r="4.476437" class="本"
+                cx="-3.2568147" cy="24.69066"/>
+        <circle fill="#fb7c7c" fill-opacity="1.0" r="4.476528" class="钱"
+                cx="-55.524517" cy="30.372458"/>
+        <circle fill="#fb7b7b" fill-opacity="1.0" r="4.476528" class="工作"
+                cx="-19.534424" cy="-14.832519"/>
+        <circle fill="#ffb1b1" fill-opacity="1.0" r="4.4620347" class="苹果"
+                cx="36.86554" cy="-7.8121214"/>
+        <circle fill="#feabab" fill-opacity="1.0" r="4.471795" class="出租车"
+                cx="-40.335003" cy="31.318367"/>
+        <circle fill="#fa6c6c" fill-opacity="1.0" r="4.476535" class="点"
+                cx="76.99867" cy="45.58379"/>
+        <circle fill="#f96363" fill-opacity="1.0" r="4.4765363" class="去"
+                cx="-88.51538" cy="-18.24279"/>
+        <circle fill="#fea7a7" fill-opacity="1.0" r="4.4743423" class="冷"
+                cx="-33.230545" cy="43.367374"/>
+        <circle fill="#f96363" fill-opacity="1.0" r="4.4765363" class="和"
+                cx="22.797937" cy="-9.247106"/>
+        <circle fill="#fc8989" fill-opacity="1.0" r="4.4764867" class="坐"
+                cx="-3.4601603" cy="-76.25125"/>
+        <circle fill="#fd9e9e" fill-opacity="1.0" r="4.475914" class="昨天"
+                cx="-54.01968" cy="-32.87045"/>
+        <circle fill="#fea4a4" fill-opacity="1.0" r="4.4751077" class="学生"
+                cx="-18.615868" cy="87.926575"/>
+        <circle fill="#feafaf" fill-opacity="1.0" r="4.466017" class="一点儿"
+                cx="67.21949" cy="36.401676"/>
+        <circle fill="#f96666" fill-opacity="1.0" r="4.476535" class="做"
+                cx="-50.589443" cy="6.536149"/>
+        <circle fill="#f85757" fill-opacity="1.0" r="4.4765363" class="你"
+                cx="77.16623" cy="-2.2522564"/>
+        <circle fill="#fa6c6c" fill-opacity="1.0" r="4.476535" class="呢"
+                cx="16.904966" cy="-21.889294"/>
+        <circle fill="#fd9696" fill-opacity="1.0" r="4.4763036" class="书"
+                cx="-48.747482" cy="41.95115"/>
+        <circle fill="#fa7979" fill-opacity="1.0" r="4.4765306" class="叫"
+                cx="70.4811" cy="-28.36011"/>
+        <circle fill="#fea3a3" fill-opacity="1.0" r="4.475181" class="热"
+                cx="-6.9216046" cy="-50.434193"/>
+        <circle fill="#ffb2b2" fill-opacity="1.0" r="4.457746" class="饭店"
+                cx="-58.984238" cy="68.68491"/>
+        <circle fill="#fb7b7b" fill-opacity="1.0" r="4.476528" class="请"
+                cx="60.65186" cy="-17.713896"/>
+        <circle fill="#fd9d9d" fill-opacity="1.0" r="4.475961" class="读"
+                cx="-60.615807" cy="-21.189592"/>
+        <circle fill="#f96262" fill-opacity="1.0" r="4.4765363" class="能"
+                cx="-46.31293" cy="19.281574"/>
+        <circle fill="#fa7171" fill-opacity="1.0" r="4.476534" class="谁"
+                cx="32.799915" cy="-42.84746"/>
+        <circle fill="#fc9090" fill-opacity="1.0" r="4.476428" class="明天"
+                cx="-51.79107" cy="-56.119762"/>
+        <circle fill="#f85858" fill-opacity="1.0" r="4.4765363" class="了"
+                cx="77.5087" cy="-44.616787"/>
+        <circle fill="#fb8686" fill-opacity="1.0" r="4.476504" class="三"
+                cx="-8.604954" cy="11.417096"/>
+        <circle fill="#f96161" fill-opacity="1.0" r="4.4765363" class="很"
+                cx="-47.12939" cy="64.7412"/>
+        <circle fill="#fd9b9b" fill-opacity="1.0" r="4.476111" class="医院"
+                cx="6.8126783" cy="50.863537"/>
+        <circle fill="#feaeae" fill-opacity="1.0" r="4.469288" class="椅子"
+                cx="39.20357" cy="81.655426"/>
+        <circle fill="#fc9393" fill-opacity="1.0" r="4.476375" class="女儿"
+                cx="60.987114" cy="65.342575"/>
+        <circle fill="#fa7474" fill-opacity="1.0" r="4.476533" class="大"
+                cx="-39.816933" cy="-30.44514"/>
+        <circle fill="#fda1a1" fill-opacity="1.0" r="4.475529" class="猫"
+                cx="89.236916" cy="-8.228578"/>
+        <circle fill="#fc8e8e" fill-opacity="1.0" r="4.4764485" class="儿子"
+                cx="50.374073" cy="57.253063"/>
+        <circle fill="#fb7b7b" fill-opacity="1.0" r="4.476529" class="爱"
+                cx="23.80494" cy="87.407974"/>
+        <circle fill="#f96161" fill-opacity="1.0" r="4.4765363" class="人"
+                cx="-53.138763" cy="-72.1853"/>
+        <circle fill="#fa7272" fill-opacity="1.0" r="4.476534" class="谢谢"
+                cx="-60.612156" cy="18.13672"/>
+        <circle fill="#fea8a8" fill-opacity="1.0" r="4.473985" class="前面"
+                cx="-27.239561" cy="-86.183075"/>
+        <circle fill="#fd9e9e" fill-opacity="1.0" r="4.475919" class="后面"
+                cx="-16.853855" cy="-75.44308"/>
+        <circle fill="#fa6f6f" fill-opacity="1.0" r="4.476535" class="里"
+                cx="-41.709133" cy="-80.172104"/>
+        <circle fill="#fb8383" fill-opacity="1.0" r="4.4765134" class="住"
+                cx="-22.757812" cy="9.587971"/>
+        <circle fill="#fc9191" fill-opacity="1.0" r="4.476407" class="块"
+                cx="1.7647336" cy="37.970173"/>
+        <circle fill="#f85c5c" fill-opacity="1.0" r="4.4765363" class="他"
+                cx="48.788204" cy="-62.23976"/>
+        <circle fill="#feadad" fill-opacity="1.0" r="4.4697695" class="九"
+                cx="-41.64455" cy="-65.07626"/>
+        <circle fill="#fea9a9" fill-opacity="1.0" r="4.4735084" class="菜"
+                cx="25.011154" cy="62.454323"/>
+        <circle fill="#fb7b7b" fill-opacity="1.0" r="4.476528" class="回"
+                cx="78.48831" cy="11.648211"/>
+        <circle fill="#fb8181" fill-opacity="1.0" r="4.47652" class="几"
+                cx="66.14046" cy="9.270904"/>
+        <circle fill="#fea8a8" fill-opacity="1.0" r="4.473832" class="八"
+                cx="-53.739" cy="-6.960057"/>
+        <circle fill="#f96767" fill-opacity="1.0" r="4.476535" class="没有"
+                cx="-33.54284" cy="-17.103308"/>
+        <circle fill="#f96060" fill-opacity="1.0" r="4.4765363" class="说"
+                cx="70.319534" cy="-55.53677"/>
+        <circle fill="#fb8686" fill-opacity="1.0" r="4.4765015" class="高兴"
+                cx="-25.278316" cy="33.035885"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4756975" class="气"
+                cx="-36.441837" cy="-52.788498"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4758577" class="店"
+                cx="-68.304085" cy="58.151833"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.476528" class="见"
+                cx="-77.257965" cy="4.203984"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4765315" class="么"
+                cx="48.624905" cy="-41.602547"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4757147" class="面"
+                cx="-30.479118" cy="-73.46069"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4762206" class="学"
+                cx="-32.11022" cy="84.011734"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.476534" class="天"
+                cx="-60.4721" cy="-45.906185"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.471947" class="电"
+                cx="30.753284" cy="40.774937"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.473045" class="饭"
+                cx="-56.043934" cy="53.44209"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4704986" class="怎"
+                cx="64.666214" cy="-40.392426"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4765363" class="没"
+                cx="-25.255058" cy="-27.799171"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4757423" class="子"
+                cx="40.076557" cy="66.24523"/>
+        <circle fill="#b6b6b6" fill-opacity="1.0" r="4.445162" class="果"
+                cx="40.813824" cy="5.428237"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4761734" class="生"
+                cx="-4.841847" cy="89.658554"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4765306" class="中"
+                cx="9.89292" cy="-75.40919"/>
+        <circle fill="#b9b9b9" fill-opacity="1.0" r="4.30025" class="午"
+                cx="23.159523" cy="-72.73356"/>
+        <circle fill="#b6b6b6" fill-opacity="1.0" r="4.4335127" class="医"
+                cx="11.321607" cy="63.504993"/>
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.4762564" class="儿"
+                cx="59.45156" cy="47.354797"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="4" x="82.93189" y="33.949333" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="一">
+            一
+        </text>
+        <text font-size="4" x="27.586569" y="4.7572565" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="水果">
+            水果
+        </text>
+        <text font-size="4" x="33.433163" y="18.199656" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="水">
+            水
+        </text>
+        <text font-size="4" x="40.273026" y="-30.209784" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="什么">
+            什么
+        </text>
+        <text font-size="4" x="-64.031624" y="6.109336" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="分钟">
+            分钟
+        </text>
+        <text font-size="4" x="-25.84675" y="-60.798702" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="不客气">
+            不客气
+        </text>
+        <text font-size="4" x="-12.007244" y="-62.18101" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="不">
+            不
+        </text>
+        <text font-size="4" x="87.883194" y="21.75054" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="些">
+            些
+        </text>
+        <text font-size="4" x="-11.688887" y="36.969864" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="多">
+            多
+        </text>
+        <text font-size="4" x="6.4857907" y="-48.844814" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="喝">
+            喝
+        </text>
+        <text font-size="4" x="24.95918" y="-31.6422" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="我们">
+            我们
+        </text>
+        <text font-size="4" x="11.572764" y="-34.911015" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="我">
+            我
+        </text>
+        <text font-size="4" x="-69.9302" y="30.899899" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="飞机">
+            飞机
+        </text>
+        <text font-size="4" x="-19.809835" y="48.12974" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="认识">
+            认识
+        </text>
+        <text font-size="4" x="36.07043" y="-67.29843" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="东西">
+            东西
+        </text>
+        <text font-size="4" x="-15.080438" y="62.62119" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="漂亮">
+            漂亮
+        </text>
+        <text font-size="4" x="-6.651831" y="50.853004" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="北京">
+            北京
+        </text>
+        <text font-size="4" x="20.704296" y="51.31306" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="电影">
+            电影
+        </text>
+        <text font-size="4" x="-45.929356" y="-42.53408" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="天气">
+            天气
+        </text>
+        <text font-size="4" x="-83.9494" y="-30.528572" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="茶">
+            茶
+        </text>
+        <text font-size="4" x="-71.29186" y="-52.930237" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="现在">
+            现在
+        </text>
+        <text font-size="4" x="-78.30722" y="-42.351597" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="在">
+            在
+        </text>
+        <text font-size="4" x="-45.583855" y="79.18877" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="同学">
+            同学
+        </text>
+        <text font-size="4" x="-13.890567" y="-0.78242224" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="太">
+            太
+        </text>
+        <text font-size="4" x="2.6349247" y="77.86318" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="医生">
+            医生
+        </text>
+        <text font-size="4" x="37.144783" y="-80.59714" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="下午">
+            下午
+        </text>
+        <text font-size="4" x="49.506634" y="-74.61014" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="下">
+            下
+        </text>
+        <text font-size="4" x="-40.835407" y="-4.4265003" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="有">
+            有
+        </text>
+        <text font-size="4" x="39.7076" y="31.587774" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="电脑">
+            电脑
+        </text>
+        <text font-size="4" x="12.451686" y="-87.54689" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="中午">
+            中午
+        </text>
+        <text font-size="4" x="-13.438973" y="-87.7531" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="狗">
+            狗
+        </text>
+        <text font-size="4" x="-5.355053" y="-12.018066" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="这">
+            这
+        </text>
+        <text font-size="4" x="50.60899" y="-5.5787535" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="四">
+            四
+        </text>
+        <text font-size="4" x="-36.86336" y="8.922958" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="衣服">
+            衣服
+        </text>
+        <text font-size="4" x="55.566124" y="-29.184195" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="怎么样">
+            怎么样
+        </text>
+        <text font-size="4" x="90.14757" y="6.4521203" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="买">
+            买
+        </text>
+        <text font-size="4" x="50.974224" y="74.685196" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="想">
+            想
+        </text>
+        <text font-size="4" x="-1.8778211" y="-36.681496" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="汉语">
+            汉语
+        </text>
+        <text font-size="4" x="63.994614" y="-3.7066493" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="年">
+            年
+        </text>
+        <text font-size="4" x="5.331443" y="14.1375" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="时候">
+            时候
+        </text>
+        <text font-size="4" x="-15.782205" y="-37.12707" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="星期">
+            星期
+        </text>
+        <text font-size="4" x="14.55032" y="-60.716114" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="吃">
+            吃
+        </text>
+        <text font-size="4" x="8.539275" y="-10.120772" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="喂">
+            喂
+        </text>
+        <text font-size="4" x="-86.139" y="24.98793" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="的">
+            的
+        </text>
+        <text font-size="4" x="-10.704923" y="-24.744524" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="没关系">
+            没关系
+        </text>
+        <text font-size="4" x="61.44606" y="-65.28104" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="下雨">
+            下雨
+        </text>
+        <text font-size="4" x="24.909029" y="-85.4086" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="二">
+            二
+        </text>
+        <text font-size="4" x="15.65499" y="39.252266" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="小">
+            小
+        </text>
+        <text font-size="4" x="53.673397" y="8.090254" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="写">
+            写
+        </text>
+        <text font-size="4" x="47.045975" y="20.320965" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="爸爸">
+            爸爸
+        </text>
+        <text font-size="4" x="19.43865" y="15.975804" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="五">
+            五
+        </text>
+        <text font-size="4" x="-0.015046746" y="1.0555003" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="吗">
+            吗
+        </text>
+        <text font-size="4" x="45.37573" y="44.82103" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="电视">
+            电视
+        </text>
+        <text font-size="4" x="-10.046638" y="77.11277" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="先生">
+            先生
+        </text>
+        <text font-size="4" x="-78.87113" y="-8.560398" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="看见">
+            看见
+        </text>
+        <text font-size="4" x="-73.93082" y="-21.60342" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="看">
+            看
+        </text>
+        <text font-size="4" x="9.219514" y="90.42916" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="会">
+            会
+        </text>
+        <text font-size="4" x="-90.30888" y="-1.8876069" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="再见">
+            再见
+        </text>
+        <text font-size="4" x="-74.390656" y="18.271662" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="朋友">
+            朋友
+        </text>
+        <text font-size="4" x="-2.0036106" y="64.342926" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="是">
+            是
+        </text>
+        <text font-size="4" x="83.00429" y="-32.220875" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="名字">
+            名字
+        </text>
+        <text font-size="4" x="86.89618" y="-20.167105" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="字">
+            字
+        </text>
+        <text font-size="4" x="28.80579" y="75.563705" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="桌子">
+            桌子
+        </text>
+        <text font-size="4" x="-81.77709" y="37.033" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="家">
+            家
+        </text>
+        <text font-size="4" x="-0.28977206" y="-88.529625" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="中国">
+            中国
+        </text>
+        <text font-size="4" x="10.593983" y="26.945152" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="小姐">
+            小姐
+        </text>
+        <text font-size="4" x="3.1998403" y="-23.446232" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="十">
+            十
+        </text>
+        <text font-size="4" x="31.643797" y="-19.474035" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="号">
+            号
+        </text>
+        <text font-size="4" x="-75.824524" y="48.34598" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="商店">
+            商店
+        </text>
+        <text font-size="4" x="73.17935" y="25.2417" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="老师">
+            老师
+        </text>
+        <text font-size="4" x="-34.66428" y="70.56008" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="学校">
+            学校
+        </text>
+        <text font-size="4" x="-66.32427" y="-7.594328" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="那">
+            那
+        </text>
+        <text font-size="4" x="-22.484648" y="74.59354" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="学习">
+            学习
+        </text>
+        <text font-size="4" x="27.451952" y="-57.10497" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="上午">
+            上午
+        </text>
+        <text font-size="4" x="40.402706" y="-52.102512" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="上">
+            上
+        </text>
+        <text font-size="4" x="-17.058844" y="23.312092" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="多少">
+            多少
+        </text>
+        <text font-size="4" x="-31.607325" y="21.474426" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="少">
+            少
+        </text>
+        <text font-size="4" x="35.825756" y="54.367607" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="杯子">
+            杯子
+        </text>
+        <text font-size="4" x="57.302876" y="-50.62549" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="怎么">
+            怎么
+        </text>
+        <text font-size="4" x="69.65194" y="56.923477" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="来">
+            来
+        </text>
+        <text font-size="4" x="46.35223" y="-18.21923" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="都">
+            都
+        </text>
+        <text font-size="4" x="-63.008724" y="-62.687904" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="六">
+            六
+        </text>
+        <text font-size="4" x="13.920031" y="2.923527" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="喜欢">
+            喜欢
+        </text>
+        <text font-size="4" x="-67.96638" y="-33.82292" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="今天">
+            今天
+        </text>
+        <text font-size="4" x="-63.698227" y="42.924908" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="米饭">
+            米饭
+        </text>
+        <text font-size="4" x="19.609903" y="-46.156788" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="她">
+            她
+        </text>
+        <text font-size="4" x="25.21646" y="29.092325" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="打电话">
+            打电话
+        </text>
+        <text font-size="4" x="-27.920536" y="58.992523" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="好">
+            好
+        </text>
+        <text font-size="4" x="74.6193" y="-14.703329" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="岁">
+            岁
+        </text>
+        <text font-size="4" x="-27.593023" y="-2.6484036" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="开">
+            开
+        </text>
+        <text font-size="4" x="53.728264" y="34.420116" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="哪儿">
+            哪儿
+        </text>
+        <text font-size="4" x="60.212093" y="22.736956" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="哪">
+            哪
+        </text>
+        <text font-size="4" x="1.3672215" y="-62.27111" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="对不起">
+            对不起
+        </text>
+        <text font-size="4" x="-47.22306" y="-18.381248" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="月">
+            月
+        </text>
+        <text font-size="4" x="15.4780855" y="77.180214" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="七">
+            七
+        </text>
+        <text font-size="4" x="-20.838737" y="-49.102905" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="听">
+            听
+        </text>
+        <text font-size="4" x="-30.879263" y="-39.54756" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="妈妈">
+            妈妈
+        </text>
+        <text font-size="4" x="-40.9457" y="54.481644" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="睡觉">
+            睡觉
+        </text>
+        <text font-size="4" x="-88.975075" y="12.122548" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="个">
+            个
+        </text>
+        <text font-size="4" x="-3.2568147" y="25.584866" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="本">
+            本
+        </text>
+        <text font-size="4" x="-55.524517" y="31.272848" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="钱">
+            钱
+        </text>
+        <text font-size="4" x="-19.534424" y="-13.918131" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="工作">
+            工作
+        </text>
+        <text font-size="4" x="36.86554" y="-6.917916" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="苹果">
+            苹果
+        </text>
+        <text font-size="4" x="-40.335003" y="32.2295" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="出租车">
+            出租车
+        </text>
+        <text font-size="4" x="76.99867" y="46.484833" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="点">
+            点
+        </text>
+        <text font-size="4" x="-88.51538" y="-17.354445" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="去">
+            去
+        </text>
+        <text font-size="4" x="-33.230545" y="44.28762" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="冷">
+            冷
+        </text>
+        <text font-size="4" x="22.797937" y="-8.356155" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="和">
+            和
+        </text>
+        <text font-size="4" x="-3.4601603" y="-75.41597" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="坐">
+            坐
+        </text>
+        <text font-size="4" x="-54.01968" y="-31.962896" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="昨天">
+            昨天
+        </text>
+        <text font-size="4" x="-18.615868" y="88.807106" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="学生">
+            学生
+        </text>
+        <text font-size="4" x="67.21949" y="37.31281" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="一点儿">
+            一点儿
+        </text>
+        <text font-size="4" x="-50.589443" y="7.4453287" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="做">
+            做
+        </text>
+        <text font-size="4" x="77.16623" y="-1.3460064" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="你">
+            你
+        </text>
+        <text font-size="4" x="16.904966" y="-21.034151" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="呢">
+            呢
+        </text>
+        <text font-size="4" x="-48.747482" y="42.841125" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="书">
+            书
+        </text>
+        <text font-size="4" x="70.4811" y="-27.464928" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="叫">
+            叫
+        </text>
+        <text font-size="4" x="-6.9216046" y="-49.54194" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="热">
+            热
+        </text>
+        <text font-size="4" x="-58.984238" y="69.59474" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="饭店">
+            饭店
+        </text>
+        <text font-size="4" x="60.65186" y="-16.816761" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="请">
+            请
+        </text>
+        <text font-size="4" x="-60.615807" y="-20.285622" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="读">
+            读
+        </text>
+        <text font-size="4" x="-46.31293" y="20.181314" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="能">
+            能
+        </text>
+        <text font-size="4" x="32.799915" y="-41.941536" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="谁">
+            谁
+        </text>
+        <text font-size="4" x="-51.79107" y="-55.267548" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="明天">
+            明天
+        </text>
+        <text font-size="4" x="77.5087" y="-43.802658" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="了">
+            了
+        </text>
+        <text font-size="4" x="-8.604954" y="12.09776" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="三">
+            三
+        </text>
+        <text font-size="4" x="-47.12939" y="65.64517" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="很">
+            很
+        </text>
+        <text font-size="4" x="6.8126783" y="51.76458" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="医院">
+            医院
+        </text>
+        <text font-size="4" x="39.20357" y="82.547676" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="椅子">
+            椅子
+        </text>
+        <text font-size="4" x="60.987114" y="66.25957" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="女儿">
+            女儿
+        </text>
+        <text font-size="4" x="-39.816933" y="-29.565258" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="大">
+            大
+        </text>
+        <text font-size="4" x="89.236916" y="-7.3353486" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="猫">
+            猫
+        </text>
+        <text font-size="4" x="50.374073" y="58.149223" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="儿子">
+            儿子
+        </text>
+        <text font-size="4" x="23.80494" y="88.305435" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="爱">
+            爱
+        </text>
+        <text font-size="4" x="-53.138763" y="-71.33114" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="人">
+            人
+        </text>
+        <text font-size="4" x="-60.612156" y="19.043621" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="谢谢">
+            谢谢
+        </text>
+        <text font-size="4" x="-27.239561" y="-85.25567" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="前面">
+            前面
+        </text>
+        <text font-size="4" x="-16.853855" y="-74.52153" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="后面">
+            后面
+        </text>
+        <text font-size="4" x="-41.709133" y="-79.357" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="里">
+            里
+        </text>
+        <text font-size="4" x="-22.757812" y="10.496825" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="住">
+            住
+        </text>
+        <text font-size="4" x="1.7647336" y="38.874146" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="块">
+            块
+        </text>
+        <text font-size="4" x="48.788204" y="-61.327328" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="他">
+            他
+        </text>
+        <text font-size="4" x="-41.64455" y="-64.19931" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="九">
+            九
+        </text>
+        <text font-size="4" x="25.011154" y="63.356342" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="菜">
+            菜
+        </text>
+        <text font-size="4" x="78.48831" y="12.432065" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="回">
+            回
+        </text>
+        <text font-size="4" x="66.14046" y="10.110096" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="几">
+            几
+        </text>
+        <text font-size="4" x="-53.739" y="-6.1329083" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="八">
+            八
+        </text>
+        <text font-size="4" x="-33.54284" y="-16.193802" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="没有">
+            没有
+        </text>
+        <text font-size="4" x="70.319534" y="-54.630844" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="说">
+            说
+        </text>
+        <text font-size="4" x="-25.278316" y="33.93107" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="高兴">
+            高兴
+        </text>
+        <text font-size="4" x="-36.441837" y="-51.87899" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="气">
+            气
+        </text>
+        <text font-size="4" x="-68.304085" y="59.05483" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="店">
+            店
+        </text>
+        <text font-size="4" x="-77.257965" y="5.0444784" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="见">
+            见
+        </text>
+        <text font-size="4" x="48.624905" y="-40.75847" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="么">
+            么
+        </text>
+        <text font-size="4" x="-30.479118" y="-72.599365" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="面">
+            面
+        </text>
+        <text font-size="4" x="-32.11022" y="84.892265" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="学">
+            学
+        </text>
+        <text font-size="4" x="-60.4721" y="-45.077408" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="天">
+            天
+        </text>
+        <text font-size="4" x="30.753284" y="41.63008" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="电">
+            电
+        </text>
+        <text font-size="4" x="-56.043934" y="54.342155" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="饭">
+            饭
+        </text>
+        <text font-size="4" x="64.666214" y="-39.517097" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="怎">
+            怎
+        </text>
+        <text font-size="4" x="-25.255058" y="-26.93166" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="没">
+            没
+        </text>
+        <text font-size="4" x="40.076557" y="67.08117" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="子">
+            子
+        </text>
+        <text font-size="4" x="40.813824" y="6.28338" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="果">
+            果
+        </text>
+        <text font-size="4" x="-4.841847" y="90.490585" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="生">
+            生
+        </text>
+        <text font-size="4" x="9.89292" y="-74.517914" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="中">
+            中
+        </text>
+        <text font-size="4" x="23.159523" y="-71.83154" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="午">
+            午
+        </text>
+        <text font-size="4" x="11.321607" y="64.352325" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="医">
+            医
+        </text>
+        <text font-size="4" x="59.45156" y="48.250957" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="儿">
+            儿
+        </text>
+    </g>
+</svg>
