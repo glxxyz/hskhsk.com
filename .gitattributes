@@ -1,0 +1,4 @@
+# Tell github to ignore html files when determining this repository's language
+*.html linguist-detectable=false
+
+
