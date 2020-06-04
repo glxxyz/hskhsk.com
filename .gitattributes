@@ -1,4 +1,3 @@
-# Tell github to ignore html files when determining this repository's language
-*.html linguist-detectable=false
-*.py linguist-detectable=true
-
+# Tell github what to ignore when determining this repository's language: https://github.com/github/linguist
+*.html -linguist-detectable
+*.go linguist-detectable
