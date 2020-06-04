@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1036px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" viewBox="-24 -27 53 43" height="841px"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="1.0"
+              d="M 2.135222,-1.564399 C -2.313366,-5.909698 -2.468302,-19.100529 1.876997,-23.549118"
+              class="Non-HSK HSK 1" stroke-opacity="1.0" stroke="#d68585"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 2.135222,-1.564399 C 9.171824,-3.479706 22.599688,4.202239 24.514994,11.238841"
+              class="Non-HSK HSK 2" stroke-opacity="1.0" stroke="#daac7e"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 2.135222,-1.564399 C 0.234776,5.590353 -13.348022,13.471812 -20.502775,11.571366"
+              class="Non-HSK HSK 3" stroke-opacity="1.0" stroke="#d2d25a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 1.876997,-23.549118 C 4.425139,-12.049067 -9.002724,9.023224 -20.502775,11.571366"
+              class="HSK 1 HSK 3" stroke-opacity="1.0" stroke="#f4a32b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 24.514994,11.238841 C 13.029802,8.808847 -0.552996,-12.063927 1.876997,-23.549118"
+              class="HSK 2 HSK 1" stroke-opacity="1.0" stroke="#fb7d4f"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -20.502775,11.571366 C -11.565727,2.501307 15.444935,2.301793 24.514994,11.238841"
+              class="HSK 3 HSK 2" stroke-opacity="1.0" stroke="#f7ca24"/>
+    </g>
+    <g id="nodes">
+        <circle fill="#b5b5b5" fill-opacity="1.0" r="4.0" class="Non-HSK"
+                cx="2.1352222" cy="-1.5643995"/>
+        <circle fill="#f85656" fill-opacity="1.0" r="4.0" class="HSK 1"
+                cx="1.876997" cy="-23.549118"/>
+        <circle fill="#ffa448" fill-opacity="1.0" r="4.0" class="HSK 2"
+                cx="24.514994" cy="11.238841"/>
+        <circle fill="#f0f000" fill-opacity="1.0" r="4.0" class="HSK 3"
+                cx="-20.502775" cy="11.571366"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="2" x="2.1352222" y="-1.1941195" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="Non-HSK">
+            Non-HSK
+        </text>
+        <text font-size="2" x="1.876997" y="-23.178837" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="HSK 1">
+            HSK 1
+        </text>
+        <text font-size="2" x="24.514994" y="11.609121" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="HSK 2">
+            HSK 2
+        </text>
+        <text font-size="2" x="-20.502775" y="11.941647" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="HSK 3">
+            HSK 3
+        </text>
+    </g>
+</svg>

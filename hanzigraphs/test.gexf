@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd"><meta lastmodifieddate="2013-03-22"><creator>Alan Davies alan.davies@ualberta.ca</creator><description>HSK vocabulary graph HSK1_words_v04</description></meta><graph defaultedgetype="directed" mode="static"><attributes class="node"><attribute id="0" title="isradical" type="boolean" /><attribute id="1" title="isword" type="boolean" /><attribute id="2" title="hsklevel" type="int" /></attributes>
+
+<nodes>
+<node id="小" label="小"><attvalues><attvalue for="0" value="false" /><attvalue for="1" value="true" /><attvalue for="2" value="1" /></attvalues><viz:color a="0.9" b="128" g="128" r="255" /><viz:size value="1" /><viz:shape value="disc" /></node>
+<node id="熊" label="熊"><attvalues><attvalue for="0" value="false" /><attvalue for="1" value="true" /><attvalue for="2" value="1" /></attvalues><viz:color a="0.9" b="128" g="128" r="255" /><viz:size value="1.5" /><viz:shape value="disc" /></node>
+<node id="小熊猫" label="小熊猫"><attvalues><attvalue for="0" value="false" /><attvalue for="1" value="true" /><attvalue for="2" value="1" /></attvalues><viz:color a="0.9" b="128" g="128" r="255" /><viz:size value="2" /><viz:shape value="disc" /></node>
+</nodes>
+
+<edges>
+<edge id="小to熊" source="小" target="小熊猫" weight="1.0"/>
+<edge id="熊to小熊猫" source="熊" target="小熊猫" weight="2.0"><viz:shape value="dashed"/></edge>
+</edges>
+</graph></gexf>

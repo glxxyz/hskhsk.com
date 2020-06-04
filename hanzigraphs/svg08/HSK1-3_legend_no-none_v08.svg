@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="883px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" viewBox="-10 -11 21 20" height="841px"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="1.0"
+              d="M -0.349676,-7.818710 C 0.807165,-4.163195 -2.940847,3.055340 -6.596362,4.212181"
+              class="HSK 1 HSK 3" stroke-opacity="1.0" stroke="#f4a32b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 6.946035,3.606524 C 3.201846,2.780620 -1.175581,-4.074521 -0.349676,-7.818710"
+              class="HSK 2 HSK 1" stroke-opacity="1.0" stroke="#fb7d4f"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -6.596362,4.212181 C -4.009014,1.382570 4.116424,1.019176 6.946035,3.606524"
+              class="HSK 3 HSK 2" stroke-opacity="1.0" stroke="#f7ca24"/>
+    </g>
+    <g id="nodes">
+        <circle fill="#f85656" fill-opacity="1.0" r="4.0" class="HSK 1"
+                cx="-0.3496764" cy="-7.81871"/>
+        <circle fill="#ffa448" fill-opacity="1.0" r="4.0" class="HSK 2"
+                cx="6.946035" cy="3.606524"/>
+        <circle fill="#f0f000" fill-opacity="1.0" r="4.0" class="HSK 3"
+                cx="-6.596362" cy="4.212181"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="2" x="-0.3496764" y="-7.44843" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="HSK 1">
+            HSK 1
+        </text>
+        <text font-size="2" x="6.946035" y="3.976804" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="HSK 2">
+            HSK 2
+        </text>
+        <text font-size="2" x="-6.596362" y="4.5824614" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial Unicode MS" class="HSK 3">
+            HSK 3
+        </text>
+    </g>
+</svg>
