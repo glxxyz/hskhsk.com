@@ -1,0 +1,2337 @@
+﻿graph G {
+
+graph [overlap=false];
+node [fontname="SimSun"];
+
+何况
+状况
+何必
+如何
+临 -- 临时 [color=grey]
+临 [color=grey]
+临时
+临 -- 光临 [color=grey]
+光临
+临 -- 面临 [color=grey]
+面临
+线 -- 占线 [color=grey]
+线 [color=grey]
+占线
+占 -- 占线 [color=grey]
+占 [color=grey]
+牌 -- 名牌 [color=grey]
+牌 [color=grey]
+名牌
+牌 -- 登机牌 [color=grey]
+登机牌
+登 -- 登机牌 [color=grey]
+登 [color=grey]
+姑 -- 姑姑 [color=grey]
+姑 [color=grey]
+姑姑
+姑 -- 姑娘 [color=grey]
+姑娘
+娘 -- 姑娘 [color=grey]
+娘 [color=grey]
+总算
+总共
+总统
+总裁
+总理
+总之
+计算
+付 -- 应付 [color=grey]
+应付
+付 [color=grey]
+付 -- 付款 [color=grey]
+付款
+应聘
+答应
+反应
+应用
+裔 -- 华裔 [color=grey]
+华裔
+裔 [color=grey]
+华 -- 华裔 [color=grey]
+华 [color=grey]
+华 -- 豪华 [color=grey]
+豪华
+小吃
+吃亏
+胆小鬼
+小麦
+小伙子
+缩小
+小偷
+明确
+的确
+确认
+确定
+明显
+光明
+表明
+明星
+发明
+文明
+透明
+明信片
+无奈
+无数
+奈 -- 无奈 [color=grey]
+奈 [color=grey]
+产品
+作品
+品种
+商品
+日用品
+产 -- 产品 [color=grey]
+产 [color=grey]
+产 -- 财产 [color=grey]
+财产
+产 -- 产生 [color=grey]
+产生
+产 -- 生产 [color=grey]
+生产
+产 -- 破产 [color=grey]
+破产
+目前
+前途
+从前
+题目
+项目
+目标
+目录
+沉 -- 沉默 [color=grey]
+沉 [color=grey]
+沉默
+餐 -- 餐厅 [color=grey]
+餐 [color=grey]
+餐厅
+厅 -- 餐厅 [color=grey]
+厅 [color=grey]
+怖 -- 恐怖 [color=grey]
+怖 [color=grey]
+恐怖
+鸽子
+勺子
+梳子
+脖子
+被子
+孙子
+包子
+桔子
+王子
+夹子
+影子
+一辈子
+叉子
+绳子
+屋子
+兔子
+嗓子
+管子
+池子
+竹子
+尺子
+鸽 -- 鸽子 [color=grey]
+鸽 [color=grey]
+伴 -- 伙伴 [color=grey]
+伴 [color=grey]
+伙伴
+伙 -- 伙伴 [color=grey]
+伙 [color=grey]
+成分
+成就
+构成
+成果
+赞成
+形成
+成长
+成语
+造成
+成立
+分析
+充分
+过分
+分布
+分别
+部分
+分配
+据说
+说不定
+解说员
+说服
+胡说
+传说
+数据
+收据
+证据
+绳 -- 绳子 [color=grey]
+绳 [color=grey]
+蜂 -- 蜜蜂 [color=grey]
+蜜蜂
+蜂 [color=grey]
+蜜 -- 蜜蜂 [color=grey]
+蜜 [color=grey]
+姻 -- 婚姻 [color=grey]
+姻 [color=grey]
+婚姻
+爱惜
+疼爱
+恋爱
+热爱
+爱心
+爱护
+敬爱
+亲爱
+珍惜
+倡 -- 提倡 [color=grey]
+倡 [color=grey]
+提倡
+名片
+名胜古迹
+动画片
+片面
+错误
+耽误
+巨 -- 艰巨 [color=grey]
+巨 [color=grey]
+艰巨
+艰 -- 艰巨 [color=grey]
+艰 [color=grey]
+巨 -- 巨大 [color=grey]
+巨大
+有利
+权利
+利息
+利用
+利益
+胜利
+利润
+通常
+平常
+常识
+照常
+日常
+沟通
+通讯
+精力
+权力
+魅力
+力量
+尽力
+摄 -- 摄影 [color=grey]
+摄 [color=grey]
+摄影
+践 -- 实践 [color=grey]
+践 [color=grey]
+实践
+馒 -- 馒头 [color=grey]
+馒 [color=grey]
+馒头
+途 -- 前途 [color=grey]
+途 [color=grey]
+途 -- 长途 [color=grey]
+长途
+途 -- 用途 [color=grey]
+用途
+突出
+出席
+出版
+出口
+出色
+开心
+召开
+开幕式
+开放
+展开
+公开
+开发
+心脏
+中心
+心理
+灰心
+决心
+点心
+专心
+热心
+虚心
+操心
+核心
+配 -- 配合 [color=grey]
+配 [color=grey]
+配合
+配 -- 分配 [color=grey]
+魅 -- 魅力 [color=grey]
+魅 [color=grey]
+打听
+打喷嚏
+打交道
+打招呼
+打工
+功夫
+功能
+双方
+方案
+平方
+方式
+大方
+对方
+立方
+狡 -- 狡猾 [color=grey]
+狡 [color=grey]
+狡猾
+猾 -- 狡猾 [color=grey]
+猾 [color=grey]
+寻 -- 寻找 [color=grey]
+寻 [color=grey]
+寻找
+册 -- 注册
+册
+注册
+缓 -- 缓解 [color=grey]
+缓 [color=grey]
+缓解
+苗条
+苗 -- 苗条 [color=grey]
+苗 [color=grey]
+事先
+祖先
+故事
+事物
+军事
+人事
+从事
+事情
+事实
+奋斗
+勤奋
+斗 -- 奋斗 [color=grey]
+斗 [color=grey]
+赶紧
+抓紧
+紧急
+不要紧
+赶 -- 赶紧 [color=grey]
+赶 [color=grey]
+赶 -- 赶快 [color=grey]
+赶快
+古典
+经典
+古 -- 古典 [color=grey]
+古 [color=grey]
+古 -- 名胜古迹 [color=grey]
+古 -- 古代 [color=grey]
+古代
+古 -- 古老 [color=grey]
+古老
+幸亏
+幸运
+荣幸
+亏 -- 幸亏 [color=grey]
+亏 [color=grey]
+亏 -- 多亏 [color=grey]
+多亏
+亏 -- 吃亏 [color=grey]
+髦 -- 时髦 [color=grey]
+髦 [color=grey]
+时髦
+救护车
+维护
+肃 -- 严肃 [color=grey]
+严肃
+肃 [color=grey]
+操场
+广场
+操 -- 操场 [color=grey]
+操 [color=grey]
+操 -- 操心 [color=grey]
+梳 -- 梳子 [color=grey]
+梳 [color=grey]
+匆忙
+连忙
+急忙
+匆 -- 匆忙 [color=grey]
+匆 [color=grey]
+秘 -- 秘密 [color=grey]
+秘密
+秘 [color=grey]
+秘 -- 神秘 [color=grey]
+神秘
+秘 -- 秘书 [color=grey]
+秘书
+密切
+辑 -- 编辑 [color=grey]
+编辑
+辑 [color=grey]
+辑 -- 逻辑 [color=grey]
+逻辑
+编 -- 编辑 [color=grey]
+编 [color=grey]
+日程
+日历
+日期
+秩 -- 秩序 [color=grey]
+秩 [color=grey]
+秩序
+观点
+标点
+点头
+客观
+主观
+乐观
+观念
+悲观
+观察
+勇气
+气氛
+运气
+语气
+剪刀
+剪 -- 剪刀 [color=grey]
+剪 [color=grey]
+股 -- 股票 [color=grey]
+股票
+股 [color=grey]
+支票
+发票
+勤 -- 勤奋 [color=grey]
+勤 [color=grey]
+勤 -- 勤劳 [color=grey]
+勤劳
+劳 -- 勤劳 [color=grey]
+劳 [color=grey]
+思想
+幻想
+感想
+想念
+想象
+思考
+不好意思
+良 -- 善良 [color=grey]
+良 [color=grey]
+善良
+善 -- 善良 [color=grey]
+善 [color=grey]
+良 -- 良好 [color=grey]
+良好
+综 -- 综合 [color=grey]
+综 [color=grey]
+综合
+改革
+修改
+改正
+改善
+改进
+革 -- 改革 [color=grey]
+革 [color=grey]
+革 -- 革命 [color=grey]
+革命
+背景
+情景
+景色
+寂 -- 寂寞 [color=grey]
+寂寞
+寂 [color=grey]
+寞 -- 寂寞 [color=grey]
+寞 [color=grey]
+后果
+果实
+皇后
+落后
+器 -- 机器 [color=grey]
+机器
+器 [color=grey]
+器 -- 充电器 [color=grey]
+充电器
+器 -- 武器 [color=grey]
+武器
+全面
+表面
+面积
+面对
+寿 -- 寿命 [color=grey]
+寿 [color=grey]
+寿命
+消化
+消费
+取消
+消失
+消灭
+化学
+融化
+膀 -- 翅膀 [color=grey]
+翅膀
+膀 [color=grey]
+膀 -- 肩膀 [color=grey]
+肩膀
+翅 -- 翅膀 [color=grey]
+翅 [color=grey]
+丝 -- 丝绸 [color=grey]
+丝 [color=grey]
+丝绸
+绸 -- 丝绸 [color=grey]
+绸 [color=grey]
+丝 -- 丝毫 [color=grey]
+丝毫
+毫 -- 丝毫 [color=grey]
+毫 [color=grey]
+平静
+一路平安
+平等
+公平
+平均
+平衡
+和平
+酱 -- 酱油 [color=grey]
+酱油
+酱 [color=grey]
+汽油
+油炸
+卫 -- 卫生间 [color=grey]
+卫生间
+卫 [color=grey]
+期间
+空间
+人生
+生动
+花生
+陌生
+协 -- 协调 [color=grey]
+协 [color=grey]
+协调
+竹 -- 竹子 [color=grey]
+竹 [color=grey]
+劣 -- 恶劣 [color=grey]
+劣 [color=grey]
+恶劣
+恶 -- 恶劣 [color=grey]
+恶 [color=grey]
+办理
+处理
+地理
+合理
+理由
+真理
+理论
+道理
+物理
+主人
+民主
+班主任
+主持
+主张
+公主
+主席
+人类
+行人
+人物
+个人
+人口
+工人
+敌人
+人才
+私人
+人员
+燃 -- 燃烧 [color=grey]
+燃烧
+燃 [color=grey]
+赔 -- 赔偿 [color=grey]
+赔偿
+赔 [color=grey]
+偿 -- 赔偿 [color=grey]
+偿 [color=grey]
+信号
+短信
+信息
+信封
+自信
+挂号
+上当
+相当
+当代
+概括
+概念
+阶 -- 台阶 [color=grey]
+阶 [color=grey]
+台阶
+阶 -- 阶段 [color=grey]
+阶段
+延长
+罐 -- 罐头
+罐
+罐头
+愿望
+盼望
+志愿者
+自愿
+靠 -- 可靠 [color=grey]
+靠 [color=grey]
+可靠
+姿 -- 姿势 [color=grey]
+姿 [color=grey]
+姿势
+势 -- 姿势 [color=grey]
+势 [color=grey]
+率 -- 汇率 [color=grey]
+汇率
+率 [color=grey]
+率 -- 坦率 [color=grey]
+坦率
+率 -- 效率 [color=grey]
+效率
+汇 -- 汇率 [color=grey]
+汇 [color=grey]
+迫切
+亲切
+旬 -- 中旬 [color=grey]
+旬 [color=grey]
+中旬
+标志
+鼠标
+屈 -- 委屈 [color=grey]
+委屈
+屈 [color=grey]
+委 -- 委屈 [color=grey]
+委 [color=grey]
+委 -- 委托 [color=grey]
+委托
+财 -- 财产 [color=grey]
+财 [color=grey]
+记录
+登记
+记忆
+录 -- 记录 [color=grey]
+录 [color=grey]
+录 -- 纪录 [color=grey]
+纪录
+录 -- 录取 [color=grey]
+录取
+录 -- 录音 [color=grey]
+录音
+录 -- 目录 [color=grey]
+振动
+移动
+自动
+劳动
+行动
+振 -- 振动 [color=grey]
+振 [color=grey]
+安慰
+不安
+安装
+一致
+唯一
+万一
+统一
+一旦
+高速公路
+迷路
+移民
+农民
+同时
+胡同
+合同
+时代
+随时
+时刻
+时尚
+时期
+更 -- 更加
+更
+更加
+真实
+天真
+实话
+现实
+实行
+结实
+实习
+实验
+老实
+实现
+实用
+属于
+善于
+对于
+至于
+等于
+属 -- 属于 [color=grey]
+属 [color=grey]
+属 -- 金属 [color=grey]
+金属
+辣椒
+椒 -- 辣椒 [color=grey]
+椒 [color=grey]
+神话
+神经
+跃 -- 活跃 [color=grey]
+跃 [color=grey]
+活跃
+国庆节
+节省
+细节
+国籍
+祖国
+庆 -- 国庆节 [color=grey]
+庆 [color=grey]
+庆 -- 庆祝 [color=grey]
+庆祝
+封 -- 信封 [color=grey]
+封 [color=grey]
+击 -- 射击 [color=grey]
+击 [color=grey]
+射击
+射 -- 射击 [color=grey]
+射 [color=grey]
+假如
+不如
+如今
+比如
+假装
+治 -- 政治 [color=grey]
+政治
+治 [color=grey]
+治 -- 统治 [color=grey]
+统治
+治 -- 治疗 [color=grey]
+治疗
+政 -- 政治 [color=grey]
+政 [color=grey]
+政 -- 政府 [color=grey]
+政府
+政 -- 政策 [color=grey]
+政策
+单调
+调皮
+强调
+声调
+调整
+单位
+单独
+单纯
+单元
+太太
+太极拳
+简历
+柴 -- 火柴 [color=grey]
+柴 [color=grey]
+火柴
+本领
+基本
+根本
+本质
+本科
+领 -- 本领 [color=grey]
+领 [color=grey]
+领 -- 系领带 [color=grey]
+系领带
+领 -- 领域 [color=grey]
+领域
+领 -- 领导 [color=grey]
+领导
+自私
+自从
+自觉
+自豪
+来自
+自由
+亲自
+灵活
+干活儿
+灵 -- 灵活 [color=grey]
+灵 [color=grey]
+招待
+呼 -- 打招呼 [color=grey]
+呼 [color=grey]
+呼 -- 呼吸 [color=grey]
+呼吸
+呼 -- 称呼 [color=grey]
+称呼
+矩 -- 规矩 [color=grey]
+矩 [color=grey]
+规矩
+告别
+差别
+个别
+报告
+转告
+脖 -- 脖子 [color=grey]
+脖 [color=grey]
+伙 -- 小伙子 [color=grey]
+手工
+工程师
+工业
+工厂
+闪 -- 闪电 [color=grey]
+闪 [color=grey]
+闪电
+碍 -- 妨碍 [color=grey]
+碍 [color=grey]
+妨碍
+妨 -- 妨碍 [color=grey]
+妨 [color=grey]
+倒 -- 倒霉
+倒
+倒霉
+霉 -- 倒霉 [color=grey]
+霉 [color=grey]
+资金
+现金
+黄金
+资料
+资格
+投资
+资源
+谨 -- 谨慎 [color=grey]
+谨慎
+谨 [color=grey]
+慎 -- 谨慎 [color=grey]
+慎 [color=grey]
+投 -- 投资 [color=grey]
+投 [color=grey]
+玻 -- 玻璃 [color=grey]
+玻 [color=grey]
+玻璃
+璃 -- 玻璃 [color=grey]
+璃 [color=grey]
+英 -- 英俊 [color=grey]
+英 [color=grey]
+英俊
+俊 -- 英俊 [color=grey]
+俊 [color=grey]
+英 -- 英雄 [color=grey]
+英雄
+雄 -- 英雄 [color=grey]
+雄 [color=grey]
+驶 -- 驾驶 [color=grey]
+驾驶
+驶 [color=grey]
+驾 -- 驾驶 [color=grey]
+驾 [color=grey]
+驾 -- 劳驾 [color=grey]
+劳驾
+微笑
+学术
+美术
+手术
+武术
+文学
+哲学
+学期
+学问
+卷 -- 试卷
+卷
+试卷
+合作
+作文
+作为
+制作
+架 -- 书架 [color=grey]
+书架
+架 [color=grey]
+架 -- 吵架 [color=grey]
+吵架
+身材
+教材
+健身房
+身份
+念 -- 概念
+念
+念 -- 观念
+念 -- 纪念
+纪念
+念 -- 想念
+念 -- 怀念
+怀念
+讲座
+讲究
+纷 -- 纷纷 [color=grey]
+纷 [color=grey]
+纷纷
+忍 -- 忍不住 [color=grey]
+忍 [color=grey]
+忍不住
+外交
+交际
+交换
+格外
+此外
+意外
+从而
+服从
+从此
+运输
+运用
+命运
+因而
+因素
+反而
+体验
+集体
+体现
+整体
+体贴
+体会
+固体
+液体
+体积
+具体
+测验
+屋 -- 屋子 [color=grey]
+屋 [color=grey]
+均 -- 平均 [color=grey]
+均 [color=grey]
+均 -- 均匀 [color=grey]
+均匀
+览 -- 浏览 [color=grey]
+浏览
+览 [color=grey]
+览 -- 游览 [color=grey]
+游览
+览 -- 展览 [color=grey]
+展览
+浏 -- 浏览 [color=grey]
+浏 [color=grey]
+豫 -- 犹豫 [color=grey]
+豫 [color=grey]
+犹豫
+犹 -- 犹豫 [color=grey]
+犹 [color=grey]
+盼 -- 盼望 [color=grey]
+盼 [color=grey]
+迫 -- 迫切 [color=grey]
+迫 [color=grey]
+锐 -- 尖锐 [color=grey]
+锐 [color=grey]
+尖锐
+尖 -- 尖锐 [color=grey]
+尖 [color=grey]
+稳 -- 稳定 [color=grey]
+稳定
+稳 [color=grey]
+制定
+否定
+固定
+祝福
+再三
+灾 -- 灾害 [color=grey]
+灾 [color=grey]
+灾害
+滑 -- 滑冰 [color=grey]
+滑冰
+滑 [color=grey]
+滑 -- 光滑 [color=grey]
+光滑
+教训
+教练
+宗教
+形象
+象征
+对象
+象棋
+现象
+抽象
+大象
+形 -- 形象 [color=grey]
+形 [color=grey]
+形 -- 形式 [color=grey]
+形式
+形 -- 形状 [color=grey]
+形状
+形 -- 形成 [color=grey]
+形 -- 形势 [color=grey]
+形势
+形 -- 形容 [color=grey]
+形容
+损 -- 损失 [color=grey]
+损 [color=grey]
+损失
+戏剧
+连续剧
+曾经
+经营
+坦 -- 坦率 [color=grey]
+坦 [color=grey]
+膊 -- 胳膊 [color=grey]
+膊 [color=grey]
+胳膊
+胳 -- 胳膊 [color=grey]
+胳 [color=grey]
+流传
+宣传
+传播
+传递
+传染
+传统
+发达
+发挥
+发表
+启发
+发抖
+发愁
+发言
+项 -- 项链
+项链
+项
+项 -- 项目
+链 -- 项链 [color=grey]
+链 [color=grey]
+艳 -- 鲜艳 [color=grey]
+艳 [color=grey]
+鲜艳
+避 -- 避免 [color=grey]
+避 [color=grey]
+避免
+避 -- 逃避 [color=grey]
+逃避
+逃 -- 逃避
+逃
+宣 -- 宣布 [color=grey]
+宣 [color=grey]
+宣布
+布 -- 宣布
+布
+宣 -- 宣传 [color=grey]
+结论
+辩论
+论文
+议论
+争论
+失去
+失业
+失眠
+旦 -- 一旦 [color=grey]
+旦 [color=grey]
+旦 -- 元旦 [color=grey]
+元旦
+宠物
+食物
+博物馆
+物质
+退 -- 退休
+退
+退休
+退 -- 退步
+退步
+征 -- 征求 [color=grey]
+征求
+征 [color=grey]
+征 -- 特征 [color=grey]
+特征
+征 -- 象征 [color=grey]
+请求
+追求
+舌 -- 舌头 [color=grey]
+舌 [color=grey]
+舌头
+废 -- 废话 [color=grey]
+废 [color=grey]
+废话
+统 -- 总统 [color=grey]
+统 [color=grey]
+统 -- 统治 [color=grey]
+统 -- 系统 [color=grey]
+系统
+统 -- 传统 [color=grey]
+统 -- 统一 [color=grey]
+热烈
+饰 -- 装饰 [color=grey]
+装饰
+饰 [color=grey]
+装 -- 装饰
+装
+装 -- 服装
+服装
+装 -- 假装
+装 -- 安装
+仿 -- 仿佛 [color=grey]
+仿 [color=grey]
+仿佛
+佛 -- 仿佛 [color=grey]
+佛 [color=grey]
+仿 -- 模仿 [color=grey]
+模仿
+模 -- 模仿 [color=grey]
+模 [color=grey]
+悠 -- 悠久 [color=grey]
+悠 [color=grey]
+悠久
+省略
+略 -- 省略 [color=grey]
+略 [color=grey]
+略 -- 侵略 [color=grey]
+侵略
+毒 -- 病毒 [color=grey]
+毒 [color=grey]
+病毒
+触 -- 接触 [color=grey]
+触 [color=grey]
+接触
+独 -- 独立 [color=grey]
+独 [color=grey]
+独立
+立 -- 独立 [color=grey]
+立 [color=grey]
+独 -- 单独 [color=grey]
+独 -- 独特 [color=grey]
+独特
+维 -- 维护 [color=grey]
+维 [color=grey]
+周到
+达到
+受到
+到达
+高档
+公元
+公布
+公寓
+迅速
+行为
+进口
+促进
+进步
+口味
+借口
+厕所
+所谓
+厕 -- 厕所 [color=grey]
+厕 [color=grey]
+虚 -- 虚心 [color=grey]
+虚 [color=grey]
+虚 -- 谦虚 [color=grey]
+谦虚
+充满
+满足
+充 -- 充满 [color=grey]
+充 [color=grey]
+充 -- 充电器 [color=grey]
+充 -- 补充 [color=grey]
+补充
+充 -- 充分 [color=grey]
+诊 -- 诊断 [color=grey]
+诊断
+诊 [color=grey]
+不断
+智 -- 智慧 [color=grey]
+智 [color=grey]
+智慧
+慧 -- 智慧 [color=grey]
+慧 [color=grey]
+嚏 -- 打喷嚏 [color=grey]
+嚏 [color=grey]
+喷 -- 打喷嚏 [color=grey]
+喷 [color=grey]
+狂 -- 疯狂 [color=grey]
+狂 [color=grey]
+疯狂
+疯 -- 疯狂 [color=grey]
+疯 [color=grey]
+称 -- 称赞
+称
+称赞
+赞 -- 称赞 [color=grey]
+赞 [color=grey]
+称 -- 称呼
+组合
+结合
+合法
+合影
+联合
+相处
+枕头
+骨头
+石头
+木头
+围巾
+围绕
+辩 -- 辩论 [color=grey]
+辩 [color=grey]
+输入
+私 -- 自私 [color=grey]
+私 [color=grey]
+私 -- 私人 [color=grey]
+粘 -- 粘贴 [color=grey]
+粘贴
+粘 [color=grey]
+贴 -- 粘贴 [color=grey]
+贴 [color=grey]
+贴 -- 体贴 [color=grey]
+放松
+解放
+慌 -- 慌张 [color=grey]
+慌 [color=grey]
+慌张
+藏 -- 躲藏 [color=grey]
+藏 [color=grey]
+躲藏
+躲 -- 躲藏 [color=grey]
+躲 [color=grey]
+胶水
+矿泉水
+胶 -- 胶水 [color=grey]
+胶 [color=grey]
+滩 -- 沙滩 [color=grey]
+滩 [color=grey]
+沙滩
+善 -- 善于 [color=grey]
+善 -- 完善 [color=grey]
+完善
+善 -- 改善 [color=grey]
+包含
+包裹
+补 -- 补充 [color=grey]
+补 [color=grey]
+糊 -- 模糊 [color=grey]
+糊 [color=grey]
+模糊
+模 -- 模糊 [color=grey]
+糊 -- 糊涂 [color=grey]
+糊涂
+涂 -- 糊涂 [color=grey]
+涂 [color=grey]
+威 -- 威胁 [color=grey]
+威胁
+威 [color=grey]
+胁 -- 威胁 [color=grey]
+胁 [color=grey]
+熟练
+训练
+犯 -- 罪犯 [color=grey]
+犯 [color=grey]
+罪犯
+罪 -- 罪犯 [color=grey]
+罪 [color=grey]
+追 -- 追求 [color=grey]
+追 [color=grey]
+内科
+电台
+电池
+局 -- 邮局 [color=grey]
+邮局
+局 [color=grey]
+及格
+以及
+风格
+销 -- 销售 [color=grey]
+销 [color=grey]
+销售
+状 -- 状况 [color=grey]
+状 [color=grey]
+状 -- 形状 [color=grey]
+状 -- 状态 [color=grey]
+状态
+皂 -- 肥皂 [color=grey]
+肥皂
+皂 [color=grey]
+移 -- 移民 [color=grey]
+移 [color=grey]
+移 -- 移动 [color=grey]
+版 -- 出版 [color=grey]
+版 [color=grey]
+型 -- 大型 [color=grey]
+大型
+型 [color=grey]
+广大
+伟大
+似 -- 似乎 [color=grey]
+似 [color=grey]
+似乎
+似 -- 似的 [color=grey]
+似的
+似 -- 相似 [color=grey]
+相似
+能干
+干脆
+使劲儿
+幼儿园
+拥 -- 拥抱 [color=grey]
+拥 [color=grey]
+拥抱
+拥 -- 拥挤 [color=grey]
+拥挤
+挤 -- 拥挤 [color=grey]
+挤 [color=grey]
+递 -- 传递
+递
+抖 -- 发抖 [color=grey]
+抖 [color=grey]
+帝 -- 皇帝 [color=grey]
+帝 [color=grey]
+皇帝
+皇 -- 皇帝 [color=grey]
+皇 [color=grey]
+劲 -- 使劲儿 [color=grey]
+劲 [color=grey]
+促使
+幕 -- 开幕式 [color=grey]
+幕 [color=grey]
+幕 -- 字幕 [color=grey]
+字幕
+样式
+桔 -- 桔子 [color=grey]
+桔 [color=grey]
+姥 -- 姥姥 [color=grey]
+姥 [color=grey]
+姥姥
+闭 -- 关闭 [color=grey]
+闭 [color=grey]
+关闭
+池 -- 池子 [color=grey]
+池 [color=grey]
+池 -- 电池 [color=grey]
+承担
+担任
+承 -- 承担 [color=grey]
+承 [color=grey]
+承 -- 承受 [color=grey]
+承受
+承 -- 承认 [color=grey]
+承认
+棉 -- 棉花 [color=grey]
+棉花
+棉 [color=grey]
+频 -- 频道 [color=grey]
+频道
+频 [color=grey]
+知道
+道德
+席 -- 主席 [color=grey]
+席 [color=grey]
+席 -- 出席 [color=grey]
+慰 -- 安慰 [color=grey]
+慰 [color=grey]
+俗 -- 风俗 [color=grey]
+风俗
+俗 [color=grey]
+麦克风
+风险
+敌 -- 敌人 [color=grey]
+敌 [color=grey]
+否认
+是否
+贸 -- 贸易 [color=grey]
+贸 [color=grey]
+贸易
+推辞
+推广
+推荐
+辞 -- 推辞 [color=grey]
+辞 [color=grey]
+辞 -- 辞职 [color=grey]
+辞职
+眠 -- 失眠 [color=grey]
+眠 [color=grey]
+广泛
+守 -- 遵守 [color=grey]
+守 [color=grey]
+遵守
+遵 -- 遵守 [color=grey]
+遵 [color=grey]
+黄瓜
+耽 -- 耽误 [color=grey]
+耽 [color=grey]
+指导
+导演
+导致
+辅导
+手指
+指挥
+戒指
+球迷
+排球
+迷 -- 球迷 [color=grey]
+迷 [color=grey]
+迷 -- 迷路 [color=grey]
+敏 -- 过敏 [color=grey]
+敏 [color=grey]
+过敏
+优美
+完美
+赞美
+枕 -- 枕头 [color=grey]
+枕 [color=grey]
+未 -- 未必 [color=grey]
+未 [color=grey]
+未必
+未 -- 未来 [color=grey]
+未来
+纯 -- 单纯 [color=grey]
+纯 [color=grey]
+命令
+抽屉
+队 -- 排队 [color=grey]
+队 [color=grey]
+排队
+测 -- 测验 [color=grey]
+测 [color=grey]
+罚 -- 罚款 [color=grey]
+罚款
+罚 [color=grey]
+款 -- 罚款 [color=grey]
+款 [color=grey]
+款 -- 付款 [color=grey]
+款 -- 贷款 [color=grey]
+贷款
+年代
+近代
+朝代
+青少年
+年纪
+乏 -- 缺乏 [color=grey]
+乏 [color=grey]
+缺乏
+询 -- 咨询 [color=grey]
+询 [color=grey]
+咨询
+咨 -- 咨询 [color=grey]
+咨 [color=grey]
+询 -- 询问 [color=grey]
+询问
+令 -- 命令 [color=grey]
+令 [color=grey]
+执 -- 执照 [color=grey]
+执 [color=grey]
+执照
+执 -- 执行 [color=grey]
+执行
+接着
+着凉
+接待
+迎接
+接近
+宴会
+会计
+聚会
+宴 -- 宴会 [color=grey]
+宴 [color=grey]
+宗 -- 宗教 [color=grey]
+宗 [color=grey]
+原则
+规则
+原料
+壁 -- 隔壁 [color=grey]
+壁 [color=grey]
+隔壁
+隔 -- 隔壁 [color=grey]
+隔 [color=grey]
+初 -- 初级 [color=grey]
+初 [color=grey]
+初级
+初 -- 最初 [color=grey]
+最初
+舅 -- 舅舅 [color=grey]
+舅舅
+舅 [color=grey]
+益 -- 利益 [color=grey]
+益 [color=grey]
+谜语
+老鼠
+老百姓
+老板
+鼠 -- 老鼠 [color=grey]
+鼠 [color=grey]
+鼠 -- 鼠标 [color=grey]
+柜台
+阳台
+雄 -- 雄伟 [color=grey]
+雄伟
+伟 -- 雄伟 [color=grey]
+伟 [color=grey]
+伟 -- 伟大 [color=grey]
+光荣
+光盘
+荣 -- 光荣 [color=grey]
+荣 [color=grey]
+荣 -- 荣誉 [color=grey]
+荣誉
+荣 -- 繁荣 [color=grey]
+繁荣
+荣 -- 荣幸 [color=grey]
+行业
+宙 -- 宇宙 [color=grey]
+宙 [color=grey]
+宇宙
+宇 -- 宇宙 [color=grey]
+宇 [color=grey]
+田 -- 田野 [color=grey]
+田野
+田 [color=grey]
+野 -- 田野 [color=grey]
+野 [color=grey]
+置 -- 位置 [color=grey]
+置 [color=grey]
+位置
+课程
+程度
+程序
+迹 -- 名胜古迹 [color=grey]
+迹 [color=grey]
+胜 -- 名胜古迹 [color=grey]
+胜 [color=grey]
+迹 -- 奇迹 [color=grey]
+奇迹
+嘱 -- 嘱咐 [color=grey]
+嘱咐
+嘱 [color=grey]
+咐 -- 嘱咐 [color=grey]
+咐 [color=grey]
+谓 -- 所谓 [color=grey]
+谓 [color=grey]
+文具
+文件
+怪不得
+难怪
+不必
+不免
+舍不得
+看不起
+不耐烦
+要不
+不然
+不得了
+不足
+不见得
+了不起
+显得
+毛病
+采 -- 采取 [color=grey]
+采 [color=grey]
+采取
+采 -- 采访 [color=grey]
+采访
+武 -- 武术 [color=grey]
+武 [color=grey]
+武 -- 武器 [color=grey]
+荐 -- 推荐 [color=grey]
+荐 [color=grey]
+婚礼
+离婚
+礼拜天
+雇 -- 雇佣 [color=grey]
+雇 [color=grey]
+雇佣
+佣 -- 雇佣 [color=grey]
+佣 [color=grey]
+淡 -- 清淡
+淡
+清淡
+要是
+次要
+必要
+凡是
+沙漠
+漠 -- 沙漠 [color=grey]
+漠 [color=grey]
+档 -- 高档 [color=grey]
+档 [color=grey]
+含 -- 包含 [color=grey]
+含 [color=grey]
+肩 -- 肩膀 [color=grey]
+肩 [color=grey]
+防 -- 预防 [color=grey]
+防 [color=grey]
+预防
+凡 -- 凡是 [color=grey]
+凡 [color=grey]
+保持
+持续
+保险
+保留
+保存
+表现
+表情
+趋 -- 趋势 [color=grey]
+趋势
+趋 [color=grey]
+势 -- 趋势 [color=grey]
+势 -- 优势 [color=grey]
+优势
+势 -- 形势 [color=grey]
+裹 -- 包裹 [color=grey]
+裹 [color=grey]
+胜 -- 胜利 [color=grey]
+遗 -- 遗憾 [color=grey]
+遗憾
+遗 [color=grey]
+憾 -- 遗憾 [color=grey]
+憾 [color=grey]
+玉 -- 玉米 [color=grey]
+玉 [color=grey]
+玉米
+劳 -- 疲劳 [color=grey]
+疲劳
+劳 -- 劳驾 [color=grey]
+劳 -- 劳动 [color=grey]
+疲 -- 疲劳 [color=grey]
+疲 [color=grey]
+叉 -- 叉子 [color=grey]
+叉 [color=grey]
+府 -- 政府 [color=grey]
+府 [color=grey]
+地震
+地区
+土地
+地位
+陆地
+地毯
+震 -- 地震 [color=grey]
+震 [color=grey]
+显 -- 明显 [color=grey]
+显 [color=grey]
+显 -- 显示 [color=grey]
+显示
+显 -- 显然 [color=grey]
+显然
+显 -- 显得 [color=grey]
+源 -- 能源 [color=grey]
+能源
+源 [color=grey]
+源 -- 资源 [color=grey]
+兵 -- 士兵 [color=grey]
+兵 [color=grey]
+士兵
+疑问
+问候
+提问
+反正
+违反
+反复
+性质
+麦 -- 小麦 [color=grey]
+麦 [color=grey]
+麦 -- 麦克风 [color=grey]
+农业
+营业
+商业
+业务
+业余
+企业
+抗 -- 抗议 [color=grey]
+抗 [color=grey]
+抗议
+珍 -- 珍惜 [color=grey]
+珍 [color=grey]
+等候
+等待
+痛快
+泉 -- 矿泉水 [color=grey]
+泉 [color=grey]
+矿 -- 矿泉水 [color=grey]
+矿 [color=grey]
+绕 -- 围绕
+绕
+构 -- 构成 [color=grey]
+构 [color=grey]
+构 -- 结构 [color=grey]
+结构
+冠 -- 冠军 [color=grey]
+冠 [color=grey]
+冠军
+军 -- 冠军 [color=grey]
+军 [color=grey]
+兄 -- 兄弟 [color=grey]
+兄弟
+兄 [color=grey]
+沟 -- 沟通 [color=grey]
+沟 [color=grey]
+争取
+与 -- 参与
+与
+参与
+与 -- 与其
+与其
+缩 -- 缩短 [color=grey]
+缩 [color=grey]
+缩短
+缩 -- 缩小 [color=grey]
+侵 -- 侵略 [color=grey]
+侵 [color=grey]
+俱乐部
+部门
+选举
+陌 -- 陌生 [color=grey]
+陌 [color=grey]
+傍 -- 傍晚 [color=grey]
+傍 [color=grey]
+傍晚
+设计
+宁 -- 宁可 [color=grey]
+宁可
+宁 [color=grey]
+可见
+可怕
+权 -- 权利 [color=grey]
+权 [color=grey]
+权 -- 权力 [color=grey]
+设 -- 设计 [color=grey]
+设 [color=grey]
+设 -- 设施 [color=grey]
+设施
+设 -- 建设 [color=grey]
+建设
+设 -- 设备 [color=grey]
+设备
+好奇
+强 -- 坚强 [color=grey]
+坚强
+强 [color=grey]
+强 -- 强烈 [color=grey]
+强烈
+强 -- 强调 [color=grey]
+坚决
+叙 -- 叙述 [color=grey]
+叙述
+叙 [color=grey]
+述 -- 叙述 [color=grey]
+述 [color=grey]
+存 -- 保存
+存
+存 -- 存在
+存在
+吸收
+收获
+宿 -- 宿舍 [color=grey]
+宿 [color=grey]
+宿舍
+舍 -- 宿舍 [color=grey]
+舍 [color=grey]
+豆 -- 豆腐 [color=grey]
+豆 [color=grey]
+豆腐
+腐 -- 豆腐 [color=grey]
+腐 [color=grey]
+豆 -- 土豆 [color=grey]
+土豆
+土 -- 土豆 [color=grey]
+土 [color=grey]
+阻 -- 阻止 [color=grey]
+阻止
+阻 [color=grey]
+胡 -- 胡说 [color=grey]
+胡 [color=grey]
+胡 -- 胡须 [color=grey]
+胡须
+胡 -- 胡同 [color=grey]
+土 -- 土地 [color=grey]
+余 -- 其余 [color=grey]
+其余
+余 [color=grey]
+余 -- 多余 [color=grey]
+多余
+余 -- 业余 [color=grey]
+至今
+费用
+重量
+重复
+尽量
+刻苦
+深刻
+立刻
+艰苦
+痛苦
+谜 -- 谜语 [color=grey]
+谜 [color=grey]
+悄 -- 悄悄 [color=grey]
+悄 [color=grey]
+悄悄
+液 -- 液体 [color=grey]
+液 [color=grey]
+手续
+陆续
+相连
+烤 -- 烤鸭 [color=grey]
+烤 [color=grey]
+烤鸭
+鸭 -- 烤鸭 [color=grey]
+鸭 [color=grey]
+决赛
+受伤
+感受
+享受
+炭 -- 煤炭 [color=grey]
+煤炭
+炭 [color=grey]
+煤 -- 煤炭 [color=grey]
+煤 [color=grey]
+庙 -- 寺庙 [color=grey]
+寺庙
+庙 [color=grey]
+寺 -- 寺庙 [color=grey]
+寺 [color=grey]
+训 -- 教训 [color=grey]
+训 [color=grey]
+训 -- 训练 [color=grey]
+逻 -- 逻辑 [color=grey]
+逻 [color=grey]
+疾 -- 残疾 [color=grey]
+疾 [color=grey]
+残疾
+残 -- 残疾 [color=grey]
+残 [color=grey]
+拜 -- 礼拜天 [color=grey]
+拜 [color=grey]
+纪律
+矛 -- 矛盾 [color=grey]
+矛盾
+矛 [color=grey]
+盾 -- 矛盾 [color=grey]
+盾 [color=grey]
+克服
+佩服
+朴 -- 朴素 [color=grey]
+朴 [color=grey]
+朴素
+素 -- 朴素 [color=grey]
+素 [color=grey]
+幻 -- 幻想 [color=grey]
+幻 [color=grey]
+起来
+蝴 -- 蝴蝶 [color=grey]
+蝴 [color=grey]
+蝴蝶
+蝶 -- 蝴蝶 [color=grey]
+蝶 [color=grey]
+海关
+相关
+关怀
+脏 -- 心脏
+脏
+彼此
+步骤
+逐步
+结账
+曾 -- 曾经 [color=grey]
+曾 [color=grey]
+个性
+话题
+唯 -- 唯一 [color=grey]
+唯 [color=grey]
+证件
+硬件
+零件
+软件
+女士
+宠 -- 宠物 [color=grey]
+宠 [color=grey]
+悲 -- 悲观 [color=grey]
+悲 [color=grey]
+烈 -- 强烈 [color=grey]
+烈 [color=grey]
+烈 -- 激烈 [color=grey]
+激烈
+烈 -- 热烈 [color=grey]
+延 -- 延长 [color=grey]
+延 [color=grey]
+青 -- 青春
+青
+青春
+青 -- 青少年
+泛 -- 广泛 [color=grey]
+泛 [color=grey]
+朝 -- 朝代
+朝
+账 -- 结账 [color=grey]
+账 [color=grey]
+账 -- 账户 [color=grey]
+账户
+夹 -- 夹子 [color=grey]
+夹 [color=grey]
+德 -- 道德 [color=grey]
+德 [color=grey]
+转 -- 转告 [color=grey]
+转 [color=grey]
+转 -- 转变 [color=grey]
+转变
+毯 -- 地毯 [color=grey]
+毯 [color=grey]
+必需
+必然
+具备
+玩具
+柜 -- 柜台 [color=grey]
+柜 [color=grey]
+享 -- 享受 [color=grey]
+享 [color=grey]
+拳 -- 太极拳 [color=grey]
+拳 [color=grey]
+营 -- 经营 [color=grey]
+营 [color=grey]
+营 -- 营养 [color=grey]
+营养
+营 -- 营业 [color=grey]
+战争
+难看
+责备
+兔 -- 兔子 [color=grey]
+兔 [color=grey]
+挥 -- 指挥
+挥
+挥 -- 发挥
+忽视
+轻视
+刺激
+感激
+聚 -- 聚会 [color=grey]
+聚 [color=grey]
+客厅
+启 -- 启发 [color=grey]
+启 [color=grey]
+待 -- 接待 [color=grey]
+待 [color=grey]
+待 -- 待遇 [color=grey]
+待遇
+待 -- 对待 [color=grey]
+对待
+待 -- 招待 [color=grey]
+待 -- 期待 [color=grey]
+期待
+待 -- 等待 [color=grey]
+讽 -- 讽刺 [color=grey]
+讽 [color=grey]
+讽刺
+刺 -- 讽刺
+刺
+天空
+空闲
+恋 -- 恋爱 [color=grey]
+恋 [color=grey]
+惠 -- 优惠 [color=grey]
+惠 [color=grey]
+优惠
+制度
+角度
+度过
+控制
+复制
+繁 -- 繁荣 [color=grey]
+繁 [color=grey]
+往返
+返 -- 往返 [color=grey]
+返 [color=grey]
+救 -- 救护车
+救
+车库
+卡车
+摩托车
+车厢
+鞭 -- 鞭炮 [color=grey]
+鞭炮
+鞭 [color=grey]
+炮 -- 鞭炮 [color=grey]
+炮 [color=grey]
+舍 -- 舍不得 [color=grey]
+妇女
+妇 -- 妇女 [color=grey]
+妇 [color=grey]
+贷 -- 贷款 [color=grey]
+贷 [color=grey]
+召 -- 召开 [color=grey]
+召 [color=grey]
+情绪
+肌肉
+肌 -- 肌肉 [color=grey]
+肌 [color=grey]
+企 -- 企业 [color=grey]
+企 [color=grey]
+企 -- 企图 [color=grey]
+企图
+角色
+提纲
+集中
+中介
+贡 -- 贡献 [color=grey]
+贡献
+贡 [color=grey]
+献 -- 贡献 [color=grey]
+献 [color=grey]
+恢 -- 恢复 [color=grey]
+恢 [color=grey]
+恢复
+橡 -- 橡皮 [color=grey]
+橡皮
+橡 [color=grey]
+皮鞋
+娱 -- 娱乐 [color=grey]
+娱 [color=grey]
+娱乐
+碰见
+去世
+灭 -- 消灭 [color=grey]
+灭 [color=grey]
+巴 -- 尾巴 [color=grey]
+巴 [color=grey]
+尾巴
+尾 -- 尾巴 [color=grey]
+尾 [color=grey]
+厅 -- 客厅 [color=grey]
+以来
+参考
+纲 -- 提纲 [color=grey]
+纲 [color=grey]
+磁带
+军 -- 军事 [color=grey]
+库 -- 车库 [color=grey]
+库 [color=grey]
+疗 -- 治疗 [color=grey]
+疗 [color=grey]
+海鲜
+炸 -- 油炸 [color=grey]
+炸 [color=grey]
+过期
+厘 -- 厘米 [color=grey]
+厘 [color=grey]
+厘米
+钢铁
+特殊
+特意
+相对
+绝对
+对手
+针对
+对比
+皇 -- 皇后 [color=grey]
+促 -- 促使 [color=grey]
+促 [color=grey]
+促 -- 促进 [color=grey]
+祖 -- 祖先 [color=grey]
+祖 [color=grey]
+祖 -- 祖国 [color=grey]
+订 -- 预订 [color=grey]
+订 [color=grey]
+预订
+戒 -- 戒烟 [color=grey]
+戒 [color=grey]
+戒烟
+戒 -- 戒指 [color=grey]
+控 -- 控制 [color=grey]
+控 [color=grey]
+磁 -- 磁带 [color=grey]
+磁 [color=grey]
+粮 -- 粮食 [color=grey]
+粮 [color=grey]
+粮食
+衡 -- 平衡 [color=grey]
+衡 [color=grey]
+策 -- 政策 [color=grey]
+策 [color=grey]
+布 -- 分布
+布 -- 公布
+王 -- 王子 [color=grey]
+王 [color=grey]
+厢 -- 车厢 [color=grey]
+厢 [color=grey]
+怒 -- 愤怒 [color=grey]
+怒 [color=grey]
+愤怒
+愤 -- 愤怒 [color=grey]
+愤 [color=grey]
+尚 -- 时尚 [color=grey]
+尚 [color=grey]
+下载
+载 -- 下载 [color=grey]
+载 [color=grey]
+哲 -- 哲学 [color=grey]
+哲 [color=grey]
+痛 -- 痛快 [color=grey]
+痛 [color=grey]
+痛 -- 痛苦 [color=grey]
+夕 -- 除夕 [color=grey]
+除夕
+夕 [color=grey]
+除非
+删除
+拐 -- 拐弯 [color=grey]
+拐弯
+拐 [color=grey]
+弯 -- 拐弯
+弯
+石 -- 石头 [color=grey]
+石 [color=grey]
+批准
+模 -- 规模 [color=grey]
+规模
+建 -- 建议 [color=grey]
+建议
+建 [color=grey]
+建 -- 建立 [color=grey]
+建立
+建 -- 建设 [color=grey]
+建 -- 建筑 [color=grey]
+建筑
+套 -- 手套
+套
+手套
+核 -- 核心 [color=grey]
+核 [color=grey]
+依 -- 依然 [color=grey]
+依然
+依 [color=grey]
+居然
+偶然
+创造
+创 -- 创造 [color=grey]
+创 [color=grey]
+数码
+固 -- 固定 [color=grey]
+固 [color=grey]
+固 -- 固体 [color=grey]
+幼 -- 幼儿园 [color=grey]
+幼 [color=grey]
+冒险
+谦 -- 谦虚 [color=grey]
+谦 [color=grey]
+闲 -- 休闲 [color=grey]
+闲 [color=grey]
+休闲
+闲 -- 空闲 [color=grey]
+陆 -- 陆地 [color=grey]
+陆 [color=grey]
+陆 -- 陆续 [color=grey]
+培养
+析 -- 分析 [color=grey]
+析 [color=grey]
+描写
+描 -- 描写 [color=grey]
+描 [color=grey]
+谈判
+赞 -- 赞成 [color=grey]
+赞 -- 赞美 [color=grey]
+愁 -- 发愁 [color=grey]
+愁 [color=grey]
+破坏
+简直
+挣钱
+零钱
+挣 -- 挣钱 [color=grey]
+挣 [color=grey]
+鬼 -- 胆小鬼 [color=grey]
+鬼 [color=grey]
+胆 -- 胆小鬼 [color=grey]
+胆 [color=grey]
+立 -- 立刻 [color=grey]
+立 -- 建立 [color=grey]
+立 -- 立即 [color=grey]
+立即
+立 -- 成立 [color=grey]
+立 -- 立方 [color=grey]
+帘 -- 窗帘 [color=grey]
+窗帘
+帘 [color=grey]
+完整
+培 -- 培养 [color=grey]
+培 [color=grey]
+偷 -- 小偷 [color=grey]
+偷 [color=grey]
+骤 -- 步骤 [color=grey]
+骤 [color=grey]
+辈 -- 一辈子 [color=grey]
+辈 [color=grey]
+殊 -- 特殊 [color=grey]
+殊 [color=grey]
+义 -- 意义 [color=grey]
+义 [color=grey]
+意义
+义 -- 义务 [color=grey]
+义务
+佩 -- 佩服 [color=grey]
+佩 [color=grey]
+妙 -- 巧妙 [color=grey]
+巧妙
+妙 [color=grey]
+托 -- 委托 [color=grey]
+托 [color=grey]
+托 -- 摩托车 [color=grey]
+刺 -- 刺激
+整个
+战 -- 战争 [color=grey]
+战 [color=grey]
+战 -- 挑战 [color=grey]
+挑战
+挑 -- 挑战 [color=grey]
+挑 [color=grey]
+俱 -- 俱乐部 [color=grey]
+俱 [color=grey]
+贝 -- 宝贝 [color=grey]
+贝 [color=grey]
+宝贝
+宝 -- 宝贝 [color=grey]
+宝 [color=grey]
+蔬 -- 蔬菜 [color=grey]
+蔬 [color=grey]
+蔬菜
+寓 -- 公寓 [color=grey]
+寓 [color=grey]
+敬 -- 尊敬 [color=grey]
+敬 [color=grey]
+尊敬
+敬 -- 敬爱 [color=grey]
+彻 -- 彻底 [color=grey]
+彻 [color=grey]
+彻底
+比例
+脆 -- 干脆 [color=grey]
+脆 [color=grey]
+迅 -- 迅速 [color=grey]
+迅 [color=grey]
+屉 -- 抽屉 [color=grey]
+屉 [color=grey]
+裁 -- 总裁 [color=grey]
+裁 [color=grey]
+嗓 -- 嗓子 [color=grey]
+嗓 [color=grey]
+登 -- 登记 [color=grey]
+施 -- 设施 [color=grey]
+施 [color=grey]
+施 -- 措施 [color=grey]
+措施
+匀 -- 均匀 [color=grey]
+匀 [color=grey]
+零食
+尺 -- 尺子 [color=grey]
+尺 [color=grey]
+筑 -- 建筑 [color=grey]
+筑 [color=grey]
+绪 -- 情绪 [color=grey]
+绪 [color=grey]
+硬币
+评价
+价值
+素 -- 因素 [color=grey]
+牛仔裤
+房东
+签字
+预报
+法院
+家务
+宝 -- 宝贵 [color=grey]
+宝贵
+厂 -- 工厂 [color=grey]
+厂 [color=grey]
+抓 -- 抓紧 [color=grey]
+抓 [color=grey]
+棋 -- 象棋 [color=grey]
+棋 [color=grey]
+哪怕
+糟 -- 糟糕 [color=grey]
+糟 [color=grey]
+糟糕
+划船
+透 -- 透明 [color=grey]
+透 [color=grey]
+豪 -- 豪华 [color=grey]
+豪 [color=grey]
+豪 -- 自豪 [color=grey]
+虹 -- 彩虹 [color=grey]
+虹 [color=grey]
+彩虹
+措 -- 措施 [color=grey]
+措 [color=grey]
+讯 -- 通讯 [color=grey]
+讯 [color=grey]
+蜡 -- 蜡烛 [color=grey]
+蜡 [color=grey]
+蜡烛
+烛 -- 蜡烛 [color=grey]
+烛 [color=grey]
+郊区
+郊 -- 郊区 [color=grey]
+郊 [color=grey]
+规律
+碰 -- 碰见 [color=grey]
+碰 [color=grey]
+危害
+灰 -- 灰尘
+灰
+灰尘
+尘 -- 灰尘 [color=grey]
+尘 [color=grey]
+灰 -- 灰心
+辅 -- 辅导 [color=grey]
+辅 [color=grey]
+柔 -- 温柔 [color=grey]
+柔 [color=grey]
+温柔
+摩 -- 摩托车 [color=grey]
+摩 [color=grey]
+眉 -- 眉毛 [color=grey]
+眉 [color=grey]
+眉毛
+落 -- 降落 [color=grey]
+降落
+落 [color=grey]
+落 -- 落后 [color=grey]
+缘 -- 缘故 [color=grey]
+缘 [color=grey]
+缘故
+木 -- 木头 [color=grey]
+木 [color=grey]
+轮流
+轮 -- 轮流 [color=grey]
+轮 [color=grey]
+赏 -- 欣赏 [color=grey]
+赏 [color=grey]
+欣赏
+欣 -- 欣赏 [color=grey]
+欣 [color=grey]
+把握
+掌握
+致 -- 导致 [color=grey]
+致 [color=grey]
+致 -- 一致 [color=grey]
+卧室
+卧 -- 卧室 [color=grey]
+卧 [color=grey]
+删 -- 删除 [color=grey]
+删 [color=grey]
+酒吧
+惭 -- 惭愧 [color=grey]
+惭 [color=grey]
+惭愧
+愧 -- 惭愧 [color=grey]
+愧 [color=grey]
+舒适
+勺 -- 勺子 [color=grey]
+勺 [color=grey]
+违 -- 违反 [color=grey]
+违 [color=grey]
+氛 -- 气氛 [color=grey]
+氛 [color=grey]
+类 -- 人类
+类
+彼 -- 彼此 [color=grey]
+彼 [color=grey]
+骨 -- 骨头 [color=grey]
+骨 [color=grey]
+毕竟
+誉 -- 荣誉 [color=grey]
+誉 [color=grey]
+庭 -- 家庭 [color=grey]
+家庭
+庭 [color=grey]
+家乡
+专家
+融 -- 融化 [color=grey]
+融 [color=grey]
+键盘
+脑袋
+恳 -- 诚恳 [color=grey]
+恳 [color=grey]
+诚恳
+籍 -- 国籍 [color=grey]
+籍 [color=grey]
+温暖
+域 -- 领域 [color=grey]
+域 [color=grey]
+鼓舞
+乡 -- 家乡 [color=grey]
+乡 [color=grey]
+艰 -- 艰苦 [color=grey]
+始终
+嘉 -- 嘉宾 [color=grey]
+嘉 [color=grey]
+嘉宾
+孙 -- 孙子 [color=grey]
+孙 [color=grey]
+
+}

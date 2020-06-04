@@ -1,0 +1,1793 @@
+﻿graph G {
+
+graph [overlap=false];
+node [fontname="SimSun"];
+
+子 -- 个子 [color=grey style=dotted]
+个子
+子 [color=grey style=dotted]
+子 -- 袜子 [color=grey style=dotted]
+袜子
+子 -- 肚子 [color=grey style=dotted]
+肚子
+子 -- 叶子 [color=grey style=dotted]
+叶子
+子 -- 盒子 [color=grey style=dotted]
+盒子
+子 -- 瓶子 [color=grey style=dotted]
+瓶子
+子 -- 样子 [color=grey style=dotted]
+样子
+子 -- 饺子 [color=grey style=dotted]
+饺子
+子 -- 镜子 [color=grey style=dotted]
+镜子
+子 -- 猴子 [color=grey style=dotted]
+猴子
+吸 -- 吸引 [color=grey]
+吸 [color=grey]
+吸引
+引 -- 吸引 [color=grey]
+引 [color=grey]
+反 -- 反映 [color=grey]
+反 [color=grey]
+反映
+映 -- 反映 [color=grey]
+映 [color=grey]
+反 -- 反对 [color=grey]
+反对
+对 -- 反对 [color=grey style=dotted]
+对 [color=grey style=dotted]
+反 -- 相反 [color=grey]
+相反
+相 -- 相反 [color=grey style=dotted]
+相 [color=grey style=dotted]
+正常
+正 -- 正常 [color=grey style=dotted]
+正 [color=grey style=dotted]
+正 -- 正好 [color=grey style=dotted]
+正好
+正 -- 正式 [color=grey style=dotted]
+正式
+正 -- 正确 [color=grey style=dotted]
+正确
+正 -- 真正 [color=grey style=dotted]
+真正
+知 -- 通知 [color=grey]
+知 [color=grey]
+通知
+通 -- 通知 [color=grey style=dotted]
+通 [color=grey style=dotted]
+知 -- 知识 [color=grey]
+知识
+纪 -- 世纪 [color=grey]
+世纪
+纪 [color=grey]
+闹 -- 热闹 [color=grey]
+闹 [color=grey]
+热闹
+译 -- 翻译 [color=grey]
+翻译
+译 [color=grey]
+翻 -- 翻译
+翻
+括 -- 包括 [color=grey]
+括 [color=grey]
+包括
+式 -- 正式 [color=grey]
+式 [color=grey]
+互 -- 互相 [color=grey]
+互 [color=grey]
+互相
+相 -- 互相 [color=grey style=dotted]
+爱情
+情 -- 爱情 [color=grey style=dotted]
+情 [color=grey style=dotted]
+情 -- 同情 [color=grey style=dotted]
+同情
+情 -- 心情 [color=grey style=dotted]
+心情
+情 -- 情况 [color=grey style=dotted]
+情况
+情 -- 感情 [color=grey style=dotted]
+感情
+意见
+意 -- 意见 [color=grey style=dotted]
+意 [color=grey style=dotted]
+意 -- 故意 [color=grey style=dotted]
+故意
+意 -- 得意 [color=grey style=dotted]
+得意
+意 -- 主意 [color=grey style=dotted]
+主意
+意 -- 做生意 [color=grey style=dotted]
+做生意
+其次
+其 -- 其次 [color=grey style=dotted]
+其 [color=grey style=dotted]
+其 -- 其中 [color=grey style=dotted]
+其中
+其 -- 极其 [color=grey style=dotted]
+极其
+其 -- 尤其 [color=grey style=dotted]
+尤其
+克 -- 巧克力
+克
+巧克力
+力 -- 巧克力 [color=grey style=dotted]
+力 [color=grey style=dotted]
+巧 -- 巧克力 [color=grey]
+巧 [color=grey]
+时 -- 准时 [color=grey style=dotted]
+准时
+时 [color=grey style=dotted]
+时 -- 及时 [color=grey style=dotted]
+及时
+时 -- 按时 [color=grey style=dotted]
+按时
+时 -- 当时 [color=grey style=dotted]
+当时
+时 -- 平时 [color=grey style=dotted]
+平时
+时 -- 暂时 [color=grey style=dotted]
+暂时
+准 -- 准时 [color=grey style=dotted]
+准 [color=grey style=dotted]
+准 -- 标准 [color=grey style=dotted]
+标准
+准 -- 准确 [color=grey style=dotted]
+准确
+符 -- 符合 [color=grey]
+符 [color=grey]
+符合
+合 -- 符合 [color=grey]
+合 [color=grey]
+悔 -- 后悔 [color=grey]
+后悔
+悔 [color=grey]
+后 -- 后悔 [color=grey style=dotted]
+后 [color=grey style=dotted]
+后 -- 最后 [color=grey style=dotted]
+最后
+后 -- 后来 [color=grey style=dotted]
+后来
+标 -- 标准 [color=grey]
+标 [color=grey]
+全 -- 全部 [color=grey]
+全部
+全 [color=grey]
+全 -- 完全 [color=grey]
+完全
+全 -- 安全 [color=grey]
+安全
+部 -- 全部 [color=grey]
+部 [color=grey]
+江 -- 长江 [color=grey]
+江 [color=grey]
+长江
+长 -- 长江 [color=grey style=dotted]
+长 [color=grey style=dotted]
+老虎
+虎 -- 老虎 [color=grey]
+虎 [color=grey]
+虎 -- 马虎 [color=grey]
+马虎
+戚 -- 亲戚 [color=grey]
+亲戚
+戚 [color=grey]
+亲 -- 亲戚 [color=grey]
+亲 [color=grey]
+亲 -- 父亲 [color=grey]
+父亲
+亲 -- 母亲 [color=grey]
+母亲
+负 -- 负责 [color=grey]
+负 [color=grey]
+负责
+责 -- 负责 [color=grey]
+责 [color=grey]
+遍 -- 普遍
+遍
+普遍
+当 -- 当时 [color=grey style=dotted]
+当 [color=grey style=dotted]
+当 -- 当地 [color=grey style=dotted]
+当地
+座 -- 座位
+座
+座位
+印 -- 打印 [color=grey]
+打印
+印 [color=grey]
+印 -- 印象 [color=grey]
+印象
+印 -- 复印 [color=grey]
+复印
+打 -- 打印 [color=grey style=dotted]
+打 [color=grey style=dotted]
+打 -- 打折 [color=grey style=dotted]
+打折
+打 -- 打针 [color=grey style=dotted]
+打针
+打 -- 打扰 [color=grey style=dotted]
+打扰
+打 -- 打扮 [color=grey style=dotted]
+打扮
+聘 -- 招聘 [color=grey]
+聘 [color=grey]
+招聘
+招 -- 招聘 [color=grey]
+招 [color=grey]
+极 -- 极其 [color=grey style=dotted]
+极 [color=grey style=dotted]
+极 -- 积极 [color=grey style=dotted]
+积极
+表 -- 代表 [color=grey style=dotted]
+代表
+表 [color=grey style=dotted]
+表 -- 表达 [color=grey style=dotted]
+表达
+表 -- 表格 [color=grey style=dotted]
+表格
+表 -- 表扬 [color=grey style=dotted]
+表扬
+代 -- 代表 [color=grey]
+代 [color=grey]
+代 -- 现代 [color=grey]
+现代
+代 -- 代替 [color=grey]
+代替
+降 -- 降低 [color=grey]
+降 [color=grey]
+降低
+来 -- 后来 [color=grey style=dotted]
+来 [color=grey style=dotted]
+来 -- 来得及 [color=grey style=dotted]
+来得及
+来 -- 本来 [color=grey style=dotted]
+本来
+来 -- 从来 [color=grey style=dotted]
+从来
+来 -- 将来 [color=grey style=dotted]
+将来
+来 -- 原来 [color=grey style=dotted]
+原来
+来 -- 来不及 [color=grey style=dotted]
+来不及
+幽 -- 幽默 [color=grey]
+幽 [color=grey]
+幽默
+默 -- 幽默 [color=grey]
+默 [color=grey]
+童 -- 儿童 [color=grey]
+儿童
+童 [color=grey]
+丰 -- 丰富 [color=grey]
+丰 [color=grey]
+丰富
+富 -- 丰富
+富
+愉 -- 愉快 [color=grey]
+愉快
+愉 [color=grey]
+快 -- 愉快 [color=grey style=dotted]
+快 [color=grey style=dotted]
+快 -- 凉快 [color=grey style=dotted]
+凉快
+燥 -- 干燥 [color=grey]
+燥 [color=grey]
+干燥
+干 -- 干燥 [color=grey style=dotted]
+干 [color=grey style=dotted]
+签 -- 签证 [color=grey]
+签 [color=grey]
+签证
+证 -- 签证 [color=grey]
+证 [color=grey]
+超过
+过 -- 超过 [color=grey style=dotted]
+过 [color=grey style=dotted]
+过 -- 不过 [color=grey style=dotted]
+不过
+过 -- 通过 [color=grey style=dotted]
+通过
+过 -- 过程 [color=grey style=dotted]
+过程
+折 -- 打折
+折
+律 -- 法律 [color=grey]
+法律
+律 [color=grey]
+律 -- 律师 [color=grey]
+律师
+法 -- 法律 [color=grey style=dotted]
+法 [color=grey style=dotted]
+法 -- 看法 [color=grey style=dotted]
+看法
+法 -- 语法 [color=grey style=dotted]
+语法
+法 -- 方法 [color=grey style=dotted]
+方法
+饺 -- 饺子 [color=grey]
+饺 [color=grey]
+任 -- 任何 [color=grey]
+任 [color=grey]
+任何
+何 -- 任何 [color=grey]
+何 [color=grey]
+任 -- 责任 [color=grey]
+责任
+责 -- 责任 [color=grey]
+任 -- 任务 [color=grey]
+任务
+任 -- 信任 [color=grey]
+信任
+信 -- 信任 [color=grey style=dotted]
+信 [color=grey style=dotted]
+肥 -- 减肥 [color=grey]
+减肥
+肥 [color=grey]
+减 -- 减肥 [color=grey]
+减 [color=grey]
+减 -- 减少 [color=grey]
+减少
+好 -- 正好 [color=grey style=dotted]
+好 [color=grey style=dotted]
+好 -- 只好 [color=grey style=dotted]
+只好
+好 -- 好处 [color=grey style=dotted]
+好处
+好 -- 好像 [color=grey style=dotted]
+好像
+好 -- 友好 [color=grey style=dotted]
+友好
+好 -- 最好 [color=grey style=dotted]
+最好
+供 -- 提供 [color=grey]
+供 [color=grey]
+提供
+提 -- 提供 [color=grey style=dotted]
+提 [color=grey style=dotted]
+解 -- 解释 [color=grey style=dotted]
+解释
+解 [color=grey style=dotted]
+解 -- 理解 [color=grey style=dotted]
+理解
+释 -- 解释 [color=grey]
+释 [color=grey]
+估 -- 估计 [color=grey]
+估 [color=grey]
+估计
+计 -- 估计 [color=grey]
+计 [color=grey]
+入 -- 收入 [color=grey]
+收入
+入 [color=grey]
+入 -- 入口 [color=grey]
+入口
+收 -- 收入
+收
+收 -- 收拾
+收拾
+失 -- 失望 [color=grey]
+失望
+失 [color=grey]
+失 -- 失败 [color=grey]
+失败
+量 -- 数量 [color=grey]
+量 [color=grey]
+数量
+数 -- 数量 [color=grey style=dotted]
+数 [color=grey style=dotted]
+量 -- 质量 [color=grey]
+质量
+质 -- 质量 [color=grey]
+质 [color=grey]
+量 -- 商量 [color=grey]
+商量
+扮 -- 打扮 [color=grey]
+扮 [color=grey]
+麻 -- 麻烦 [color=grey]
+麻烦
+麻 [color=grey]
+烦 -- 麻烦 [color=grey]
+烦 [color=grey]
+烦 -- 烦恼 [color=grey]
+烦恼
+干 -- 干杯 [color=grey style=dotted]
+干杯
+干 -- 饼干 [color=grey style=dotted]
+饼干
+定 -- 肯定 [color=grey style=dotted]
+肯定
+定 [color=grey style=dotted]
+定 -- 规定 [color=grey style=dotted]
+规定
+肯 -- 肯定 [color=grey]
+肯 [color=grey]
+逐 -- 逐渐 [color=grey]
+逐 [color=grey]
+逐渐
+渐 -- 逐渐 [color=grey]
+渐 [color=grey]
+金 -- 奖金 [color=grey]
+奖金
+金 [color=grey]
+奖 -- 奖金 [color=grey]
+奖 [color=grey]
+划 -- 计划 [color=grey]
+划 [color=grey]
+计划
+计 -- 计划 [color=grey]
+叶 -- 叶子 [color=grey]
+叶 [color=grey]
+教 -- 教授 [color=grey style=dotted]
+教授
+教 [color=grey style=dotted]
+教 -- 教育 [color=grey style=dotted]
+教育
+授 -- 教授 [color=grey]
+授 [color=grey]
+仅 -- 不仅 [color=grey]
+仅 [color=grey]
+不仅
+不 -- 不仅 [color=grey style=dotted]
+不 [color=grey style=dotted]
+效 -- 效果 [color=grey]
+效 [color=grey]
+效果
+果 -- 效果 [color=grey style=dotted]
+果 [color=grey style=dotted]
+厌 -- 讨厌 [color=grey]
+厌 [color=grey]
+讨厌
+讨 -- 讨厌 [color=grey]
+讨 [color=grey]
+料 -- 饮料 [color=grey]
+饮料
+料 [color=grey]
+料 -- 塑料袋 [color=grey]
+塑料袋
+料 -- 材料 [color=grey]
+材料
+饮 -- 饮料 [color=grey]
+饮 [color=grey]
+奋 -- 兴奋 [color=grey]
+奋 [color=grey]
+兴奋
+续 -- 继续 [color=grey]
+继续
+续 [color=grey]
+继 -- 继续 [color=grey]
+继 [color=grey]
+值 -- 值得 [color=grey]
+值 [color=grey]
+值得
+得 -- 值得 [color=grey style=dotted]
+得 [color=grey style=dotted]
+程 -- 过程 [color=grey]
+程 [color=grey]
+醒 -- 提醒
+醒
+提醒
+提 -- 提醒 [color=grey style=dotted]
+说 -- 小说 [color=grey style=dotted]
+小说
+说 [color=grey style=dotted]
+说 -- 说明 [color=grey style=dotted]
+说明
+预习
+预 -- 预习 [color=grey]
+预 [color=grey]
+通 -- 交通 [color=grey style=dotted]
+交通
+通 -- 通过 [color=grey style=dotted]
+交 -- 交通
+交
+交 -- 交流
+交流
+最 -- 最好 [color=grey style=dotted]
+最 [color=grey style=dotted]
+最 -- 最后 [color=grey style=dotted]
+究 -- 研究生 [color=grey]
+究 [color=grey]
+研究生
+研 -- 研究生 [color=grey]
+研 [color=grey]
+生 -- 研究生 [color=grey style=dotted]
+生 [color=grey style=dotted]
+究 -- 究竟 [color=grey]
+究竟
+竟 -- 究竟 [color=grey]
+竟 [color=grey]
+范 -- 范围 [color=grey]
+范围
+范 [color=grey]
+围 -- 范围 [color=grey]
+围 [color=grey]
+围 -- 周围 [color=grey]
+周围
+疑 -- 怀疑 [color=grey]
+疑 [color=grey]
+怀疑
+怀 -- 怀疑 [color=grey]
+怀 [color=grey]
+名 -- 著名 [color=grey style=dotted]
+著名
+名 [color=grey style=dotted]
+名 -- 报名 [color=grey style=dotted]
+报名
+著 -- 著名 [color=grey]
+著 [color=grey]
+科 -- 科学 [color=grey]
+科学
+科 [color=grey]
+学 -- 科学 [color=grey style=dotted]
+学 [color=grey style=dotted]
+学 -- 留学 [color=grey style=dotted]
+留学
+接 -- 直接 [color=grey style=dotted]
+直接
+接 [color=grey style=dotted]
+接 -- 接受 [color=grey style=dotted]
+接受
+诚 -- 诚实 [color=grey]
+诚 [color=grey]
+诚实
+实 -- 诚实 [color=grey style=dotted]
+实 [color=grey style=dotted]
+命 -- 生命 [color=grey]
+生命
+命 [color=grey]
+生 -- 生命 [color=grey style=dotted]
+生 -- 生活 [color=grey style=dotted]
+生活
+生 -- 发生 [color=grey style=dotted]
+发生
+生 -- 出生 [color=grey style=dotted]
+出生
+生 -- 做生意 [color=grey style=dotted]
+理 -- 理解 [color=grey style=dotted]
+理 [color=grey style=dotted]
+理 -- 管理 [color=grey style=dotted]
+管理
+理 -- 理发 [color=grey style=dotted]
+理发
+理 -- 整理 [color=grey style=dotted]
+整理
+理 -- 理想 [color=grey style=dotted]
+理想
+节约
+约 -- 节约 [color=grey]
+约 [color=grey]
+约 -- 约会 [color=grey]
+约会
+约 -- 大约 [color=grey]
+大约
+盒 -- 盒子 [color=grey]
+盒 [color=grey]
+同 -- 同情 [color=grey style=dotted]
+同 [color=grey style=dotted]
+同 -- 共同 [color=grey style=dotted]
+共同
+货 -- 售货员 [color=grey]
+货 [color=grey]
+售货员
+员 -- 售货员 [color=grey style=dotted]
+员 [color=grey style=dotted]
+售 -- 售货员 [color=grey]
+售 [color=grey]
+激 -- 激动 [color=grey]
+激动
+激 [color=grey]
+动 -- 激动 [color=grey style=dotted]
+动 [color=grey style=dotted]
+动 -- 主动 [color=grey style=dotted]
+主动
+动 -- 动作 [color=grey style=dotted]
+动作
+动 -- 感动 [color=grey style=dotted]
+感动
+动 -- 活动 [color=grey style=dotted]
+活动
+勇敢
+勇 -- 勇敢 [color=grey]
+勇 [color=grey]
+便 -- 随便 [color=grey style=dotted]
+随便
+便 [color=grey style=dotted]
+便 -- 顺便 [color=grey style=dotted]
+顺便
+随 -- 随便 [color=grey]
+随 [color=grey]
+随 -- 随着 [color=grey]
+随着
+咳 -- 咳嗽 [color=grey]
+咳嗽
+咳 [color=grey]
+嗽 -- 咳嗽 [color=grey]
+嗽 [color=grey]
+顺 -- 顺序 [color=grey]
+顺序
+顺 [color=grey]
+顺 -- 顺便 [color=grey]
+顺 -- 顺利 [color=grey]
+顺利
+序 -- 顺序 [color=grey]
+序 [color=grey]
+利 -- 流利 [color=grey]
+利 [color=grey]
+流利
+流 -- 流利 [color=grey]
+流 [color=grey]
+利 -- 顺利 [color=grey]
+匙 -- 钥匙 [color=grey]
+钥匙
+匙 [color=grey]
+钥 -- 钥匙 [color=grey]
+钥 [color=grey]
+惊 -- 吃惊 [color=grey]
+惊 [color=grey]
+吃惊
+彩 -- 精彩 [color=grey]
+精彩
+彩 [color=grey]
+精 -- 精彩 [color=grey]
+精 [color=grey]
+精 -- 精神 [color=grey]
+精神
+既 -- 既然 [color=grey]
+既然
+既 [color=grey]
+然 -- 既然 [color=grey style=dotted]
+然 [color=grey style=dotted]
+然 -- 忽然 [color=grey style=dotted]
+忽然
+然 -- 自然 [color=grey style=dotted]
+自然
+然 -- 然而 [color=grey style=dotted]
+然而
+然 -- 果然 [color=grey style=dotted]
+果然
+然 -- 竟然 [color=grey style=dotted]
+竟然
+然 -- 仍然 [color=grey style=dotted]
+仍然
+总结
+键 -- 关键 [color=grey]
+键 [color=grey]
+关键
+坚 -- 坚持 [color=grey]
+坚 [color=grey]
+坚持
+持 -- 坚持 [color=grey]
+持 [color=grey]
+实在
+实 -- 实在 [color=grey style=dotted]
+实 -- 实际 [color=grey style=dotted]
+实际
+实 -- 确实 [color=grey style=dotted]
+确实
+改 -- 改变 [color=grey]
+改 [color=grey]
+改变
+聊天
+聊 -- 聊天 [color=grey]
+聊 [color=grey]
+聊 -- 无聊 [color=grey]
+无聊
+得 -- 获得 [color=grey style=dotted]
+获得
+得 -- 得意 [color=grey style=dotted]
+得 -- 来得及 [color=grey style=dotted]
+得 -- 不得不 [color=grey style=dotted]
+不得不
+获 -- 获得 [color=grey]
+获 [color=grey]
+谅 -- 原谅 [color=grey]
+原谅
+谅 [color=grey]
+原 -- 原谅 [color=grey]
+原 [color=grey]
+原 -- 原因 [color=grey]
+原因
+原 -- 原来 [color=grey]
+长 -- 增长 [color=grey style=dotted]
+增长
+长 -- 长城 [color=grey style=dotted]
+长城
+增 -- 增长 [color=grey]
+增 [color=grey]
+增 -- 增加 [color=grey]
+增加
+际 -- 国际 [color=grey]
+际 [color=grey]
+国际
+际 -- 实际 [color=grey]
+散 -- 散步 [color=grey]
+散 [color=grey]
+散步
+虑 -- 考虑 [color=grey]
+考虑
+虑 [color=grey]
+甚 -- 甚至 [color=grey]
+甚 [color=grey]
+甚至
+至 -- 甚至 [color=grey]
+至 [color=grey]
+握 -- 握手 [color=grey]
+握 [color=grey]
+握手
+出 -- 出生 [color=grey style=dotted]
+出 [color=grey style=dotted]
+出 -- 出差 [color=grey style=dotted]
+出差
+出 -- 演出 [color=grey style=dotted]
+演出
+出 -- 出发 [color=grey style=dotted]
+出发
+乓 -- 乒乓球 [color=grey]
+乓 [color=grey]
+乒乓球
+乒 -- 乒乓球 [color=grey]
+乒 [color=grey]
+球 -- 乒乓球 [color=grey style=dotted]
+球 [color=grey style=dotted]
+详 -- 详细 [color=grey]
+详 [color=grey]
+详细
+细 -- 详细 [color=grey]
+细 [color=grey]
+造 -- 制造 [color=grey]
+制造
+造 [color=grey]
+制 -- 制造 [color=grey]
+制 [color=grey]
+制 -- 限制 [color=grey]
+限制
+尊 -- 尊重 [color=grey]
+尊 [color=grey]
+尊重
+重 -- 尊重 [color=grey style=dotted]
+重 [color=grey style=dotted]
+压 -- 压力 [color=grey]
+压力
+压 [color=grey]
+力 -- 压力 [color=grey style=dotted]
+力 -- 力气 [color=grey style=dotted]
+力气
+力 -- 能力 [color=grey style=dotted]
+能力
+起 -- 起飞 [color=grey style=dotted]
+起飞
+起 [color=grey style=dotted]
+起 -- 引起 [color=grey style=dotted]
+引起
+母 -- 母亲 [color=grey]
+母 [color=grey]
+许 -- 也许 [color=grey]
+也许
+许 [color=grey]
+许 -- 许多 [color=grey]
+许多
+许 -- 允许 [color=grey]
+允许
+申 -- 申请 [color=grey]
+申请
+申 [color=grey]
+请 -- 申请 [color=grey style=dotted]
+请 [color=grey style=dotted]
+请 -- 请假 [color=grey style=dotted]
+请假
+请 -- 邀请 [color=grey style=dotted]
+邀请
+请 -- 请客 [color=grey style=dotted]
+请客
+博 -- 博士 [color=grey]
+博 [color=grey]
+博士
+士 -- 博士 [color=grey]
+士 [color=grey]
+员 -- 演员 [color=grey style=dotted]
+演员
+演 -- 演员 [color=grey style=dotted]
+演 [color=grey style=dotted]
+演 -- 演出 [color=grey style=dotted]
+广告
+广 -- 广告 [color=grey]
+广 [color=grey]
+广 -- 广播 [color=grey]
+广播
+将 -- 将来 [color=grey]
+将 [color=grey]
+客 -- 请客 [color=grey style=dotted]
+客 [color=grey style=dotted]
+客 -- 顾客 [color=grey style=dotted]
+顾客
+品 -- 食品 [color=grey]
+品 [color=grey]
+食品
+食 -- 食品 [color=grey]
+食 [color=grey]
+绝 -- 拒绝 [color=grey]
+绝 [color=grey]
+拒绝
+拒 -- 拒绝 [color=grey]
+拒 [color=grey]
+安 -- 安排 [color=grey style=dotted]
+安排
+安 [color=grey style=dotted]
+安 -- 安全 [color=grey style=dotted]
+排 -- 安排 [color=grey]
+排 [color=grey]
+排 -- 排列 [color=grey]
+排列
+弹 -- 弹钢琴 [color=grey]
+弹钢琴
+弹 [color=grey]
+钢 -- 弹钢琴 [color=grey]
+钢 [color=grey]
+琴 -- 弹钢琴 [color=grey]
+琴 [color=grey]
+参观
+观 -- 参观 [color=grey]
+观 [color=grey]
+观 -- 观众 [color=grey]
+观众
+鼓 -- 鼓掌 [color=grey]
+鼓掌
+鼓 [color=grey]
+鼓 -- 鼓励 [color=grey]
+鼓励
+掌 -- 鼓掌 [color=grey]
+掌 [color=grey]
+空 -- 空气 [color=grey style=dotted]
+空气
+空 [color=grey style=dotted]
+空 -- 填空 [color=grey style=dotted]
+填空
+气 -- 空气 [color=grey style=dotted]
+气 [color=grey style=dotted]
+气 -- 力气 [color=grey style=dotted]
+气 -- 气候 [color=grey style=dotted]
+气候
+泼 -- 活泼
+泼
+活泼
+活 -- 活泼 [color=grey]
+活 [color=grey]
+推 -- 推迟
+推迟
+推
+则 -- 否则
+则
+否则
+否 -- 否则 [color=grey]
+否 [color=grey]
+举办
+细 -- 仔细 [color=grey]
+仔细
+仔 -- 仔细 [color=grey]
+仔 [color=grey]
+禁 -- 禁止 [color=grey]
+禁 [color=grey]
+禁止
+止 -- 禁止 [color=grey]
+止 [color=grey]
+耐 -- 耐心 [color=grey]
+耐 [color=grey]
+耐心
+心 -- 耐心 [color=grey style=dotted]
+心 [color=grey style=dotted]
+础 -- 基础 [color=grey]
+础 [color=grey]
+基础
+基 -- 基础 [color=grey]
+基 [color=grey]
+恐 -- 恐怕 [color=grey]
+恐 [color=grey]
+恐怕
+士 -- 护士 [color=grey]
+护士
+护 -- 护士 [color=grey style=dotted]
+护 [color=grey style=dotted]
+士 -- 硕士 [color=grey]
+硕士
+硕 -- 硕士 [color=grey]
+硕 [color=grey]
+断 -- 判断
+判断
+断
+判 -- 判断 [color=grey]
+判 [color=grey]
+忆 -- 回忆 [color=grey]
+回忆
+忆 [color=grey]
+垃 -- 垃圾桶 [color=grey]
+垃圾桶
+垃 [color=grey]
+桶 -- 垃圾桶 [color=grey]
+桶 [color=grey]
+圾 -- 垃圾桶 [color=grey]
+圾 [color=grey]
+及 -- 及时 [color=grey]
+及 [color=grey]
+及 -- 来得及 [color=grey]
+及 -- 来不及 [color=grey]
+严 -- 严重 [color=grey]
+严 [color=grey]
+严重
+重 -- 严重 [color=grey style=dotted]
+严 -- 严格 [color=grey]
+严格
+格 -- 严格 [color=grey]
+格 [color=grey]
+案 -- 答案 [color=grey]
+案 [color=grey]
+答案
+并且
+并 -- 并且 [color=grey]
+并 [color=grey]
+主 -- 主动 [color=grey style=dotted]
+主 [color=grey style=dotted]
+主 -- 主意 [color=grey style=dotted]
+邀 -- 邀请 [color=grey]
+邀 [color=grey]
+松 -- 轻松 [color=grey]
+松 [color=grey]
+轻松
+微 -- 稍微 [color=grey]
+微 [color=grey]
+稍微
+稍 -- 稍微 [color=grey]
+稍 [color=grey]
+信 -- 信用卡 [color=grey style=dotted]
+信用卡
+信 -- 信心 [color=grey style=dotted]
+信心
+用 -- 信用卡 [color=grey style=dotted]
+用 [color=grey style=dotted]
+用 -- 使用 [color=grey style=dotted]
+使用
+卡 -- 信用卡 [color=grey]
+卡 [color=grey]
+假 -- 请假
+假
+假 -- 放暑假
+放暑假
+暑 -- 放暑假 [color=grey]
+暑 [color=grey]
+放 -- 放暑假 [color=grey style=dotted]
+放 [color=grey style=dotted]
+假 -- 寒假
+寒假
+寒 -- 寒假 [color=grey]
+寒 [color=grey]
+危 -- 危险 [color=grey]
+危 [color=grey]
+危险
+险 -- 危险 [color=grey]
+险 [color=grey]
+无 -- 无聊
+无
+无 -- 无论
+无论
+大夫
+大 -- 大夫 [color=grey style=dotted]
+大 [color=grey style=dotted]
+大 -- 大约 [color=grey style=dotted]
+大 -- 大概 [color=grey style=dotted]
+大概
+大 -- 大使馆 [color=grey style=dotted]
+大使馆
+大 -- 扩大 [color=grey style=dotted]
+扩大
+傲 -- 骄傲 [color=grey]
+傲 [color=grey]
+骄傲
+骄 -- 骄傲 [color=grey]
+骄 [color=grey]
+苦 -- 辛苦
+苦
+辛苦
+辛 -- 辛苦 [color=grey]
+辛 [color=grey]
+功 -- 成功 [color=grey]
+功 [color=grey]
+成功
+成 -- 成功 [color=grey style=dotted]
+成 [color=grey style=dotted]
+凉 -- 凉快 [color=grey]
+凉 [color=grey]
+价 -- 价格 [color=grey]
+价 [color=grey]
+价格
+格 -- 价格 [color=grey]
+公里
+由 -- 由于
+由
+由于
+于 -- 由于 [color=grey style=dotted]
+于 [color=grey style=dotted]
+保 -- 保护 [color=grey]
+保护
+保 [color=grey]
+保 -- 保证 [color=grey]
+保证
+护 -- 保护 [color=grey style=dotted]
+别 -- 区别 [color=grey style=dotted]
+区别
+别 [color=grey style=dotted]
+别 -- 性别 [color=grey style=dotted]
+性别
+区 -- 区别 [color=grey]
+区 [color=grey]
+仍 -- 仍然 [color=grey]
+仍 [color=grey]
+贺 -- 祝贺 [color=grey]
+贺 [color=grey]
+祝贺
+受 -- 难受 [color=grey]
+难受
+受 [color=grey]
+受 -- 接受 [color=grey]
+受 -- 受不了 [color=grey]
+受不了
+难 -- 难受 [color=grey style=dotted]
+难 [color=grey style=dotted]
+难 -- 难道 [color=grey style=dotted]
+难道
+难 -- 困难 [color=grey style=dotted]
+困难
+洋 -- 海洋 [color=grey]
+洋 [color=grey]
+海洋
+海 -- 海洋 [color=grey]
+海 [color=grey]
+多 -- 差不多 [color=grey style=dotted]
+差不多
+多 [color=grey style=dotted]
+多 -- 许多 [color=grey style=dotted]
+不 -- 差不多 [color=grey style=dotted]
+不 -- 不过 [color=grey style=dotted]
+不 -- 不但 [color=grey style=dotted]
+不但
+不 -- 不管 [color=grey style=dotted]
+不管
+不 -- 受不了 [color=grey style=dotted]
+不 -- 不得不 [color=grey style=dotted]
+不 -- 来不及 [color=grey style=dotted]
+差 -- 差不多 [color=grey style=dotted]
+差 [color=grey style=dotted]
+差 -- 出差 [color=grey style=dotted]
+速 -- 速度 [color=grey]
+速 [color=grey]
+速度
+度 -- 速度 [color=grey]
+度 [color=grey]
+之 -- …分之…
+之
+…分之…
+分 -- …分之… [color=grey style=dotted]
+分 [color=grey style=dotted]
+… -- …分之… [color=grey]
+… [color=grey]
+饼 -- 饼干 [color=grey]
+饼 [color=grey]
+材 -- 材料 [color=grey]
+材 [color=grey]
+往 -- 往往
+往
+往往
+确 -- 准确 [color=grey]
+确 [color=grey]
+确 -- 确实 [color=grey]
+确 -- 正确 [color=grey]
+沙 -- 沙发 [color=grey]
+沙发
+沙 [color=grey]
+发 -- 沙发 [color=grey style=dotted]
+发 [color=grey style=dotted]
+发 -- 理发 [color=grey style=dotted]
+发 -- 发生 [color=grey style=dotted]
+发 -- 出发 [color=grey style=dotted]
+发 -- 发展 [color=grey style=dotted]
+发展
+底 -- 到底
+底
+到底
+到 -- 到底 [color=grey style=dotted]
+到 [color=grey style=dotted]
+偶 -- 偶尔 [color=grey]
+偶 [color=grey]
+偶尔
+尔 -- 偶尔 [color=grey]
+尔 [color=grey]
+消 -- 消息 [color=grey]
+消 [color=grey]
+消息
+填 -- 填空 [color=grey]
+填 [color=grey]
+导 -- 导游 [color=grey]
+导 [color=grey]
+导游
+语 -- 语法 [color=grey style=dotted]
+语 [color=grey style=dotted]
+语 -- 语言 [color=grey style=dotted]
+语言
+技 -- 技术 [color=grey]
+技 [color=grey]
+技术
+术 -- 技术 [color=grey]
+术 [color=grey]
+道 -- 报道 [color=grey style=dotted]
+报道
+道 [color=grey style=dotted]
+道 -- 味道 [color=grey style=dotted]
+味道
+道 -- 难道 [color=grey style=dotted]
+道 -- 道歉 [color=grey style=dotted]
+道歉
+报 -- 报道 [color=grey style=dotted]
+报 [color=grey style=dotted]
+报 -- 报名 [color=grey style=dotted]
+争 -- 竞争 [color=grey]
+争 [color=grey]
+竞争
+竞 -- 竞争 [color=grey]
+竞 [color=grey]
+心 -- 伤心 [color=grey style=dotted]
+伤心
+心 -- 信心 [color=grey style=dotted]
+心 -- 粗心 [color=grey style=dotted]
+粗心
+心 -- 心情 [color=grey style=dotted]
+伤 -- 伤心 [color=grey]
+伤 [color=grey]
+瓶 -- 瓶子 [color=grey]
+瓶 [color=grey]
+播 -- 广播 [color=grey]
+播 [color=grey]
+抱 -- 抱歉
+抱歉
+抱
+歉 -- 抱歉 [color=grey]
+歉 [color=grey]
+歉 -- 道歉 [color=grey]
+笑 -- 笑话 [color=grey style=dotted]
+笑话
+笑 [color=grey style=dotted]
+笑 -- 开玩笑 [color=grey style=dotted]
+开玩笑
+话 -- 笑话 [color=grey style=dotted]
+话 [color=grey style=dotted]
+话 -- 对话 [color=grey style=dotted]
+对话
+林 -- 森林 [color=grey]
+林 [color=grey]
+森林
+森 -- 森林 [color=grey]
+森 [color=grey]
+章 -- 文章 [color=grey]
+文章
+章 [color=grey]
+文 -- 文章 [color=grey style=dotted]
+文 [color=grey style=dotted]
+文 -- 中文 [color=grey style=dotted]
+中文
+从 -- 从来
+从
+暂 -- 暂时 [color=grey]
+暂 [color=grey]
+目的
+业 -- 职业 [color=grey style=dotted]
+职业
+业 [color=grey style=dotted]
+业 -- 专业 [color=grey style=dotted]
+专业
+业 -- 毕业 [color=grey style=dotted]
+毕业
+职 -- 职业 [color=grey]
+职 [color=grey]
+记 -- 笔记本 [color=grey style=dotted]
+笔记本
+记 [color=grey style=dotted]
+记 -- 记者 [color=grey style=dotted]
+记者
+记 -- 日记 [color=grey style=dotted]
+日记
+本 -- 笔记本 [color=grey style=dotted]
+本 [color=grey style=dotted]
+本 -- 本来 [color=grey style=dotted]
+民 -- 人民币 [color=grey]
+人民币
+民 [color=grey]
+民 -- 民族 [color=grey]
+民族
+币 -- 人民币 [color=grey]
+币 [color=grey]
+词典
+方 -- 方面 [color=grey style=dotted]
+方面
+方 [color=grey style=dotted]
+方 -- 方向 [color=grey style=dotted]
+方向
+方 -- 方法 [color=grey style=dotted]
+面 -- 方面 [color=grey style=dotted]
+面 [color=grey style=dotted]
+面 -- 对面 [color=grey style=dotted]
+对面
+肚 -- 肚子 [color=grey]
+肚 [color=grey]
+励 -- 鼓励 [color=grey]
+励 [color=grey]
+达 -- 表达 [color=grey]
+达 [color=grey]
+剧 -- 京剧 [color=grey]
+剧 [color=grey]
+京剧
+神 -- 精神 [color=grey]
+神 [color=grey]
+首先
+首 -- 首先 [color=grey]
+首 [color=grey]
+首 -- 首都 [color=grey]
+首都
+粗 -- 粗心 [color=grey]
+粗 [color=grey]
+惜 -- 可惜 [color=grey]
+惜 [color=grey]
+可惜
+可 -- 可惜 [color=grey style=dotted]
+可 [color=grey style=dotted]
+概 -- 大概 [color=grey]
+概 [color=grey]
+弃 -- 放弃 [color=grey]
+放弃
+弃 [color=grey]
+放 -- 放弃 [color=grey style=dotted]
+咱 -- 咱们 [color=grey]
+咱们
+咱 [color=grey]
+讨 -- 讨论 [color=grey]
+讨论
+论 -- 讨论 [color=grey]
+论 [color=grey]
+论 -- 无论 [color=grey]
+友 -- 友好 [color=grey style=dotted]
+友 [color=grey style=dotted]
+友 -- 友谊 [color=grey style=dotted]
+友谊
+只 -- 只好 [color=grey style=dotted]
+只 [color=grey style=dotted]
+只 -- 只要 [color=grey style=dotted]
+只要
+察 -- 警察 [color=grey]
+警察
+察 [color=grey]
+警 -- 警察 [color=grey]
+警 [color=grey]
+限 -- 限制 [color=grey]
+限 [color=grey]
+对 -- 对面 [color=grey style=dotted]
+对 -- 对话 [color=grey style=dotted]
+会 -- 误会 [color=grey style=dotted]
+误会
+会 [color=grey style=dotted]
+会 -- 社会 [color=grey style=dotted]
+社会
+会 -- 约会 [color=grey style=dotted]
+误 -- 误会 [color=grey]
+误 [color=grey]
+父 -- 父亲 [color=grey]
+父 [color=grey]
+评 -- 批评 [color=grey]
+评 [color=grey]
+批评
+批 -- 批评
+批
+码 -- 密码 [color=grey]
+密码
+码 [color=grey]
+码 -- 号码 [color=grey]
+号码
+密 -- 密码 [color=grey]
+密 [color=grey]
+按 -- 按照 [color=grey]
+按照
+按 [color=grey]
+按 -- 按时 [color=grey]
+工 -- 工资 [color=grey style=dotted]
+工资
+工 [color=grey style=dotted]
+工 -- 工具 [color=grey style=dotted]
+工具
+资 -- 工资 [color=grey]
+资 [color=grey]
+规 -- 规定 [color=grey]
+规 [color=grey]
+千万
+验 -- 经验 [color=grey]
+经验
+验 [color=grey]
+经 -- 经验 [color=grey style=dotted]
+经 [color=grey style=dotted]
+经 -- 经济 [color=grey style=dotted]
+经济
+经 -- 经历 [color=grey style=dotted]
+经历
+网 -- 网站 [color=grey style=dotted]
+网站
+网 [color=grey style=dotted]
+网 -- 网球 [color=grey style=dotted]
+网球
+站 -- 网站 [color=grey style=dotted]
+站 [color=grey style=dotted]
+站 -- 加油站 [color=grey style=dotted]
+加油站
+流 -- 流行 [color=grey]
+流行
+流 -- 流泪 [color=grey]
+流泪
+流 -- 交流 [color=grey]
+行 -- 流行 [color=grey style=dotted]
+行 [color=grey style=dotted]
+行 -- 进行 [color=grey style=dotted]
+进行
+地 -- 当地 [color=grey style=dotted]
+地 [color=grey style=dotted]
+地 -- 地球 [color=grey style=dotted]
+地球
+地 -- 地址 [color=grey style=dotted]
+地址
+丽 -- 美丽 [color=grey]
+美丽
+丽 [color=grey]
+美 -- 美丽 [color=grey]
+美 [color=grey]
+堵 -- 堵车 [color=grey]
+堵车
+堵 [color=grey]
+阅 -- 阅读 [color=grey]
+阅 [color=grey]
+阅读
+格 -- 合格 [color=grey]
+合格
+合 -- 合格 [color=grey]
+格 -- 表格 [color=grey]
+格 -- 性格 [color=grey]
+性格
+性 -- 性格 [color=grey]
+性 [color=grey]
+浪 -- 浪费 [color=grey]
+浪 [color=grey]
+浪费
+费 -- 浪费 [color=grey]
+费 [color=grey]
+浪 -- 浪漫 [color=grey]
+浪漫
+漫 -- 浪漫 [color=grey]
+漫 [color=grey]
+专 -- 专业 [color=grey]
+专 [color=grey]
+专 -- 专门 [color=grey]
+专门
+温 -- 温度 [color=grey]
+温 [color=grey]
+温度
+度 -- 温度 [color=grey]
+皮 -- 皮肤 [color=grey]
+皮 [color=grey]
+皮肤
+肤 -- 皮肤 [color=grey]
+肤 [color=grey]
+毕 -- 毕业 [color=grey]
+毕 [color=grey]
+拾 -- 收拾
+拾
+幸 -- 幸福 [color=grey]
+幸福
+幸 [color=grey]
+福 -- 幸福 [color=grey]
+福 [color=grey]
+扰 -- 打扰 [color=grey]
+扰 [color=grey]
+止 -- 停止 [color=grey]
+停止
+停 -- 停止 [color=grey]
+停 [color=grey]
+活 -- 生活 [color=grey]
+活 -- 活动 [color=grey]
+羡 -- 羡慕 [color=grey]
+羡慕
+羡 [color=grey]
+慕 -- 羡慕 [color=grey]
+慕 [color=grey]
+内 -- 内容
+内
+内容
+使 -- 大使馆 [color=grey style=dotted]
+使 [color=grey style=dotted]
+使 -- 即使 [color=grey style=dotted]
+即使
+使 -- 使用 [color=grey style=dotted]
+村 -- 农村 [color=grey]
+农村
+村 [color=grey]
+农 -- 农村 [color=grey]
+农 [color=grey]
+有 -- 有趣 [color=grey style=dotted]
+有趣
+有 [color=grey style=dotted]
+有 -- 所有 [color=grey style=dotted]
+所有
+傅 -- 师傅 [color=grey]
+傅 [color=grey]
+师傅
+师 -- 师傅 [color=grey style=dotted]
+师 [color=grey style=dotted]
+少 -- 至少 [color=grey style=dotted]
+至少
+少 [color=grey style=dotted]
+少 -- 缺少 [color=grey style=dotted]
+缺少
+少 -- 减少 [color=grey style=dotted]
+至 -- 至少 [color=grey]
+址 -- 地址 [color=grey]
+址 [color=grey]
+泪 -- 流泪 [color=grey]
+泪 [color=grey]
+一切
+切 -- 一切
+切
+袋 -- 塑料袋 [color=grey]
+袋 [color=grey]
+塑 -- 塑料袋 [color=grey]
+塑 [color=grey]
+齐 -- 整齐 [color=grey]
+整齐
+齐 [color=grey]
+整 -- 整齐 [color=grey]
+整 [color=grey]
+整 -- 整理 [color=grey]
+窗 -- 窗户 [color=grey]
+窗 [color=grey]
+窗户
+户 -- 窗户 [color=grey]
+户 [color=grey]
+永 -- 永远 [color=grey]
+永 [color=grey]
+永远
+态 -- 态度 [color=grey]
+态度
+态 [color=grey]
+度 -- 态度 [color=grey]
+替 -- 代替 [color=grey]
+替 [color=grey]
+十分
+分 -- 十分 [color=grey style=dotted]
+感谢
+感 -- 感谢 [color=grey style=dotted]
+感 [color=grey style=dotted]
+感 -- 感动 [color=grey style=dotted]
+感 -- 感觉 [color=grey style=dotted]
+感觉
+感 -- 感情 [color=grey style=dotted]
+柿 -- 西红柿 [color=grey]
+柿 [color=grey]
+西红柿
+真 -- 真正 [color=grey style=dotted]
+真 [color=grey style=dotted]
+真 -- 传真 [color=grey style=dotted]
+传真
+处 -- 好处 [color=grey]
+处 [color=grey]
+处 -- 到处 [color=grey]
+到处
+到 -- 到处 [color=grey style=dotted]
+洲 -- 亚洲 [color=grey]
+亚洲
+洲 [color=grey]
+亚 -- 亚洲 [color=grey]
+亚 [color=grey]
+众 -- 观众 [color=grey]
+众 [color=grey]
+师 -- 律师 [color=grey style=dotted]
+言 -- 语言 [color=grey]
+言 [color=grey]
+礼貌
+貌 -- 礼貌 [color=grey]
+貌 [color=grey]
+合 -- 合适 [color=grey]
+合适
+合 -- 适合 [color=grey]
+适合
+合 -- 集合 [color=grey]
+集合
+适 -- 合适 [color=grey]
+适 [color=grey]
+适 -- 适合 [color=grey]
+适 -- 适应 [color=grey]
+适应
+管 -- 管理 [color=grey]
+管 [color=grey]
+管 -- 不管 [color=grey]
+管 -- 尽管 [color=grey]
+尽管
+暖和
+暖 -- 暖和 [color=grey]
+暖 [color=grey]
+湿 -- 湿润 [color=grey]
+湿润
+湿 [color=grey]
+润 -- 湿润 [color=grey]
+润 [color=grey]
+猴 -- 猴子 [color=grey]
+猴 [color=grey]
+组 -- 组织
+组织
+组
+组 -- 组成
+组成
+织 -- 组织 [color=grey]
+织 [color=grey]
+引 -- 引起 [color=grey]
+象 -- 印象 [color=grey]
+象 [color=grey]
+重 -- 重视 [color=grey style=dotted]
+重视
+重 -- 重新 [color=grey style=dotted]
+重新
+重 -- 重点 [color=grey style=dotted]
+重点
+距离
+距 -- 距离 [color=grey]
+距 [color=grey]
+厉 -- 厉害 [color=grey]
+厉 [color=grey]
+厉害
+害 -- 厉害 [color=grey style=dotted]
+害 [color=grey style=dotted]
+景 -- 风景 [color=grey]
+风景
+景 [color=grey]
+杂 -- 杂志 [color=grey]
+杂志
+杂 [color=grey]
+杂 -- 复杂 [color=grey]
+复杂
+志 -- 杂志 [color=grey]
+志 [color=grey]
+球 -- 网球 [color=grey style=dotted]
+球 -- 羽毛球 [color=grey style=dotted]
+羽毛球
+球 -- 地球 [color=grey style=dotted]
+困 -- 困难
+困
+熟 -- 成熟 [color=grey]
+熟 [color=grey]
+成熟
+成 -- 成熟 [color=grey style=dotted]
+熟 -- 熟悉 [color=grey]
+熟悉
+悉 -- 熟悉 [color=grey]
+悉 [color=grey]
+积 -- 积累 [color=grey]
+积 [color=grey]
+积累
+累 -- 积累
+累
+积 -- 积极 [color=grey]
+扬 -- 表扬 [color=grey]
+扬 [color=grey]
+况 -- 情况 [color=grey]
+况 [color=grey]
+另 -- 另外 [color=grey]
+另 [color=grey]
+另外
+术 -- 艺术 [color=grey]
+艺术
+艺 -- 艺术 [color=grey]
+艺 [color=grey]
+留 -- 留学
+留
+持 -- 支持 [color=grey]
+支持
+支 -- 支持
+支
+故 -- 故意 [color=grey]
+故 [color=grey]
+免 -- 免费 [color=grey]
+免 [color=grey]
+免费
+费 -- 免费 [color=grey]
+谊 -- 友谊 [color=grey]
+谊 [color=grey]
+毛 -- 羽毛球
+毛
+羽 -- 羽毛球 [color=grey]
+羽 [color=grey]
+毛 -- 毛巾
+毛巾
+巾 -- 毛巾 [color=grey]
+巾 [color=grey]
+针 -- 打针 [color=grey]
+针 [color=grey]
+展 -- 发展 [color=grey]
+展 [color=grey]
+具 -- 家具 [color=grey]
+具 [color=grey]
+家具
+具 -- 工具 [color=grey]
+忽 -- 忽然 [color=grey]
+忽 [color=grey]
+点 -- 重点 [color=grey style=dotted]
+点 [color=grey style=dotted]
+点 -- 特点 [color=grey style=dotted]
+特点
+点 -- 优点 [color=grey style=dotted]
+优点
+点 -- 缺点 [color=grey style=dotted]
+缺点
+像 -- 好像
+像
+调查
+济 -- 经济 [color=grey]
+济 [color=grey]
+优 -- 优点 [color=grey]
+优 [color=grey]
+优 -- 优秀 [color=grey]
+优秀
+因 -- 原因 [color=grey style=dotted]
+因 [color=grey style=dotted]
+因 -- 因此 [color=grey style=dotted]
+因此
+成 -- 组成 [color=grey style=dotted]
+成 -- 成为 [color=grey style=dotted]
+成为
+成 -- 养成 [color=grey style=dotted]
+养成
+油 -- 加油站 [color=grey]
+油 [color=grey]
+加 -- 加油站 [color=grey style=dotted]
+加 [color=grey style=dotted]
+加 -- 加班 [color=grey style=dotted]
+加班
+加 -- 增加 [color=grey style=dotted]
+果 -- 果然 [color=grey style=dotted]
+年龄
+龄 -- 年龄 [color=grey]
+龄 [color=grey]
+养 -- 养成 [color=grey]
+养 [color=grey]
+怜 -- 可怜 [color=grey]
+怜 [color=grey]
+可怜
+可 -- 可怜 [color=grey style=dotted]
+证 -- 保证 [color=grey]
+证 -- 证明 [color=grey]
+证明
+明 -- 证明 [color=grey style=dotted]
+明 [color=grey style=dotted]
+膏 -- 牙膏 [color=grey]
+膏 [color=grey]
+牙膏
+乘 -- 乘坐
+乘
+乘坐
+作 -- 动作 [color=grey style=dotted]
+作 [color=grey style=dotted]
+作 -- 作者 [color=grey style=dotted]
+作者
+联系
+联 -- 联系 [color=grey]
+联 [color=grey]
+缺 -- 缺点 [color=grey]
+缺 [color=grey]
+缺 -- 缺少 [color=grey]
+例 -- 例如 [color=grey]
+例如
+例 [color=grey]
+市场
+孤 -- 孤单 [color=grey]
+孤 [color=grey]
+孤单
+秀 -- 优秀 [color=grey]
+秀 [color=grey]
+列 -- 排列 [color=grey]
+列 [color=grey]
+允 -- 允许 [color=grey]
+允 [color=grey]
+羞 -- 害羞 [color=grey]
+羞 [color=grey]
+害羞
+害 -- 害羞 [color=grey style=dotted]
+即 -- 即使 [color=grey]
+即 [color=grey]
+族 -- 民族 [color=grey]
+族 [color=grey]
+光 -- 阳光
+阳光
+光
+竟 -- 竟然 [color=grey]
+者 -- 记者 [color=grey style=dotted]
+者 [color=grey style=dotted]
+者 -- 作者 [color=grey style=dotted]
+味 -- 味道 [color=grey]
+味 [color=grey]
+抽 -- 抽烟 [color=grey]
+抽 [color=grey]
+抽烟
+烟 -- 抽烟 [color=grey]
+烟 [color=grey]
+恼 -- 烦恼 [color=grey]
+恼 [color=grey]
+植 -- 植物 [color=grey]
+植 [color=grey]
+植物
+物 -- 植物 [color=grey style=dotted]
+物 [color=grey style=dotted]
+败 -- 失败 [color=grey]
+败 [color=grey]
+复 -- 复杂 [color=grey style=dotted]
+复 [color=grey style=dotted]
+复 -- 复印 [color=grey style=dotted]
+尽 -- 尽管 [color=grey]
+尽 [color=grey]
+是 -- 可是 [color=grey style=dotted]
+可是
+是 [color=grey style=dotted]
+是 -- 于是 [color=grey style=dotted]
+于是
+可 -- 可是 [color=grey style=dotted]
+中 -- 其中 [color=grey style=dotted]
+中 [color=grey style=dotted]
+中 -- 中文 [color=grey style=dotted]
+袜 -- 袜子 [color=grey]
+袜 [color=grey]
+污 -- 污染 [color=grey]
+污 [color=grey]
+污染
+染 -- 污染
+染
+尤 -- 尤其 [color=grey]
+尤 [color=grey]
+扩 -- 扩大 [color=grey]
+扩 [color=grey]
+洗衣机
+物 -- 购物 [color=grey style=dotted]
+购物
+购 -- 购物 [color=grey]
+购 [color=grey]
+社 -- 社会 [color=grey]
+社 [color=grey]
+航 -- 航班 [color=grey]
+航班
+航 [color=grey]
+班 -- 航班 [color=grey style=dotted]
+班 [color=grey style=dotted]
+班 -- 加班 [color=grey style=dotted]
+紧 -- 紧张
+紧
+紧张
+此 -- 因此 [color=grey]
+此 [color=grey]
+条件
+明 -- 说明 [color=grey style=dotted]
+冷静
+传 -- 传真 [color=grey]
+传 [color=grey]
+于 -- 于是 [color=grey style=dotted]
+集 -- 集合 [color=grey]
+集 [color=grey]
+访 -- 访问 [color=grey]
+访 [color=grey]
+访问
+提 -- 提前 [color=grey style=dotted]
+提前
+性 -- 性别 [color=grey]
+高级
+数 -- 数字 [color=grey style=dotted]
+数字
+
+}

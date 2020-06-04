@@ -1,0 +1,324 @@
+﻿digraph G {
+
+graph [overlap=false splines=true];
+node [fontname="SimSun"];
+
+上 -> 上午
+上
+上午
+午 -> 上午 [color=grey]
+午 [color=grey]
+学 -> 同学 [color=grey]
+学 [color=grey]
+同学
+同 -> 同学 [color=grey]
+同 [color=grey]
+学 -> 学校 [color=grey]
+学校
+校 -> 学校 [color=grey]
+校 [color=grey]
+学 -> 学习 [color=grey]
+学习
+习 -> 学习 [color=grey]
+习 [color=grey]
+学 -> 学生 [color=grey]
+学生
+生 -> 学生 [color=grey]
+生 [color=grey]
+爸 -> 爸爸 [color=grey]
+爸爸
+爸 [color=grey]
+天 -> 明天 [color=grey]
+天 [color=grey]
+明天
+明 -> 明天 [color=grey]
+明 [color=grey]
+天 -> 天气 [color=grey]
+天气
+气 -> 天气 [color=grey]
+气 [color=grey]
+天 -> 今天 [color=grey]
+今天
+今 -> 今天 [color=grey]
+今 [color=grey]
+天 -> 昨天 [color=grey]
+昨天
+昨 -> 昨天 [color=grey]
+昨 [color=grey]
+谢 -> 谢谢 [color=grey]
+谢谢
+谢 [color=grey]
+面 -> 前面 [color=grey]
+前面
+面 [color=grey]
+前 -> 前面 [color=grey]
+前 [color=grey]
+京 -> 北京 [color=grey]
+北京
+京 [color=grey]
+北 -> 北京 [color=grey]
+北 [color=grey]
+睡 -> 睡觉 [color=grey]
+睡觉
+睡 [color=grey]
+觉 -> 睡觉 [color=grey]
+觉 [color=grey]
+看 -> 看见
+看
+看见
+见 -> 看见 [color=grey]
+见 [color=grey]
+语 -> 汉语 [color=grey]
+语 [color=grey]
+汉语
+汉 -> 汉语 [color=grey]
+汉 [color=grey]
+钟 -> 分钟
+分钟
+钟
+分 -> 分钟
+分
+那 -> 那儿
+那儿
+那
+儿 -> 那儿 [color=grey]
+儿 [color=grey]
+儿 -> 哪儿 [color=grey]
+哪儿
+儿 -> 女儿 [color=grey]
+女儿
+儿 -> 这儿 [color=grey]
+这儿
+儿 -> 儿子 [color=grey]
+儿子
+话 -> 打电话 [color=grey]
+打电话
+话 [color=grey]
+话 -> 说话 [color=grey]
+说话
+打 -> 打电话 [color=grey]
+打 [color=grey]
+电 -> 打电话 [color=grey]
+电 [color=grey]
+电 -> 电影 [color=grey]
+电影
+电 -> 电脑 [color=grey]
+电脑
+电 -> 电视 [color=grey]
+电视
+亮 -> 漂亮
+亮
+漂亮
+漂 -> 漂亮 [color=grey]
+漂 [color=grey]
+朋 -> 朋友 [color=grey]
+朋友
+朋 [color=grey]
+友 -> 朋友 [color=grey]
+友 [color=grey]
+果 -> 苹果 [color=grey]
+果 [color=grey]
+苹果
+苹 -> 苹果 [color=grey]
+苹 [color=grey]
+馆 -> 饭馆 [color=grey]
+馆 [color=grey]
+饭馆
+饭 -> 饭馆 [color=grey]
+饭 [color=grey]
+机 -> 飞机 [color=grey]
+飞机
+机 [color=grey]
+飞 -> 飞机 [color=grey]
+飞 [color=grey]
+妈 -> 妈妈 [color=grey]
+妈 [color=grey]
+妈妈
+候 -> 时候 [color=grey]
+候 [color=grey]
+时候
+时 -> 时候 [color=grey]
+时 [color=grey]
+我 -> 我们
+我们
+我
+们 -> 我们 [color=grey]
+们 [color=grey]
+这 -> 这儿
+这
+影 -> 电影 [color=grey]
+影 [color=grey]
+西 -> 东西
+西
+东西
+东 -> 东西
+东
+欢 -> 喜欢 [color=grey]
+欢 [color=grey]
+喜欢
+喜 -> 喜欢 [color=grey]
+喜 [color=grey]
+桌 -> 桌子 [color=grey]
+桌 [color=grey]
+桌子
+子 -> 桌子 [color=grey]
+子 [color=grey]
+对 -> 对不起
+对不起
+对
+不 -> 对不起
+不
+不 -> 不客气
+不客气
+起 -> 对不起 [color=grey]
+起 [color=grey]
+店 -> 商店 [color=grey]
+店 [color=grey]
+商店
+商 -> 商店 [color=grey]
+商 [color=grey]
+说 -> 说话 [color=grey]
+说 [color=grey]
+站 -> 火车站
+站
+火车站
+火 -> 火车站
+火
+车 -> 火车站 [color=grey]
+车 [color=grey]
+老 -> 老师
+老
+老师
+师 -> 老师 [color=grey]
+师 [color=grey]
+再 -> 再见
+再
+再见
+见 -> 再见 [color=grey]
+认 -> 认识 [color=grey]
+认识
+认 [color=grey]
+识 -> 认识 [color=grey]
+识 [color=grey]
+么 -> 怎么 [color=grey]
+么 [color=grey]
+怎么
+怎么 -> 怎么样
+怎么样
+怎 -> 怎么 [color=grey]
+怎 [color=grey]
+么 -> 什么 [color=grey]
+什么
+什 -> 什么 [color=grey]
+什 [color=grey]
+么 -> 怎么样 [color=grey]
+样 -> 怎么样 [color=grey]
+样 [color=grey]
+怎 -> 怎么样 [color=grey]
+雨 -> 下雨 [color=grey]
+下雨
+雨 [color=grey]
+下 -> 下雨
+下
+下 -> 下午
+下午
+子 -> 儿子 [color=grey]
+子 -> 椅子 [color=grey]
+椅子
+椅 -> 椅子 [color=grey]
+椅 [color=grey]
+子 -> 杯子 [color=grey]
+杯子
+杯 -> 杯子 [color=grey]
+杯 [color=grey]
+系 -> 没关系
+系
+没关系
+没 -> 没关系
+没
+关 -> 没关系
+关
+出 -> 出租车
+出租车
+出
+租 -> 出租车
+租
+车 -> 出租车 [color=grey]
+气 -> 不客气 [color=grey]
+客 -> 不客气 [color=grey]
+客 [color=grey]
+脑 -> 电脑 [color=grey]
+脑 [color=grey]
+名 -> 名字 [color=grey]
+名字
+名 [color=grey]
+字 -> 名字
+字
+工 -> 工作 [color=grey]
+工 [color=grey]
+工作
+作 -> 工作 [color=grey]
+作 [color=grey]
+小 -> 小姐
+小
+小姐
+姐 -> 小姐 [color=grey]
+姐 [color=grey]
+米 -> 米饭
+米饭
+米
+饭 -> 米饭 [color=grey]
+中 -> 中午 [color=grey]
+中 [color=grey]
+中午
+午 -> 中午 [color=grey]
+中 -> 中国 [color=grey]
+中国
+国 -> 中国 [color=grey]
+国 [color=grey]
+视 -> 电视 [color=grey]
+视 [color=grey]
+先 -> 先生
+先
+先生
+生 -> 先生 [color=grey]
+多 -> 多少
+多
+多少
+少 -> 多少
+少
+午 -> 下午 [color=grey]
+院 -> 医院 [color=grey]
+院 [color=grey]
+医院
+医 -> 医院 [color=grey]
+医 [color=grey]
+哪 -> 哪儿
+哪
+衣 -> 衣服 [color=grey]
+衣服
+衣 [color=grey]
+服 -> 衣服 [color=grey]
+服 [color=grey]
+高 -> 高兴
+高兴
+高
+兴 -> 高兴 [color=grey]
+兴 [color=grey]
+女 -> 女儿 [color=grey]
+女 [color=grey]
+星 -> 星期 [color=grey]
+星 [color=grey]
+星期
+期 -> 星期 [color=grey]
+期 [color=grey]
+在 -> 现在
+在
+现在
+现 -> 现在 [color=grey]
+现 [color=grey]
+医 -> 医生 [color=grey]
+医生
+生 -> 医生 [color=grey]
+
+}

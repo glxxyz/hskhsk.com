@@ -1,0 +1,333 @@
+﻿graph G {
+
+graph [overlap=false];
+node [fontname="SimSun"];
+
+一 -- 第一 [color=grey style=dotted]
+第一
+一 [color=grey style=dotted]
+一 -- 一起 [color=grey style=dotted]
+一起
+第 -- 第一 [color=grey]
+第 [color=grey]
+丈 -- 丈夫 [color=grey]
+丈夫
+丈 [color=grey]
+夫 -- 丈夫 [color=grey]
+夫 [color=grey]
+乐 -- 快乐 [color=grey]
+快乐
+乐 [color=grey]
+快 -- 快乐
+快
+所 -- 所以
+所
+所以
+以 -- 所以
+以
+场 -- 机场
+机场
+场
+机 -- 机场 [color=grey style=dotted]
+机 [color=grey style=dotted]
+机 -- 手机 [color=grey style=dotted]
+手机
+色 -- 颜色 [color=grey]
+颜色
+色 [color=grey]
+颜 -- 颜色 [color=grey]
+颜 [color=grey]
+答 -- 回答 [color=grey]
+答 [color=grey]
+回答
+弟 -- 弟弟 [color=grey]
+弟弟
+弟 [color=grey]
+因 -- 因为 [color=grey]
+因 [color=grey]
+因为
+为 -- 因为
+为
+肉 -- 羊肉 [color=grey]
+羊肉
+肉 [color=grey]
+羊 -- 羊肉 [color=grey]
+羊 [color=grey]
+正在
+正 -- 正在
+正
+休 -- 休息 [color=grey]
+休息
+休 [color=grey]
+息 -- 休息 [color=grey]
+息 [color=grey]
+常 -- 非常 [color=grey]
+常 [color=grey]
+非常
+非 -- 非常
+非
+球 -- 打篮球 [color=grey]
+球 [color=grey]
+打篮球
+篮 -- 打篮球 [color=grey]
+篮 [color=grey]
+球 -- 踢足球 [color=grey]
+踢足球
+足 -- 踢足球 [color=grey]
+足 [color=grey]
+踢 -- 踢足球 [color=grey]
+踢 [color=grey]
+斤 -- 公斤 [color=grey]
+斤 [color=grey]
+公斤
+公 -- 公斤 [color=grey]
+公 [color=grey]
+体 -- 身体 [color=grey]
+体 [color=grey]
+身体
+身 -- 身体 [color=grey]
+身 [color=grey]
+表 -- 手表 [color=grey]
+表 [color=grey]
+手表
+手 -- 手表 [color=grey]
+手 [color=grey]
+可 -- 可以 [color=grey]
+可 [color=grey]
+可以
+以 -- 可以
+可 -- 可能 [color=grey]
+可能
+间 -- 房间 [color=grey]
+房间
+间 [color=grey]
+间 -- 时间 [color=grey]
+时间
+房 -- 房间 [color=grey]
+房 [color=grey]
+蛋 -- 鸡蛋 [color=grey]
+蛋 [color=grey]
+鸡蛋
+鸡 -- 鸡蛋 [color=grey]
+鸡 [color=grey]
+意 -- 意思 [color=grey]
+意 [color=grey]
+意思
+思 -- 意思 [color=grey]
+思 [color=grey]
+望 -- 希望 [color=grey]
+希望
+望 [color=grey]
+希 -- 希望 [color=grey]
+希 [color=grey]
+跑 -- 跑步 [color=grey]
+跑步
+跑 [color=grey]
+步 -- 跑步 [color=grey]
+步 [color=grey]
+早 -- 早上 [color=grey]
+早 [color=grey]
+早上
+上 -- 早上 [color=grey style=dotted]
+上 [color=grey style=dotted]
+共 -- 公共汽车 [color=grey]
+共 [color=grey]
+公共汽车
+汽 -- 公共汽车 [color=grey]
+汽 [color=grey]
+公 -- 公共汽车 [color=grey]
+车 -- 公共汽车 [color=grey style=dotted]
+车 [color=grey style=dotted]
+大家
+歌 -- 唱歌 [color=grey]
+歌 [color=grey]
+唱歌
+唱 -- 唱歌 [color=grey]
+唱 [color=grey]
+哥 -- 哥哥 [color=grey]
+哥哥
+哥 [color=grey]
+牛 -- 牛奶 [color=grey]
+牛 [color=grey]
+牛奶
+奶 -- 牛奶 [color=grey]
+奶 [color=grey]
+欢迎
+迎 -- 欢迎 [color=grey]
+迎 [color=grey]
+得 -- 觉得
+得
+觉得
+自 -- 自行车 [color=grey]
+自 [color=grey]
+自行车
+行 -- 自行车
+行
+车 -- 自行车 [color=grey style=dotted]
+右 -- 右边 [color=grey]
+右 [color=grey]
+右边
+边 -- 右边 [color=grey]
+边 [color=grey]
+考 -- 考试 [color=grey]
+考试
+考 [color=grey]
+试 -- 考试
+试
+开始
+始 -- 开始 [color=grey]
+始 [color=grey]
+睛 -- 眼睛 [color=grey]
+睛 [color=grey]
+眼睛
+眼 -- 眼睛 [color=grey]
+眼 [color=grey]
+上 -- 晚上 [color=grey style=dotted]
+晚上
+上 -- 马上 [color=grey style=dotted]
+马上
+上 -- 上班 [color=grey style=dotted]
+上班
+晚 -- 晚上 [color=grey]
+晚 [color=grey]
+妻 -- 妻子 [color=grey]
+妻 [color=grey]
+妻子
+子 -- 妻子 [color=grey style=dotted]
+子 [color=grey style=dotted]
+旅 -- 旅游 [color=grey]
+旅 [color=grey]
+旅游
+游 -- 旅游 [color=grey]
+游 [color=grey]
+旁 -- 旁边 [color=grey]
+旁 [color=grey]
+旁边
+边 -- 旁边 [color=grey]
+手 -- 手机 [color=grey]
+边 -- 左边 [color=grey]
+左边
+左 -- 左边 [color=grey]
+左 [color=grey]
+啡 -- 咖啡 [color=grey]
+咖啡
+啡 [color=grey]
+咖 -- 咖啡 [color=grey]
+咖 [color=grey]
+司 -- 公司 [color=grey]
+司 [color=grey]
+公司
+公 -- 公司 [color=grey]
+班 -- 上班
+班
+绍 -- 介绍 [color=grey]
+绍 [color=grey]
+介绍
+介 -- 介绍 [color=grey]
+介 [color=grey]
+病 -- 生病 [color=grey]
+生病
+病 [color=grey]
+生 -- 生病 [color=grey style=dotted]
+生 [color=grey style=dotted]
+生 -- 生日 [color=grey style=dotted]
+生日
+室 -- 教室 [color=grey]
+室 [color=grey]
+教室
+教 -- 教室
+教
+动 -- 运动 [color=grey]
+动 [color=grey]
+运动
+运 -- 运动 [color=grey]
+运 [color=grey]
+问 -- 问题
+问
+问题
+题 -- 问题
+题
+便 -- 便宜
+便
+便宜
+宜 -- 便宜 [color=grey]
+宜 [color=grey]
+备 -- 准备 [color=grey]
+备 [color=grey]
+准备
+准 -- 准备 [color=grey]
+准 [color=grey]
+但是
+但 -- 但是 [color=grey]
+但 [color=grey]
+马 -- 马上
+马
+游 -- 游泳 [color=grey]
+游泳
+泳 -- 游泳 [color=grey]
+泳 [color=grey]
+水果
+人 -- 男人 [color=grey style=dotted]
+男人
+人 [color=grey style=dotted]
+人 -- 女人 [color=grey style=dotted]
+女人
+男 -- 男人 [color=grey]
+男 [color=grey]
+时 -- 时间 [color=grey style=dotted]
+时 [color=grey style=dotted]
+时 -- 小时 [color=grey style=dotted]
+小时
+瓜 -- 西瓜 [color=grey]
+瓜 [color=grey]
+西瓜
+跳 -- 跳舞 [color=grey]
+跳 [color=grey]
+跳舞
+舞 -- 跳舞 [color=grey]
+舞 [color=grey]
+务 -- 服务员 [color=grey]
+服务员
+务 [color=grey]
+员 -- 服务员 [color=grey]
+员 [color=grey]
+姐姐
+诉 -- 告诉 [color=grey]
+诉 [color=grey]
+告诉
+告 -- 告诉 [color=grey]
+告 [color=grey]
+已 -- 已经 [color=grey]
+已 [color=grey]
+已经
+经 -- 已经 [color=grey]
+经 [color=grey]
+纸 -- 报纸 [color=grey]
+报纸
+纸 [color=grey]
+报 -- 报纸 [color=grey]
+报 [color=grey]
+助 -- 帮助 [color=grey]
+助 [color=grey]
+帮助
+帮 -- 帮助 [color=grey]
+帮 [color=grey]
+床 -- 起床 [color=grey]
+床 [color=grey]
+起床
+起 -- 起床 [color=grey style=dotted]
+起 [color=grey style=dotted]
+为什么
+为 -- 为什么
+好吃
+去年
+孩 -- 孩子 [color=grey]
+孩子
+孩 [color=grey]
+子 -- 孩子 [color=grey style=dotted]
+妹 -- 妹妹 [color=grey]
+妹妹
+妹 [color=grey]
+起 -- 一起 [color=grey style=dotted]
+
+}

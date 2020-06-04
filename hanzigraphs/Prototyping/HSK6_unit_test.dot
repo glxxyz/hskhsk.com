@@ -1,0 +1,14 @@
+﻿digraph G {
+
+graph [overlap=false splines=true];
+node [fontname="SimSun"];
+
+C -> ABC [color=grey]
+C [color=grey]
+ABC
+A -> ABC [color=grey style=dotted]
+A [color=grey style=dotted]
+B -> ABC
+B
+
+}
