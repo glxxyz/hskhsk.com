@@ -1,4 +1,5 @@
 # Tell github what to ignore when determining this repository's language: https://github.com/github/linguist
 website/* -linguist-detectable
 *.html -linguist-detectable
+*.js -linguist-detectable
 *.py linguist-detectable
