@@ -1,6 +1,6 @@
 # hskhsk.com
 
-Chinese Language Learning Tools and Resources
+Chinese language learning tools and resources. You can find the following here: 
 
 ## [hskhsk.com website](website)
 An archive of the web pages that are currently served at https://hskhsk.com . There are some articles about learning Chinese, vocabulary analysis, and some vocabulary lists including what's become one of the most popular sources of HSK vocabulary lists with clear English definitions.
