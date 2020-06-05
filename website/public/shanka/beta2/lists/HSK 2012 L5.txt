@@ -629,7 +629,7 @@
 义务	義務	yìwù	duty; obligation; volunteer duty
 蜜蜂	蜜蜂	mìfēng	bee; honeybee
 夸	夸	kuā	to boast; to praise; exaggerate
-夸张	夸張	kuāzhāng	exaggerate; overstate; exaggerated; overstated; vaunted; hyperbole
+夸张	誇張	kuāzhāng	exaggerate; overstate; exaggerated; overstated; vaunted; hyperbole
 保存	保存	bǎocún	conserve; preserve; to keep, to save a file in a computer
 如今	如今	rújīn	nowadays
 不如	不如	bùrú	not as good as; inferior to
