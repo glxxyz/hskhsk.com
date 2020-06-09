@@ -1,0 +1,15 @@
+{{- define "header" -}}
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    {{if .}}
+        <title>HSK东西 Toolkit - {{.}}</title>
+    {{else}}
+        <title>HSK东西 Toolkit</title>
+    {{end}}
+    <link rel="stylesheet" href="static/hskhsk.css" />
+    <script type="text/javascript" src="static/hskhsk.js"></script>
+</head>
+<body>
+{{end}}

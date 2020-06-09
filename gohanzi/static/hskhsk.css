@@ -1,0 +1,148 @@
+html * {
+	font-family: "Times New Roman", Times, serif, KaiTi, STKaiti, DFKai-SB, BiauKai, STHeitiSC-Light, STHeitiTC-Light;
+	line-height: 120%;
+}
+
+body {
+	font-size: 110%;
+}
+
+.outerbox {}
+
+.box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.paddedbox {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0em 1em 1em 0em;
+}
+
+.bordered {
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+}
+
+.title {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.indent {
+	clear: both;
+	padding-left: 1.8em;
+	text-indent: -1.3em;
+}
+
+table tr td {
+	padding-right: 1em;
+}
+
+.compact {
+	margin-bottom: 0.4em;
+	margin-top: 0.2em;
+}
+
+.definition {
+	color: #000;
+	text-decoration: none;
+}
+
+.hsk-1 {
+	color: #888888;
+	text-decoration: none;
+}
+
+.hsk0 {
+	color: #000000;
+	text-decoration: none;
+}
+
+.hsk1 {
+	color: #E12E2E;
+	text-decoration: none;
+}
+
+.hsk2 {
+	color: #EB8B2B;
+	text-decoration: none;
+}
+
+.hsk3 {
+	color: #CFBE00;
+	text-decoration: none;
+}
+
+.hsk4 {
+	color: #1ca10d;
+	text-decoration: none;
+}
+
+.hsk5 {
+	color: #1D8FCC;
+	text-decoration: none;
+}
+
+
+/* was 41a7de */
+
+.hsk6 {
+	color: #db44df;
+	text-decoration: none;
+}
+
+.arrowlink {
+	text-decoration: none;
+}
+
+.bighanzi {
+	font-size: 10em;
+	border-width: 1px;
+	border-style: solid;
+}
+
+ul.tree {
+	list-style-type: none;
+	background: url(vline.png) repeat-y;
+	margin: 0 0 0 6px;
+	padding: 0;
+}
+
+ul.tree li {
+	margin: 0;
+	padding: 0 12px;
+	line-height: 20px;
+	background: url(node.png) no-repeat;
+}
+
+ul.tree li:last-child {
+	background: #fff url(lastnode.png) no-repeat;
+}
+
+.inlinehelp, .wideinlinehelp {
+	display: none;
+	background-color: #FFFFCC;
+	padding: 10px;
+	text-indent: 0em;
+	max-width: 300px;
+	font-size: 90%;
+}
+
+.widehelp {
+	max-width: 600px;
+}
+
+.errortext {
+	display: none;
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-indent: 0em;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: 60%;
+}

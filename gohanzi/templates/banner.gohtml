@@ -1,0 +1,19 @@
+{{define "banner"}}
+
+{{template "header" .}}
+
+    <form method="get" action="/cidian">
+    <a href="https://hskhsk.com">HSK东西</a>
+    <a href="/">Toolkit</a>
+    <a href="/cidian">Dictionary</a>:
+    <input type="text" name="q" size="10" value=""/>
+    <input type="submit"value="Go"/>
+    <a href="/search">Advanced Search</a>
+    <a href="/radicals">Radicals</a>
+    <a href="/hskwords">HSK Words</a>
+    <a href="/hskchars">HSK Characters</a>
+    </form>
+
+<h2>{{.}}</h2>
+
+{{end}}

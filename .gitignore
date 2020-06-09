@@ -1,3 +1,5 @@
 .firebase
 .firebaserc
 .DS_Store
+.gcloudignore
+.idea

@@ -1,0 +1,19 @@
+runtime: go113
+
+handlers:
+
+  - url: /favicon\.ico
+    static_files: static/favicon.ico
+    upload: static/favicon\.ico
+
+  - url: /favicon\.png
+    static_files: static/favicon.png
+    upload: static/favicon\.png
+
+  - url: /favicon\.ico
+    static_dir: static
+
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto

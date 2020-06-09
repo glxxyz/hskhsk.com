@@ -297,6 +297,69 @@ def handle_sets():
                      output_one_per_line_checked, output_space_sep_checked, output_tab_sep_checked, start_time)
 
 
+global_varnames = """
+cedict_traditional
+cedict_pinyintonemarks
+cedict_pinyintonenum
+toneless_pinyin
+toned_pinyin
+tonenum_pinyin
+cedict_definition
+english_words
+cedict_word_set
+variant_trad
+variant_simp
+radical_freq
+radical_frequency_index
+hsk_radical_level
+cc_components
+cc_composes
+cc_radicals
+cc_radicalof
+cc_strokes
+subtlex_word_set
+word_freq
+word_frequency_index
+word_frequency_ordered
+part_of_multichar_word
+char_componentof
+char_freq
+char_frequency_index
+char_frequency_ordered
+mc_words""".split()
+
+def get_size(obj, seen=None):
+    """Recursively finds size of objects"""
+    size = sys.getsizeof(obj)
+    if seen is None:
+        seen = set()
+    obj_id = id(obj)
+    if obj_id in seen:
+        return 0
+    # Important mark as seen *before* entering recursion to gracefully handle
+    # self-referential objects
+    seen.add(obj_id)
+    if isinstance(obj, dict):
+        size += sum([get_size(v, seen) for v in obj.values()])
+        size += sum([get_size(k, seen) for k in obj.keys()])
+    elif hasattr(obj, '__dict__'):
+        size += get_size(obj.__dict__, seen)
+    elif hasattr(obj, '__iter__') and not isinstance(obj, (str, bytes, bytearray)):
+        size += sum([get_size(i, seen) for i in obj])
+    return size
+
+from common.dictionary import *
+from common.frequency import *
+from common.mandarin_comp_parse import *
+
+@app.route('/profile', methods=['GET', 'POST'])
+def handle_profile():
+    variables = [(get_size(eval(name)), name) for name in global_varnames]
+    variables.sort(reverse=True)
+    total_str = "Total: {}<br /><br />\n".format(sum(v[0] for v in variables))
+    return total_str + "<br />\n".join("{}: {}".format(v[1], v[0]) for v in variables)
+
+
 threading.Thread(target=lambda: init_resources).start()
 
 

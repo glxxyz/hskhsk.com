@@ -1,0 +1,42 @@
+{{template "header"}}
+
+<h2>
+    <a href="https://hskhsk.com">HSK东西</a> Toolkit
+</h2>
+
+<h4 lang="en">Interactive Tools</h4>
+<form method="get" action="/cidian">
+    <ul lang="en">
+        <li>
+            <a href="/cidian">Fast Simple Chinese-English Dictionary</a>
+            <input type="text" name="q" size="10" value=""/>
+            <input type="submit"value="Go"/>
+        </li>
+        <li><a href="/search">Advanced Hanzi Search</a></li>
+        <li><a href="/hanzi">Analyse Your 汉字 Vocabulary/Text</a></li>
+        <li><a href="/sets">Character List Set Operations</a></li>
+        <li><a href="/pinyinfix">Fix pinyin characters</a></li>
+    </ul>
+</form>
+<h4 lang="en">Hanzi Lists</h4>
+<ul>
+    <li><a href="/radicals">Radicals List</a></li>
+    <li><a href="/homophones">Homophones (same pinyin)</a></li>
+    <li><a href="/words1000">Highest Frequency Words</a></li>
+    <li><a href="/chars1000">Highest Frequency Characters</a></li>
+</ul>
+<h4 lang="en">HSK Lists</h4>
+<ul>
+    <li><a href="/hskwords">HSK Words for 2012-2020</a></li>
+    <li><a href="/hskchars">HSK Characters for 2012-2020</a></li>
+    <li><a href="/hskwords2010">HSK Words for 2010 (outdated)</a></li>
+    <li><a href="/hskchars2010">HSK Characters for 2010 (outdated)</a></li>
+</ul>
+<h4 lang="en">HSK List Comparisons</h4>
+<ul>
+    <li><a href="/hskwords20102020">Where the HSK 2010 words are in 2020</a></li>
+    <li><a href="/hskchars20102020">Where the HSK 2010 characters are in 2020</a></li>
+</ul>
+<a href="/mandcomp">Mandarin Companion Vocabulary Analysis</a>
+
+{{template "footer"}}

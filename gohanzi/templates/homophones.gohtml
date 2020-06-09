@@ -1,0 +1,52 @@
+{{template "banner" "Homophones"}}
+
+<div>
+    Other word lengths:
+    {{if eq .NumChars 1}} 1 {{else}} <a href="{{homophonesLink "1"}}">1</a> {{end}}
+    {{if eq .NumChars 2}} 2 {{else}} <a href="{{homophonesLink "2"}}">2</a> {{end}}
+    {{if eq .NumChars 3}} 3 {{else}} <a href="{{homophonesLink "3"}}">3</a> {{end}}
+    {{if eq .NumChars 4}} 4 {{else}} <a href="{{homophonesLink "4"}}">4</a> {{end}}
+    {{if eq .NumChars 5}} 5 {{else}} <a href="{{homophonesLink "5"}}">5</a> {{end}}
+    {{if eq .NumChars 6}} 6 {{else}} <a href="{{homophonesLink "6"}}">6</a> {{end}}
+    {{if eq .NumChars 7}} 7 {{else}} <a href="{{homophonesLink "7"}}">7</a> {{end}}
+    {{if eq .NumChars 8}} 8 {{else}} <a href="{{homophonesLink "8"}}">8</a> {{end}}
+    {{if eq .NumChars 9}} 9 {{else}} <a href="{{homophonesLink "9"}}">9</a> {{end}}
+    [<a href="{{homophonesLink "invertExpand"}}">{{if .Expand}}collapse definitions{{else}}expand definitions{{end}}</a>]
+    [<a href="{{homophonesLink "invertTones"}}">{{if .MatchTones}}ignore tones{{else}}match tones{{end}}</a>]
+    [<a href="{{homophonesLink "invertHsk"}}">{{if .HskOnly}}all words{{else}}HSK words only{{end}}</a>]
+</div>
+
+<h3>
+    {{.NumChars -}}-Character Homophones,
+    {{- if .MatchTones -}} Matching Tones {{- else -}} Ignoring Tones {{- end -}}
+    {{- if .HskOnly -}}, HSK Words Only {{- end}}
+</h3>
+
+{{range .Homophones}}
+    <div {{if $.Expand}} style='margin-bottom: 10px;' {{else}} class="paddedbox" {{end}} >
+        <div style='font-weight: bold;'>
+            {{.Pinyin}}
+            <a class='arrowlink' href="{{pinyinSearchLink .Pinyin}}">⇒</a>
+        </div>
+        {{range $index, $value := .members}}
+            {{- if $index -}}
+                {{- if $.Expand -}}
+                    <br />
+                {{- else -}}
+                    ，
+                {{- end -}}
+            {{- else -}}
+                <a href="{{- dictionaryLink $value.Hanzi -}}"
+                   title="{{- $value.Definition -}}"
+                   class="hsk{{- $value.HskLevel -}}">{{- $value.Hanzi -}}</a>
+                {{if $.Expand}}
+                    {{$value.Definition}}
+                {{end}}
+            {{end}}
+        {{end}}
+    </div>
+{{else}}
+    <i>There are no words...</i>
+{{end}}
+
+{{template "footer"}}
