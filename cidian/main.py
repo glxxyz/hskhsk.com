@@ -290,7 +290,7 @@ def handle_sets():
     if (block_checked_a and len(hanzi_a) > 10000) or (block_checked_b and len(hanzi_b) > 10000):
         return "Sorry, that text is too big; It will consume too much server CPU time to process." \
                "If you want to set up this script on a dedicated server you can find the source" \
-               "at https://github.com/glxxyz/hskhsk.com/tree/master/cidian"
+               "at https://github.com/glxxyz/hskhsk.com/tree/main/cidian"
 
     return sets_page(block_checked_a, block_checked_b, comma_sep_checked_a, comma_sep_checked_b, expand, hanzi_a,
                      hanzi_b, one_per_line_checked_a, one_per_line_checked_b, output_comma_sep_checked,

@@ -42,7 +42,7 @@ def vocab_analysis_page(expand, start_time):
     if blockchecked and len(hanzi) > 10000:
         return "Sorry, that text is too big; It will consume too much server CPU time to process." \
                "If you want to set up this script on a dedicated server you can find the source" \
-               "at https://github.com/glxxyz/hskhsk.com/tree/master/cidian"
+               "at https://github.com/glxxyz/hskhsk.com/tree/main/cidian"
     results = []
     results.append("""<html lang="zh-Hans">\n<head>""")
     results.append("<title>HSK\u4E1C\u897F - Analyse Your \u6C49\u5B57 Vocabulary/Text</title>")
